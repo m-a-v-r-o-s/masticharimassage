@@ -50,7 +50,6 @@
     "rights": "Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "terms": "Condiciones del servicio",
-    "imageNote": "Algunas fotografías ilustrativas de esta web están generadas con inteligencia artificial. El retrato de Konstantinos y los certificados escaneados son auténticos.",
     "certifiedBy": "Certificado por",
     "issued": "Expedido",
     "protocolNo": "N.º de protocolo",
@@ -575,7 +574,7 @@
       {
         "h": "Las fotografías de esta web",
         "p": [
-          "El retrato de Konstantinos y los certificados escaneados son fotografías y documentos auténticos. Las fotografías ilustrativas - espacios de tratamiento, aceites, escenas del pueblo y de la costa - están generadas con inteligencia artificial y se señalan como tales en el pie de página.",
+          "El retrato de Konstantinos y los certificados escaneados son fotografías y documentos auténticos.",
           "En esta web no aparece ninguna fotografía de un cliente."
         ]
       },

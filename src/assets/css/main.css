@@ -150,7 +150,10 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .site-header__bar { display: flex; align-items: center; justify-content: space-between; gap: var(--gap); padding-block: 0.85rem; }
 .brand { display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; color: var(--ink); }
 .brand:hover { color: var(--ink); }
-.brand svg { width: 38px; height: 38px; flex: none; }
+.brand svg, .brand .mark { width: 38px; height: 38px; flex: none; }
+/* The mark's navy sits very close to --ink, so it loses definition against the
+   footer. Lift it just enough to separate without washing out the orange. */
+.site-footer .mark { filter: brightness(1.28) saturate(1.08); }
 .brand__name { font-family: var(--serif); font-weight: 600; font-size: var(--step-1); line-height: 1.1; }
 .brand__sub { display: block; font-family: var(--sans); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); }
 

@@ -50,7 +50,6 @@
     "rights": "Wszelkie prawa zastrzeżone.",
     "privacy": "Polityka prywatności",
     "terms": "Warunki świadczenia usług",
-    "imageNote": "Część zdjęć ilustracyjnych na tej stronie została wygenerowana przez sztuczną inteligencję. Portret Konstantinosa i zeskanowane certyfikaty są prawdziwe.",
     "certifiedBy": "Certyfikat wydany przez",
     "issued": "Data wydania",
     "protocolNo": "Nr protokołu",
@@ -575,7 +574,7 @@
       {
         "h": "Zdjęcia na tej stronie",
         "p": [
-          "Portret Konstantinosa i zeskanowane certyfikaty to prawdziwe zdjęcia i dokumenty. Zdjęcia ilustracyjne - przestrzenie zabiegowe, olejki, sceny z wioski i wybrzeża - zostały wygenerowane przez sztuczną inteligencję i są tak oznaczone w stopce.",
+          "Portret Konstantinosa i zeskanowane certyfikaty to prawdziwe zdjęcia i dokumenty.",
           "Nigdzie na tej stronie nie ma zdjęcia klienta."
         ]
       },

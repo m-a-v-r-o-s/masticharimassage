@@ -20,21 +20,17 @@ const INK = "#14303A";
 const SHELL = "#FAF7F2";
 const TERRACOTTA = "#B3532B";
 
-// A favicon at 32px needs its own artwork: the site mark drawn on a solid ground,
-// with heavier strokes than the header version, or it disappears in a browser tab.
-const iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-  <rect width="48" height="48" rx="10" fill="${INK}"/>
-  <path d="M9 30c0-8.28 6.72-15 15-15s15 6.72 15 15" stroke="${SHELL}" stroke-width="3.6" stroke-linecap="round" fill="none"/>
-  <path d="M16 31.5c0-4.42 3.58-8 8-8s8 3.58 8 8" stroke="${SHELL}" stroke-width="3.2" stroke-linecap="round" fill="none" opacity=".55"/>
-  <circle cx="24" cy="35" r="4" fill="${TERRACOTTA}"/>
-</svg>`;
+// Badge geometry is shared: wordmarkSvg draws the shell disc, og() composites the
+// logo on top of it at the same centre.
+const badgeBox = (w, h) => {
+  const padX = Math.round(w * 0.06);
+  const baseY = Math.round(h * 0.80);
+  const badgeR = 40;
+  return { padX, baseY, badgeR, badgeCx: padX + badgeR, badgeCy: baseY - 26 };
+};
 
 const wordmarkSvg = (w, h) => {
-  const padX = Math.round(w * 0.06);
-  const baseY = Math.round(h * 0.80);      // baseline of the business name
-  const badgeR = 40;
-  const badgeCx = padX + badgeR;
-  const badgeCy = baseY - 26;
+  const { padX, baseY, badgeR, badgeCx, badgeCy } = badgeBox(w, h);
   const textX = badgeCx + badgeR + 26;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}">
   <defs>
@@ -46,11 +42,6 @@ const wordmarkSvg = (w, h) => {
   </defs>
   <rect x="0" y="${Math.round(h * 0.30)}" width="${w}" height="${Math.round(h * 0.70)}" fill="url(#scrim)"/>
   <circle cx="${badgeCx}" cy="${badgeCy}" r="${badgeR}" fill="${SHELL}"/>
-  <g transform="translate(${badgeCx - 24}, ${badgeCy - 26}) scale(1.0)">
-    <path d="M6 30c0-9.94 8.06-18 18-18s18 8.06 18 18" stroke="${INK}" stroke-width="3" stroke-linecap="round" fill="none"/>
-    <path d="M14.5 32c0-5.25 4.25-9.5 9.5-9.5s9.5 4.25 9.5 9.5" stroke="${INK}" stroke-width="3" stroke-linecap="round" fill="none" opacity=".5"/>
-    <circle cx="24" cy="35.5" r="4" fill="${TERRACOTTA}"/>
-  </g>
   <text x="${textX}" y="${baseY}"
         font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="700"
         fill="#FFFFFF">Mastichari Massage</text>
@@ -60,19 +51,58 @@ const wordmarkSvg = (w, h) => {
 </svg>`;
 };
 
+// The brand logo, trimmed to its alpha bounding box and squared. Every icon -
+// favicon.svg included - is built from this one source.
+const LOGO = "src/assets/img/_brand/logo-mark-square.png";
+
 async function icons() {
   fs.mkdirSync(OUT, { recursive: true });
-  fs.writeFileSync(path.join(OUT, "favicon.svg"), iconSvg);
 
-  const buf = Buffer.from(iconSvg);
+  // favicon.svg wraps the real logo rather than redrawing it, so the SVG and the
+  // raster icons can never drift apart. 128px keeps the embedded PNG ~6KB.
+  const svgLogo = await sharp(LOGO)
+    .resize(128, 128, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } })
+    .png({ compressionLevel: 9, palette: true })
+    .toBuffer();
+  fs.writeFileSync(
+    path.join(OUT, "favicon.svg"),
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">\n` +
+      `  <rect width="48" height="48" rx="10" fill="${SHELL}"/>\n` +
+      `  <image x="6" y="6" width="36" height="36" href="data:image/png;base64,${svgLogo.toString("base64")}"/>\n` +
+      `</svg>\n`
+  );
+
   const sizes = { "favicon-32.png": 32, "favicon-48.png": 48, "apple-touch-icon.png": 180, "icon-192.png": 192, "icon-512.png": 512 };
   for (const [name, size] of Object.entries(sizes)) {
-    await sharp(buf, { density: 512 }).resize(size, size).png().toFile(path.join(OUT, name));
+    // The logo is inset on a rounded shell tile: at 32px an edge-to-edge mark reads
+    // as mush, and the tile is what makes it findable among other browser tabs.
+    // The ground is the light shell rather than ink because the mark's own navy is
+    // nearly INK and closes up against it, worst at favicon sizes.
+    const pad = Math.round(size * 0.14);
+    const art = await sharp(LOGO)
+      .resize(size - pad * 2, size - pad * 2, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } })
+      .toBuffer();
+    // The tile is rasterised at exactly `size` first. Handing sharp a sized SVG with
+    // a high density instead scales the background past the composite offsets and
+    // strands the logo in the corner.
+    const r = Math.round(size * 0.21);
+    const tile = await sharp(
+      Buffer.from(
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}"><rect width="${size}" height="${size}" rx="${r}" fill="${SHELL}"/></svg>`
+      )
+    )
+      .resize(size, size)
+      .png()
+      .toBuffer();
+    await sharp(tile)
+      .composite([{ input: art, top: pad, left: pad }])
+      .png()
+      .toFile(path.join(OUT, name));
   }
 
   // A real .ico as well: some feed readers and older Windows clients still ask for
   // /favicon.ico by path and ignore the <link> tags entirely.
-  await sharp(buf, { density: 512 }).resize(48, 48).png().toFile(path.join(OUT, "favicon.ico"));
+  fs.copyFileSync(path.join(OUT, "favicon-48.png"), path.join(OUT, "favicon.ico"));
 
   fs.writeFileSync(
     path.join(OUT, "site.webmanifest"),
@@ -109,9 +139,18 @@ async function og() {
   }
   const W = 1200;
   const H = 630;
+  const { badgeR, badgeCx, badgeCy } = badgeBox(W, H);
+  const logoSize = Math.round(badgeR * 1.5);
+  const ogLogo = await sharp(LOGO)
+    .resize(logoSize, logoSize, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } })
+    .png()
+    .toBuffer();
   await sharp(base)
     .resize(W, H, { fit: "cover", position: "attention" })
-    .composite([{ input: Buffer.from(wordmarkSvg(W, H)), top: 0, left: 0 }])
+    .composite([
+      { input: Buffer.from(wordmarkSvg(W, H)), top: 0, left: 0 },
+      { input: ogLogo, top: Math.round(badgeCy - logoSize / 2), left: Math.round(badgeCx - logoSize / 2) },
+    ])
     .jpeg({ quality: 84, mozjpeg: true })
     .toFile(path.join(OG_DIR, "og.jpg"));
   console.log(`og: ${OG_DIR}/og.jpg built from ${path.basename(base)}${base === fallback ? " (fallback - og-base.webp not present yet)" : ""}`);

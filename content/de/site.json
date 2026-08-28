@@ -50,7 +50,6 @@
     "rights": "Alle Rechte vorbehalten.",
     "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
-    "imageNote": "Einige illustrierende Fotos auf dieser Website wurden mit künstlicher Intelligenz erzeugt. Das Porträt von Konstantinos und die eingescannten Zertifikate sind echt.",
     "certifiedBy": "Zertifiziert von",
     "issued": "Ausgestellt",
     "protocolNo": "Protokoll-Nr.",
@@ -575,7 +574,7 @@
       {
         "h": "Die Fotos auf dieser Website",
         "p": [
-          "Das Porträt von Konstantinos und die eingescannten Zertifikate sind echte Fotos und Dokumente. Die illustrierenden Aufnahmen - Behandlungsräume, Öle, Dorf- und Küstenmotive - sind mit künstlicher Intelligenz erzeugt und im Fußbereich als solche gekennzeichnet.",
+          "Das Porträt von Konstantinos und die eingescannten Zertifikate sind echte Fotos und Dokumente.",
           "Auf dieser Website erscheint nirgends ein Foto von einer Kundin oder einem Kunden."
         ]
       },

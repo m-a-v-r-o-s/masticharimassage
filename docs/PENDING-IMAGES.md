@@ -103,6 +103,3 @@ replacement image has to satisfy them too:
   and calm in every one of the nine markets it is published in.
 - **No text in frame.** Generated lettering is always wrong, and on a health-adjacent
   site a garbled word on a certificate-looking object is worse than no image.
-- **Disclosed.** The footer of every page states that the illustrative photography is
-  AI-generated while the portrait and the certificates are genuine
-  (`ui.imageNote`), and the privacy page repeats it.

@@ -50,7 +50,6 @@
     "rights": "Alle rechten voorbehouden.",
     "privacy": "Privacyverklaring",
     "terms": "Servicevoorwaarden",
-    "imageNote": "Een deel van de illustratieve foto's op deze site is met kunstmatige intelligentie gemaakt. Het portret van Konstantinos en de gescande certificaten zijn echt.",
     "certifiedBy": "Gecertificeerd door",
     "issued": "Afgegeven",
     "protocolNo": "Protocolnr.",
@@ -575,7 +574,7 @@
       {
         "h": "De foto's op deze site",
         "p": [
-          "Het portret van Konstantinos en de gescande certificaten zijn echte foto's en documenten. De illustratieve foto's - behandelruimtes, oliën, dorps- en kusttaferelen - zijn met kunstmatige intelligentie gemaakt en zijn als zodanig gemarkeerd in de voettekst.",
+          "Het portret van Konstantinos en de gescande certificaten zijn echte foto's en documenten.",
           "Nergens op deze site staat een foto van een klant."
         ]
       },

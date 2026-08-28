@@ -56,7 +56,6 @@ Automated checks first, then the things a machine cannot do.
 **Content integrity**
 - [x] 41 real testimonials, owner replies excluded, duplicates collapsed, surnames removed
 - [x] No photograph of any client anywhere (the four `fessaras-banner*` files were discarded)
-- [x] AI-generated illustration disclosed in the footer and the privacy policy
 - [x] Privacy policy, terms and cookie banner are three real documents, in all nine languages
 - [x] Terms carry a "wellness, not medical treatment" clause and an explicit conduct clause
 

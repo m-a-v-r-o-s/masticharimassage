@@ -50,7 +50,6 @@
     "rights": "All rights reserved.",
     "privacy": "Privacy policy",
     "terms": "Terms of service",
-    "imageNote": "Some illustrative photographs on this site are AI-generated. The portrait of Konstantinos and the scanned certificates are genuine.",
     "certifiedBy": "Certified by",
     "issued": "Issued",
     "protocolNo": "Protocol no.",
@@ -575,7 +574,7 @@
       {
         "h": "Photographs on this site",
         "p": [
-          "The portrait of Konstantinos and the scanned certificates are genuine photographs and documents. The illustrative photography - treatment settings, oils, village and coastal scenes - is AI-generated, and is marked as such in the footer.",
+          "The portrait of Konstantinos and the scanned certificates are genuine photographs and documents.",
           "No photograph of a client appears anywhere on this site."
         ]
       },
