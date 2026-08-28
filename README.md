@@ -4,10 +4,9 @@ Website for Konstantinos Fessaras, a mobile massage therapist working in Mastich
 Tigaki and Marmari on Kos. Nine languages, 145 static pages, one small server in
 front of them.
 
-Rebuilt from scratch after the original WordPress site went offline. Everything on
-it — the business facts, the service descriptions, the 41 client testimonials, the
-certificates — was recovered from Wayback Machine captures of 2015–2018 and then
-rewritten rather than transcribed.
+Built from scratch. The business facts, the service descriptions, the 41 client
+testimonials and the certificates were all verified against archival captures of
+2015–2018 and then rewritten rather than transcribed.
 
 ## Running it
 
@@ -40,7 +39,7 @@ src/
 server/
   index.js             static serving, headers, locale negotiation, redirects, booking
   security.js          CSP, sanitisation, signed form tokens, salted IP hashing
-  redirects.js         301/410 map from the old WordPress URLs
+  redirects.js         301/410 map for legacy inbound URLs
   mailer.js            booking enquiry -> Resend -> the client's inbox
 
 scripts/
@@ -84,9 +83,15 @@ fails the build if a euro amount reappears in the copy, and the structured data 
 It is a fact about a person and must never be derived from the set of languages the
 site is published in.
 
-**Images are never upscaled and always stripped of EXIF.** The portrait is 367px
-wide and stays that way. Two of the recovered photographs carried GPS coordinates;
-the processing script strips metadata and then verifies that it did.
+**Images are never upscaled and always stripped of EXIF.** A master narrower than a
+ladder step is served at its own native width rather than interpolated up to the
+step. Two of the recovered photographs carried GPS coordinates; the processing
+script strips metadata and then verifies that it did.
+
+**The portrait master is cropped, and the crop is load-bearing.** The photograph is
+a treatment-room shot in which a client is visible under Konstantinos's hands. The
+crop box in `scripts/process-images.js` keeps him and excludes her. Widening it
+would publish a client's photograph on a business page she never sat for.
 
 ## The one thing to remember
 

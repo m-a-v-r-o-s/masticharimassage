@@ -14,7 +14,7 @@ Automated checks first, then the things a machine cannot do.
 - [x] Real locale routing (`/en/`, `/el/`, …), not same-URL dual-render
 - [x] `/` negotiates locale from cookie, then `Accept-Language`, then English (302, `Vary`)
 - [x] Full hreflang cluster + `x-default` on every page, live locales only
-- [x] 301 map from the old WordPress URLs; `/wp-content/`, feeds and `xmlrpc.php` return 410
+- [x] 301 map for legacy inbound URLs; `/wp-content/`, feeds and `xmlrpc.php` return 410
 - [x] Custom 404 per locale, served in the locale the URL was already in
 - [x] `sitemap.xml` (70 URLs, live locales) and `robots.txt` (AI crawlers explicitly allowed)
 - [x] Draft locales (nl, pl, es, uk) are `noindex`, sitemap-excluded, hidden from the switcher, and carry a banner

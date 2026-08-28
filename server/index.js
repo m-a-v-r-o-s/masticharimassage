@@ -80,7 +80,7 @@ app.addHook("onRequest", async (req, reply) => {
   const url = new URL(req.url, ORIGIN);
   const hit = resolveRedirect(url);
   if (!hit) return;
-  if (hit.status === 410) return reply.code(410).type("text/plain; charset=utf-8").send("Gone. This page was part of the old site and no longer exists.\n");
+  if (hit.status === 410) return reply.code(410).type("text/plain; charset=utf-8").send("Gone. This page no longer exists.\n");
   return reply.redirect(hit.to, 301);
 });
 

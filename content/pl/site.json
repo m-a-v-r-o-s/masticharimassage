@@ -491,7 +491,7 @@
   },
   "notfound": {
     "title": "Tej strony tu nie ma",
-    "lede": "Link może pochodzić ze starej wersji tej strony albo coś w adresie się nie zgadza.",
+    "lede": "Link może być nieaktualny albo coś w adresie się nie zgadza.",
     "body": "Stąd wracasz:",
     "cta": "Przejdź na stronę główną"
   },

@@ -39,13 +39,14 @@
     "cropped": false
   },
   "certificate-wmf-advanced-massage": {
-    "w": 600,
-    "h": 995,
+    "w": 886,
+    "h": 1470,
     "nativeW": 886,
     "nativeH": 1470,
     "widths": [
       400,
-      600
+      600,
+      886
     ],
     "cropped": false
   },
@@ -54,6 +55,19 @@
     "h": 900,
     "nativeW": 1728,
     "nativeH": 1296,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  },
+  "logo": {
+    "w": 1200,
+    "h": 800,
+    "nativeW": 1536,
+    "nativeH": 1024,
     "widths": [
       400,
       600,
@@ -76,12 +90,13 @@
     "cropped": false
   },
   "portrait-konstantinos": {
-    "w": 367,
-    "h": 440,
-    "nativeW": 367,
-    "nativeH": 440,
+    "w": 560,
+    "h": 630,
+    "nativeW": 560,
+    "nativeH": 630,
     "widths": [
-      367
+      400,
+      560
     ],
     "cropped": true
   },

@@ -327,6 +327,10 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .site-footer a:hover { color: #fff; text-decoration: underline; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.55rem; }
 .site-footer li a { display: inline-block; padding-block: 0.25rem; min-height: 32px; }
+/* The contact icons sit inline in the link text. Without an explicit size they fall
+   back to the SVG's own 24px viewBox, which reads far larger than the label beside
+   it. Size them to the text and align them to its baseline-ish centre. */
+.site-footer li a svg { display: inline-block; width: 1em; height: 1em; flex: none; vertical-align: -0.125em; margin-right: 0.15rem; }
 .footer-grid { display: grid; gap: 2.25rem; }
 @media (min-width: 46em) { .footer-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 66em) { .footer-grid { grid-template-columns: 1.4fr 1fr 1fr 1.2fr; } }
@@ -334,6 +338,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .footer-bottom a { text-decoration: underline; }
 .footer-bottom p { margin: 0; }
 .footer-legal { display: flex; flex-wrap: wrap; gap: 1rem; }
+.footer-credit { color: #8FA3AA; }
 
 /* ---------- sticky mobile CTA ---------- */
 .sticky-cta {
@@ -402,7 +407,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .card__title { font-size: var(--step-1); margin: 0; }
 .meta-line { font-size: var(--step--1); color: var(--muted); margin: 0; }
 .breadcrumb { margin-bottom: 1.5rem; font-size: var(--step--1); }
-.portrait { border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); max-width: 367px; }
+.portrait { border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); width: 100%; max-width: 560px; height: auto; }
 .form-intro { max-width: 44ch; color: var(--muted); }
 .alert__title { font-size: var(--step-2); color: inherit; margin: 0; }
 

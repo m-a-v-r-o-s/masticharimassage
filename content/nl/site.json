@@ -491,7 +491,7 @@
   },
   "notfound": {
     "title": "Die pagina staat hier niet",
-    "lede": "De link komt misschien van de oude versie van deze website, of er klopt iets niet in het adres.",
+    "lede": "De link is misschien verouderd, of er klopt iets niet in het adres.",
     "body": "Hier gaat u terug:",
     "cta": "Naar de homepage"
   },

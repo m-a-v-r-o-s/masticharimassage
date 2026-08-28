@@ -6,8 +6,8 @@
  * Two rules are enforced here rather than left to discipline:
  *   1. EXIF is always stripped. Two of the recovered photographs carry GPS
  *      coordinates from the phone that took them.
- *   2. Nothing is ever upscaled past its master. The portrait of Konstantinos is
- *      447px wide and stays that way - a face is not something to interpolate.
+ *   2. Nothing is ever upscaled past its master. A face is not something to
+ *      interpolate, so a master narrower than a ladder step simply stops early.
  *
  * Run: npm run images
  */
@@ -22,8 +22,12 @@ const WIDTHS = [400, 600, 900, 1200];
 
 // Masters that need a crop before anything else happens to them.
 const PRE = {
-  // Crops the two partly-visible bystanders out of the background of the portrait.
-  "portrait-konstantinos": { extract: { left: 80, top: 0, width: 367, height: 440 } },
+  // The master is a treatment-room photograph, not a posed headshot: Konstantinos is
+  // working on a client whose bare back and head fill the lower half of the frame.
+  // This crop keeps him and the WMF polo and leaves the client out of the published
+  // image entirely - she did not sit for a portrait on a business's About page, and
+  // the alt text in all nine locales describes one person, not two. Do not widen it.
+  "portrait-konstantinos": { extract: { left: 60, top: 70, width: 560, height: 630 } },
 };
 
 // NOTE on certificate-wmf-advanced-massage: the recovered scan was a two-panel
@@ -59,8 +63,13 @@ async function main() {
     const nativeH = PRE[key]?.extract ? PRE[key].extract.height : meta.height;
     const ratio = nativeH / nativeW;
 
+    // A master narrower than the next step up would be served at the step below and
+    // then stretched by the browser, so such a master also gets rendered at its own
+    // native width. Masters wider than the top step do not: 1200 is already more
+    // than the layout ever asks for, and a fifth render just adds bytes to the repo.
     const widths = WIDTHS.filter((w) => w <= nativeW);
     if (!widths.length) widths.push(nativeW); // master smaller than the smallest step
+    else if (nativeW < WIDTHS[WIDTHS.length - 1] && widths[widths.length - 1] < nativeW) widths.push(nativeW);
 
     const variants = [];
     for (const w of widths) {

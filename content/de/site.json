@@ -491,7 +491,7 @@
   },
   "notfound": {
     "title": "Diese Seite gibt es hier nicht",
-    "lede": "Der Link stammt vielleicht von der alten Version dieser Website, oder in der Adresse stimmt etwas nicht.",
+    "lede": "Der Link ist vielleicht nicht mehr aktuell, oder in der Adresse stimmt etwas nicht.",
     "body": "Hier geht es zurück:",
     "cta": "Zur Startseite"
   },

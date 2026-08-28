@@ -491,7 +491,7 @@
   },
   "notfound": {
     "title": "Questa pagina non c'è",
-    "lede": "Il link potrebbe venire dalla vecchia versione di questo sito, oppure c'è qualcosa che non va nell'indirizzo.",
+    "lede": "Il link potrebbe non essere più valido, oppure c'è qualcosa che non va nell'indirizzo.",
     "body": "Da qui si torna indietro:",
     "cta": "Vai alla home"
   },
