@@ -1,0 +1,15 @@
+{
+  "default": "en",
+  "locales": [
+    { "code": "en", "lang": "en",    "endonym": "English",    "dir": "ltr", "status": "live",  "hreflang": "en" },
+    { "code": "el", "lang": "el",    "endonym": "Ελληνικά",   "dir": "ltr", "status": "live",  "hreflang": "el" },
+    { "code": "de", "lang": "de",    "endonym": "Deutsch",    "dir": "ltr", "status": "live",  "hreflang": "de" },
+    { "code": "it", "lang": "it",    "endonym": "Italiano",   "dir": "ltr", "status": "live",  "hreflang": "it" },
+    { "code": "ru", "lang": "ru",    "endonym": "Русский",    "dir": "ltr", "status": "live",  "hreflang": "ru" },
+    { "code": "nl", "lang": "nl",    "endonym": "Nederlands", "dir": "ltr", "status": "draft", "hreflang": "nl" },
+    { "code": "pl", "lang": "pl",    "endonym": "Polski",     "dir": "ltr", "status": "draft", "hreflang": "pl" },
+    { "code": "es", "lang": "es",    "endonym": "Español",    "dir": "ltr", "status": "draft", "hreflang": "es" },
+    { "code": "uk", "lang": "uk",    "endonym": "Українська", "dir": "ltr", "status": "draft", "hreflang": "uk" }
+  ],
+  "_note": "status live = indexed, in sitemap, in language switcher. status draft = built, but noindex + excluded from sitemap and switcher until a native speaker has reviewed the translation. Flip to live per locale after review."
+}

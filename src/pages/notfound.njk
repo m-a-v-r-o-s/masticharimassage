@@ -1,0 +1,25 @@
+---
+pagination: { data: buildLocales, size: 1, alias: loc }
+permalink: "/{{ loc }}/404.html"
+pageKey: notfound
+pathKey: ""   # links out to each locale home; the permalink below is explicit
+routeIndexable: false
+eleventyExcludeFromCollections: true
+---
+{%- set svcs = business | serviceList(c) -%}
+<section class="section">
+  <div class="wrap measure stack-lg">
+    <p class="eyebrow">404</p>
+    <h1>{{ c.notfound.title }}</h1>
+    <p class="lede">{{ c.notfound.lede }}</p>
+    <p>{{ c.notfound.body }}</p>
+    <ul class="ticks">
+      <li><a href="/{{ locale }}/">{{ c.nav.home }}</a></li>
+      <li><a href="/{{ locale }}/services/">{{ c.nav.services }}</a></li>
+      <li><a href="/{{ locale }}/about/">{{ c.nav.about }}</a></li>
+      <li><a href="/{{ locale }}/location/">{{ c.nav.location }}</a></li>
+      <li><a href="/{{ locale }}/contact/">{{ c.nav.contact }}</a></li>
+    </ul>
+    <p><a class="btn btn--primary" href="/{{ locale }}/">{{ c.notfound.cta }}</a></p>
+  </div>
+</section>

@@ -1,0 +1,20 @@
+---
+permalink: "/sitemap.xml"
+eleventyExcludeFromCollections: true
+---
+{%- set liveBuilt = [] -%}
+{%- for l in locales.live %}{% if l.code in buildLocales %}{% set liveBuilt = (liveBuilt.push(l), liveBuilt) %}{% endif %}{% endfor -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for r in routes.all %}{% if r.indexable %}{% for l in liveBuilt %}
+  <url>
+    <loc>{{ site.origin }}/{{ l.code }}/{{ r.path + "/" if r.path }}</loc>
+    <changefreq>{{ r.changefreq }}</changefreq>
+    <priority>{{ r.priority }}</priority>
+    {%- for a in liveBuilt %}
+    <xhtml:link rel="alternate" hreflang="{{ a.hreflang }}" href="{{ site.origin }}/{{ a.code }}/{{ r.path + '/' if r.path }}"/>
+    {%- endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.origin }}/{{ locales.default }}/{{ r.path + '/' if r.path }}"/>
+  </url>
+{%- endfor %}{% endif %}{% endfor %}
+</urlset>

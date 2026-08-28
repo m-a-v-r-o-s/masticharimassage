@@ -1,0 +1,59 @@
+---
+pagination: { data: buildLocales, size: 1, alias: loc }
+permalink: "/{{ loc }}/services/index.html"
+pageKey: services
+pathKey: "services"
+eleventyExcludeFromCollections: true
+---
+{%- import "partials/icons.njk" as icon -%}
+{%- import "partials/pic.njk" as p -%}
+{%- set svcs = business | serviceList(c) -%}
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">{{ c.nav.services }}</p>
+      <h1>{{ c.services.title }}</h1>
+      <p class="lede">{{ c.services.lede }}</p>
+    </div>
+
+    <div class="grid grid--3 reveal">
+      {%- for s in svcs %}
+      <a class="card card--link u-plain" href="/{{ locale }}/services/{{ s.slug }}/">
+        <div class="card__media">
+          {{ p.pic(images, "service-" + s.slug, s.imageAlt, "(min-width: 66em) 30vw, (min-width: 46em) 46vw, 100vw", "", false, "hero-treatment-room", c.ui.imagePendingAlt) }}
+        </div>
+        <h2 class="card__title">{{ s.name }}</h2>
+        <p>{{ s.short }}</p>
+        <p class="meta-line">
+          {{ c.ui.duration }}: {{ s.durations | join(" / ") }} {{ c.ui.minutes }} &middot; {{ c.ui.priceLabel }}: {{ c.ui.priceOnRequest }}
+        </p>
+        <p class="card__foot"><span class="card__link">{{ c.services.cardCta }}</span></p>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--warm">
+  <div class="wrap grid grid--split">
+    <div class="stack">
+      <h2>{{ c.services.pricingTitle }}</h2>
+      <p>{{ c.services.pricingBody }}</p>
+      <p>{{ c.services.chooseHelp }}</p>
+      <div class="btn-row">
+        <a class="btn btn--accent" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.ui.askAvailability }}</a>
+        <a class="btn btn--ghost" href="/{{ locale }}/contact/">{{ c.ui.bookNow }}</a>
+      </div>
+    </div>
+    <div>
+      {{ p.pic(images, "oils-still-life", c.services.imageAlt, "(min-width: 52em) 40vw, 100vw", "u-round") }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap measure">
+    <p class="notice">{{ c.ui.wellnessNotice }}</p>
+  </div>
+</section>

@@ -1,0 +1,100 @@
+---
+pagination: { data: buildLocales, size: 1, alias: loc }
+permalink: "/{{ loc }}/about/index.html"
+pageKey: about
+pathKey: "about"
+eleventyExcludeFromCollections: true
+---
+{%- import "partials/icons.njk" as icon -%}
+{%- import "partials/quotes.njk" as q -%}
+{%- import "partials/pic.njk" as p -%}
+
+<section class="section">
+  <div class="wrap grid grid--split">
+    <div class="stack">
+      <p class="eyebrow">{{ c.nav.about }}</p>
+      <h1>{{ c.about.title }}</h1>
+      <p class="lede">{{ c.about.lede }}</p>
+      {%- for p in c.about.bio %}
+      <p>{{ p }}</p>
+      {%- endfor %}
+    </div>
+    <div>
+      {{ p.pic(images, "portrait-konstantinos", c.about.portraitAlt, "(min-width: 52em) 34vw, 100vw", "portrait") }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--warm">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>{{ c.about.languagesTitle }}</h2>
+      <p>{{ c.about.languagesBody }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>{{ c.about.credentialsTitle }}</h2>
+      <p>{{ c.about.credentialsIntro }}</p>
+    </div>
+
+    <div class="creds reveal">
+      {%- for d in business.credentials.diplomas %}
+      <div class="cred">
+        <h3>{{ c.about.credentialNames[d.key] }}</h3>
+        {%- if d.certifier %}<p class="u-muted">{{ d.certifier }}</p>{% endif %}
+        <dl>
+          {%- if d.date %}
+          <dt>{{ c.ui.issued }}</dt><dd>{{ d.date | formatDate(L.lang) }}</dd>
+          {%- endif %}
+          {%- if d.identifier %}
+          <dt>{% if d.identifierLabel == "Protocol No." %}{{ c.ui.protocolNo }}{% else %}{{ c.ui.certNo }}{% endif %}</dt><dd>{{ d.identifier }}</dd>
+          {%- endif %}
+        </dl>
+        {%- if not d.verified %}<p class="quote__t-note">{{ c.ui.notVerifiedYet }}</p>{% endif %}
+        {%- if d.image %}
+        <figure>
+          {{ p.pic(images, d.image, c.about.credentialNames[d.key] + " - " + d.certifier, "(min-width: 46em) 40vw, 100vw") }}
+        </figure>
+        {%- endif %}
+      </div>
+      {%- endfor %}
+    </div>
+
+    <div class="section-head reveal u-mt-3">
+      <h2>{{ c.about.seminarsTitle }}</h2>
+      <ul class="ticks">
+        {%- for s in business.credentials.seminars %}
+        <li>{{ c.about.seminarNames[s] }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--warm" id="testimonials">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>{{ c.ui.testimonialsTitle }}</h2>
+      <p>{{ c.ui.testimonialsIntro }}</p>
+    </div>
+    <div class="reveal">
+      {{ q.wall(testimonials.items | reverse, c, L, locale) }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap measure stack">
+    <h2>{{ c.about.ctaTitle }}</h2>
+    <p>{{ c.about.ctaBody }}</p>
+    <div class="btn-row">
+      <a class="btn btn--accent" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.ui.whatsapp }}</a>
+      <a class="btn btn--ghost" href="/{{ locale }}/contact/">{{ c.ui.bookNow }}</a>
+    </div>
+    <p class="notice">{{ c.ui.wellnessNotice }}</p>
+  </div>
+</section>

@@ -1,0 +1,654 @@
+{
+  "_policy": "41 unique real client comments recovered from the 2015-2018 captures of the old WordPress site (About Me page + Services page). Konstantinos' own 16 reply comments are excluded - they were counted in the old site's 'COMMENTS (51)' badge and are not testimonials. The four separate Jason & Wilma comments (one couple, four sessions) are collapsed into one entry. Attribution is minimised to first name (+ city/country only where the commenter volunteered it): surnames, a commenter's business URL and professional title have been dropped. Quotes are verbatim apart from obvious character-level typos; any entry that has been shortened carries abridged:true and a reason. No testimonial here is invented, and none has been translated INTO a language it was not written in without being marked as a translation.",
+  "_langSpread": {
+    "en": 18,
+    "de": 13,
+    "fr": 4,
+    "ru": 2,
+    "it": 1,
+    "nl": 2,
+    "tr": 1
+  },
+  "_noTestimonialsIn": [
+    "el",
+    "es",
+    "pl",
+    "uk"
+  ],
+  "_translationScope": "Translations are provided for the five live locales (en, el, de, it, ru). Draft locales (nl, pl, es, uk) show the original quote only until that locale is reviewed - see content/_locales.json.",
+  "items": [
+    {
+      "id": "zacharias",
+      "name": "Zacharias",
+      "place": null,
+      "date": "2015-05-03",
+      "source": "services",
+      "lang": "en",
+      "text": "Great experience. Very professional full body massage. I feel like a newborn! Thank you Costa!",
+      "t": {
+        "el": "Υπέροχη εμπειρία. Πολύ επαγγελματικό μασάζ σώματος. Νιώθω σαν νεογέννητος! Ευχαριστώ Κώστα!",
+        "de": "Tolle Erfahrung. Eine sehr professionelle Ganzkörpermassage. Ich fühle mich wie neugeboren! Danke, Kosta!",
+        "it": "Che esperienza. Un massaggio total body molto professionale. Mi sento rinato! Grazie Costa!",
+        "ru": "Отличный опыт. Очень профессиональный массаж всего тела. Чувствую себя заново родившимся! Спасибо, Коста!"
+      }
+    },
+    {
+      "id": "michael",
+      "name": "Michael",
+      "place": null,
+      "date": "2015-05-25",
+      "source": "services",
+      "lang": "de",
+      "text": "Ich kam mit Büroarbeiter-typischen Verspannungen in Schultern und Nacken nach Kos und stieß durch Zufall auf Mastichari Massage. Nach zwei professionellen und punktgenauen Massagen waren die Verspannungen verschwunden. Vielen Dank Konstantinos!",
+      "t": {
+        "en": "I arrived in Kos with the shoulder and neck tension typical of office work, and came across Mastichari Massage by chance. After two professional, precisely targeted massages the tension was gone. Many thanks, Konstantinos!",
+        "el": "Ήρθα στην Κω με τους τυπικούς πόνους αυχένα και ώμων της δουλειάς γραφείου και έπεσα τυχαία πάνω στο Mastichari Massage. Μετά από δύο επαγγελματικά και απόλυτα στοχευμένα μασάζ, οι εντάσεις είχαν φύγει. Ευχαριστώ πολύ, Κωνσταντίνε!",
+        "it": "Sono arrivato a Kos con le tensioni a collo e spalle tipiche del lavoro d'ufficio e ho scoperto Mastichari Massage per caso. Dopo due massaggi professionali e mirati, le tensioni erano sparite. Grazie mille, Konstantinos!",
+        "ru": "Я приехал на Кос с типичным для офисной работы напряжением в плечах и шее и случайно наткнулся на Mastichari Massage. После двух профессиональных и точных сеансов напряжение исчезло. Большое спасибо, Констанинос!"
+      }
+    },
+    {
+      "id": "stavros",
+      "name": "Stavros",
+      "place": null,
+      "date": "2015-05-31",
+      "source": "services",
+      "lang": "en",
+      "text": "The best massage ever!!",
+      "t": {
+        "el": "Το καλύτερο μασάζ που έχω κάνει!!",
+        "de": "Die beste Massage aller Zeiten!!",
+        "it": "Il miglior massaggio di sempre!!",
+        "ru": "Лучший массаж в моей жизни!!"
+      }
+    },
+    {
+      "id": "bianka",
+      "name": "Bianka",
+      "place": "Germany",
+      "date": "2015-06-07",
+      "source": "services",
+      "lang": "de",
+      "text": "Ich hatte 2 Ganzkörpermassagen bekommen. Sie hatten mir sehr gut getan. Konstantinos, du verstehst dein Handwerk! Recht herzlichen Dank nochmals auf diesem Wege. Viele Grüße aus Deutschland!",
+      "t": {
+        "en": "I had two full body massages. They did me a lot of good. Konstantinos, you know your craft! Many thanks again. Warm greetings from Germany!",
+        "el": "Έκανα δύο μασάζ σώματος. Μου έκαναν πάρα πολύ καλό. Κωνσταντίνε, ξέρεις τη δουλειά σου! Ευχαριστώ ξανά θερμά. Χαιρετίσματα από τη Γερμανία!",
+        "it": "Ho fatto due massaggi total body. Mi hanno fatto molto bene. Konstantinos, tu il tuo mestiere lo conosci! Ancora mille grazie. Un caro saluto dalla Germania!",
+        "ru": "Я прошла два сеанса массажа всего тела. Они мне очень помогли. Констанинос, ты знаешь своё дело! Ещё раз большое спасибо. Привет из Германии!"
+      }
+    },
+    {
+      "id": "diana",
+      "name": "Diana",
+      "place": null,
+      "date": "2015-06-08",
+      "source": "services",
+      "lang": "en",
+      "text": "I had a fabulous back massage. Thank you so much!!! I highly recommend it!",
+      "t": {
+        "el": "Έκανα ένα υπέροχο μασάζ πλάτης. Σε ευχαριστώ πάρα πολύ!!! Το συνιστώ ανεπιφύλακτα!",
+        "de": "Ich hatte eine fantastische Rückenmassage. Vielen herzlichen Dank!!! Ich kann sie nur empfehlen!",
+        "it": "Ho fatto un massaggio alla schiena favoloso. Grazie mille!!! Lo consiglio vivamente!",
+        "ru": "Мне сделали великолепный массаж спины. Огромное спасибо!!! Очень рекомендую!"
+      }
+    },
+    {
+      "id": "vic-sonja",
+      "name": "Vic & Sonja",
+      "place": null,
+      "date": "2015-06-20",
+      "source": "about",
+      "lang": "en",
+      "text": "It was a very good massage, we feel good after. When we come back at Kos we make a reservation. See you soon, greets Vic en Sonja.",
+      "t": {
+        "el": "Ήταν ένα πολύ καλό μασάζ, νιώθουμε υπέροχα μετά. Όταν ξαναρθούμε στην Κω θα κλείσουμε ραντεβού. Τα λέμε σύντομα, χαιρετίσματα Vic και Sonja.",
+        "de": "Es war eine sehr gute Massage, danach ging es uns gut. Wenn wir wieder nach Kos kommen, buchen wir einen Termin. Bis bald, liebe Grüße Vic und Sonja.",
+        "it": "È stato un ottimo massaggio, dopo stavamo benissimo. Quando torneremo a Kos prenoteremo di nuovo. A presto, un saluto da Vic e Sonja.",
+        "ru": "Это был очень хороший массаж, после него мы прекрасно себя чувствовали. Когда снова приедем на Кос, обязательно запишемся. До скорого, Вик и Соня."
+      }
+    },
+    {
+      "id": "nikos",
+      "name": "Nikos",
+      "place": null,
+      "date": "2015-06-25",
+      "source": "about",
+      "lang": "en",
+      "text": "I have tried several different places over the years but Kosta is definitely the best. I had a full massage and it was one of the best I've had. Before he began, we discussed areas of pain and he targeted those areas. I definitely recommend you visit Kosta!",
+      "t": {
+        "el": "Έχω δοκιμάσει διάφορα μέρη με τα χρόνια, αλλά ο Κώστας είναι σίγουρα ο καλύτερος. Έκανα ολόσωμο μασάζ και ήταν από τα καλύτερα που έχω κάνει. Πριν ξεκινήσει, συζητήσαμε τα σημεία που πονούσαν και δούλεψε ακριβώς εκεί. Σας τον συνιστώ ανεπιφύλακτα!",
+        "de": "Ich habe über die Jahre einige Adressen ausprobiert, aber Kosta ist definitiv der Beste. Ich hatte eine Ganzkörpermassage, eine der besten, die ich je hatte. Vorher haben wir besprochen, wo es wehtut, und genau dort hat er gearbeitet. Ich kann einen Besuch bei Kosta nur empfehlen!",
+        "it": "Negli anni ho provato diversi posti, ma Kosta è senza dubbio il migliore. Ho fatto un massaggio completo ed è stato uno dei migliori che abbia mai ricevuto. Prima di iniziare abbiamo parlato dei punti dolenti e ha lavorato proprio lì. Ve lo consiglio davvero!",
+        "ru": "За эти годы я пробовал разные места, но Коста определённо лучший. Мне сделали массаж всего тела — один из лучших в моей жизни. Перед началом мы обсудили болезненные зоны, и он работал именно с ними. Очень рекомендую!"
+      }
+    },
+    {
+      "id": "marie-laure",
+      "name": "Marie-Laure",
+      "place": "France",
+      "date": "2015-06-25",
+      "source": "about",
+      "lang": "en",
+      "text": "I really enjoyed the massage: kind and professional. I recommend it! All the best!",
+      "t": {
+        "el": "Απόλαυσα πραγματικά το μασάζ: ευγενικός και επαγγελματίας. Το συνιστώ! Τα καλύτερα!",
+        "de": "Die Massage hat mir sehr gefallen: freundlich und professionell. Ich empfehle sie weiter! Alles Gute!",
+        "it": "Il massaggio mi è piaciuto molto: gentile e professionale. Lo consiglio! Un caro saluto!",
+        "ru": "Массаж мне очень понравился: доброжелательно и профессионально. Рекомендую! Всего наилучшего!"
+      }
+    },
+    {
+      "id": "susanne-willi",
+      "name": "Susanne & Willi",
+      "place": null,
+      "date": "2015-07-08",
+      "source": "about",
+      "lang": "en",
+      "text": "Thanks for the relax and head massage, we really enjoyed it! It was very professional and relaxing!",
+      "t": {
+        "el": "Ευχαριστούμε για το χαλαρωτικό μασάζ και το μασάζ κεφαλιού, το απολαύσαμε πραγματικά! Ήταν πολύ επαγγελματικό και χαλαρωτικό!",
+        "de": "Danke für die Entspannungs- und Kopfmassage, wir haben sie sehr genossen! Sehr professionell und erholsam!",
+        "it": "Grazie per il massaggio rilassante e quello alla testa, ci sono piaciuti moltissimo! Molto professionale e rilassante!",
+        "ru": "Спасибо за расслабляющий массаж и массаж головы, нам очень понравилось! Очень профессионально и расслабляюще!"
+      }
+    },
+    {
+      "id": "janni",
+      "name": "Janni",
+      "place": null,
+      "date": "2015-07-18",
+      "source": "about",
+      "lang": "en",
+      "text": "Very good service from Kosta. He does a great job. Very professional. I really enjoyed it. Thank you Kosta.",
+      "t": {
+        "el": "Πολύ καλή εξυπηρέτηση από τον Κώστα. Κάνει εξαιρετική δουλειά. Πολύ επαγγελματίας. Το απόλαυσα πραγματικά. Ευχαριστώ Κώστα.",
+        "de": "Sehr guter Service von Kosta. Er macht seine Sache großartig. Sehr professionell. Ich habe es wirklich genossen. Danke, Kosta.",
+        "it": "Servizio molto buono da parte di Kosta. Fa un lavoro eccellente. Molto professionale. Mi è piaciuto davvero. Grazie Kosta.",
+        "ru": "Очень хороший сервис у Косты. Он прекрасно делает свою работу. Очень профессионально. Мне действительно понравилось. Спасибо, Коста."
+      }
+    },
+    {
+      "id": "brigitte",
+      "name": "Brigitte",
+      "place": null,
+      "date": "2015-07-28",
+      "source": "about",
+      "lang": "de",
+      "text": "Lieber Konstantinos, herzlichen Dank für Deine wunderbare Massage. Es war die richtige und professionelle Behandlung für meine verhärteten Muskeln. Relaxed und entspannt habe ich danach meine restlichen Ferientage genossen. Sobald ich wieder in Mastichari bin, werde ich mit grosser Freude für eine weitere Massage bei dir vorbei schauen.",
+      "t": {
+        "en": "Dear Konstantinos, thank you so much for your wonderful massage. It was exactly the right, professional treatment for my hardened muscles. Relaxed and loose, I enjoyed the rest of my holiday. As soon as I am back in Mastichari I will gladly come by for another massage.",
+        "el": "Αγαπητέ Κωνσταντίνε, σε ευχαριστώ θερμά για το υπέροχο μασάζ σου. Ήταν ακριβώς η σωστή, επαγγελματική θεραπεία για τους σφιγμένους μυς μου. Χαλαρή και ξεκούραστη, απόλαυσα τις υπόλοιπες μέρες των διακοπών μου. Μόλις ξαναβρεθώ στο Μαστιχάρι, θα περάσω με μεγάλη χαρά για άλλο ένα μασάζ.",
+        "it": "Caro Konstantinos, grazie di cuore per il tuo massaggio meraviglioso. È stato esattamente il trattamento giusto e professionale per i miei muscoli contratti. Rilassata e distesa, mi sono goduta il resto della vacanza. Appena tornerò a Mastichari passerò volentieri per un altro massaggio.",
+        "ru": "Дорогой Констанинос, сердечно благодарю за чудесный массаж. Это было именно то профессиональное лечение, которое было нужно моим забитым мышцам. Расслабленная и отдохнувшая, я наслаждалась остатком отпуска. Как только снова окажусь в Мастихари, с большой радостью зайду ещё на один сеанс."
+      }
+    },
+    {
+      "id": "stefanie-b",
+      "name": "Stefanie",
+      "place": null,
+      "date": "2015-08-04",
+      "source": "about",
+      "lang": "de",
+      "note": "physiotherapist",
+      "text": "Was, wenn ein Physiotherapeut sich im Urlaub mit Rückenproblemen plagt?! Physiotherapeuten sind untereinander wohl die Skepsis in Person! Aber: Alles gut! Ich habe mich gut aufgehoben gefühlt, es wurden alle Schritte erklärt und es war eine sehr gute, wirksame Massage! Vielen Dank!!! Ich werde nächstes Jahr gerne wieder das Angebot wahrnehmen - auch ohne akute Schmerzen!!!",
+      "t": {
+        "en": "What happens when a physiotherapist is plagued by back trouble on holiday?! Physiotherapists are scepticism personified with one another! But: all good! I felt I was in safe hands, every step was explained, and it was a very good, effective massage. Thank you! I will happily come back next year - even without acute pain.",
+        "el": "Τι γίνεται όταν ένας φυσικοθεραπευτής ταλαιπωρείται με πόνους στη μέση στις διακοπές; Οι φυσικοθεραπευτές είναι η ίδια η δυσπιστία μεταξύ τους! Αλλά: όλα καλά! Ένιωσα ασφαλής, μου εξηγήθηκε κάθε βήμα και ήταν ένα πολύ καλό, αποτελεσματικό μασάζ. Ευχαριστώ! Του χρόνου θα ξανάρθω ευχαρίστως — ακόμη και χωρίς έντονο πόνο.",
+        "it": "Che succede quando è un fisioterapista ad avere mal di schiena in vacanza?! Tra fisioterapisti lo scetticismo è di casa! Ma: tutto bene! Mi sono sentita in buone mani, ogni passaggio mi è stato spiegato ed è stato un massaggio molto buono ed efficace. Grazie! L'anno prossimo tornerò volentieri, anche senza dolori acuti.",
+        "ru": "Что делать, если физиотерапевта в отпуске мучает спина?! Физиотерапевты — воплощение скепсиса по отношению друг к другу! Но: всё отлично! Я чувствовала себя в надёжных руках, каждый шаг мне объясняли, и массаж был очень хорошим и действенным. Спасибо! В следующем году с удовольствием приду снова — даже без острой боли."
+      }
+    },
+    {
+      "id": "gundo",
+      "name": "Gundo",
+      "place": null,
+      "date": "2015-08-10",
+      "source": "services",
+      "lang": "en",
+      "abridged": true,
+      "abridgedReason": "The original mixes English and German sentences. The English sentences are kept intact; one German sentence ('Konstantinos übt nicht nur einen Beruf, sondern eine Berufung aus.') is dropped rather than silently re-attributed to a language the rest of the quote is not in.",
+      "text": "Highly professional and fair-priced massage! He is dedicated to improve any ailment of his client and he modulated his massage according to my needs. I took the 60 and 90 min massage. Just fabulous.",
+      "t": {
+        "el": "Άκρως επαγγελματικό μασάζ σε δίκαιη τιμή! Είναι αφοσιωμένος στο να βελτιώσει ό,τι ταλαιπωρεί τον πελάτη του και προσάρμοσε το μασάζ στις δικές μου ανάγκες. Έκανα το 60λεπτο και το 90λεπτο. Απλά υπέροχα.",
+        "de": "Hochprofessionelle Massage zu einem fairen Preis! Er setzt alles daran, die Beschwerden seiner Kunden zu bessern, und hat die Massage genau auf meine Bedürfnisse abgestimmt. Ich hatte die 60- und die 90-Minuten-Massage. Einfach fabelhaft.",
+        "it": "Massaggio molto professionale e a un prezzo onesto! Si impegna davvero a migliorare i disturbi del cliente e ha calibrato il massaggio sulle mie esigenze. Ho fatto quello da 60 e quello da 90 minuti. Semplicemente favoloso.",
+        "ru": "Очень профессиональный массаж по честной цене! Он по-настоящему стремится облегчить любую проблему клиента и подстроил массаж под мои потребности. Я брал сеансы на 60 и 90 минут. Просто великолепно."
+      }
+    },
+    {
+      "id": "jason-wilma",
+      "name": "Jason & Wilma",
+      "place": null,
+      "date": "2015-08-16",
+      "source": "about",
+      "lang": "en",
+      "sessions": 4,
+      "note": "four separate comments over four sessions, collapsed into one entry",
+      "text": "Having had a lot of massages - Asia, Africa, Europe - my wife and I thought this was one of the best we have ever had. Another massage, and those aches and pains in the neck and back for years are starting to get better. My wife's neck is feeling better than it ever has. Konstantinos can relieve problems deep in your muscles, and the more we have him, the more he personalises the massage.",
+      "t": {
+        "el": "Έχουμε κάνει πολλά μασάζ — σε Ασία, Αφρική, Ευρώπη — και με τη γυναίκα μου θεωρήσαμε ότι αυτό ήταν από τα καλύτερα που έχουμε κάνει ποτέ. Άλλο ένα μασάζ, και οι πόνοι χρόνων στον αυχένα και την πλάτη αρχίζουν να υποχωρούν. Ο αυχένας της γυναίκας μου δεν ήταν ποτέ καλύτερα. Ο Κωνσταντίνος φτάνει σε προβλήματα βαθιά στους μυς και, όσο περισσότερο πηγαίνουμε, τόσο περισσότερο προσαρμόζει το μασάζ σε εμάς.",
+        "de": "Wir haben viele Massagen erlebt - in Asien, Afrika, Europa - und meine Frau und ich fanden diese hier eine der besten überhaupt. Noch eine Massage, und die jahrelangen Beschwerden in Nacken und Rücken werden endlich besser. Dem Nacken meiner Frau ging es noch nie so gut. Konstantinos erreicht Probleme tief im Muskel, und je öfter wir kommen, desto persönlicher wird die Massage.",
+        "it": "Abbiamo fatto moltissimi massaggi - Asia, Africa, Europa - e io e mia moglie abbiamo trovato questo tra i migliori di sempre. Un altro massaggio, e i dolori che ci portiamo da anni a collo e schiena cominciano a migliorare. Il collo di mia moglie non è mai stato così bene. Konstantinos arriva ai problemi in profondità nel muscolo e più torniamo, più personalizza il massaggio.",
+        "ru": "Мы делали массаж во многих местах — в Азии, Африке, Европе — и с женой сочли этот одним из лучших в нашей жизни. Ещё один сеанс, и многолетние боли в шее и спине начали отступать. Шее моей жены никогда не было так хорошо. Констанинос добирается до проблем глубоко в мышцах, и чем чаще мы приходим, тем точнее он подстраивает массаж под нас."
+      }
+    },
+    {
+      "id": "eveline",
+      "name": "Eveline",
+      "place": null,
+      "date": "2015-08-16",
+      "source": "services",
+      "lang": "en",
+      "text": "Best massage I've ever had! After days of hard work, Konstantinos succeeded to massage all the stress and tension out. Amazing.",
+      "t": {
+        "el": "Το καλύτερο μασάζ που έχω κάνει! Μετά από μέρες σκληρής δουλειάς, ο Κωνσταντίνος κατάφερε να βγάλει όλο το άγχος και την ένταση. Καταπληκτικό.",
+        "de": "Die beste Massage, die ich je hatte! Nach Tagen harter Arbeit hat Konstantinos den ganzen Stress und alle Verspannungen herausmassiert. Fantastisch.",
+        "it": "Il miglior massaggio che abbia mai fatto! Dopo giorni di lavoro intenso, Konstantinos è riuscito a togliere tutto lo stress e tutte le tensioni. Straordinario.",
+        "ru": "Лучший массаж в моей жизни! После нескольких дней тяжёлой работы Констанинос сумел снять весь стресс и всё напряжение. Потрясающе."
+      }
+    },
+    {
+      "id": "peter-cz",
+      "name": "Peter",
+      "place": "Czech Republic",
+      "date": "2015-08-19",
+      "source": "about",
+      "lang": "en",
+      "text": "It was really great. Konstantinos is a really good and friendly man. Your Czech friend, Peter.",
+      "t": {
+        "el": "Ήταν πραγματικά υπέροχα. Ο Κωνσταντίνος είναι πολύ καλός και φιλικός άνθρωπος. Ο Τσέχος φίλος σου, Peter.",
+        "de": "Es war wirklich großartig. Konstantinos ist ein sehr guter und freundlicher Mensch. Dein tschechischer Freund Peter.",
+        "it": "È stato davvero fantastico. Konstantinos è una persona molto brava e cordiale. Il tuo amico ceco, Peter.",
+        "ru": "Было по-настоящему здорово. Констанинос — очень хороший и приветливый человек. Твой чешский друг Петер."
+      }
+    },
+    {
+      "id": "caterina",
+      "name": "Caterina & Carlos",
+      "place": "Germany",
+      "date": "2015-08-23",
+      "source": "about",
+      "lang": "de",
+      "text": "Ich war sehr begeistert. Kosta war sehr professionell und einfühlsam. Mir ging es nach der Massage wieder gut. Ich würde jederzeit wieder eine Massage bei Kosta buchen und kann es nur jedem empfehlen!!! Nochmals vielen Dank! Liebe Grüße aus Deutschland, Carlos und Caterina!",
+      "t": {
+        "en": "I was thrilled. Kosta was very professional and sensitive. After the massage I felt well again. I would book with Kosta any time and can only recommend him to everyone. Thank you again! Warm greetings from Germany, Carlos and Caterina.",
+        "el": "Ήμουν ενθουσιασμένη. Ο Κώστας ήταν πολύ επαγγελματίας και διακριτικός. Μετά το μασάζ ένιωσα ξανά καλά. Θα έκλεινα ραντεβού μαζί του οποιαδήποτε στιγμή και τον συνιστώ σε όλους. Ευχαριστούμε ξανά! Χαιρετίσματα από τη Γερμανία, Carlos και Caterina.",
+        "it": "Sono rimasta entusiasta. Kosta è stato molto professionale e attento. Dopo il massaggio stavo di nuovo bene. Prenoterei da lui in qualsiasi momento e lo consiglio a tutti. Ancora grazie! Cari saluti dalla Germania, Carlos e Caterina.",
+        "ru": "Я была в восторге. Коста работал очень профессионально и деликатно. После сеанса мне снова стало хорошо. Я бы записалась к нему в любой момент и всем его рекомендую. Ещё раз спасибо! Привет из Германии, Карлос и Катерина."
+      }
+    },
+    {
+      "id": "salabi",
+      "name": "Salabi",
+      "place": "France",
+      "date": "2015-08-31",
+      "source": "about",
+      "lang": "fr",
+      "text": "Konstantinos est un vrai professionnel. Il s'est déplacé à notre hôtel avec tout le matériel. Ponctuel, il est charmant et vraiment professionnel. Ne pas hésiter, et le forfait 1 heure est top! Même en France nous n'avons pas cette qualité dans les centres. Merci!",
+      "t": {
+        "en": "Konstantinos is a true professional. He came to our hotel with all his equipment. Punctual, charming and genuinely professional. Don't hesitate - and the one-hour session is excellent. Even in France we don't get this quality in the centres. Thank you!",
+        "el": "Ο Κωνσταντίνος είναι πραγματικός επαγγελματίας. Ήρθε στο ξενοδοχείο μας με όλο τον εξοπλισμό. Συνεπής, γοητευτικός και πραγματικά επαγγελματίας. Μη διστάσετε — και η μονόωρη συνεδρία είναι εξαιρετική. Ούτε στη Γαλλία δεν βρίσκουμε τέτοια ποιότητα στα κέντρα. Ευχαριστούμε!",
+        "de": "Konstantinos ist ein echter Profi. Er kam mit der kompletten Ausrüstung zu uns ins Hotel. Pünktlich, charmant und wirklich professionell. Nicht zögern - und die Stunde ist top! Selbst in Frankreich haben wir diese Qualität in den Studios nicht. Danke!",
+        "it": "Konstantinos è un vero professionista. È venuto in albergo con tutta l'attrezzatura. Puntuale, gentile e davvero professionale. Non esitate: il pacchetto da un'ora è ottimo. Nemmeno in Francia troviamo questa qualità nei centri. Grazie!",
+        "ru": "Констанинос — настоящий профессионал. Он приехал к нам в отель со всем оборудованием. Пунктуальный, обаятельный и по-настоящему профессиональный. Не сомневайтесь — часовой сеанс отличный. Даже во Франции в салонах нет такого качества. Спасибо!"
+      }
+    },
+    {
+      "id": "karla-malte",
+      "name": "Karla & Malte",
+      "place": null,
+      "date": "2015-08-31",
+      "source": "about",
+      "lang": "de",
+      "text": "Eine der besten Massagen, die wir jemals bekommen haben. Kompetent, freundlich, einfühlsam und mit grossem Einsatz. Wir können Konstantinos uneingeschränkt weiter empfehlen.",
+      "t": {
+        "en": "One of the best massages we have ever had. Competent, friendly, sensitive and given with real commitment. We recommend Konstantinos without reservation.",
+        "el": "Ένα από τα καλύτερα μασάζ που έχουμε κάνει ποτέ. Ικανός, φιλικός, διακριτικός και με πραγματική αφοσίωση. Συνιστούμε τον Κωνσταντίνο ανεπιφύλακτα.",
+        "it": "Uno dei migliori massaggi che abbiamo mai ricevuto. Competente, cordiale, attento e con grande dedizione. Consigliamo Konstantinos senza riserve.",
+        "ru": "Один из лучших массажей, которые мы когда-либо получали. Грамотно, доброжелательно, деликатно и с полной отдачей. Рекомендуем Констаниноса без всяких оговорок."
+      }
+    },
+    {
+      "id": "elena-michael",
+      "name": "Elena & Michael",
+      "place": "Tigaki",
+      "date": "2015-09-06",
+      "source": "services",
+      "lang": "ru",
+      "abridged": true,
+      "abridgedReason": "One clause listing the languages the commenter believed Konstantinos spoke in 2015 has been removed. It would read to a visitor as a service promise about language, and the site states his languages accurately elsewhere. Nothing about the massage itself has been changed.",
+      "text": "Костантинос человек своего дела! С полной отдачей уделяет внимание проблемным местам во время массажа. Учитывает все пожелания клиента. Порадовал сервис: Костантинос приходил к нам в номер отеля в удобное для нас время, с собой приносил профессиональный массажный стол. Рекомендуем массаж от Костантиноса как приятное дополнение к вашему отпуску!",
+      "t": {
+        "en": "Konstantinos knows his craft. He gives full attention to the problem areas during the massage and takes every request from the client into account. The service was a pleasure: he came to our hotel room at a time that suited us and brought a professional massage table with him. We recommend a massage from Konstantinos as a lovely addition to your holiday.",
+        "el": "Ο Κωνσταντίνος ξέρει τη δουλειά του. Δίνει απόλυτη προσοχή στα προβληματικά σημεία και λαμβάνει υπόψη κάθε επιθυμία του πελάτη. Η εξυπηρέτηση ήταν χαρά: ήρθε στο δωμάτιό μας την ώρα που μας βόλευε, φέρνοντας μαζί επαγγελματικό κρεβάτι μασάζ. Συνιστούμε το μασάζ του ως υπέροχη προσθήκη στις διακοπές σας.",
+        "de": "Konstantinos versteht sein Handwerk. Er kümmert sich mit voller Aufmerksamkeit um die Problemzonen und geht auf jeden Wunsch des Kunden ein. Der Service war eine Freude: Er kam zu einer für uns passenden Zeit auf unser Hotelzimmer und brachte eine professionelle Massageliege mit. Wir empfehlen eine Massage bei Konstantinos als schöne Ergänzung zum Urlaub.",
+        "it": "Konstantinos sa il fatto suo. Durante il massaggio dedica tutta l'attenzione ai punti critici e tiene conto di ogni richiesta del cliente. Il servizio è stato un piacere: è venuto nella nostra camera d'albergo all'orario che ci faceva comodo, portando un lettino professionale. Consigliamo un massaggio da Konstantinos come piacevole aggiunta alla vacanza."
+      }
+    },
+    {
+      "id": "geraldine",
+      "name": "Géraldine",
+      "place": null,
+      "date": "2015-10-10",
+      "source": "services",
+      "lang": "fr",
+      "text": "Pour Konstantinos: très bon massage, très professionnel. Un grand merci.",
+      "t": {
+        "en": "For Konstantinos: a very good massage, very professional. Many thanks.",
+        "el": "Για τον Κωνσταντίνο: πολύ καλό μασάζ, πολύ επαγγελματικό. Ευχαριστώ πολύ.",
+        "de": "Für Konstantinos: eine sehr gute Massage, sehr professionell. Herzlichen Dank.",
+        "it": "Per Konstantinos: massaggio molto buono, molto professionale. Grazie mille.",
+        "ru": "Для Констаниноса: очень хороший, очень профессиональный массаж. Большое спасибо."
+      }
+    },
+    {
+      "id": "grigoris",
+      "name": "Grigoris",
+      "place": null,
+      "date": "2016-03-21",
+      "source": "about",
+      "lang": "en",
+      "abridged": true,
+      "abridgedReason": "The commenter's professional title and business website were dropped from the attribution - a third party's business URL does not belong on this site.",
+      "text": "Kostas, I want to thank you so much for your excellent athletic massage! Every time I am in your hands I experience your passion for your job and your honest interest for your client. I strongly recommend everybody to contact you - anyone who wants a valuable massage experience!",
+      "t": {
+        "el": "Κώστα, θέλω να σε ευχαριστήσω πολύ για το εξαιρετικό αθλητικό μασάζ! Κάθε φορά που βρίσκομαι στα χέρια σου βλέπω το πάθος σου για τη δουλειά σου και το ειλικρινές ενδιαφέρον σου για τον πελάτη. Συνιστώ ανεπιφύλακτα σε όλους να επικοινωνήσουν μαζί σου.",
+        "de": "Kostas, ich möchte dir für die ausgezeichnete Sportmassage danken! Jedes Mal, wenn ich in deinen Händen bin, spüre ich deine Leidenschaft für deinen Beruf und dein ehrliches Interesse am Kunden. Ich empfehle jedem, dich zu kontaktieren.",
+        "it": "Kostas, voglio ringraziarti moltissimo per l'eccellente massaggio sportivo! Ogni volta che sono nelle tue mani percepisco la tua passione per il lavoro e il tuo interesse sincero per il cliente. Consiglio vivamente a tutti di contattarti.",
+        "ru": "Костас, хочу от души поблагодарить тебя за прекрасный спортивный массаж! Каждый раз, попадая в твои руки, я вижу твою страсть к работе и искренний интерес к клиенту. Настоятельно рекомендую всем к тебе обратиться."
+      }
+    },
+    {
+      "id": "tiziana",
+      "name": "Tiziana",
+      "place": "Brussels",
+      "date": "2016-06-21",
+      "source": "about",
+      "lang": "fr",
+      "text": "Grande fan et habituée de massage, n'hésitez pas à réserver un massage très pro chez Konstantinos. Un mélange de massage thérapeutique et relaxant. Konstantinos est charmant, très à l'écoute et passionné par son travail. Un rapport qualité-prix excellent. Merci, Konstantinos, pour ce moment exceptionnel.",
+      "t": {
+        "en": "As a great fan and regular of massage: don't hesitate to book a very professional massage with Konstantinos. A blend of therapeutic and relaxing work. He is charming, really listens, and is passionate about what he does. Excellent value. Thank you, Konstantinos, for an exceptional hour.",
+        "el": "Ως φανατική και τακτική του μασάζ: μη διστάσετε να κλείσετε ένα πολύ επαγγελματικό μασάζ με τον Κωνσταντίνο. Ένας συνδυασμός θεραπευτικού και χαλαρωτικού. Είναι γοητευτικός, ακούει πραγματικά και είναι παθιασμένος με τη δουλειά του. Εξαιρετική σχέση ποιότητας-τιμής. Ευχαριστώ για αυτή τη ξεχωριστή ώρα.",
+        "de": "Als großer Massage-Fan und Stammkundin: Zögern Sie nicht, bei Konstantinos eine sehr professionelle Massage zu buchen. Eine Mischung aus therapeutisch und entspannend. Er ist charmant, hört wirklich zu und brennt für seine Arbeit. Ein hervorragendes Preis-Leistungs-Verhältnis. Danke für diesen besonderen Moment.",
+        "it": "Da grande appassionata e cliente abituale di massaggi: non esitate a prenotare un massaggio molto professionale da Konstantinos. Un misto di terapeutico e rilassante. È simpatico, sa ascoltare davvero ed è appassionato del suo lavoro. Rapporto qualità-prezzo eccellente. Grazie per questo momento eccezionale.",
+        "ru": "Как большая поклонница массажа и постоянная клиентка: не сомневайтесь и записывайтесь к Констаниносу. Сочетание терапевтической и расслабляющей работы. Он обаятельный, действительно слушает и по-настоящему увлечён своим делом. Отличное соотношение цены и качества. Спасибо за этот исключительный час."
+      }
+    },
+    {
+      "id": "germaine",
+      "name": "Germaine",
+      "place": "Switzerland",
+      "date": "2016-07-25",
+      "source": "about",
+      "lang": "en",
+      "text": "Many of my muscles, especially my shoulder, were so tensed up and hard, and during my vacation I had several massages from Konstantinos and I feel now so much better. Thank you!",
+      "t": {
+        "el": "Πολλοί μύες μου, ιδίως ο ώμος, ήταν πολύ σφιγμένοι και σκληροί. Στις διακοπές μου έκανα αρκετά μασάζ με τον Κωνσταντίνο και τώρα νιώθω πολύ καλύτερα. Ευχαριστώ!",
+        "de": "Viele meiner Muskeln, vor allem die Schulter, waren völlig verspannt und hart. Im Urlaub hatte ich mehrere Massagen bei Konstantinos und mir geht es jetzt viel besser. Danke!",
+        "it": "Molti dei miei muscoli, soprattutto la spalla, erano contratti e duri. Durante la vacanza ho fatto diversi massaggi con Konstantinos e ora sto molto meglio. Grazie!",
+        "ru": "Многие мышцы, особенно плечо, были очень зажаты и жёсткие. За отпуск я прошла несколько сеансов у Констаниноса, и сейчас мне намного лучше. Спасибо!"
+      }
+    },
+    {
+      "id": "lennart",
+      "name": "Lennart",
+      "place": null,
+      "date": "2016-08-04",
+      "source": "about",
+      "lang": "de",
+      "text": "Hallo Konstantinos, deine Massage war echt super! Ich kann dich nur weiter empfehlen! Vielen Dank.",
+      "t": {
+        "en": "Hello Konstantinos, your massage was really great. I can only recommend you. Many thanks.",
+        "el": "Γεια σου Κωνσταντίνε, το μασάζ σου ήταν πραγματικά υπέροχο! Σε συνιστώ ανεπιφύλακτα! Ευχαριστώ πολύ.",
+        "it": "Ciao Konstantinos, il tuo massaggio è stato davvero ottimo! Posso solo consigliarti! Grazie mille.",
+        "ru": "Привет, Констанинос, твой массаж был по-настоящему отличным! Могу только рекомендовать. Большое спасибо."
+      }
+    },
+    {
+      "id": "max-alina",
+      "name": "Max & Alina",
+      "place": "Germany",
+      "date": "2016-08-09",
+      "source": "about",
+      "lang": "de",
+      "text": "Hi Konstantinos, meine Freundin und ich haben deine Massagen sehr genossen. Uns ging es danach auch immer gleich besser. Wir können dich mit deiner professionellen und freundlichen Art nur weiter empfehlen. Liebe Grüße aus Deutschland, Max & Alina.",
+      "t": {
+        "en": "Hi Konstantinos, my girlfriend and I really enjoyed your massages. We always felt better straight afterwards. With your professional, friendly manner we can only recommend you. Warm greetings from Germany, Max & Alina.",
+        "el": "Γεια σου Κωνσταντίνε, με την κοπέλα μου απολαύσαμε πολύ τα μασάζ σου. Νιώθαμε πάντα αμέσως καλύτερα μετά. Με τον επαγγελματικό και φιλικό σου τρόπο, σε συνιστούμε ανεπιφύλακτα. Χαιρετίσματα από τη Γερμανία.",
+        "it": "Ciao Konstantinos, io e la mia ragazza abbiamo apprezzato molto i tuoi massaggi. Dopo stavamo subito meglio. Con i tuoi modi professionali e cordiali possiamo solo consigliarti. Cari saluti dalla Germania.",
+        "ru": "Привет, Констанинос, нам с девушкой очень понравились твои сеансы. После них нам сразу становилось лучше. За профессиональный и приветливый подход можем только рекомендовать. Привет из Германии."
+      }
+    },
+    {
+      "id": "fanis",
+      "name": "Fanis",
+      "place": null,
+      "date": "2016-08-14",
+      "source": "about",
+      "lang": "en",
+      "text": "Great experience today from Kostas. It was a surprise - magic hands. Highly recommend!",
+      "t": {
+        "el": "Υπέροχη εμπειρία σήμερα με τον Κώστα. Ήταν έκπληξη — μαγικά χέρια. Το συνιστώ ανεπιφύλακτα!",
+        "de": "Tolle Erfahrung heute bei Kostas. Eine Überraschung - magische Hände. Sehr zu empfehlen!",
+        "it": "Bellissima esperienza oggi da Kostas. È stata una sorpresa: mani magiche. Consigliatissimo!",
+        "ru": "Отличный сеанс сегодня у Костаса. Настоящий сюрприз — волшебные руки. Очень рекомендую!"
+      }
+    },
+    {
+      "id": "ingo-natalie",
+      "name": "Ingo & Natalie",
+      "place": null,
+      "date": "2016-08-16",
+      "source": "about",
+      "lang": "de",
+      "text": "Konstantinos bietet gute Massagen zum fairen Preis. Er ist immer freundlich und stets pünktlich. Wir haben seine Massage in unserem Urlaub mehrmals genossen.",
+      "t": {
+        "en": "Konstantinos gives good massages at a fair price. He is always friendly and always on time. We enjoyed his massage several times over our holiday.",
+        "el": "Ο Κωνσταντίνος κάνει καλά μασάζ σε δίκαιη τιμή. Είναι πάντα φιλικός και πάντα στην ώρα του. Απολαύσαμε το μασάζ του αρκετές φορές στις διακοπές μας.",
+        "it": "Konstantinos fa buoni massaggi a un prezzo onesto. È sempre cordiale e sempre puntuale. Durante la vacanza ci siamo goduti il suo massaggio più volte.",
+        "ru": "Констанинос делает хороший массаж по честной цене. Он всегда приветлив и всегда пунктуален. За отпуск мы приходили к нему несколько раз."
+      }
+    },
+    {
+      "id": "giuliano",
+      "name": "Giuliano",
+      "place": null,
+      "date": "2016-09-05",
+      "source": "about",
+      "lang": "it",
+      "text": "Semplicemente FANTASTICO! Ho appena terminato una seduta e sto già molto meglio! La mia schiena ringrazia! Konstantinos molto professionale, discreto ed organizzato. Alla prossima seduta. Grazie, Giuliano.",
+      "t": {
+        "en": "Simply FANTASTIC! I have just finished a session and I already feel much better. My back thanks him. Konstantinos is very professional, discreet and well organised. See you at the next session. Thank you.",
+        "el": "Απλά ΦΑΝΤΑΣΤΙΚΟ! Μόλις τελείωσα μια συνεδρία και νιώθω ήδη πολύ καλύτερα! Η πλάτη μου τον ευχαριστεί! Ο Κωνσταντίνος είναι πολύ επαγγελματίας, διακριτικός και οργανωμένος. Τα λέμε στην επόμενη συνεδρία.",
+        "de": "Einfach FANTASTISCH! Ich habe gerade eine Sitzung beendet und es geht mir schon viel besser! Mein Rücken dankt es. Konstantinos ist sehr professionell, diskret und gut organisiert. Bis zur nächsten Sitzung.",
+        "ru": "Просто ФАНТАСТИКА! Я только что закончил сеанс, и мне уже намного лучше! Моя спина благодарна. Констанинос очень профессиональный, деликатный и организованный. До следующего сеанса."
+      }
+    },
+    {
+      "id": "conny-sarah",
+      "name": "Conny & Sarah",
+      "place": null,
+      "date": "2016-09-19",
+      "source": "about",
+      "lang": "de",
+      "text": "Wir waren heute sehr zufrieden mit der Massage von Konstantinos. Es war für uns und unsere Rücken sehr erholsam. Gerne kommen wir auf dich zurück, sollten wir wiedermal in Kos einen guten Masseur benötigen.",
+      "t": {
+        "en": "We were very happy with Konstantinos' massage today. It was a real relief for us and for our backs. We will gladly come back to you if we ever need a good masseur on Kos again.",
+        "el": "Μείναμε πολύ ικανοποιημένες σήμερα με το μασάζ του Κωνσταντίνου. Ήταν πραγματική ανακούφιση για εμάς και για τις πλάτες μας. Θα ξαναρθούμε ευχαρίστως αν χρειαστούμε ξανά καλό μασέρ στην Κω.",
+        "it": "Oggi siamo state molto soddisfatte del massaggio di Konstantinos. È stato molto rigenerante per noi e per le nostre schiene. Torneremo volentieri da te se ci servirà di nuovo un bravo massaggiatore a Kos.",
+        "ru": "Сегодня мы остались очень довольны массажем у Констаниноса. Для нас и наших спин это было настоящее облегчение. С удовольствием вернёмся, если снова понадобится хороший массажист на Косе."
+      }
+    },
+    {
+      "id": "jana",
+      "name": "Jana",
+      "place": null,
+      "date": "2016-09-28",
+      "source": "about",
+      "lang": "de",
+      "text": "Wir waren auf der Suche nach einer professionellen Massage, da ich wahnsinnige Rückenschmerzen auf Kos hatte. Er empfing uns sehr freundlich und fragte professionell nach Schmerzen und Verletzungen. Er tastete vorab vorsichtig meinen Rücken ab. Die Massage war super, dabei erklärte er mir, was er tut. Ich fühlte mich sehr wohl und bin sehr dankbar, dass er Zeit für mich hatte. Meine Rückenschmerzen sind so gut wie verschwunden.",
+      "t": {
+        "en": "We were looking for a professional massage because I had terrible back pain on Kos. He welcomed us very warmly and asked properly about pain and injuries. He carefully examined my back beforehand. The massage was excellent and he explained what he was doing as he went. I felt completely at ease and I am very grateful he made time for me. My back pain is as good as gone.",
+        "el": "Ψάχναμε επαγγελματικό μασάζ γιατί είχα φοβερούς πόνους στη μέση στην Κω. Μας υποδέχτηκε πολύ φιλικά και ρώτησε επαγγελματικά για πόνους και τραυματισμούς. Ψηλάφησε πρώτα προσεκτικά την πλάτη μου. Το μασάζ ήταν εξαιρετικό και μου εξηγούσε τι έκανε. Ένιωσα πολύ άνετα και είμαι ευγνώμων που βρήκε χρόνο για μένα. Οι πόνοι μου έχουν σχεδόν εξαφανιστεί.",
+        "it": "Cercavamo un massaggio professionale perché a Kos avevo un mal di schiena tremendo. Ci ha accolti con molta gentilezza e ha chiesto in modo professionale di dolori e infortuni. Prima ha palpato con attenzione la schiena. Il massaggio è stato ottimo e mi spiegava cosa stava facendo. Mi sono sentita a mio agio e gli sono molto grata per il tempo che mi ha dedicato. Il mal di schiena è praticamente sparito.",
+        "ru": "Мы искали профессиональный массаж, потому что на Косе у меня жутко болела спина. Он встретил нас очень приветливо и профессионально расспросил о болях и травмах. Сначала осторожно прощупал спину. Массаж был отличный, и он объяснял, что делает. Я чувствовала себя очень комфортно и очень благодарна, что он нашёл для меня время. Боль в спине почти прошла."
+      }
+    },
+    {
+      "id": "stefanie",
+      "name": "Stefanie",
+      "place": null,
+      "date": "2016-09-29",
+      "source": "about",
+      "lang": "de",
+      "text": "Kann ich nur weiter empfehlen! Er bringt seine Liege mit aufs Zimmer, wäscht sich die Hände, fragt nach Schmerzen, wo behandelt werden soll, und los geht's. Aus medizinischer Sicht einwandfrei! Sehr freundlich. Das Preis-Leistungs-Verhältnis ist super!",
+      "t": {
+        "en": "I can only recommend him. He brings his table up to the room, washes his hands, asks where it hurts and where you want to be worked on, and off you go. From a medical point of view, faultless. Very friendly. The value for money is great.",
+        "el": "Τον συνιστώ ανεπιφύλακτα! Φέρνει το κρεβάτι του στο δωμάτιο, πλένει τα χέρια του, ρωτάει πού πονάς και πού θέλεις να δουλέψει, και ξεκινάς. Από ιατρικής πλευράς, άψογος. Πολύ φιλικός. Η σχέση ποιότητας-τιμής είναι εξαιρετική!",
+        "it": "Posso solo consigliarlo! Porta il lettino in camera, si lava le mani, chiede dove fa male e dove vuoi essere trattata, e si comincia. Dal punto di vista medico, impeccabile. Molto cordiale. Il rapporto qualità-prezzo è ottimo!",
+        "ru": "Могу только рекомендовать! Он приносит стол прямо в номер, моет руки, спрашивает, где болит и где нужно поработать, — и начинает. С медицинской точки зрения безупречно. Очень приветливый. Соотношение цены и качества отличное!"
+      }
+    },
+    {
+      "id": "wouter",
+      "name": "Wouter",
+      "place": null,
+      "date": "2016-10-01",
+      "source": "about",
+      "lang": "nl",
+      "text": "Uitstekende professionele massage gehad van een alleraardigste Konstantinos. Weet van wanten! Rugklachten in een keer verdwenen!",
+      "t": {
+        "en": "Had an excellent professional massage from a thoroughly likeable Konstantinos. He knows what he is doing. Back trouble gone in one go.",
+        "el": "Έκανα ένα εξαιρετικό, επαγγελματικό μασάζ από τον πολύ συμπαθή Κωνσταντίνο. Ξέρει τι κάνει! Οι πόνοι στην πλάτη εξαφανίστηκαν με τη μία!",
+        "de": "Hervorragende professionelle Massage von einem äußerst sympathischen Konstantinos. Er weiß, was er tut! Rückenbeschwerden auf einen Schlag verschwunden!",
+        "it": "Ho ricevuto un massaggio professionale eccellente da un Konstantinos davvero simpatico. Sa il fatto suo! Mal di schiena sparito in una sola seduta!",
+        "ru": "Получил отличный профессиональный массаж у крайне приятного Констаниноса. Он знает своё дело! Проблемы со спиной исчезли за один раз!"
+      }
+    },
+    {
+      "id": "trish",
+      "name": "Trish",
+      "place": null,
+      "date": "2016-10-23",
+      "source": "about",
+      "lang": "en",
+      "text": "Thank you for the excellent massages. My daughter and myself both highly recommend Mastichari Massage.",
+      "t": {
+        "el": "Ευχαριστώ για τα εξαιρετικά μασάζ. Η κόρη μου κι εγώ συνιστούμε ανεπιφύλακτα το Mastichari Massage.",
+        "de": "Danke für die ausgezeichneten Massagen. Meine Tochter und ich empfehlen Mastichari Massage beide sehr.",
+        "it": "Grazie per gli ottimi massaggi. Io e mia figlia consigliamo entrambe Mastichari Massage.",
+        "ru": "Спасибо за прекрасные сеансы. Мы с дочерью обе очень рекомендуем Mastichari Massage."
+      }
+    },
+    {
+      "id": "willem",
+      "name": "Willem",
+      "place": null,
+      "date": "2017-04-28",
+      "source": "about",
+      "lang": "nl",
+      "text": "Konstantinos is een geweldige professionele masseur. Ik heb genoten van zijn massages. Een aanrader voor iedereen. Daarnaast is het ook nog een innemende aardige man.",
+      "t": {
+        "en": "Konstantinos is a great professional masseur. I enjoyed his massages. A must for everyone. In addition, it is also a very nice man.",
+        "_enNote": "The English here is the commenter's own translation, posted in the same comment - not a translation added by this site.",
+        "el": "Ο Κωνσταντίνος είναι εξαιρετικός επαγγελματίας μασέρ. Απόλαυσα τα μασάζ του. Τον συνιστώ σε όλους. Και πέρα από αυτό, είναι και πολύ ευχάριστος άνθρωπος.",
+        "de": "Konstantinos ist ein großartiger, professioneller Masseur. Ich habe seine Massagen genossen. Für jeden zu empfehlen. Dazu ist er auch noch ein einnehmender, netter Mensch.",
+        "it": "Konstantinos è un massaggiatore professionista eccellente. Ho apprezzato molto i suoi massaggi. Da consigliare a tutti. E poi è anche una persona molto simpatica.",
+        "ru": "Констанинос — прекрасный профессиональный массажист. Мне очень понравились его сеансы. Рекомендую всем. К тому же он ещё и очень располагающий, приятный человек."
+      }
+    },
+    {
+      "id": "peter-2017",
+      "name": "Peter",
+      "place": null,
+      "date": "2017-06-04",
+      "source": "about",
+      "lang": "en",
+      "text": "Konstantinos is a quite nice and professional guy. He manages to create trust and a relaxing atmosphere within a minute, so I could really enjoy and fully relax. He can identify the problematic areas of the body and react in a professional way, giving some areas more intensity and pressure. He doesn't count the minutes - this man has golden hands. Thank you Konstantinos!",
+      "t": {
+        "el": "Ο Κωνσταντίνος είναι πολύ ευχάριστος και επαγγελματίας. Καταφέρνει να δημιουργήσει εμπιστοσύνη και χαλαρή ατμόσφαιρα μέσα σε ένα λεπτό, οπότε μπόρεσα να το απολαύσω και να χαλαρώσω πλήρως. Εντοπίζει τα προβληματικά σημεία και ανταποκρίνεται επαγγελματικά, δίνοντας μεγαλύτερη ένταση και πίεση όπου χρειάζεται. Δεν μετράει τα λεπτά — αυτός ο άνθρωπος έχει χρυσά χέρια.",
+        "de": "Konstantinos ist ein sehr netter und professioneller Mensch. Er schafft es, innerhalb einer Minute Vertrauen und eine entspannte Atmosphäre herzustellen, sodass ich es wirklich genießen und komplett abschalten konnte. Er erkennt die Problemzonen und reagiert professionell darauf, mit mehr Intensität und Druck, wo es nötig ist. Er zählt die Minuten nicht - dieser Mann hat goldene Hände.",
+        "it": "Konstantinos è una persona molto simpatica e professionale. Riesce a creare fiducia e un'atmosfera rilassata nel giro di un minuto, così ho potuto godermelo davvero e rilassarmi del tutto. Individua i punti problematici e interviene in modo professionale, con più intensità e pressione dove serve. Non conta i minuti: quest'uomo ha mani d'oro.",
+        "ru": "Констанинос — очень приятный и профессиональный человек. Он за минуту создаёт доверие и расслабляющую атмосферу, так что я смог по-настоящему получить удовольствие и полностью расслабиться. Он находит проблемные зоны и профессионально на них реагирует, работая где нужно интенсивнее и с большим давлением. Он не считает минуты — у этого человека золотые руки."
+      }
+    },
+    {
+      "id": "dennis",
+      "name": "Dennis",
+      "place": null,
+      "date": "2017-08-08",
+      "source": "about",
+      "lang": "en",
+      "text": "It was a very good massage. I'm really relaxed now. Konstantinos is a nice and kind guy. I really recommend his massages. Thank you!",
+      "t": {
+        "el": "Ήταν πολύ καλό μασάζ. Είμαι πραγματικά χαλαρός τώρα. Ο Κωνσταντίνος είναι ευχάριστος και ευγενικός άνθρωπος. Συνιστώ πραγματικά τα μασάζ του. Ευχαριστώ!",
+        "de": "Es war eine sehr gute Massage. Ich bin jetzt richtig entspannt. Konstantinos ist ein netter und freundlicher Mensch. Ich empfehle seine Massagen wirklich. Danke!",
+        "it": "È stato un ottimo massaggio. Ora sono davvero rilassato. Konstantinos è una persona simpatica e gentile. Consiglio davvero i suoi massaggi. Grazie!",
+        "ru": "Это был очень хороший массаж. Сейчас я по-настоящему расслаблен. Констанинос — приятный и добрый человек. Очень рекомендую его сеансы. Спасибо!"
+      }
+    },
+    {
+      "id": "sylvie-philippe",
+      "name": "Sylvie & Philippe",
+      "place": "France",
+      "date": "2017-08-24",
+      "source": "about",
+      "lang": "fr",
+      "text": "Merci pour le soin. Les massages sont réalisés avec attention et sont en profondeur. Konstantinos pratique son art du massage avec sérieux et professionnalisme. Les résultats sont là! Un très bon rapport qualité-prix! À renouveler pour nous lors d'une prochaine visite à Kos.",
+      "t": {
+        "en": "Thank you for the treatment. The massages are carried out attentively and go deep. Konstantinos practises his craft seriously and professionally. The results are there. Very good value. We will do it again on our next visit to Kos.",
+        "el": "Ευχαριστούμε για τη θεραπεία. Τα μασάζ γίνονται με προσοχή και σε βάθος. Ο Κωνσταντίνος ασκεί την τέχνη του με σοβαρότητα και επαγγελματισμό. Τα αποτελέσματα φαίνονται! Πολύ καλή σχέση ποιότητας-τιμής! Θα το επαναλάβουμε στην επόμενη επίσκεψή μας στην Κω.",
+        "de": "Danke für die Behandlung. Die Massagen werden aufmerksam und tiefgehend ausgeführt. Konstantinos übt sein Handwerk ernsthaft und professionell aus. Die Ergebnisse sind da! Ein sehr gutes Preis-Leistungs-Verhältnis! Beim nächsten Kos-Besuch wieder.",
+        "it": "Grazie per il trattamento. I massaggi sono eseguiti con attenzione e vanno in profondità. Konstantinos pratica la sua arte con serietà e professionalità. I risultati si vedono! Ottimo rapporto qualità-prezzo! Da ripetere alla prossima visita a Kos.",
+        "ru": "Спасибо за сеанс. Массаж выполняется внимательно и глубоко. Констанинос занимается своим ремеслом серьёзно и профессионально. Результат налицо! Очень хорошее соотношение цены и качества! Обязательно повторим в следующий приезд на Кос."
+      }
+    },
+    {
+      "id": "serdar",
+      "name": "Serdar",
+      "place": null,
+      "date": "2017-09-22",
+      "source": "about",
+      "lang": "tr",
+      "text": "Mastihari'de tesadüfen fark ettim. Ancak şimdiye kadar en profesyonel ve kaliteli masaj servislerinden birini aldım diyebilirim. Konstantinos çok tecrübeli ve işini iyi yapan, arkadaş canlısı biri. Kos'a gidenlere tavsiye ederim.",
+      "t": {
+        "en": "I came across it by chance in Mastichari. But I can say it was one of the most professional, highest quality massage services I have had. Konstantinos is very experienced, good at his job and friendly. I recommend him to anyone going to Kos.",
+        "el": "Το βρήκα τυχαία στο Μαστιχάρι. Μπορώ όμως να πω ότι ήταν από τις πιο επαγγελματικές και ποιοτικές υπηρεσίες μασάζ που έχω λάβει. Ο Κωνσταντίνος είναι πολύ έμπειρος, καλός στη δουλειά του και φιλικός. Τον συνιστώ σε όσους πάνε στην Κω.",
+        "de": "Ich bin in Mastichari zufällig darauf gestoßen. Aber ich kann sagen, es war einer der professionellsten und hochwertigsten Massage-Services, die ich je hatte. Konstantinos ist sehr erfahren, gut in seinem Beruf und freundlich. Ich empfehle ihn allen, die nach Kos reisen.",
+        "it": "L'ho scoperto per caso a Mastichari. Ma posso dire che è stato uno dei servizi di massaggio più professionali e di qualità che abbia mai ricevuto. Konstantinos è molto esperto, bravo nel suo lavoro e cordiale. Lo consiglio a chi va a Kos.",
+        "ru": "Я наткнулся на него случайно в Мастихари. Но могу сказать, что это была одна из самых профессиональных и качественных массажных услуг, что я получал. Констанинос очень опытный, хорошо делает свою работу и дружелюбный. Рекомендую всем, кто едет на Кос."
+      }
+    },
+    {
+      "id": "yuriy",
+      "name": "Юрий",
+      "place": null,
+      "date": "2018-06-13",
+      "source": "about",
+      "lang": "ru",
+      "text": "Лучший массажист в Греции! Костантинос мало того что классный массажист, он ещё и супер человек. Езжу к нему 6 лет и ни разу не пожалел о выборе!",
+      "t": {
+        "en": "The best masseur in Greece. Konstantinos is not only a great masseur, he is also a wonderful person. I have been going to him for six years and have never once regretted the choice.",
+        "el": "Ο καλύτερος μασέρ στην Ελλάδα! Ο Κωνσταντίνος δεν είναι μόνο εξαιρετικός μασέρ, είναι και υπέροχος άνθρωπος. Πηγαίνω σε αυτόν 6 χρόνια και δεν το μετάνιωσα ούτε μία φορά!",
+        "de": "Der beste Masseur Griechenlands! Konstantinos ist nicht nur ein klasse Masseur, er ist auch ein toller Mensch. Ich gehe seit sechs Jahren zu ihm und habe die Wahl kein einziges Mal bereut!",
+        "it": "Il miglior massaggiatore della Grecia! Konstantinos non è solo un massaggiatore eccezionale, è anche una gran persona. Vado da lui da sei anni e non me ne sono mai pentito!"
+      }
+    },
+    {
+      "id": "heiko",
+      "name": "Heiko",
+      "place": "Stuttgart",
+      "date": "2018-06-19",
+      "source": "about",
+      "lang": "de",
+      "text": "Erstklassige und höchst professionelle Massage. Akute Schmerzbereiche gezielt behandelt - einfühlsam und dennoch mit dem nötigen Druck. Vielen Dank für die ausgezeichnete Massage, ich freue mich auf die nächste Behandlung.",
+      "t": {
+        "en": "First-class, highly professional massage. Acutely painful areas treated precisely - sensitively, but still with the pressure needed. Many thanks for the excellent massage; I am looking forward to the next treatment.",
+        "el": "Πρώτης τάξεως και άκρως επαγγελματικό μασάζ. Τα σημεία με έντονο πόνο δουλεύτηκαν στοχευμένα — με ευαισθησία, αλλά με την πίεση που χρειαζόταν. Ευχαριστώ πολύ για το εξαιρετικό μασάζ, ανυπομονώ για την επόμενη συνεδρία.",
+        "it": "Massaggio di prim'ordine e altamente professionale. Le zone di dolore acuto trattate in modo mirato: con delicatezza, ma con la pressione necessaria. Grazie mille per l'ottimo massaggio, aspetto già il prossimo trattamento.",
+        "ru": "Первоклассный и в высшей степени профессиональный массаж. Острые болевые зоны проработаны точно — деликатно, но с нужным давлением. Большое спасибо за отличный сеанс, жду следующего."
+      }
+    }
+  ],
+  "_count": 41
+}

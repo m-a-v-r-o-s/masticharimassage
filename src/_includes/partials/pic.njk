@@ -1,0 +1,33 @@
+{#- Responsive picture element.
+    AVIF first, then WebP, then JPEG for anything that understands neither.
+    width/height always come from the manifest, so the box is reserved before the
+    bytes arrive. Everything below the fold is lazy; the one LCP image per page
+    passes priority=true and is loaded eagerly.
+
+    If the requested image has not been produced yet, a stand-in is rendered with
+    generic alt text that honestly describes the stand-in. It never inherits the
+    alt of the photo it is standing in for - describing a picture that is not on
+    the page is worse for a screen-reader user than describing a plain one. -#}
+{% macro pic(images, key, alt, sizes, cls, priority, fallbackKey, fallbackAlt) %}
+{%- set m = images[key] -%}
+{%- set useKey = key -%}
+{%- set useAlt = alt -%}
+{%- if not m and fallbackKey and images[fallbackKey] -%}
+  {%- set m = images[fallbackKey] -%}
+  {%- set useKey = fallbackKey -%}
+  {%- set useAlt = fallbackAlt -%}
+{%- endif -%}
+{%- if m -%}
+<picture>
+  <source type="image/avif" sizes="{{ sizes }}" srcset="{% for w in m.widths %}/assets/img/r/{{ useKey }}-{{ w }}.avif {{ w }}w{% if not loop.last %}, {% endif %}{% endfor %}">
+  <source type="image/webp" sizes="{{ sizes }}" srcset="{% for w in m.widths %}/assets/img/r/{{ useKey }}-{{ w }}.webp {{ w }}w{% if not loop.last %}, {% endif %}{% endfor %}">
+  <img src="/assets/img/r/{{ useKey }}-{{ m.w }}.jpg"
+       sizes="{{ sizes }}"
+       srcset="{% for w in m.widths %}/assets/img/r/{{ useKey }}-{{ w }}.jpg {{ w }}w{% if not loop.last %}, {% endif %}{% endfor %}"
+       width="{{ m.w }}" height="{{ m.h }}"
+       alt="{{ useAlt }}"
+       {% if priority %}fetchpriority="high" decoding="async"{% else %}loading="lazy" decoding="async"{% endif %}
+       {% if cls %}class="{{ cls }}"{% endif %}>
+</picture>
+{%- endif -%}
+{% endmacro %}

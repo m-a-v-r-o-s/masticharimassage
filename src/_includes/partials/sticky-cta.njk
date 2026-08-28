@@ -1,0 +1,5 @@
+{%- import "partials/icons.njk" as icon -%}
+<div class="sticky-cta" role="group" aria-label="{{ c.ui.bookNow }}">
+  <a class="btn btn--accent" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.ui.whatsapp }}</a>
+  <a class="btn btn--primary" href="{{ business.contact.phoneHref }}">{{ icon.phone() }} {{ c.ui.call }}</a>
+</div>

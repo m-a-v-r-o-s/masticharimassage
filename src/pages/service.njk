@@ -1,0 +1,89 @@
+---
+pagination: { data: servicePages, size: 1, alias: sp }
+permalink: "/{{ sp.locale }}/services/{{ sp.slug }}/index.html"
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  metaTitle: "{{ copy[sp.locale].meta.service[sp.slug].title }}"
+  metaDesc: "{{ copy[sp.locale].meta.service[sp.slug].description }}"
+---
+{%- import "partials/icons.njk" as icon -%}
+{%- import "partials/pic.njk" as p -%}
+{%- set s = c.serviceContent[serviceSlug] -%}
+{%- set def = business.services | bySlug(serviceSlug) -%}
+{%- set svcs = business | serviceList(c) -%}
+
+<section class="section">
+  <div class="wrap">
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <a href="/{{ locale }}/services/">&larr; {{ c.ui.backToServices }}</a>
+    </nav>
+    <div class="grid grid--split">
+      <div class="stack">
+        <p class="eyebrow">{{ c.nav.services }}</p>
+        <h1>{{ s.name }}</h1>
+        <p class="lede">{{ s.lede }}</p>
+        <dl class="spec">
+          <div><dt>{{ c.ui.duration }}</dt>
+          <dd>{{ def.durations | join(" / ") }} {{ c.ui.minutes }}</dd></div>
+          <div><dt>{{ c.ui.priceLabel }}</dt>
+          <dd>{{ c.ui.priceOnRequest }}</dd></div>
+        </dl>
+        <div class="btn-row">
+          <a class="btn btn--accent" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.ui.bookNow }}</a>
+          <a class="btn btn--ghost" href="/{{ locale }}/contact/">{{ c.ui.askAvailability }}</a>
+        </div>
+      </div>
+      <div>
+        {{ p.pic(images, "service-" + serviceSlug, s.imageAlt, "(min-width: 52em) 42vw, 100vw", "u-round u-raise", true, "hero-treatment-room", c.ui.imagePendingAlt) }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--warm">
+  <div class="wrap grid grid--split">
+    <div class="stack measure">
+      {%- for p in s.body %}
+      <p>{{ p }}</p>
+      {%- endfor %}
+      <p class="notice">{{ c.ui.priceNote }}</p>
+    </div>
+    <div class="card">
+      <h2 class="h-sm">{{ c.ui.goodFor }}</h2>
+      <ul class="ticks">
+        {%- for g in s.goodFor %}
+        <li>{{ g }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>{{ c.ui.allMassages }}</h2>
+    </div>
+    <div class="grid grid--3">
+      {%- for o in svcs %}{% if o.slug != serviceSlug %}
+      <a class="card card--link u-plain" href="/{{ locale }}/services/{{ o.slug }}/">
+        <h3>{{ o.name }}</h3>
+        <p>{{ o.short }}</p>
+        <p class="card__foot"><span class="card__link">{{ c.services.cardCta }}</span></p>
+      </a>
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink">
+  <div class="wrap measure stack">
+    <h2>{{ c.home.ctaTitle }}</h2>
+    <p>{{ c.home.ctaBody }}</p>
+    <div class="btn-row">
+      <a class="btn btn--onink" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.ui.whatsapp }}</a>
+      <a class="btn btn--onink" href="{{ business.contact.phoneHref }}">{{ icon.phone() }} {{ business.contact.phone }}</a>
+    </div>
+    <p class="u-on-ink">{{ c.ui.wellnessNotice }}</p>
+  </div>
+</section>

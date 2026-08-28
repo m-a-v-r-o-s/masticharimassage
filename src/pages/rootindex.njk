@@ -1,0 +1,44 @@
+---
+permalink: "/index.html"
+eleventyExcludeFromCollections: true
+layout: false
+---
+{%- set d = locales.default -%}
+{%- set dc = copy[d] -%}
+<!doctype html>
+<html lang="{{ d }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ dc.meta.home.title }}</title>
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="{{ site.origin }}/{{ d }}/">
+{%- for l in locales.live %}{% if l.code in buildLocales %}
+<link rel="alternate" hreflang="{{ l.hreflang }}" href="{{ site.origin }}/{{ l.code }}/">
+{%- endif %}{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ site.origin }}/{{ d }}/">
+<meta http-equiv="refresh" content="0; url=/{{ d }}/">
+<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+<!-- The Fastify server normally 302s "/" to a negotiated locale before this page is
+     ever served. This document only exists as the fallback for a purely static host
+     or a crawler that follows no redirect: it links out to every language rather
+     than trapping anyone in one. -->
+<main id="main" class="section">
+  <div class="wrap measure stack">
+    <h1>Mastichari Massage</h1>
+    <p class="lede">{{ dc.home.heroLede }}</p>
+    <nav aria-label="{{ dc.nav.languageSwitcher }}" class="lang">
+      <p class="lang-bar__label">{{ dc.nav.languageLabel }}</p>
+      <ul class="lang__list">
+        {%- for l in locales.all %}{% if l.code in buildLocales %}
+        <li><a lang="{{ l.lang }}" hreflang="{{ l.hreflang }}" href="/{{ l.code }}/">{{ l.endonym }}</a></li>
+        {%- endif %}{% endfor %}
+      </ul>
+    </nav>
+  </div>
+</main>
+<script src="/assets/js/root-redirect.js" data-locales="{{ buildLocales | dump | escape }}"></script>
+</body>
+</html>

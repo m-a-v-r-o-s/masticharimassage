@@ -1,0 +1,61 @@
+{%- set meta = c.meta[pageKey] -%}
+{%- set pTitle = metaTitle or meta.title -%}
+{%- set pDesc  = metaDesc  or meta.description -%}
+{%- set indexable = (routeIndexable != false) and (not isDraftLocale) -%}
+{%- set ogImage = ogImageOverride or "/assets/img/og/og.jpg" -%}
+{%- set scriptSubset = "greek" if locale == "el" else ("cyrillic" if locale in ["ru","uk"] else "latin") -%}
+<!doctype html>
+<html lang="{{ L.lang }}" dir="{{ L.dir }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ pTitle }}</title>
+<meta name="description" content="{{ pDesc }}">
+<link rel="canonical" href="{{ site.origin }}{{ selfPath }}">
+{% if not indexable %}<meta name="robots" content="noindex, follow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">{% endif %}
+
+{%- for a in alternates %}
+<link rel="alternate" hreflang="{{ a.hreflang }}" href="{{ site.origin }}{{ a.href }}">
+{%- endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ site.origin }}/{{ locales.default }}/{{ pagePath + "/" if pagePath }}">
+
+<meta property="og:type" content="{{ ogType or 'website' }}">
+<meta property="og:site_name" content="{{ business.name }}">
+<meta property="og:title" content="{{ pTitle }}">
+<meta property="og:description" content="{{ pDesc }}">
+<meta property="og:url" content="{{ site.origin }}{{ selfPath }}">
+<meta property="og:image" content="{{ site.origin }}{{ ogImage }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ c.ui.ogImageAlt or (business.name + ' - ' + business.address.locality + ', ' + business.address.region) }}">
+<meta property="og:locale" content="{{ L.lang }}">
+{%- for a in alternates %}{% if a.code != locale %}
+<meta property="og:locale:alternate" content="{{ a.hreflang }}">
+{%- endif %}{% endfor %}
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/favicon/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+<meta name="theme-color" content="#FAF7F2">
+
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-{{ scriptSubset }}-wght-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-{{ scriptSubset }}-wght-normal.woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/main.css">
+<script src="/assets/js/head.js"></script>
+{% include "partials/jsonld.njk" %}
+</head>
+<body{% if pageKey == "thankyou" %} data-nosticky{% endif %}>
+<a class="skip-link" href="#main">{{ c.nav.skip }}</a>
+{% if isDraftLocale %}<p class="draft-banner">{{ c.ui.draftNotice or "This translation has not been reviewed by a native speaker yet." }}</p>{% endif %}
+{% include "partials/header.njk" %}
+<main id="main" tabindex="-1">
+  {{ content | safe }}
+</main>
+{% include "partials/footer.njk" %}
+{% include "partials/sticky-cta.njk" %}
+{% include "partials/cookie.njk" %}
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>

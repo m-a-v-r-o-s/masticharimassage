@@ -1,0 +1,119 @@
+---
+pagination: { data: buildLocales, size: 1, alias: loc }
+permalink: "/{{ loc }}/index.html"
+pageKey: home
+pathKey: ""
+eleventyExcludeFromCollections: true
+---
+{%- import "partials/icons.njk" as icon -%}
+{%- import "partials/quotes.njk" as q -%}
+{%- import "partials/pic.njk" as p -%}
+{%- set svcs = business | serviceList(c) -%}
+
+<section class="hero">
+  <div class="wrap hero__inner">
+    <div class="stack">
+      <p class="eyebrow">{{ c.home.heroKicker }}</p>
+      <h1>{{ c.home.heroTitle }}</h1>
+      <p class="lede">{{ c.home.heroLede }}</p>
+      <div class="btn-row">
+        <a class="btn btn--accent" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.home.heroPrimary }}</a>
+        <a class="btn btn--ghost" href="/{{ locale }}/services/">{{ c.home.heroSecondary }}</a>
+      </div>
+      <p class="hero__note">{{ c.home.heroNote }}</p>
+    </div>
+    <div class="hero__media">
+      {{ p.pic(images, "hero-treatment-room", c.home.heroImageAlt, "(min-width: 58em) 44vw, 100vw", "", true) }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>{{ c.home.introTitle }}</h2>
+      <p>{{ c.home.introBody }}</p>
+    </div>
+    <div class="grid grid--2 reveal">
+      {%- for p in c.home.points %}
+      <div class="card">
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--warm">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">{{ c.nav.services }}</p>
+      <h2>{{ c.home.servicesTitle }}</h2>
+      <p>{{ c.home.servicesIntro }}</p>
+    </div>
+    <div class="grid grid--3 reveal">
+      {%- for s in svcs %}
+      <a class="card card--link u-plain" href="/{{ locale }}/services/{{ s.slug }}/">
+        <h3>{{ s.name }}</h3>
+        <p>{{ s.short }}</p>
+        <p class="card__foot"><span class="card__link">{{ c.services.cardCta }}</span></p>
+      </a>
+      {%- endfor %}
+    </div>
+    <p class="notice u-mt-2">{{ c.ui.priceNote }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap grid grid--split">
+    <div class="stack reveal">
+      <p class="eyebrow">{{ c.home.howTitle }}</p>
+      <h2>{{ c.home.ctaTitle }}</h2>
+      <p>{{ c.home.ctaBody }}</p>
+      <div class="btn-row">
+        <a class="btn btn--accent" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.ui.whatsapp }}</a>
+        <a class="btn btn--primary" href="{{ business.contact.phoneHref }}">{{ icon.phone() }} {{ business.contact.phone }}</a>
+        <a class="btn btn--ghost" href="/{{ locale }}/contact/">{{ c.ui.bookNow }}</a>
+      </div>
+    </div>
+    <ol class="numbered reveal">
+      {%- for s in c.home.howSteps %}
+      <li><h3>{{ s.title }}</h3><p>{{ s.body }}</p></li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section section--warm">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>{{ c.ui.testimonialsTitle }}</h2>
+      <p>{{ c.ui.testimonialsIntro }}</p>
+    </div>
+    <div class="reveal">
+      {{ q.wall(testimonials.items | reverse, c, L, locale, 6) }}
+    </div>
+    <p class="u-mt-2"><a class="btn btn--ghost" href="/{{ locale }}/about/#testimonials">{{ c.home.reviewsCta }}</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap grid grid--split">
+    <div class="stack reveal">
+      <p class="eyebrow">{{ c.nav.location }}</p>
+      <h2>{{ c.home.areaTitle }}</h2>
+      <p>{{ c.home.areaBody }}</p>
+      <p><a class="btn btn--ghost" href="/{{ locale }}/location/">{{ c.home.areaCta }}</a></p>
+    </div>
+    <div class="reveal">
+      {{ p.pic(images, "village-lane", c.home.areaImageAlt, "(min-width: 52em) 40vw, 100vw", "u-round") }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink">
+  <div class="wrap measure">
+    <p class="notice notice--ink">{{ c.ui.wellnessNotice }}</p>
+  </div>
+</section>

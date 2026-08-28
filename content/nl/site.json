@@ -1,0 +1,699 @@
+{
+  "locale": "nl",
+  "nav": {
+    "home": "Home",
+    "about": "Over mij",
+    "services": "Massages",
+    "location": "Waar ik werk",
+    "contact": "Massage boeken",
+    "menu": "Menu",
+    "close": "Sluiten",
+    "skip": "Naar de hoofdinhoud",
+    "languageLabel": "Taal",
+    "languageSwitcher": "Kies een taal"
+  },
+  "ui": {
+    "call": "Bellen",
+    "callLong": "Bel +30 6977784790",
+    "whatsapp": "WhatsApp",
+    "whatsappLong": "Stuur een bericht via WhatsApp",
+    "email": "E-mail",
+    "bookNow": "Massage boeken",
+    "askAvailability": "Vraag naar beschikbaarheid",
+    "duration": "Duur",
+    "durations": "Sessies",
+    "minutes": "min",
+    "priceLabel": "Prijs",
+    "priceOnRequest": "Op aanvraag",
+    "priceNote": "De prijs hoort u zodra u contact opneemt, zo krijgt u altijd het actuele tarief en wordt de reistijd naar u toe eerlijk meegerekend.",
+    "goodFor": "Waarvoor mensen meestal komen",
+    "howItWorks": "Hoe de sessie verloopt",
+    "readMore": "Lees verder",
+    "allMassages": "Alle massages",
+    "backToServices": "Terug naar alle massages",
+    "testimonialsTitle": "Wat gasten hebben gezegd",
+    "testimonialsIntro": "Reacties die klanten tussen 2015 en 2018 hebben achtergelaten op de vorige versie van deze website. Ze staan hier zoals ze geschreven zijn, in de taal waarin ze geschreven zijn.",
+    "showTranslation": "Vertaling tonen",
+    "translationNote": "Vertaald voor deze pagina. De originele tekst staat hierboven.",
+    "abridgedNote": "Ingekort.",
+    "sessionsCount": "sessies",
+    "openingHours": "Elke dag, 9:00 - 22:00",
+    "hoursLabel": "Openingstijden",
+    "phoneLabel": "Telefoon en WhatsApp",
+    "emailLabel": "E-mail",
+    "areaLabel": "Werkgebied",
+    "findMe": "Waar u mij vindt",
+    "footerServices": "Massages",
+    "footerLinks": "Pagina's",
+    "footerContact": "Contact",
+    "footerLegal": "Juridisch",
+    "rights": "Alle rechten voorbehouden.",
+    "privacy": "Privacyverklaring",
+    "terms": "Servicevoorwaarden",
+    "imageNote": "Een deel van de illustratieve foto's op deze site is met kunstmatige intelligentie gemaakt. Het portret van Konstantinos en de gescande certificaten zijn echt.",
+    "certifiedBy": "Gecertificeerd door",
+    "issued": "Afgegeven",
+    "protocolNo": "Protocolnr.",
+    "certNo": "Nr.",
+    "notVerifiedYet": "Certificaat nog niet gescand",
+    "wellnessNotice": "Dit zijn wellness- en ontspanningsmassages, geen medische behandeling. Als u een aandoening hebt, zwanger bent of herstelt van een blessure of operatie, laat het me weten bij het boeken en vraag eerst uw arts.",
+    "draftNotice": "Deze pagina is machinaal vertaald en nog niet gecontroleerd door een moedertaalspreker. Lees voor iets belangrijks de Engelse of Griekse versie - of stuur me gewoon een bericht.",
+    "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, masseur in Mastichari, Kos",
+    "imagePendingAlt": "Een rustige behandelplek: schoon linnen, opgevouwen handdoeken en olie, klaar voor een sessie."
+  },
+  "meta": {
+    "home": {
+      "title": "Massage in Mastichari, Kos - op uw hotelkamer | Konstantinos Fessaras",
+      "description": "Professionele massage in Mastichari, Tigaki en Marmari op Kos. Gecertificeerd masseur sinds 2011, komt met de tafel naar uw kamer. WhatsApp +30 6977784790."
+    },
+    "about": {
+      "title": "Konstantinos Fessaras - gecertificeerd masseur op Kos",
+      "description": "Masseur in Mastichari op Kos sinds 2011. Gecertificeerd door de World Massage Federation, opgeleid in therapeutische, sport- en Indiase hoofdmassage."
+    },
+    "services": {
+      "title": "Massages in Mastichari, Kos - full body, sport, ontspanning",
+      "description": "Full body, ontspannende, therapeutische en sportmassage, rug, Indiase hoofdmassage, voetmassage en aromatherapie op Kos. Prijzen op aanvraag."
+    },
+    "location": {
+      "title": "Massage in Mastichari, Tigaki en Marmari - ik kom naar u toe | Kos",
+      "description": "Ik breng de massagetafel naar uw hotelkamer, appartement of villa in Mastichari, Tigaki en Marmari op Kos. Elke dag van 9:00 tot 22:00. Boek per telefoon of WhatsApp."
+    },
+    "contact": {
+      "title": "Massage boeken op Kos - telefoon, WhatsApp of formulier",
+      "description": "Boek een massage in Mastichari, Tigaki of Marmari op Kos. WhatsApp of bel +30 6977784790, of stuur het boekingsformulier. Meestal dezelfde dag antwoord."
+    },
+    "thankyou": {
+      "title": "Bedankt - uw aanvraag is verstuurd",
+      "description": "Uw boekingsaanvraag is verstuurd naar Konstantinos Fessaras, Mastichari Massage, Kos."
+    },
+    "privacy": {
+      "title": "Privacyverklaring | Mastichari Massage, Kos",
+      "description": "Welke gegevens deze site verzamelt, waarom, hoe lang ze bewaard worden en welke rechten u hebt onder de AVG."
+    },
+    "terms": {
+      "title": "Servicevoorwaarden | Mastichari Massage, Kos",
+      "description": "Boeken, annuleren, gedrag en de reikwijdte van de wellnessmassages van Konstantinos Fessaras in Mastichari, Kos."
+    },
+    "notfound": {
+      "title": "Pagina niet gevonden | Mastichari Massage, Kos",
+      "description": "Die pagina bestaat niet. Hier gaat u terug naar het boeken van een massage op Kos."
+    },
+    "service": {
+      "full-body-massage": {
+        "title": "Full body massage in Mastichari, Kos - op uw hotelkamer",
+        "description": "Full body massage van 45, 60 of 90 minuten, in uw hotel of appartement in Mastichari, Tigaki en Marmari. Gecertificeerd masseur. Prijs op aanvraag."
+      },
+      "relaxing-massage": {
+        "title": "Ontspanningsmassage in Mastichari, Kos - klassieke massage op de kamer",
+        "description": "Klassieke ontspanningsmassage op uw kamer in Mastichari, Tigaki of Marmari, Kos. De juiste keuze voor een eerste massage. 45 minuten, prijs op aanvraag."
+      },
+      "therapeutic-sports-massage": {
+        "title": "Sport- en therapeutische massage op Kos - rug, nek en blessures",
+        "description": "Diepe therapeutische en sportmassage op Kos bij rugpijn, ischias, oude sportblessures en beperkte beweeglijkheid. In uw hotel in Mastichari, Tigaki of Marmari."
+      },
+      "antistress-back-massage": {
+        "title": "Rugmassage in Mastichari, Kos - antistress, van onderrug tot nek",
+        "description": "Antistress rugmassage van de onderrug tot de nek, in uw hotel op Kos. De beste 45 minuten voor een rug die er genoeg van heeft. Prijs op aanvraag."
+      },
+      "indian-head-massage": {
+        "title": "Indiase hoofdmassage op Kos - nek, schouders en hoofdhuid, zittend",
+        "description": "Indiase hoofdmassage op Kos: nek, schouders, hoofdhuid en gezicht, zittend en volledig gekleed. In uw hotel in Mastichari, Tigaki of Marmari."
+      },
+      "foot-massage": {
+        "title": "Voetmassage en reflexologie in Mastichari, Kos",
+        "description": "Voetmassage en reflexwerk in uw hotel of appartement op Kos, voor voeten die de hele dag gelopen hebben. Mastichari, Tigaki en Marmari. Prijs op aanvraag."
+      },
+      "aromatherapy": {
+        "title": "Aromatherapiemassage in Mastichari, Kos - natuurlijke etherische oliën",
+        "description": "Aromatherapiemassage met natuurlijke etherische oliën, op uw kamer op Kos. Gecertificeerd in advanced body oil massage. Mastichari, Tigaki en Marmari."
+      }
+    }
+  },
+  "home": {
+    "heroKicker": "Mastichari, Tigaki en Marmari - Kos",
+    "heroTitle": "Massage waar u verblijft",
+    "heroLede": "Ik ben Konstantinos Fessaras, gecertificeerd masseur, en ik werk sinds 2011 op Kos. Ik breng de tafel naar uw hotelkamer, appartement of villa, zodat de weg terug daarna ongeveer tien stappen is.",
+    "heroPrimary": "Boek via WhatsApp",
+    "heroSecondary": "Bekijk de massages",
+    "heroNote": "Elke dag, 9:00 - 22:00. Grieks, Engels en Italiaans.",
+    "introTitle": "Eén masseur, geen receptie",
+    "introBody": "Er is geen spa waar u naartoe moet rijden en geen pakket waarvoor u tekent. U zegt waar u verblijft en wanneer het u ongeveer uitkomt, ik kom met een professionele massagetafel, oliën en schoon linnen, en voordat er iets begint spreken we af waar gewerkt moet worden. De meeste mensen boeken voor een stijve nek, voor een rug die er genoeg van heeft, of gewoon omdat ze op vakantie zijn en een uur voor zichzelf willen.",
+    "pointsTitle": "Wat dat in de praktijk betekent",
+    "points": [
+      {
+        "title": "Ik kom naar u toe",
+        "body": "Hotelkamer, appartement, villa of balkon. In Mastichari, Tigaki en Marmari. De tafel, de oliën en het linnen gaan met mij mee."
+      },
+      {
+        "title": "Eerst praten we",
+        "body": "Voordat de massage begint vraag ik naar pijn, blessures, recente operaties en wat u van dit uur verwacht. Er wordt niets behandeld waarmee u niet hebt ingestemd."
+      },
+      {
+        "title": "Opgeleid, niet geïmproviseerd",
+        "body": "Gecertificeerd door de World Massage Federation, met aparte opleidingen in Thaise oliemassage, aromatherapie en Indiase hoofdmassage, en seminars over ischias en rugpijn."
+      },
+      {
+        "title": "Dezelfde handen, hetzelfde eiland, sinds 2011",
+        "body": "Sommige gasten boeken al jaren elke zomer bij mij. De reacties hieronder zijn van hen."
+      }
+    ],
+    "servicesTitle": "De massages",
+    "servicesIntro": "Zeven behandelingen. Weet u niet welke u wilt, zeg dan wat pijn doet en ik stel er een voor.",
+    "servicesCta": "Bekijk alle massages",
+    "howTitle": "Zo boekt u",
+    "howSteps": [
+      {
+        "title": "Stuur een bericht",
+        "body": "WhatsApp gaat het snelst, bellen werkt ook, en het formulier op deze site net zo goed. Vertel me waar u verblijft en wanneer u de massage zou willen."
+      },
+      {
+        "title": "We spreken een tijd af",
+        "body": "Ik bevestig de tijd, de massage en de prijs voordat er iets geboekt is. Er is geen aanbetaling en online hoeft u niets te betalen."
+      },
+      {
+        "title": "Ik kom met de tafel",
+        "body": "Opbouwen duurt een paar minuten. U houdt uw ondergoed aan en bent de hele sessie bedekt met een handdoek, behalve op de plek waar gewerkt wordt."
+      }
+    ],
+    "areaTitle": "Waar ik werk",
+    "areaBody": "Mastichari, Tigaki en Marmari, en de hotels en appartementen daaromheen. Verblijft u elders op Kos, vraag het gerust - vaak lukt het toch, het hangt alleen van het tijdstip af.",
+    "areaCta": "Bekijk het gebied in detail",
+    "ctaTitle": "Gun uzelf dat uur",
+    "ctaBody": "Stuur me uw hotel en een tijd bij benadering. Ik zeg u wat er vandaag vrij is.",
+    "reviewsCta": "Lees wat gasten hebben gezegd",
+    "heroImageAlt": "Een massagetafel opgemaakt met schoon linnen in een rustige, lichte kamer, met een opgevouwen handdoek en een klein flesje olie ernaast.",
+    "areaImageAlt": "Een smal wit gekalkt straatje in het autovrije centrum van het dorp Mastichari, met bougainville en deuren met luiken."
+  },
+  "about": {
+    "title": "Over mij",
+    "lede": "Konstantinos Fessaras - masseur, Mastichari, Kos.",
+    "bio": [
+      "Ik werk sinds 2011 professioneel met massage. Ik ben opgeleid in ontspannings-, therapeutische en sportmassage, daarna in Indiase hoofdmassage, aromatherapie en Thaise oliemassage, en ik volgde aparte seminars over ischias, pijn in de bovenrug en pijn in de onderrug.",
+      "Ik werk alleen. Er is geen receptie, geen wachtrij en niets wat u er nog bij verkocht wordt: er is ik, een professionele massagetafel en het uur dat u geboekt hebt. Ik kom naar waar u verblijft, want na een goede massage is het laatste wat u wilt u aankleden en ergens heen rijden.",
+      "Het grootste deel van mijn werk is met gasten in Mastichari, Tigaki en Marmari, en ik werk al jaren samen met hotels en appartementencomplexen in dat deel van het eiland. Buiten het seizoen, en tussen afspraken door, vindt u mij meestal in de souvenirwinkel van de familie, \"Ghitonia\", in het autovrije centrum van Mastichari - als ik er niet ben, kan de familie u vertellen waar ik ben, of u belt gewoon."
+    ],
+    "languagesTitle": "Talen",
+    "languagesBody": "Ik spreek Grieks, Engels en Italiaans. Deze website is in meer talen beschikbaar zodat u in uw eigen taal over de massages kunt lezen, maar het gesprek op de dag zelf gaat in het Grieks, Engels of Italiaans.",
+    "credentialsTitle": "Opleiding en certificaten",
+    "credentialsIntro": "De scans hieronder zijn van mijn eigen certificaten. Waar een certificaat een nummer en een datum draagt, staan die hier precies zoals ze op het document staan.",
+    "credentialNames": {
+      "advanced-massage": "Advanced Massage",
+      "aromatherapy": "Advanced Body Oil Massage (aromatherapie)",
+      "thai-oil": "Thai Oil Massage, 30 uur",
+      "indian-head": "Seminar Indiase hoofdmassage",
+      "shiatsu": "Ontspannings- en shiatsumassage"
+    },
+    "seminarsTitle": "Aanvullende seminars",
+    "seminarNames": {
+      "sciatica": "Ischias",
+      "upper-back-pain": "Pijn in de bovenrug",
+      "lower-back-pain": "Pijn in de onderrug"
+    },
+    "portraitAlt": "Konstantinos Fessaras, masseur in Mastichari op Kos",
+    "ctaTitle": "Boek een sessie",
+    "ctaBody": "Vertel me waar u verblijft en wat u dwarszit. Ik stel een massage en een tijd voor."
+  },
+  "services": {
+    "title": "Massages",
+    "lede": "Zeven behandelingen, allemaal op de plek waar u verblijft, allemaal met een professionele tafel. Sessies duren normaal 45 minuten, met 60 en 90 minuten beschikbaar voor de full body massage.",
+    "pricingTitle": "Over de prijzen",
+    "pricingBody": "De prijs hoort u zodra u contact opneemt. Zo krijgt u altijd het actuele tarief in plaats van een getal dat op een oude webpagina is blijven staan, en wordt de rit naar uw hotel eerlijk meegerekend.",
+    "chooseHelp": "Weet u niet welke het moet worden? Zeg wat er pijn doet, of hoe uw week was, en ik stel er een voor als u me schrijft.",
+    "cardCta": "Lees over deze massage",
+    "imageAlt": "Kleine flesjes van donker glas met massageolie op een linnen doek, naast een schaaltje met gedroogde kruiden."
+  },
+  "serviceContent": {
+    "full-body-massage": {
+      "name": "Full body massage",
+      "short": "Het hele lichaam op volgorde doorgewerkt - rug, nek, schouders, armen, benen, voeten en handen.",
+      "lede": "Full body massage betekent precies dat: de therapeut werkt in de loop van de sessie het hele lichaam door in plaats van één gebied. Rug, nek, schouders, armen, benen, voeten en handen.",
+      "body": [
+        "Dit is de massage die de meeste mensen als eerste boeken, en de massage die het beste bij een vakantie past. Over 60 of 90 minuten is het geen snel losmaken meer maar een echte reset - er is tijd voor de plekken die het werkelijk nodig hebben, in plaats van overal doorheen te jagen.",
+        "Ik werk met olie, met een druk die we afspreken, en ik vraag onderweg hoe het gaat. U houdt uw ondergoed aan en blijft bedekt met een handdoek, behalve op de plek waar gewerkt wordt."
+      ],
+      "goodFor": [
+        "Algemene stijfheid na het reizen of na lange dagen op de been",
+        "Gespannen, vermoeide spieren die niet door één plek te verklaren zijn",
+        "Makkelijker bewegen na een periode van zitten",
+        "De bloedsomloop in benen en armen weer op gang brengen",
+        "Goed slapen in de eerste nachten van de vakantie",
+        "Gewoon een uur zonder haast voor uzelf"
+      ],
+      "imageAlt": "Een massagetafel opgemaakt met vers linnen en een opgerolde handdoek, klaar voor een full body sessie."
+    },
+    "relaxing-massage": {
+      "name": "Ontspanningsmassage",
+      "short": "De klassieke massage. Rustig, gelijkmatig werk over het hele lichaam, gericht op loslaten in plaats van op één probleem.",
+      "lede": "De ontspanningsmassage - vaak klassieke massage genoemd - is de bekendste soort die er is, en de beste plek om te beginnen als u nog nooit een massage hebt gehad.",
+      "body": [
+        "Het doel is eenvoudig: het hele lichaam ontspannen. De massage combineert strijken, kneden en dwarse fricties om de knopen in de spier los te werken, maar in een langzamer en gelijkmatiger tempo dan een therapeutische sessie.",
+        "Weet u niet wat u moet boeken, dan is dit meestal het juiste antwoord. Er is niets intensiefs aan en geen onderdeel ervan hoort pijn te doen."
+      ],
+      "goodFor": [
+        "Een eerste massage, als u er nog nooit een hebt gehad",
+        "Stijve, pijnlijke gewrichten en algemene spierpijn",
+        "Herstel na zwaardere inspanning dan gewoonlijk",
+        "Tot rust komen na een periode op stress",
+        "De bloedsomloop op gang brengen na een lange vlucht",
+        "Concentratie die vlak is geworden",
+        "Vermoeidheid die slaap alleen niet heeft opgelost"
+      ],
+      "imageAlt": "Een rustige behandelhoek met zacht daglicht, opgevouwen handdoeken en een fles olie op een houten krukje."
+    },
+    "therapeutic-sports-massage": {
+      "name": "Therapeutische en sportmassage",
+      "short": "Steviger, gerichter werk voor een specifieke klacht - een sportblessure, een chronische pijn, een beweging die beperkt is geraakt.",
+      "lede": "Therapeutische en sportmassage is voor een specifiek probleem: een blessure, een pijn die al lang aanhoudt, of een bewegingsbereik dat kleiner is geworden. Dit is de massage om te vragen als er iets bepaalds mis is.",
+      "body": [
+        "Ze past bij mensen met sportblessures, langdurige pijn of de opgebouwde slijtage van lichamelijk werk. Het is ook wat ik gebruik bij de klachten waarvoor ik extra seminars volgde - ischias, pijn in de bovenrug en pijn in de onderrug.",
+        "Het werk is steviger en plaatselijker dan bij een ontspanningsmassage. We spreken de druk af voordat ik begin, en u zegt tijdens de sessie of die moet veranderen. Stevig hoort geen pijn te betekenen."
+      ],
+      "goodFor": [
+        "Verrekkingen van zacht weefsel en oudere sportblessures",
+        "Langdurige pijn in rug, nek en schouders",
+        "Een bewegingsbereik dat beperkt is geraakt",
+        "Spierpijn door lichamelijk of repeterend werk",
+        "Spanningshoofdpijn die in de nek begint",
+        "Herstel tussen trainingsdagen door",
+        "Ischias en klachten in de boven- en onderrug"
+      ],
+      "imageAlt": "Een rol kinesiotape, een fles olie en een houten massagetool op een opgevouwen witte handdoek."
+    },
+    "antistress-back-massage": {
+      "name": "Antistress rugmassage",
+      "short": "Alleen de rug, van de onderrug tot de nek. Het eenvoudigweg prettigste op deze lijst.",
+      "lede": "Voor de meeste mensen is de rug het beste deel van het lichaam om te laten masseren, en deze massage doet niets anders. Ze loopt van de onderrug omhoog tot de nek.",
+      "body": [
+        "Ze brengt rust en haalt de scherpe randjes van de week af. Mensen komen van de tafel alsof ze drie dagen op vakantie zijn en niet één middag. Ze past bij elke leeftijd.",
+        "Het is het voor de hand liggende cadeau voor wie aan een bureau werkt of uren voor een scherm zit. Hebt u maar 45 minuten en wilt u daar het meest merkbare resultaat uit, boek dan deze."
+      ],
+      "goodFor": [
+        "Spanning die in de schouders en de bovenrug blijft zitten",
+        "Bureauwerk, autorijden, lange uren op een stoel",
+        "Stress die tussen de schouderbladen is gaan zitten",
+        "Beter slapen",
+        "Vermoeide, overbelaste rugspieren",
+        "Hoofdpijn die van een gespannen nek komt"
+      ],
+      "imageAlt": "Het hoofdeinde van een massagetafel met gezichtssteun en opgevouwen handdoek, van bovenaf in warm middaglicht."
+    },
+    "indian-head-massage": {
+      "name": "Indiase hoofdmassage",
+      "short": "Drukwerk op nek, schouders, hoofdhuid en gezicht, ontleend aan de ayurvedische techniek. Zittend en gekleed.",
+      "lede": "De Indiase hoofdmassage is ontleend aan de ayurvedische techniek en werkt schouders, nek, hoofdhuid en gezicht via een reeks drukpunten. Ze wordt zittend gegeven en u blijft aangekleed.",
+      "body": [
+        "Het is een goede keuze als u uw spanning hoog draagt - in de kaak, aan de schedelbasis, in de schouders - of als een full body massage meer is dan u wilt. Het is ook wat mensen boeken aan het eind van een lange reisdag, omdat er nauwelijks opbouw voor nodig is.",
+        "Ik heb in 2014 een apart seminar in deze techniek afgerond, gehouden onder auspiciën van de World Massage Federation."
+      ],
+      "goodFor": [
+        "Spanning in nek, schouders en hoofdhuid",
+        "Hoofdpijn die zich over een werkdag opbouwt",
+        "Een gespannen kaak",
+        "Het gevoel opgedraaid te zijn en niet tot rust te komen",
+        "Concentratie en helderheid die na een lange dag wegvallen",
+        "Onrust en moeite met in slaap vallen",
+        "Een korte behandeling wanneer er voor een lange geen tijd is"
+      ],
+      "imageAlt": "Een eenvoudige houten stoel met een opgevouwen handdoek over de rugleuning, klaargezet bij een open raam voor een zittende hoofdmassage."
+    },
+    "foot-massage": {
+      "name": "Voetmassage",
+      "short": "Reflexwerk op de voeten - de oudste truc die er is voor een lichaam dat de hele dag heeft gestaan.",
+      "lede": "De zenuwen van het lichaam komen samen in de voeten, en daarom is een voetmassage ver buiten de voeten zelf te voelen. De Chinezen hebben de voetreflexologie eeuwenlang verfijnd.",
+      "body": [
+        "Regelmatige voetmassage voelt goed en brengt de bloedsomloop op gang, en het is de snelste manier om de dag uit een lichaam te halen dat sinds de ochtend over hete steen en zand heeft gelopen.",
+        "Het is een goede optie op een warme middag, wanneer een olie-massage over het hele lichaam meer is dan u wilt, en voor iedereen die het werkjaar staand doorbrengt."
+      ],
+      "goodFor": [
+        "Voeten en benen die de hele dag gelopen hebben",
+        "Gezwollen, zwaar aanvoelende voeten bij warmte",
+        "Stress en onrust",
+        "Moeite met in slaap vallen",
+        "De hele dag staand werken",
+        "Algemene vermoeidheid zonder één duidelijke oorzaak"
+      ],
+      "imageAlt": "Een klein rond kussen in een handdoek aan het voeteneinde van een massagetafel, met daarnaast een kom warm water."
+    },
+    "aromatherapy": {
+      "name": "Aromatherapiemassage",
+      "short": "Massage met natuurlijke etherische oliën, gekozen op het effect dat u zoekt. Langzamer en zachter dan therapeutisch werk.",
+      "lede": "Aromatherapie is massage met natuurlijke oliën uit bloemen, bast, stengels, bladeren en wortels. Tijdens een massage aangebracht worden ze door de huid opgenomen, en de geur hoort bij de behandeling in plaats van er een versiering bovenop te zijn.",
+      "body": [
+        "Het tempo is langzamer en de druk zachter dan bij een therapeutische massage. Dit is de massage om te boeken wanneer u rust zoekt en niet de oplossing van een specifiek probleem.",
+        "Ik heb een certificaat in advanced body oil massage en aromatherapie uit Athene, afgegeven in januari 2011."
+      ],
+      "goodFor": [
+        "Stress en mentale vermoeidheid",
+        "Tot rust komen aan het eind van de dag",
+        "Dieper slapen",
+        "Huid die droog aanvoelt na zon en zout water",
+        "Pijnlijke spieren en stijve gewrichten, zacht bewerkt",
+        "Het rustigste op deze lijst willen"
+      ],
+      "imageAlt": "Amberkleurige flesjes etherische olie, gedroogde lavendel en een takje rozemarijn op een houten plank."
+    }
+  },
+  "location": {
+    "title": "Waar ik werk",
+    "lede": "Ik kom naar u toe. De massagetafel, de oliën en schoon linnen gaan met mij mee, en u hoeft daarna nergens heen te rijden.",
+    "areasTitle": "Werkgebied",
+    "areas": [
+      {
+        "name": "Mastichari",
+        "body": "Mijn dorp, aan de noordkust van Kos. Hotels, appartementen en kamers in het hele dorp en langs de strandweg."
+      },
+      {
+        "name": "Tigaki",
+        "body": "Ongeveer 20 minuten oostwaarts langs de kust. Hotels, appartementencomplexen en villa's."
+      },
+      {
+        "name": "Marmari",
+        "body": "Tussen die twee in, aan dezelfde noordkust. Hotels en appartementen."
+      }
+    ],
+    "elsewhereTitle": "Verblijft u elders op Kos?",
+    "elsewhereBody": "Vraag het gerust. Vaak lukt het, het hangt alleen van het tijdstip af en van hoe de rest van de dag volzit. Stuur een bericht met waar u verblijft, dan zeg ik eerlijk of ik er kan komen.",
+    "whereTitle": "Mij persoonlijk vinden",
+    "whereBody": "In Mastichari vindt u mij meestal bij Ghitonia, de souvenirwinkel van de familie in het autovrije centrum van het dorp. Ben ik er niet, dan kan de familie u vertellen waar ik ben - of bel gewoon of stuur een WhatsApp-bericht, dat gaat sneller.",
+    "hotelsTitle": "Hotels en appartementen",
+    "hotelsBodyGeneric": "Ik werk al jaren samen met hotels en appartementencomplexen in Mastichari, Tigaki en Marmari, en veel boekingen komen via de receptie binnen. Verblijft u in een hotel, vraag het dan bij de balie - of stuur mij rechtstreeks een bericht, dat gaat meestal sneller.",
+    "hotelsBodyNamed": "Met deze adressen heb ik door de jaren heen gewerkt, en veel boekingen komen nog steeds via hun receptie:",
+    "practicalTitle": "Wat ik in de kamer nodig heb",
+    "practicalBody": "Heel weinig: ongeveer twee meter vrije vloer, en een stopcontact is niet eens nodig. Ik zet de tafel op en neem hem weer mee. Een hotelkamer, een balkon of een terras werken even goed.",
+    "hoursTitle": "Openingstijden",
+    "hoursBody": "Elke dag van 9:00 tot 22:00. Avondafspraken zijn in het hoogseizoen gewild, dus hoe eerder u het vraagt, hoe meer keuze er is.",
+    "imageAlt": "Een massagetafel opgezet op een schaduwrijk balkon, met de zee zichtbaar achter de balustrade."
+  },
+  "contact": {
+    "title": "Massage boeken",
+    "lede": "Het snelst gaat WhatsApp of even bellen. Schrijft u liever, dan komt het formulier hieronder op dezelfde plek terecht.",
+    "directTitle": "Direct",
+    "whatsappBody": "Tijdens werktijden meestal binnen het uur beantwoord.",
+    "phoneBody": "Elke dag, 9:00 - 22:00.",
+    "emailBody": "Voor alles wat niet dringend is.",
+    "formTitle": "Of stuur een boekingsaanvraag",
+    "formIntro": "Vertel me waar u verblijft, wanneer het u schikt en wat voor massage u zoekt. Niets is bevestigd tot ik antwoord.",
+    "form": {
+      "name": "Uw naam",
+      "email": "E-mail",
+      "emailHint": "Zodat ik u kan antwoorden.",
+      "phone": "Telefoon- of WhatsApp-nummer",
+      "phoneHint": "Optioneel, maar het maakt antwoorden veel sneller.",
+      "where": "Waar u verblijft",
+      "whereHint": "Hotel, appartement of gebied - bijvoorbeeld \"Princess of Kos, Mastichari\" of \"een appartement in Tigaki\".",
+      "service": "Welke massage",
+      "serviceAny": "Weet ik nog niet - stel maar iets voor",
+      "when": "Wanneer u het zou willen",
+      "whenHint": "Een datum en een globaal tijdstip van de dag is genoeg.",
+      "message": "Wat ik moet weten",
+      "messageHint": "Pijn, blessures, recente operaties, zwangerschap, of alles wat ik beter kan vermijden.",
+      "consentLabel": "Ik ga ermee akkoord dat mijn gegevens gebruikt worden om deze boekingsaanvraag te beantwoorden.",
+      "consentHint": "Uw gegevens worden per e-mail naar Konstantinos gestuurd en worden niet op deze website bewaard, niet gedeeld en niet voor marketing gebruikt. Zie de privacyverklaring.",
+      "submit": "Boekingsaanvraag versturen",
+      "submitting": "Versturen...",
+      "required": "verplicht",
+      "optional": "optioneel"
+    },
+    "errors": {
+      "name": "Vul de naam in die ik moet gebruiken als ik antwoord.",
+      "email": "Vul een e-mailadres in waarop ik kan antwoorden, bijvoorbeeld naam@example.com.",
+      "emailInvalid": "Dit lijkt geen volledig e-mailadres. Controleer het even.",
+      "where": "Vertel me waar u verblijft, zodat ik weet of ik er kan komen.",
+      "message": "Houd het bericht onder de 2000 tekens.",
+      "consent": "Vink het vakje aan zodat ik u mag antwoorden.",
+      "rateLimit": "Dat zijn veel aanvragen in korte tijd. Wacht een paar minuten en probeer het opnieuw - of stuur gewoon een WhatsApp-bericht, dat werkt altijd.",
+      "server": "Er ging iets mis aan onze kant en het bericht is niet verstuurd. Probeer het opnieuw, of stuur een WhatsApp-bericht naar +30 6977784790.",
+      "generic": "De aanvraag kon niet verstuurd worden. Controleer de hierboven gemarkeerde velden.",
+      "summaryTitle": "De aanvraag is niet verstuurd",
+      "blocked": "Deze inzending leek de server geautomatiseerd en is niet verstuurd. Herlaad de pagina en probeer het nog eens - of stuur gewoon een WhatsApp-bericht naar +30 6977784790, dat werkt altijd."
+    },
+    "faqTitle": "Vragen die mensen stellen",
+    "faq": [
+      {
+        "q": "Komt u echt naar de hotelkamer?",
+        "a": "Ja. Zo werk ik normaal. Ik breng een professionele massagetafel, oliën en schoon linnen mee, zet alles in een paar minuten op en neem het daarna weer mee. Ik heb alleen ongeveer twee meter vrije vloer nodig."
+      },
+      {
+        "q": "Wat kost het?",
+        "a": "De prijs hoort u zodra u contact opneemt, zo krijgt u altijd het actuele tarief en niet een oud getal van een webpagina. Vraag het via WhatsApp en u hebt binnen enkele minuten antwoord."
+      },
+      {
+        "q": "Hoe ver van tevoren moet ik boeken?",
+        "a": "In juli en augustus een dag of twee vooruit voor een avondplek. Buiten het hoogseizoen lukt dezelfde dag meestal ook."
+      },
+      {
+        "q": "Wat draag ik, en wat gaat er uit?",
+        "a": "U houdt uw ondergoed aan. U bent de hele sessie bedekt met een handdoek, behalve op de plek waar gewerkt wordt. Bij een Indiase hoofdmassage blijft u volledig gekleed."
+      },
+      {
+        "q": "Welke massage moet ik kiezen?",
+        "a": "Doet er iets specifieks pijn, dan de therapeutische en sportmassage. Wilt u gewoon afschakelen, dan de ontspannings- of full body massage. Weet u het niet, vertel dan wat er speelt en ik stel er een voor."
+      },
+      {
+        "q": "Kunnen stellen samen boeken?",
+        "a": "Ja, na elkaar in dezelfde kamer. Zeg het bij het boeken, dan reserveer ik genoeg tijd."
+      },
+      {
+        "q": "Ik ben zwanger, of herstel van een blessure of operatie. Kan ik toch boeken?",
+        "a": "Laat het me weten bij het boeken. Dit zijn wellness- en ontspanningsmassages en geen medische behandeling, en bij sommige aandoeningen is het eerlijke antwoord dat u eerst uw arts moet vragen - dat zeg ik liever dan de boeking aan te nemen."
+      },
+      {
+        "q": "Welke talen spreekt u?",
+        "a": "Grieks, Engels en Italiaans. Deze website is in meer talen beschikbaar zodat u in uw eigen taal over de massages kunt lezen, maar het gesprek op de dag zelf gaat in een van die drie."
+      },
+      {
+        "q": "Moet ik een aanbetaling doen?",
+        "a": "Nee. Er wordt online niets betaald en er is geen aanbetaling. U betaalt na de massage."
+      },
+      {
+        "q": "Welke gebieden dekt u?",
+        "a": "Mastichari, Tigaki en Marmari, en de hotels en appartementen daaromheen. Elders op Kos: vraag het gerust - vaak lukt het, afhankelijk van het tijdstip."
+      }
+    ],
+    "success": {
+      "title": "Bedankt - uw aanvraag is verstuurd",
+      "body": "Hij is aangekomen. Ik lees ze zelf en antwoord meestal dezelfde dag, tijdens werktijden. Er is niets geboekt tot ik de tijd met u bevestig.",
+      "link": "Lees hoe het verder gaat"
+    }
+  },
+  "thankyou": {
+    "title": "Bedankt - uw aanvraag is verstuurd",
+    "lede": "Uw boekingsaanvraag is aangekomen. Ik lees ze zelf en antwoord meestal dezelfde dag, tijdens werktijden.",
+    "bodyTitle": "Hoe het verder gaat",
+    "body": [
+      "Ik antwoord op het e-mailadres dat u hebt opgegeven, of op uw telefoonnummer als u er een hebt achtergelaten.",
+      "Er is niets geboekt tot ik de tijd met u bevestig, en intussen hoeft u niets te betalen.",
+      "Hebt u de volgende ochtend nog niets gehoord, dan is er iets misgegaan met de e-mail - stuur dan een WhatsApp-bericht, dat komt altijd aan."
+    ],
+    "cta": "Terug naar de homepage",
+    "urgentTitle": "Haast?",
+    "urgentBody": "Zitten uw data krap, stuur me dan een WhatsApp-bericht in plaats van op de e-mail te wachten."
+  },
+  "notfound": {
+    "title": "Die pagina staat hier niet",
+    "lede": "De link komt misschien van de oude versie van deze website, of er klopt iets niet in het adres.",
+    "body": "Hier gaat u terug:",
+    "cta": "Naar de homepage"
+  },
+  "cookie": {
+    "title": "Cookies",
+    "body": "Deze site gebruikt geen analytics en geen tracking. Eén cookie onthoudt de taal die u gekozen hebt, en één kortlevende cookie beschermt het boekingsformulier tegen misbruik. Allebei zijn nodig om de site te laten werken en geen van beide volgt u ergens heen.",
+    "accept": "Begrepen",
+    "more": "Lees de privacyverklaring",
+    "ariaLabel": "Cookiemelding"
+  },
+  "privacy": {
+    "title": "Privacyverklaring",
+    "updated": "Laatst bijgewerkt: 28 augustus 2026",
+    "lede": "Deze site verzamelt zo weinig mogelijk. Er is geen analytics, geen advertentie en geen tracking van welke aard dan ook. Wat hier volgt is het volledige verhaal van wat er wel gebeurt.",
+    "sections": [
+      {
+        "h": "Wie verantwoordelijk is",
+        "p": [
+          "Verwerkingsverantwoordelijke voor alle persoonsgegevens die via deze website worden verzameld is Konstantinos Fessaras, handelend onder de naam Mastichari Massage, Mastichari, Kos, Griekenland.",
+          "U bereikt mij op kosfess@hotmail.com of op +30 6977784790 voor alles in deze verklaring, inclusief een verzoek om uw gegevens te wissen."
+        ]
+      },
+      {
+        "h": "Wat het boekingsformulier verzamelt",
+        "p": [
+          "Als u het boekingsformulier verstuurt, ontvang ik: uw naam, uw e-mailadres, uw telefoonnummer als u dat hebt opgegeven, waar u verblijft, naar welke massage u vroeg, wanneer u die zou willen, alles wat u in het berichtveld hebt geschreven, en het feit dat u het toestemmingsvakje hebt aangevinkt.",
+          "Dat wordt voor één ding gebruikt: u antwoorden en de afspraak regelen. Het wordt niet voor marketing gebruikt, met niemand gedeeld en niet verkocht."
+        ]
+      },
+      {
+        "h": "Gezondheidsgegevens",
+        "p": [
+          "Het formulier vraagt u pijn, blessures, recente operaties of zwangerschap te vermelden, omdat ik dat moet weten voordat ik met u werk. Onder de AVG zijn dat gezondheidsgegevens, die zwaarder beschermd zijn.",
+          "Schrijf alleen wat ik nodig heb om veilig te werken - niet uw medische voorgeschiedenis. Ik verwerk deze gegevens op grond van uw uitdrukkelijke toestemming, die u met het vakje geeft, en alleen om de massage veilig te kunnen geven. Ze worden samen met de rest van de aanvraag gewist."
+        ]
+      },
+      {
+        "h": "Rechtsgrond",
+        "p": [
+          "Uw boekingsaanvraag beantwoorden en de afspraak regelen: maatregelen op uw verzoek voorafgaand aan een overeenkomst, artikel 6, lid 1, onder b) AVG, samen met uw toestemming, artikel 6, lid 1, onder a).",
+          "Gezondheidsgegevens die u zelf kiest te geven: uw uitdrukkelijke toestemming, artikel 9, lid 2, onder a).",
+          "Voorkomen dat het boekingsformulier misbruikt wordt door spam en geautomatiseerde inzendingen: gerechtvaardigd belang, artikel 6, lid 1, onder f)."
+        ]
+      },
+      {
+        "h": "Waar ze heen gaan en hoe lang ze blijven",
+        "p": [
+          "Het formulier slaat niets op in een database op deze website. De gegevens worden als e-mail naar mijn eigen mailbox gestuurd, en daar blijven ze.",
+          "Ik verwijder boekingsaanvragen uit mijn mailbox zodra het seizoen waarop ze betrekking hebben voorbij is, en uiterlijk twaalf maanden na uw laatste bericht aan mij. Vraagt u mij die van u eerder te wissen, dan doe ik dat en bevestig ik het."
+        ]
+      },
+      {
+        "h": "Wie er verder bij betrokken zijn",
+        "p": [
+          "De website wordt gehost door Railway, in een Europese regio. De boekingsmail wordt bezorgd door Resend, in een Europese regio. Mijn mailbox is een Microsoft Outlook/Hotmail-account, dus Microsoft verwerkt de e-mail als mijn aanbieder - dat kan een doorgifte buiten de EER onder Microsofts eigen waarborgen inhouden.",
+          "Geen van deze bedrijven krijgt uw gegevens voor eigen doeleinden. Er staan op deze site helemaal geen advertentie-, analyse- of profileringsdiensten."
+        ]
+      },
+      {
+        "h": "Serverlogs en bescherming tegen misbruik",
+        "p": [
+          "De server legt de opgevraagde pagina's vast en, alleen voor het boekingsformulier, een eenrichtings-hash met salt van het IP-adres van de afzender. De hash wordt gebruikt voor de verzendlimiet die voorkomt dat het formulier wordt overspoeld, en om beveiligingsrelevante gebeurtenissen vast te leggen, zoals herhaald mislukte inzendingen.",
+          "Het IP-adres zelf wordt niet in de logs geschreven, de hash kan niet worden teruggerekend naar een adres, en deze gegevens worden na 30 dagen verwijderd."
+        ]
+      },
+      {
+        "h": "Cookies",
+        "p": [
+          "Deze site plaatst geen analytics- of advertentiecookies, en er staat hier niets van welk advertentienetwerk dan ook.",
+          "Er worden drie kleine cookies gebruikt, alle noodzakelijk: één onthoudt de taal die u gekozen hebt zodat u op de volgende pagina niet terug naar het Engels gaat (twaalf maanden); een kortlevend token beschermt het boekingsformulier tegen cross-site request forgery (verdwijnt als u de browser sluit); één legt vast dat u de cookiemelding hebt weggeklikt, zodat die niet op elke pagina terugkomt (twaalf maanden).",
+          "U kunt ze op elk moment in uw browser verwijderen. De site blijft werken - hij vergeet dan alleen uw taal en toont de melding opnieuw."
+        ]
+      },
+      {
+        "h": "Links naar andere diensten",
+        "p": [
+          "De WhatsApp- en telefoonknoppen geven u door aan de app op uw toestel. Gebruikt u de WhatsApp-knop, dan worden uw bericht en nummer daarna door WhatsApp verwerkt onder het privacybeleid van Meta, niet onder dit beleid.",
+          "Hetzelfde geldt voor de links naar Facebook en X in de voettekst. Niets op deze site laadt op de achtergrond inhoud van hen - de links doen niets tot u erop klikt."
+        ]
+      },
+      {
+        "h": "De foto's op deze site",
+        "p": [
+          "Het portret van Konstantinos en de gescande certificaten zijn echte foto's en documenten. De illustratieve foto's - behandelruimtes, oliën, dorps- en kusttaferelen - zijn met kunstmatige intelligentie gemaakt en zijn als zodanig gemarkeerd in de voettekst.",
+          "Nergens op deze site staat een foto van een klant."
+        ]
+      },
+      {
+        "h": "Uw rechten",
+        "p": [
+          "Onder de AVG kunt u mij vragen om een kopie van de gegevens die ik over u bewaar, om ze te corrigeren, om ze te wissen, om het gebruik ervan te beperken of te stoppen, om bezwaar te maken tegen het gebruik ervan, en om ze in een overdraagbare vorm te krijgen. U kunt uw toestemming op elk moment intrekken - dat raakt niet aan wat er voor de intrekking is gebeurd.",
+          "Mail naar kosfess@hotmail.com en ik handel het binnen een maand af. Er zijn geen kosten aan verbonden.",
+          "Bent u niet tevreden over hoe ik het heb afgehandeld, dan kunt u klagen bij de Griekse gegevensbeschermingsautoriteit, Kifissias 1-3, 115 23 Athene, www.dpa.gr, of bij de toezichthouder in uw eigen land."
+        ]
+      },
+      {
+        "h": "Kinderen",
+        "p": [
+          "Deze site is niet op kinderen gericht en het boekingsformulier hoort door een volwassene te worden ingevuld. Een massage voor een minderjarige wordt geregeld met een ouder of voogd, die aanwezig moet zijn."
+        ]
+      },
+      {
+        "h": "Geautomatiseerde besluiten",
+        "p": [
+          "Die zijn er niet. Geen profilering, geen geautomatiseerde besluitvorming. Elke boekingsaanvraag lees ik persoonlijk."
+        ]
+      },
+      {
+        "h": "Wijzigingen",
+        "p": [
+          "Verandert deze verklaring, dan verandert de datum bovenaan mee. De versie waarmee u akkoord ging toen u een boekingsaanvraag verstuurde, is de versie die op die aanvraag van toepassing is."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Servicevoorwaarden",
+    "updated": "Laatst bijgewerkt: 28 augustus 2026",
+    "lede": "Korte, heldere voorwaarden voor een dienst die door één persoon wordt geleverd. Is hier iets onduidelijk, vraag het dan voordat u boekt.",
+    "sections": [
+      {
+        "h": "Wie de dienst levert",
+        "p": [
+          "De massagediensten worden persoonlijk geleverd door Konstantinos Fessaras, handelend onder de naam Mastichari Massage, Mastichari, Kos, Griekenland. Contact: kosfess@hotmail.com, +30 6977784790.",
+          "Er zijn geen medewerkers en geen onderaannemers. De persoon die komt is de persoon op deze website."
+        ]
+      },
+      {
+        "h": "Wat dit is, en wat het niet is",
+        "p": [
+          "Dit zijn wellness- en ontspanningsmassages. Het is geen medische behandeling, geen fysiotherapie en geen diagnose, en niets op deze website mag worden gelezen als een belofte om een ziekte of aandoening te genezen, te behandelen of te voorkomen.",
+          "Hebt u een aandoening, bent u zwanger, gebruikt u medicijnen die de bloedstolling of het gevoel beïnvloeden, of herstelt u van een blessure of operatie, praat dan eerst met uw arts en laat het me weten bij het boeken. In sommige gevallen is het juiste antwoord dat ik u geen massage zou moeten geven, en dan zeg ik dat."
+        ]
+      },
+      {
+        "h": "Boeken en bevestigen",
+        "p": [
+          "Een boeking bestaat pas als ik u de tijd heb bevestigd. Een aanvraag via het formulier, WhatsApp, e-mail of telefoon is een aanvraag, geen bevestigde afspraak.",
+          "Er wordt geen aanbetaling gevraagd en er wordt via deze website niets betaald. Deze site verwerkt geen enkele betaling."
+        ]
+      },
+      {
+        "h": "Prijzen",
+        "p": [
+          "Prijzen worden genoemd zodra u contact opneemt en samen met de afspraak bevestigd, vóór de massage. De prijs die u bij het boeken hoort, is de prijs die u betaalt.",
+          "Op deze website wordt geen prijs gepubliceerd. Elk bedrag dat u op een oude kopie van de vorige website vindt, is verouderd en geldt niet."
+        ]
+      },
+      {
+        "h": "Annuleren en wijzigen",
+        "p": [
+          "Op vakantie veranderen plannen, en er zijn geen annuleringskosten. Kunt u de afspraak niet halen, laat het me dan zo vroeg weten als redelijkerwijs kan, zodat de tijd naar iemand anders kan.",
+          "Moet ik annuleren - ziekte, een reisprobleem, iets buiten mijn macht - dan laat ik het weten zodra ik het weet en bied ik waar mogelijk een andere tijd aan."
+        ]
+      },
+      {
+        "h": "Waar de massage plaatsvindt",
+        "p": [
+          "Normaal in uw hotelkamer, appartement of villa in Mastichari, Tigaki of Marmari. Ik breng de massagetafel, de oliën en schoon linnen mee.",
+          "U bent er verantwoordelijk voor dat ik de dienst mag leveren op de plek waar u verblijft. Sommige hotels beperken de toegang van externe therapeuten op hun terrein; twijfelt u, vraag het dan bij de receptie voordat u boekt."
+        ]
+      },
+      {
+        "h": "Tijdens de sessie - gedrag",
+        "p": [
+          "Dit is een strikt professionele, niet-seksuele dienst. Elk verzoek, elke opmerking of elk gedrag van seksuele aard beëindigt de sessie onmiddellijk, het volledige bedrag blijft verschuldigd, en er wordt geen verdere boeking meer aangenomen.",
+          "U houdt uw ondergoed aan en bent de hele sessie bedekt met een handdoek, behalve op de plek waar gewerkt wordt. U kunt mij op elk moment vragen de druk aan te passen, een gebied over te slaan of helemaal te stoppen, en dat doe ik dan."
+        ]
+      },
+      {
+        "h": "Op tijd zijn",
+        "p": [
+          "Bent u er op de afgesproken tijd niet, dan wacht ik en probeer ik u te bereiken. Een sessie die laat begint, moet mogelijk eindigen op het oorspronkelijk geplande tijdstip, vanwege de afspraak erna."
+        ]
+      },
+      {
+        "h": "Aansprakelijkheid",
+        "p": [
+          "Ik werk met redelijke vakkundigheid en zorg, in lijn met mijn opleiding en certificering. Ik ben niet aansprakelijk voor een reactie of letsel dat voortkomt uit een aandoening die u mij niet hebt gemeld toen ik ernaar vroeg.",
+          "Niets in deze voorwaarden beperkt de aansprakelijkheid voor overlijden of persoonlijk letsel door nalatigheid, voor fraude, of voor iets anders dat naar Grieks recht niet beperkt kan worden. Niets hierin raakt aan uw wettelijke rechten als consument."
+        ]
+      },
+      {
+        "h": "Deze website",
+        "p": [
+          "De teksten, het ontwerp en de foto's op deze website behoren toe aan hun respectieve rechthebbenden en mogen niet zonder toestemming worden verveelvoudigd.",
+          "De klantreacties op deze site zijn tussen 2015 en 2018 achtergelaten op de vorige versie van deze website. Ze staan hier zoals ze geschreven zijn, met achternamen en andere identificerende gegevens verwijderd. Vertalingen zijn als vertaling gemarkeerd. Er is niets verzonnen."
+        ]
+      },
+      {
+        "h": "Toepasselijk recht",
+        "p": [
+          "Op deze voorwaarden is Grieks recht van toepassing. Kan een geschil niet tussen ons worden opgelost, dan zijn de rechtbanken van Kos bevoegd. Als consument behoudt u elk recht om in uw eigen woonland te procederen.",
+          "Het platform voor onlinegeschillenbeslechting van de Europese Commissie is te vinden op ec.europa.eu/consumers/odr."
+        ]
+      },
+      {
+        "h": "Wijzigingen",
+        "p": [
+          "Deze voorwaarden kunnen veranderen. De versie die gold toen uw boeking werd bevestigd, is de versie die daarop van toepassing is."
+        ]
+      }
+    ]
+  }
+}

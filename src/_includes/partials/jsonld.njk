@@ -1,0 +1,123 @@
+{#- Structured data. Rules held to here:
+    - HealthAndBeautyBusiness, not DaySpa (implies premises) and not MedicalBusiness (would overclaim).
+    - knowsLanguage lives ONLY on the Person, and lists el/en/it. It must never be
+      derived from the set of locales this site is published in.
+    - No Offer node and no priceRange while business.prices.published is false.
+      A stale price in structured data is worse than no price at all.
+    - No aggregateRating: 41 self-hosted comments are not a valid rating source. -#}
+{%- set svcs = business | serviceList(c) -%}
+{%- set bizId = site.origin + "/#business" -%}
+{%- set personId = site.origin + "/#konstantinos" -%}
+{%- set siteId = site.origin + "/#website" -%}
+{%- set creds = [] -%}
+{%- for d in business.credentials.diplomas %}{% if d.verified %}{% set creds = (creds.push({
+  "@type": "EducationalOccupationalCredential",
+  "name": c.about.credentialNames[d.key],
+  "credentialCategory": "certificate",
+  "recognizedBy": { "@type": "Organization", "name": d.certifier },
+  "dateCreated": d.date,
+  "identifier": d.identifier
+}), creds) %}{% endif %}{% endfor -%}
+{%- set graph = [
+  {
+    "@type": "HealthAndBeautyBusiness",
+    "@id": bizId,
+    "name": business.name,
+    "url": site.origin + "/" + locale + "/",
+    "description": c.meta.home.description,
+    "telephone": business.contact.phoneE164,
+    "email": business.contact.email,
+    "image": site.origin + "/assets/img/og/og.jpg",
+    "logo": site.origin + "/assets/img/mark.svg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": business.address.locality,
+      "addressRegion": business.address.region,
+      "addressCountry": business.address.country
+    },
+    "areaServed": business.areaServed,
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": business.hours.opens,
+      "closes": business.hours.closes
+    }],
+    "sameAs": business.social | pluck("url"),
+    "founder": { "@id": personId },
+    "employee": { "@id": personId },
+    "isAccessibleForFree": false,
+    "makesOffer": null
+  },
+  {
+    "@type": "Person",
+    "@id": personId,
+    "name": business.person.givenName + " " + business.person.familyName,
+    "givenName": business.person.givenName,
+    "familyName": business.person.familyName,
+    "jobTitle": business.person.jobTitle,
+    "knowsLanguage": business.person.knowsLanguage,
+    "worksFor": { "@id": bizId },
+    "hasCredential": creds,
+    "image": site.origin + "/assets/img/r/portrait-konstantinos-367.jpg"
+  },
+  {
+    "@type": "WebSite",
+    "@id": siteId,
+    "url": site.origin + "/",
+    "name": business.name,
+    "inLanguage": locales.liveCodes,
+    "publisher": { "@id": bizId }
+  },
+  {
+    "@type": "WebPage",
+    "@id": site.origin + selfPath + "#webpage",
+    "url": site.origin + selfPath,
+    "name": pTitle,
+    "description": pDesc,
+    "inLanguage": L.lang,
+    "isPartOf": { "@id": siteId },
+    "about": { "@id": bizId }
+  }
+] -%}
+
+{%- if pageKey == "service" and serviceSlug -%}
+  {%- set s = c.serviceContent[serviceSlug] -%}
+  {%- set graph = (graph.push({
+    "@type": "Service",
+    "@id": site.origin + selfPath + "#service",
+    "name": s.name,
+    "description": s.short,
+    "serviceType": s.name,
+    "provider": { "@id": bizId },
+    "areaServed": business.areaServed,
+    "url": site.origin + selfPath
+  }), graph) -%}
+{%- endif -%}
+
+{%- if pageKey == "contact" and c.contact.faq -%}
+  {%- set faqItems = [] -%}
+  {%- for q in c.contact.faq %}{% set faqItems = (faqItems.push({
+    "@type": "Question",
+    "name": q.q,
+    "acceptedAnswer": { "@type": "Answer", "text": q.a }
+  }), faqItems) %}{% endfor -%}
+  {%- set graph = (graph.push({
+    "@type": "FAQPage",
+    "@id": site.origin + selfPath + "#faq",
+    "inLanguage": L.lang,
+    "mainEntity": faqItems
+  }), graph) -%}
+{%- endif -%}
+
+{%- if pagePath -%}
+  {%- set crumbs = [{ "@type": "ListItem", "position": 1, "name": c.nav.home, "item": site.origin + "/" + locale + "/" }] -%}
+  {%- if pageKey == "service" -%}
+    {%- set crumbs = (crumbs.push({ "@type": "ListItem", "position": 2, "name": c.nav.services, "item": site.origin + "/" + locale + "/services/" }), crumbs) -%}
+    {%- set crumbs = (crumbs.push({ "@type": "ListItem", "position": 3, "name": c.serviceContent[serviceSlug].name, "item": site.origin + selfPath }), crumbs) -%}
+  {%- else -%}
+    {%- set crumbs = (crumbs.push({ "@type": "ListItem", "position": 2, "name": pTitle, "item": site.origin + selfPath }), crumbs) -%}
+  {%- endif -%}
+  {%- set graph = (graph.push({ "@type": "BreadcrumbList", "@id": site.origin + selfPath + "#breadcrumb", "itemListElement": crumbs }), graph) -%}
+{%- endif -%}
+
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@graph": graph } | jsonld | safe }}</script>

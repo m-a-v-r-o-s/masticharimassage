@@ -1,0 +1,59 @@
+{%- import "partials/icons.njk" as icon -%}
+{%- set svcs = business | serviceList(c) -%}
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand footer-brand" href="/{{ locale }}/">
+        {% include "partials/mark.njk" %}
+        <span class="brand__name">Mastichari Massage<span class="brand__sub">{{ business.address.locality }}, {{ business.address.region }}</span></span>
+      </a>
+      <p class="footer-blurb">{{ c.home.heroLede }}</p>
+    </div>
+
+    <div>
+      <h2>{{ c.ui.footerServices }}</h2>
+      <ul>
+        {%- for s in svcs %}
+        <li><a href="/{{ locale }}/services/{{ s.slug }}/">{{ s.name }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+
+    <div>
+      <h2>{{ c.ui.footerLinks }}</h2>
+      <ul>
+        <li><a href="/{{ locale }}/">{{ c.nav.home }}</a></li>
+        <li><a href="/{{ locale }}/services/">{{ c.nav.services }}</a></li>
+        <li><a href="/{{ locale }}/about/">{{ c.nav.about }}</a></li>
+        <li><a href="/{{ locale }}/location/">{{ c.nav.location }}</a></li>
+        <li><a href="/{{ locale }}/contact/">{{ c.nav.contact }}</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>{{ c.ui.footerContact }}</h2>
+      <ul>
+        <li><a href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ business.contact.phone }} ({{ c.ui.whatsapp }})</a></li>
+        <li><a href="{{ business.contact.phoneHref }}">{{ icon.phone() }} {{ business.contact.phone }}</a></li>
+        <li><a href="{{ business.contact.emailHref }}">{{ icon.mail() }} {{ business.contact.email }}</a></li>
+        <li>{{ c.ui.openingHours }}</li>
+        <li>{{ business.address.locality }}, {{ business.address.region }}, GR</li>
+      </ul>
+      <h2 class="u-mt-15">Social</h2>
+      <ul>
+        {%- for s in business.social %}
+        <li><a href="{{ s.url }}" rel="noopener me">{{ s.key | capitalize }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <p class="footer-legal">
+      <a href="/{{ locale }}/privacy/">{{ c.ui.privacy }}</a>
+      <a href="/{{ locale }}/terms/">{{ c.ui.terms }}</a>
+    </p>
+    <p>{{ c.ui.imageNote }}</p>
+    <p>&copy; {{ site.year }} Konstantinos Fessaras. {{ c.ui.rights }}</p>
+  </div>
+</footer>

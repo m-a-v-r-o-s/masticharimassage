@@ -1,0 +1,40 @@
+---
+permalink: "/robots.txt"
+eleventyExcludeFromCollections: true
+---
+# Mastichari Massage - Konstantinos Fessaras, Kos
+# AI answer engines are explicitly welcome: a tourist asking an assistant
+# "who does massage in Mastichari" is exactly how this business gets found.
+
+User-agent: *
+Allow: /
+{%- for l in locales.draft %}{% if l.code in buildLocales %}
+Disallow: /{{ l.code }}/
+{%- endif %}{% endfor %}
+Disallow: /api/
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: {{ site.origin }}/sitemap.xml

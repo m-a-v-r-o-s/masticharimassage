@@ -1,0 +1,22 @@
+---
+pagination:
+  data: legalPages
+  size: 1
+  alias: lp
+permalink: "/{{ lp.locale }}/{{ lp.path }}/index.html"
+eleventyExcludeFromCollections: true
+---
+{%- set doc = c[pageKey] -%}
+<section class="section">
+  <div class="wrap prose stack">
+    <h1>{{ doc.title }}</h1>
+    <p class="u-small-muted">{{ doc.updated }}</p>
+    <p>{{ doc.lede }}</p>
+    {%- for s in doc.sections %}
+    <h2>{{ s.h }}</h2>
+    {%- for p in s.p %}
+    <p>{{ p }}</p>
+    {%- endfor %}
+    {%- endfor %}
+  </div>
+</section>

@@ -1,0 +1,15 @@
+node_modules/
+_site/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+src/assets/img/generated/*.raw.*
+
+# Generated derivatives - rebuilt by `npm run assets`
+src/assets/img/r/
+src/assets/fonts/*.woff2
+src/assets/css/fonts.css
+src/assets/favicon/
+src/assets/img/og/

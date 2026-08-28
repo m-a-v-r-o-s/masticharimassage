@@ -1,0 +1,34 @@
+{#- Testimonial wall.
+    The original wording is always rendered with its own lang attribute (WCAG 3.1.2,
+    Language of Parts - a hard criterion, not styling). A translation into the page's
+    language is offered underneath, and is labelled as a translation. -#}
+{% macro wall(items, c, L, locale, limit) %}
+<div class="quotes">
+  {%- for t in items -%}
+  {%- if not limit or loop.index0 < limit -%}
+  <figure class="quote">
+    <blockquote lang="{{ t.lang }}" cite="">
+      <p>{{ t.text }}</p>
+    </blockquote>
+    {%- if t.lang != locale and t.t and t.t[locale] %}
+    <details class="quote__t">
+      <summary>{{ c.ui.showTranslation }}</summary>
+      <p lang="{{ L.lang }}">{{ t.t[locale] }}</p>
+      <p class="quote__t-note">{{ c.ui.translationNote }}{% if t.abridged %} {{ c.ui.abridgedNote }}{% endif %}</p>
+    </details>
+    {%- elif t.abridged %}
+    <p class="quote__t-note">{{ c.ui.abridgedNote }}</p>
+    {%- endif %}
+    <figcaption>
+      <cite>{{ t.name }}</cite>
+      <span class="quote__meta">
+        {%- if t.place %}{{ t.place }} &middot; {% endif -%}
+        <time datetime="{{ t.date }}">{{ t.date | formatDate(L.lang) }}</time>
+        {%- if t.sessions %} &middot; {{ t.sessions }} {{ c.ui.sessionsCount }}{% endif -%}
+      </span>
+    </figcaption>
+  </figure>
+  {%- endif -%}
+  {%- endfor -%}
+</div>
+{% endmacro %}

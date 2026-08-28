@@ -1,0 +1,699 @@
+{
+  "locale": "es",
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "services": "Masajes",
+    "location": "Dónde trabajo",
+    "contact": "Reservar masaje",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "skip": "Ir al contenido principal",
+    "languageLabel": "Idioma",
+    "languageSwitcher": "Elegir idioma"
+  },
+  "ui": {
+    "call": "Llamar",
+    "callLong": "Llamar al +30 6977784790",
+    "whatsapp": "WhatsApp",
+    "whatsappLong": "Escribir por WhatsApp",
+    "email": "Correo",
+    "bookNow": "Reservar masaje",
+    "askAvailability": "Preguntar por disponibilidad",
+    "duration": "Duración",
+    "durations": "Sesiones",
+    "minutes": "min",
+    "priceLabel": "Precio",
+    "priceOnRequest": "A consultar",
+    "priceNote": "El precio te lo digo cuando escribes, así siempre oyes la tarifa actual y el desplazamiento hasta donde estás se cuenta de forma honesta.",
+    "goodFor": "Para qué suele venir la gente",
+    "howItWorks": "Cómo es la sesión",
+    "readMore": "Leer más",
+    "allMassages": "Todos los masajes",
+    "backToServices": "Volver a todos los masajes",
+    "testimonialsTitle": "Lo que han dicho los clientes",
+    "testimonialsIntro": "Comentarios dejados por clientes en la versión anterior de esta web entre 2015 y 2018. Se reproducen tal como se escribieron, en el idioma en que se escribieron.",
+    "showTranslation": "Ver traducción",
+    "translationNote": "Traducido para esta página. El texto original está arriba.",
+    "abridgedNote": "Abreviado.",
+    "sessionsCount": "sesiones",
+    "openingHours": "Todos los días, 9:00 - 22:00",
+    "hoursLabel": "Horario",
+    "phoneLabel": "Teléfono y WhatsApp",
+    "emailLabel": "Correo",
+    "areaLabel": "Zona de trabajo",
+    "findMe": "Dónde encontrarme",
+    "footerServices": "Masajes",
+    "footerLinks": "Páginas",
+    "footerContact": "Contacto",
+    "footerLegal": "Legal",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Condiciones del servicio",
+    "imageNote": "Algunas fotografías ilustrativas de esta web están generadas con inteligencia artificial. El retrato de Konstantinos y los certificados escaneados son auténticos.",
+    "certifiedBy": "Certificado por",
+    "issued": "Expedido",
+    "protocolNo": "N.º de protocolo",
+    "certNo": "N.º",
+    "notVerifiedYet": "Certificado aún sin escanear",
+    "wellnessNotice": "Estos son masajes de bienestar y relajación, no un tratamiento médico. Si tienes alguna condición de salud, estás embarazada o te estás recuperando de una lesión o una operación, dímelo al reservar y consulta antes con tu médico.",
+    "draftNotice": "Esta página se ha traducido automáticamente y todavía no la ha revisado un hablante nativo. Para cualquier cosa importante, lee la versión en inglés o en griego, o simplemente escríbeme.",
+    "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, masajista en Mastichari, Kos",
+    "imagePendingAlt": "Un espacio tranquilo de tratamiento: ropa limpia, toallas dobladas y aceite, listo para la sesión."
+  },
+  "meta": {
+    "home": {
+      "title": "Masaje en Mastichari, Kos - en tu habitación | Konstantinos Fessaras",
+      "description": "Masaje profesional en Mastichari, Tigaki y Marmari, Kos. Masajista certificado desde 2011, va con la camilla a tu habitación. WhatsApp +30 6977784790."
+    },
+    "about": {
+      "title": "Konstantinos Fessaras - masajista certificado en Kos",
+      "description": "Masajista en Mastichari, Kos, desde 2011. Certificado por la World Massage Federation, formado en masaje terapéutico, deportivo e indio de cabeza."
+    },
+    "services": {
+      "title": "Masajes en Mastichari, Kos - cuerpo entero, deportivo, relajante",
+      "description": "Masaje de cuerpo entero, relajante, deportivo, de espalda, indio de cabeza, de pies y aromaterapia en Kos. Precios a consultar."
+    },
+    "location": {
+      "title": "Masaje en Mastichari, Tigaki y Marmari - voy yo | Kos",
+      "description": "Llevo la camilla a tu habitación de hotel, apartamento o villa en Mastichari, Tigaki y Marmari, en Kos. Todos los días de 9:00 a 22:00. Reserva por teléfono o WhatsApp."
+    },
+    "contact": {
+      "title": "Reservar masaje en Kos - teléfono, WhatsApp o formulario",
+      "description": "Reserva un masaje en Mastichari, Tigaki o Marmari, en Kos. WhatsApp o llamada al +30 6977784790, o envía el formulario. Suelo responder el mismo día."
+    },
+    "thankyou": {
+      "title": "Gracias - tu solicitud se ha enviado",
+      "description": "Tu solicitud de reserva se ha enviado a Konstantinos Fessaras, Mastichari Massage, Kos."
+    },
+    "privacy": {
+      "title": "Política de privacidad | Mastichari Massage, Kos",
+      "description": "Qué datos recoge esta web, para qué, cuánto tiempo se conservan y qué derechos tienes según el RGPD."
+    },
+    "terms": {
+      "title": "Condiciones del servicio | Mastichari Massage, Kos",
+      "description": "Reservas, cancelaciones, comportamiento y alcance de los servicios de masaje de bienestar de Konstantinos Fessaras en Mastichari, Kos."
+    },
+    "notfound": {
+      "title": "Página no encontrada | Mastichari Massage, Kos",
+      "description": "Esa página no existe. Desde aquí vuelves a reservar un masaje en Kos."
+    },
+    "service": {
+      "full-body-massage": {
+        "title": "Masaje de cuerpo entero en Mastichari, Kos - en tu habitación",
+        "description": "Masaje de cuerpo entero de 45, 60 o 90 minutos, en tu hotel o apartamento en Mastichari, Tigaki y Marmari. Masajista certificado. Precio a consultar."
+      },
+      "relaxing-massage": {
+        "title": "Masaje relajante en Mastichari, Kos - masaje clásico en la habitación",
+        "description": "Masaje clásico relajante en tu habitación en Mastichari, Tigaki o Marmari, Kos. La elección adecuada para un primer masaje. 45 minutos, precio a consultar."
+      },
+      "therapeutic-sports-massage": {
+        "title": "Masaje deportivo y terapéutico en Kos - espalda, cuello y lesiones",
+        "description": "Masaje terapéutico y deportivo profundo en Kos para dolor de espalda, ciática, lesiones deportivas antiguas y movilidad reducida. En tu hotel en Mastichari, Tigaki o Marmari."
+      },
+      "antistress-back-massage": {
+        "title": "Masaje de espalda en Kos - antiestrés, de lumbares a cuello",
+        "description": "Masaje antiestrés de espalda, desde las lumbares hasta el cuello, en tu hotel en Kos. Los mejores 45 minutos para una espalda que no puede más. Precio a consultar."
+      },
+      "indian-head-massage": {
+        "title": "Masaje indio de cabeza en Kos - sentado y vestido",
+        "description": "Masaje indio de cabeza en Kos: cuello, hombros, cuero cabelludo y cara, sentado y completamente vestido. En tu hotel en Mastichari, Tigaki o Marmari."
+      },
+      "foot-massage": {
+        "title": "Masaje de pies y reflexología en Mastichari, Kos",
+        "description": "Masaje de pies y trabajo reflejo en tu hotel o apartamento en Kos, para pies que han andado todo el día. Mastichari, Tigaki y Marmari. Precio a consultar."
+      },
+      "aromatherapy": {
+        "title": "Masaje de aromaterapia en Mastichari, Kos",
+        "description": "Masaje de aromaterapia con aceites esenciales naturales, en tu habitación en Kos. Certificado en advanced body oil massage. Mastichari, Tigaki y Marmari."
+      }
+    }
+  },
+  "home": {
+    "heroKicker": "Mastichari, Tigaki y Marmari - Kos",
+    "heroTitle": "El masaje donde te alojas",
+    "heroLede": "Soy Konstantinos Fessaras, masajista certificado, y trabajo en Kos desde 2011. Llevo la camilla a tu habitación de hotel, a tu apartamento o a tu villa, así que el camino de vuelta después son unos diez pasos.",
+    "heroPrimary": "Reservar por WhatsApp",
+    "heroSecondary": "Ver los masajes",
+    "heroNote": "Todos los días, 9:00 - 22:00. Griego, inglés e italiano.",
+    "introTitle": "Un masajista, ninguna recepción",
+    "introBody": "No hay ningún spa al que ir en coche ni ningún paquete que contratar. Me dices dónde te alojas y más o menos cuándo te viene bien, yo llego con una camilla profesional, aceites y ropa limpia, y antes de empezar acordamos qué necesita trabajo. La mayoría reserva por un cuello agarrotado, por una espalda que no puede más, o simplemente porque está de vacaciones y quiere una hora para sí.",
+    "pointsTitle": "Qué significa eso en la práctica",
+    "points": [
+      {
+        "title": "Voy yo a donde estés",
+        "body": "Habitación de hotel, apartamento, villa o balcón. En Mastichari, Tigaki y Marmari. La camilla, los aceites y la ropa van conmigo."
+      },
+      {
+        "title": "Primero hablamos",
+        "body": "Antes de empezar pregunto por dolores, lesiones, operaciones recientes y qué esperas de esta hora. No se trabaja nada que no hayas aceptado."
+      },
+      {
+        "title": "Formación, no improvisación",
+        "body": "Certificado por la World Massage Federation, con formación aparte en masaje tailandés con aceite, aromaterapia y masaje indio de cabeza, y seminarios sobre ciática y dolor de espalda."
+      },
+      {
+        "title": "Las mismas manos, la misma isla, desde 2011",
+        "body": "Algunos clientes reservan conmigo cada verano desde hace años. Los comentarios de más abajo son suyos."
+      }
+    ],
+    "servicesTitle": "Los masajes",
+    "servicesIntro": "Siete tratamientos. Si no sabes cuál quieres, dime qué te duele y te propongo uno.",
+    "servicesCta": "Ver todos los masajes",
+    "howTitle": "Cómo se reserva",
+    "howSteps": [
+      {
+        "title": "Escríbeme",
+        "body": "WhatsApp es lo más rápido, una llamada también sirve, y el formulario de esta web igual. Dime dónde te alojas y cuándo querrías el masaje."
+      },
+      {
+        "title": "Acordamos una hora",
+        "body": "Confirmo la hora, el masaje y el precio antes de que haya nada reservado. No hay señal ni nada que pagar por internet."
+      },
+      {
+        "title": "Llego con la camilla",
+        "body": "Montarla lleva unos minutos. Te quedas en ropa interior y estás cubierto con una toalla toda la sesión, salvo la zona en la que se está trabajando."
+      }
+    ],
+    "areaTitle": "Dónde trabajo",
+    "areaBody": "Mastichari, Tigaki y Marmari, y los hoteles y apartamentos de alrededor. Si te alojas en otro punto de Kos, pregunta: muchas veces sale igual, solo depende de la hora del día.",
+    "areaCta": "Ver la zona en detalle",
+    "ctaTitle": "Regálate esa hora",
+    "ctaBody": "Escríbeme tu hotel y una hora aproximada. Te digo qué queda libre hoy.",
+    "reviewsCta": "Leer lo que han dicho los clientes",
+    "heroImageAlt": "Una camilla de masaje vestida con ropa limpia en una habitación tranquila y luminosa, con una toalla doblada y un frasquito de aceite al lado.",
+    "areaImageAlt": "Una calle estrecha encalada en el centro peatonal del pueblo de Mastichari, con buganvilla y puertas con contraventanas."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "lede": "Konstantinos Fessaras - masajista, Mastichari, Kos.",
+    "bio": [
+      "Trabajo profesionalmente con el masaje desde 2011. Me formé en masaje relajante, terapéutico y deportivo, después en masaje indio de cabeza, aromaterapia y masaje tailandés con aceite, e hice seminarios aparte sobre ciática y dolor en la parte alta y baja de la espalda.",
+      "Trabajo solo. No hay recepción, ni cola, ni nada que se te intente vender de más: estoy yo, una camilla profesional y la hora que has reservado. Voy adonde te alojas, porque después de un buen masaje lo último que apetece es vestirse y conducir a algún sitio.",
+      "La mayor parte de mi trabajo es con quienes se alojan en Mastichari, Tigaki y Marmari, y llevo años colaborando con hoteles y complejos de apartamentos de esa parte de la isla. Fuera de temporada, y entre cita y cita, normalmente me encuentras en la tienda de souvenirs familiar \"Ghitonia\", en el centro peatonal de Mastichari: si no estoy, la familia te dirá dónde estoy, o simplemente llámame."
+    ],
+    "languagesTitle": "Idiomas",
+    "languagesBody": "Hablo griego, inglés e italiano. Esta web está en más idiomas para que puedas leer sobre los masajes en el tuyo, pero la conversación el día de la cita será en griego, inglés o italiano.",
+    "credentialsTitle": "Formación y certificados",
+    "credentialsIntro": "Los escaneos de abajo son de mis propios certificados. Donde un certificado lleva número y fecha, aparecen aquí exactamente como figuran en el documento.",
+    "credentialNames": {
+      "advanced-massage": "Advanced Massage",
+      "aromatherapy": "Advanced Body Oil Massage (aromaterapia)",
+      "thai-oil": "Thai Oil Massage, 30 horas",
+      "indian-head": "Seminario de masaje indio de cabeza",
+      "shiatsu": "Masaje relajante y shiatsu"
+    },
+    "seminarsTitle": "Seminarios adicionales",
+    "seminarNames": {
+      "sciatica": "Ciática",
+      "upper-back-pain": "Dolor en la parte alta de la espalda",
+      "lower-back-pain": "Dolor lumbar"
+    },
+    "portraitAlt": "Konstantinos Fessaras, masajista en Mastichari, Kos",
+    "ctaTitle": "Reserva una sesión",
+    "ctaBody": "Dime dónde te alojas y qué te molesta. Te propongo un masaje y una hora."
+  },
+  "services": {
+    "title": "Masajes",
+    "lede": "Siete tratamientos, todos en el sitio donde te alojas, todos con camilla profesional. Las sesiones son normalmente de 45 minutos, con 60 y 90 minutos disponibles para el masaje de cuerpo entero.",
+    "pricingTitle": "Sobre los precios",
+    "pricingBody": "El precio te lo digo cuando te pongas en contacto. Así siempre oyes la tarifa actual en vez de una cifra que se quedó en una web antigua, y el desplazamiento hasta tu hotel se cuenta de forma honesta.",
+    "chooseHelp": "¿No sabes cuál elegir? Dime qué te duele, o cómo ha ido tu semana, y te propongo uno cuando me escribas.",
+    "cardCta": "Leer sobre este masaje",
+    "imageAlt": "Frasquitos de vidrio oscuro con aceite de masaje sobre un paño de lino, junto a un cuenco con hierbas secas."
+  },
+  "serviceContent": {
+    "full-body-massage": {
+      "name": "Masaje de cuerpo entero",
+      "short": "Todo el cuerpo trabajado por orden - espalda, cuello, hombros, brazos, piernas, pies y manos.",
+      "lede": "Masaje de cuerpo entero significa exactamente eso: durante la sesión el terapeuta trabaja todo el cuerpo en lugar de una sola zona. Espalda, cuello, hombros, brazos, piernas, pies y manos.",
+      "body": [
+        "Es el masaje que la mayoría reserva primero y el que mejor encaja con unas vacaciones. En 60 o 90 minutos deja de ser un desentumecimiento rápido y se convierte en un reinicio de verdad: da tiempo a detenerse donde hace falta, en lugar de correr por todo el cuerpo.",
+        "Trabajo con aceite, con una presión que acordamos, y voy preguntando sobre la marcha. Te quedas en ropa interior y permaneces cubierto con una toalla salvo en la zona en la que se está trabajando."
+      ],
+      "goodFor": [
+        "Rigidez general tras el viaje o tras días largos de pie",
+        "Músculos tensos y cansados que no se explican por una sola zona",
+        "Moverse con más soltura después de una temporada sentado",
+        "Reactivar la circulación en piernas y brazos",
+        "Dormir bien las primeras noches de vacaciones",
+        "Simplemente tener una hora sin prisa para ti"
+      ],
+      "imageAlt": "Una camilla de masaje vestida con ropa limpia y una toalla enrollada, lista para una sesión de cuerpo entero."
+    },
+    "relaxing-massage": {
+      "name": "Masaje relajante",
+      "short": "El masaje clásico. Trabajo lento y uniforme por todo el cuerpo, dirigido a soltar más que a resolver un problema concreto.",
+      "lede": "El masaje relajante - a menudo llamado masaje clásico - es el tipo más conocido que existe y el mejor punto de partida si nunca has recibido un masaje.",
+      "body": [
+        "El objetivo es sencillo: relajar todo el cuerpo. Combina deslizamientos, amasamientos y fricciones transversales para trabajar los nudos que se acumulan en el músculo, pero a un ritmo más lento y regular que una sesión terapéutica.",
+        "Si no sabes qué reservar, esta suele ser la respuesta correcta. No tiene nada de intenso y ninguna parte debería doler."
+      ],
+      "goodFor": [
+        "Un primer masaje, si nunca has recibido uno",
+        "Articulaciones rígidas y molestias generales",
+        "Recuperarse después de un ejercicio más fuerte de lo habitual",
+        "Bajar revoluciones cuando llevas tiempo funcionando a base de estrés",
+        "Reactivar la circulación después de un vuelo largo",
+        "Una concentración que se ha quedado plana",
+        "Un cansancio que el sueño por sí solo no ha resuelto"
+      ],
+      "imageAlt": "Un rincón tranquilo de tratamiento con luz natural suave, toallas dobladas y un frasco de aceite sobre un taburete de madera."
+    },
+    "therapeutic-sports-massage": {
+      "name": "Masaje terapéutico y deportivo",
+      "short": "Trabajo más firme y más dirigido para una molestia concreta - una lesión deportiva, un dolor crónico, un movimiento que se ha limitado.",
+      "lede": "El masaje terapéutico y deportivo es para un problema concreto: una lesión, un dolor de largo recorrido o un rango de movimiento que se ha estrechado. Es el masaje que se pide cuando hay algo determinado que no va bien.",
+      "body": [
+        "Va bien a quien tiene lesiones deportivas, dolores antiguos o el desgaste acumulado del trabajo físico. Es también lo que uso para las molestias sobre las que hice seminarios adicionales: ciática, dolor en la parte alta de la espalda y dolor lumbar.",
+        "El trabajo es más firme y más localizado que en un masaje relajante. Acordamos la presión antes de empezar, y durante la sesión me dices si hay que cambiarla. Firme no debería significar doloroso."
+      ],
+      "goodFor": [
+        "Distensiones de tejidos blandos y lesiones deportivas antiguas",
+        "Dolor prolongado de espalda, cuello y hombros",
+        "Un rango de movimiento que se ha limitado",
+        "Dolor muscular por trabajo físico o repetitivo",
+        "Cefaleas tensionales que empiezan en el cuello",
+        "Recuperación entre días de entrenamiento",
+        "Ciática y molestias de espalda alta y lumbar"
+      ],
+      "imageAlt": "Un rollo de vendaje neuromuscular, un frasco de aceite y una herramienta de masaje de madera sobre una toalla blanca doblada."
+    },
+    "antistress-back-massage": {
+      "name": "Masaje antiestrés de espalda",
+      "short": "Solo la espalda, desde las lumbares hasta el cuello. Lo más sencillamente agradable de la lista.",
+      "lede": "Para la mayoría, la espalda es la mejor parte del cuerpo para recibir masaje, y este masaje no hace nada más. Va desde las lumbares hasta el cuello.",
+      "body": [
+        "Calma y le quita el filo a la semana. La gente se levanta de la camilla con cara de llevar tres días de vacaciones y no una tarde. Vale para cualquier edad.",
+        "Es el regalo evidente para quien trabaja en una mesa o pasa horas delante de una pantalla. Si solo tienes 45 minutos y quieres el resultado más perceptible, reserva este."
+      ],
+      "goodFor": [
+        "Tensión acumulada en hombros y parte alta de la espalda",
+        "Trabajo de oficina, conducir, muchas horas en una silla",
+        "Estrés instalado entre los omóplatos",
+        "Dormir mejor",
+        "Músculos de la espalda cansados y sobrecargados",
+        "Dolores de cabeza que vienen de un cuello tenso"
+      ],
+      "imageAlt": "El cabezal de una camilla de masaje con reposacabezas y toalla doblada, visto desde arriba con luz cálida de tarde."
+    },
+    "indian-head-massage": {
+      "name": "Masaje indio de cabeza",
+      "short": "Trabajo por presión en cuello, hombros, cuero cabelludo y cara, adaptado de la técnica ayurvédica. Sentado y vestido.",
+      "lede": "El masaje indio de cabeza está adaptado de la técnica ayurvédica y trabaja hombros, cuello, cuero cabelludo y cara mediante una serie de puntos de presión. Se hace sentado y te quedas vestido.",
+      "body": [
+        "Es buena opción si llevas la tensión arriba - en la mandíbula, en la base del cráneo, en los hombros - o si un masaje de cuerpo entero es más de lo que te apetece. Es también el que se reserva al final de un día largo de viaje, porque apenas necesita montaje.",
+        "Completé un seminario específico de esta técnica en 2014, celebrado bajo los auspicios de la World Massage Federation."
+      ],
+      "goodFor": [
+        "Tensión en cuello, hombros y cuero cabelludo",
+        "Dolores de cabeza que se acumulan durante la jornada",
+        "Mandíbula tensa",
+        "Sensación de estar acelerado y no poder parar",
+        "Concentración y claridad que se pierden al final del día",
+        "Inquietud y dificultad para dormirse",
+        "Un tratamiento corto cuando no hay tiempo para uno largo"
+      ],
+      "imageAlt": "Una silla sencilla de madera con una toalla doblada sobre el respaldo, junto a una ventana abierta para un masaje de cabeza sentado."
+    },
+    "foot-massage": {
+      "name": "Masaje de pies",
+      "short": "Trabajo reflejo en los pies - el truco más antiguo que hay para un cuerpo que lleva todo el día de pie.",
+      "lede": "Los nervios del cuerpo se concentran en los pies, y por eso un masaje de pies se nota mucho más allá de los pies. Los chinos refinaron la reflexología podal durante siglos.",
+      "body": [
+        "Un masaje de pies habitual sienta bien y activa la circulación, y es la forma más rápida de sacarle el día a un cuerpo que lleva desde la mañana andando sobre piedra caliente y arena.",
+        "Es una buena opción para una tarde de calor, cuando un masaje de cuerpo entero con aceite es más de lo que quieres, y para cualquiera que pase el año de trabajo de pie."
+      ],
+      "goodFor": [
+        "Pies y piernas que han andado todo el día",
+        "Pies hinchados y pesados con el calor",
+        "Estrés e inquietud",
+        "Dificultad para dormirse",
+        "Trabajar de pie todo el día",
+        "Cansancio general sin una causa concreta"
+      ],
+      "imageAlt": "Un cojín redondo pequeño envuelto en una toalla al pie de una camilla de masaje, con un cuenco de agua caliente al lado."
+    },
+    "aromatherapy": {
+      "name": "Masaje de aromaterapia",
+      "short": "Masaje con aceites esenciales naturales, elegidos según el efecto que buscas. Más lento y más suave que el trabajo terapéutico.",
+      "lede": "La aromaterapia es masaje con aceites naturales extraídos de flores, cortezas, tallos, hojas y raíces. Aplicados durante un masaje se absorben por la piel, y el aroma forma parte del tratamiento en lugar de ser un adorno añadido encima.",
+      "body": [
+        "El ritmo es más lento y la presión más suave que en un masaje terapéutico. Es el que se reserva cuando lo que buscas es calma y no resolver un problema concreto.",
+        "Tengo un certificado de advanced body oil massage y aromaterapia expedido en Atenas en enero de 2011."
+      ],
+      "goodFor": [
+        "Estrés y cansancio mental",
+        "Bajar revoluciones al final del día",
+        "Dormir más profundamente",
+        "Piel que se nota seca tras el sol y el agua salada",
+        "Músculos doloridos y articulaciones rígidas, trabajados con suavidad",
+        "Querer lo más tranquilo de la lista"
+      ],
+      "imageAlt": "Frascos ámbar de aceite esencial, lavanda seca y una ramita de romero sobre una estantería de madera."
+    }
+  },
+  "location": {
+    "title": "Dónde trabajo",
+    "lede": "Voy yo a donde estés. La camilla, los aceites y la ropa limpia van conmigo, y después no tienes que conducir a ninguna parte.",
+    "areasTitle": "Zonas que cubro",
+    "areas": [
+      {
+        "name": "Mastichari",
+        "body": "Mi pueblo, en la costa norte de Kos. Hoteles, apartamentos y habitaciones por todo el pueblo y a lo largo de la carretera de la playa."
+      },
+      {
+        "name": "Tigaki",
+        "body": "Unos 20 minutos al este siguiendo la costa. Hoteles, complejos de apartamentos y villas."
+      },
+      {
+        "name": "Marmari",
+        "body": "Entre los dos, en el mismo tramo de costa norte. Hoteles y apartamentos."
+      }
+    ],
+    "elsewhereTitle": "¿Te alojas en otro punto de Kos?",
+    "elsewhereBody": "Pregunta. Muchas veces sale, solo depende de la hora del día y de cómo esté el resto de la jornada. Escríbeme dónde te alojas y te digo con sinceridad si puedo llegar.",
+    "whereTitle": "Encontrarme en persona",
+    "whereBody": "En Mastichari normalmente me encuentras en Ghitonia, la tienda de souvenirs familiar del centro peatonal del pueblo. Si no estoy, la familia te dirá dónde estoy, o simplemente llama o escribe por WhatsApp, que es más rápido.",
+    "hotelsTitle": "Hoteles y apartamentos",
+    "hotelsBodyGeneric": "Llevo años trabajando con hoteles y complejos de apartamentos en Mastichari, Tigaki y Marmari, y muchas reservas llegan por recepción. Si te alojas en un hotel, puedes preguntar en el mostrador, o escribirme directamente, que suele ser más rápido.",
+    "hotelsBodyNamed": "He trabajado con estos alojamientos a lo largo de los años, y muchas reservas siguen llegando por sus recepciones:",
+    "practicalTitle": "Qué necesito de la habitación",
+    "practicalBody": "Muy poco: unos dos metros de suelo libre, y ni siquiera hace falta un enchufe. Yo monto la camilla y me la llevo después. Una habitación de hotel, un balcón o una terraza funcionan igual de bien.",
+    "hoursTitle": "Horario",
+    "hoursBody": "Todos los días, de 9:00 a 22:00. Las citas de tarde-noche se piden mucho en temporada alta, así que cuanto antes preguntes, más opciones hay.",
+    "imageAlt": "Una camilla de masaje montada en un balcón a la sombra, con el mar visible tras la barandilla."
+  },
+  "contact": {
+    "title": "Reservar masaje",
+    "lede": "Lo más rápido es WhatsApp o una llamada. Si prefieres escribir, el formulario de abajo llega al mismo sitio.",
+    "directTitle": "Directo",
+    "whatsappBody": "En horario de trabajo suelo responder en menos de una hora.",
+    "phoneBody": "Todos los días, 9:00 - 22:00.",
+    "emailBody": "Para todo lo que no sea urgente.",
+    "formTitle": "O envía una solicitud de reserva",
+    "formIntro": "Dime dónde te alojas, cuándo te viene bien y qué tipo de masaje buscas. Nada está confirmado hasta que responda.",
+    "form": {
+      "name": "Tu nombre",
+      "email": "Correo electrónico",
+      "emailHint": "Para poder responderte.",
+      "phone": "Teléfono o número de WhatsApp",
+      "phoneHint": "Opcional, pero hace la respuesta mucho más rápida.",
+      "where": "Dónde te alojas",
+      "whereHint": "Hotel, apartamento o zona; por ejemplo \"Princess of Kos, Mastichari\" o \"un apartamento en Tigaki\".",
+      "service": "Qué masaje",
+      "serviceAny": "Aún no lo sé - propónme uno",
+      "when": "Cuándo lo querrías",
+      "whenHint": "Basta con una fecha y un momento aproximado del día.",
+      "message": "Algo que deba saber",
+      "messageHint": "Dolores, lesiones, operaciones recientes, embarazo, o cualquier cosa que prefieras que evite.",
+      "consentLabel": "Acepto que mis datos se usen para responder a esta solicitud de reserva.",
+      "consentHint": "Tus datos se envían por correo a Konstantinos y no se guardan en esta web, no se comparten ni se usan para marketing. Consulta la política de privacidad.",
+      "submit": "Enviar solicitud",
+      "submitting": "Enviando...",
+      "required": "obligatorio",
+      "optional": "opcional"
+    },
+    "errors": {
+      "name": "Escribe el nombre que debo usar al responderte.",
+      "email": "Escribe un correo al que pueda responder, por ejemplo nombre@example.com.",
+      "emailInvalid": "Eso no parece un correo completo. Revísalo, por favor.",
+      "where": "Dime dónde te alojas, para saber si puedo llegar.",
+      "message": "El mensaje debe tener menos de 2000 caracteres.",
+      "consent": "Marca la casilla para que pueda responderte.",
+      "rateLimit": "Son muchas solicitudes en poco tiempo. Espera unos minutos y vuelve a intentarlo, o simplemente escribe por WhatsApp, que siempre funciona.",
+      "server": "Algo ha fallado por nuestra parte y el mensaje no se ha enviado. Inténtalo otra vez o escribe por WhatsApp al +30 6977784790.",
+      "generic": "No se ha podido enviar la solicitud. Revisa los campos marcados arriba.",
+      "summaryTitle": "La solicitud no se ha enviado",
+      "blocked": "Al servidor este envío le ha parecido automático y no se ha mandado. Recarga la página e inténtalo otra vez, o simplemente escribe por WhatsApp al +30 6977784790, que siempre funciona."
+    },
+    "faqTitle": "Preguntas que suelen hacerme",
+    "faq": [
+      {
+        "q": "¿De verdad vas a la habitación del hotel?",
+        "a": "Sí. Es mi forma normal de trabajar. Llevo una camilla profesional, aceites y ropa limpia, lo monto en unos minutos y luego me lo llevo todo. Solo necesito unos dos metros de suelo libre."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "El precio te lo digo cuando te pongas en contacto, así siempre oyes la tarifa actual y no una cifra vieja de una página web. Pregunta por WhatsApp y tendrás la respuesta en unos minutos."
+      },
+      {
+        "q": "¿Con cuánta antelación hay que reservar?",
+        "a": "En julio y agosto, un día o dos antes para una hora de tarde. Fuera de temporada alta, el mismo día suele salir bien."
+      },
+      {
+        "q": "¿Qué me pongo y qué se quita?",
+        "a": "Te quedas en ropa interior. Estás cubierto con una toalla toda la sesión, salvo la zona en la que se trabaja. En el masaje indio de cabeza te quedas completamente vestido."
+      },
+      {
+        "q": "¿Qué masaje elijo?",
+        "a": "Si te duele algo concreto, el terapéutico y deportivo. Si solo quieres desconectar, el relajante o el de cuerpo entero. Si no lo tienes claro, cuéntame qué te pasa y te propongo uno."
+      },
+      {
+        "q": "¿Puede reservar una pareja junta?",
+        "a": "Sí, uno después del otro en la misma habitación. Dilo al reservar, para que aparte tiempo suficiente."
+      },
+      {
+        "q": "Estoy embarazada, o me recupero de una lesión u operación. ¿Puedo reservar igual?",
+        "a": "Dímelo al reservar. Estos son masajes de bienestar y relajación, no un tratamiento médico, y para algunas condiciones la respuesta honesta es consultar antes con tu médico: prefiero decirlo a aceptar la reserva."
+      },
+      {
+        "q": "¿Qué idiomas hablas?",
+        "a": "Griego, inglés e italiano. Esta web está en más idiomas para que puedas leer sobre los masajes en el tuyo, pero la conversación el día de la cita será en uno de esos tres."
+      },
+      {
+        "q": "¿Hay que dejar una señal?",
+        "a": "No. No se paga nada por internet y no hay señal. Se paga después del masaje."
+      },
+      {
+        "q": "¿Qué zonas cubres?",
+        "a": "Mastichari, Tigaki y Marmari, y los hoteles y apartamentos de alrededor. En otros puntos de Kos, pregunta: muchas veces sale, según la hora del día."
+      }
+    ],
+    "success": {
+      "title": "Gracias - tu solicitud se ha enviado",
+      "body": "Ha llegado. Las leo yo mismo y suelo responder el mismo día, en horario de trabajo. Nada queda reservado hasta que te confirme la hora.",
+      "link": "Ver qué pasa ahora"
+    }
+  },
+  "thankyou": {
+    "title": "Gracias - tu solicitud se ha enviado",
+    "lede": "Tu solicitud de reserva ha llegado. Las leo yo mismo y suelo responder el mismo día, en horario de trabajo.",
+    "bodyTitle": "Qué pasa ahora",
+    "body": [
+      "Te responderé al correo que has indicado, o a tu teléfono si has dejado uno.",
+      "Nada queda reservado hasta que te confirme la hora, y mientras tanto no hay nada que pagar.",
+      "Si a la mañana siguiente no has recibido respuesta, algo ha fallado con el correo: escribe por WhatsApp, que siempre llega."
+    ],
+    "cta": "Volver a la página de inicio",
+    "urgentTitle": "¿Tienes prisa?",
+    "urgentBody": "Si vas justo de fechas, escríbeme por WhatsApp en lugar de esperar al correo."
+  },
+  "notfound": {
+    "title": "Esa página no está aquí",
+    "lede": "El enlace puede venir de la versión antigua de esta web, o hay algo que no encaja en la dirección.",
+    "body": "Desde aquí vuelves:",
+    "cta": "Ir a la página de inicio"
+  },
+  "cookie": {
+    "title": "Cookies",
+    "body": "Esta web no usa analítica ni seguimiento de ningún tipo. Una cookie recuerda el idioma que has elegido y otra, de corta duración, protege el formulario de reserva frente a abusos. Ambas son necesarias para que la web funcione y ninguna te sigue a ninguna parte.",
+    "accept": "Entendido",
+    "more": "Leer la política de privacidad",
+    "ariaLabel": "Aviso de cookies"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "updated": "Última actualización: 28 de agosto de 2026",
+    "lede": "Esta web recoge lo mínimo posible. No hay analítica, ni publicidad, ni seguimiento de ningún tipo. Lo que sigue es el relato completo de lo que sí ocurre.",
+    "sections": [
+      {
+        "h": "Quién es el responsable",
+        "p": [
+          "El responsable del tratamiento de los datos personales recogidos a través de esta web es Konstantinos Fessaras, que opera bajo el nombre Mastichari Massage, Mastichari, Kos, Grecia.",
+          "Puedes escribirme a kosfess@hotmail.com o llamar al +30 6977784790 para cualquier cuestión de esta política, incluida una solicitud de supresión de tus datos."
+        ]
+      },
+      {
+        "h": "Qué recoge el formulario de reserva",
+        "p": [
+          "Si envías el formulario de reserva, recibo: tu nombre, tu correo electrónico, tu teléfono si lo has indicado, dónde te alojas, qué masaje has pedido, cuándo lo querrías, lo que hayas escrito en el campo de mensaje y el hecho de que has marcado la casilla de consentimiento.",
+          "Esto se usa para una sola cosa: responderte y organizar la cita. No se usa para marketing, no se comparte con nadie y no se vende."
+        ]
+      },
+      {
+        "h": "Información de salud",
+        "p": [
+          "El formulario te pide que menciones dolores, lesiones, operaciones recientes o embarazo, porque necesito saberlo antes de trabajar contigo. Según el RGPD eso son datos de salud, que tienen una protección reforzada.",
+          "Escribe solo lo que necesito para trabajar con seguridad, no tu historial médico. Los trato sobre la base de tu consentimiento explícito, dado al marcar la casilla, y únicamente para dar el masaje de forma segura. Se eliminan junto con el resto de la consulta."
+        ]
+      },
+      {
+        "h": "Base jurídica",
+        "p": [
+          "Responder a tu solicitud de reserva y organizar la cita: medidas adoptadas a petición tuya antes de la celebración de un contrato, artículo 6.1.b del RGPD, junto con tu consentimiento, artículo 6.1.a.",
+          "Cualquier dato de salud que decidas facilitar: tu consentimiento explícito, artículo 9.2.a.",
+          "Evitar que el formulario de reserva sea utilizado de forma abusiva por spam y envíos automatizados: interés legítimo, artículo 6.1.f."
+        ]
+      },
+      {
+        "h": "Adónde van y cuánto tiempo se conservan",
+        "p": [
+          "El formulario no guarda nada en una base de datos de esta web. Los datos se envían como correo a mi propio buzón y ahí es donde se quedan.",
+          "Elimino las solicitudes de reserva de mi buzón en cuanto termina la temporada a la que se refieren, y como muy tarde doce meses después de tu último mensaje. Si me pides que borre la tuya antes, lo hago y te lo confirmo."
+        ]
+      },
+      {
+        "h": "Quién más interviene",
+        "p": [
+          "La web está alojada en Railway, en una región europea. El correo de reserva lo entrega Resend, en una región europea. Mi buzón es una cuenta de Microsoft Outlook/Hotmail, así que Microsoft trata el correo como proveedor mío, lo que puede implicar una transferencia fuera del EEE bajo las garantías de la propia Microsoft.",
+          "Ninguna de estas empresas recibe tus datos para fines propios. En esta web no hay ningún servicio publicitario, analítico ni de elaboración de perfiles."
+        ]
+      },
+      {
+        "h": "Registros del servidor y protección frente a abusos",
+        "p": [
+          "El servidor registra las páginas solicitadas y, solo para el formulario de reserva, un hash unidireccional con sal de la dirección IP del remitente. El hash se usa para aplicar el límite de envíos que impide inundar el formulario y para registrar eventos relevantes de seguridad, como envíos fallidos repetidos.",
+          "La dirección IP en claro no se escribe en los registros, el hash no puede revertirse a una dirección y estos registros se eliminan a los 30 días."
+        ]
+      },
+      {
+        "h": "Cookies",
+        "p": [
+          "Esta web no instala cookies analíticas ni publicitarias, y aquí no hay nada de ninguna red de publicidad.",
+          "Se usan tres cookies pequeñas, todas necesarias: una recuerda el idioma que has elegido, para que en la siguiente página no vuelvas al inglés (doce meses); un token de corta duración protege el formulario de reserva frente a la falsificación de peticiones entre sitios (se borra al cerrar el navegador); otra registra que has cerrado el aviso de cookies, para que no reaparezca en cada página (doce meses).",
+          "Puedes borrarlas en tu navegador cuando quieras. La web seguirá funcionando: simplemente olvidará tu idioma y volverá a mostrar el aviso."
+        ]
+      },
+      {
+        "h": "Enlaces a otros servicios",
+        "p": [
+          "Los botones de WhatsApp y de teléfono te pasan a la aplicación de tu dispositivo. Si usas el botón de WhatsApp, tu mensaje y tu número los trata después WhatsApp según la política de privacidad de Meta, no según esta.",
+          "Lo mismo vale para los enlaces a Facebook y X del pie de página. Nada en esta web carga contenido suyo en segundo plano: los enlaces no hacen nada hasta que los pulsas."
+        ]
+      },
+      {
+        "h": "Las fotografías de esta web",
+        "p": [
+          "El retrato de Konstantinos y los certificados escaneados son fotografías y documentos auténticos. Las fotografías ilustrativas - espacios de tratamiento, aceites, escenas del pueblo y de la costa - están generadas con inteligencia artificial y se señalan como tales en el pie de página.",
+          "En esta web no aparece ninguna fotografía de un cliente."
+        ]
+      },
+      {
+        "h": "Tus derechos",
+        "p": [
+          "Según el RGPD puedes pedirme una copia de los datos que tengo sobre ti, su rectificación, su supresión, la limitación o el cese de su uso, oponerte a su uso y solicitarlos en un formato portable. Puedes retirar tu consentimiento en cualquier momento: eso no afecta a lo hecho antes de la retirada.",
+          "Escribe a kosfess@hotmail.com y lo resolveré en el plazo de un mes. No tiene ningún coste.",
+          "Si no estás conforme con cómo lo he gestionado, puedes reclamar ante la autoridad griega de protección de datos, Kifissias 1-3, 115 23 Atenas, www.dpa.gr, o ante la autoridad de control de tu propio país."
+        ]
+      },
+      {
+        "h": "Menores",
+        "p": [
+          "Esta web no está dirigida a menores y el formulario de reserva debe rellenarlo una persona adulta. El masaje a un menor se acuerda con un padre, madre o tutor, que debe estar presente."
+        ]
+      },
+      {
+        "h": "Decisiones automatizadas",
+        "p": [
+          "No hay ninguna. Ni elaboración de perfiles ni decisiones automatizadas. Cada solicitud de reserva la leo personalmente."
+        ]
+      },
+      {
+        "h": "Cambios",
+        "p": [
+          "Si esta política cambia, cambia con ella la fecha de arriba. La versión que aceptaste al enviar una solicitud de reserva es la que se aplica a esa solicitud."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Condiciones del servicio",
+    "updated": "Última actualización: 28 de agosto de 2026",
+    "lede": "Condiciones breves y claras para un servicio que presta una sola persona. Si algo aquí no queda claro, pregunta antes de reservar.",
+    "sections": [
+      {
+        "h": "Quién presta el servicio",
+        "p": [
+          "Los servicios de masaje los presta personalmente Konstantinos Fessaras, que opera bajo el nombre Mastichari Massage, Mastichari, Kos, Grecia. Contacto: kosfess@hotmail.com, +30 6977784790.",
+          "No hay empleados ni subcontratistas. La persona que llega es la persona de esta web."
+        ]
+      },
+      {
+        "h": "Qué es esto y qué no es",
+        "p": [
+          "Estos son masajes de bienestar y relajación. No son tratamiento médico, ni fisioterapia, ni diagnóstico, y nada en esta web debe leerse como una promesa de curar, tratar o prevenir ninguna enfermedad o condición.",
+          "Si tienes una condición de salud, estás embarazada, tomas medicación que afecta a la coagulación o a la sensibilidad, o te estás recuperando de una lesión o una operación, habla antes con tu médico y dímelo al reservar. En algunos casos la respuesta correcta es que no debería darte masaje, y te lo diré."
+        ]
+      },
+      {
+        "h": "Reserva y confirmación",
+        "p": [
+          "La reserva existe solo cuando te he confirmado la hora. Una solicitud enviada por el formulario, por WhatsApp, por correo o por teléfono es una solicitud, no una cita confirmada.",
+          "No se cobra señal y no se paga nada a través de esta web. Esta web no procesa ningún tipo de pago."
+        ]
+      },
+      {
+        "h": "Precios",
+        "p": [
+          "Los precios se comunican cuando te pones en contacto y se confirman junto con la cita, antes del masaje. El precio que se te indica al reservar es el precio que pagas.",
+          "En esta web no se publica ningún precio. Cualquier cifra que encuentres en una copia antigua de la web anterior está desfasada y no es aplicable."
+        ]
+      },
+      {
+        "h": "Cancelar y cambiar",
+        "p": [
+          "En vacaciones los planes cambian y no hay penalización por cancelar. Si no puedes acudir a la cita, dímelo con la antelación que razonablemente puedas, para que ese hueco pueda ser de otra persona.",
+          "Si soy yo quien tiene que cancelar - enfermedad, un problema de desplazamiento, algo fuera de mi control - te lo diré en cuanto lo sepa y, si es posible, te ofreceré otra hora."
+        ]
+      },
+      {
+        "h": "Dónde se realiza el masaje",
+        "p": [
+          "Normalmente en tu habitación de hotel, apartamento o villa en Mastichari, Tigaki o Marmari. Llevo la camilla, los aceites y ropa limpia.",
+          "Es responsabilidad tuya asegurarte de que se me permite prestar el servicio donde te alojas. Algunos hoteles restringen la entrada de terapeutas externos a sus instalaciones; en caso de duda, pregunta en recepción antes de reservar."
+        ]
+      },
+      {
+        "h": "Durante la sesión - comportamiento",
+        "p": [
+          "Este es un servicio estrictamente profesional y no sexual. Cualquier petición, comentario o comportamiento de carácter sexual pone fin a la sesión de inmediato, el importe íntegro sigue siendo exigible y no se aceptará ninguna reserva posterior.",
+          "Te quedas en ropa interior y estás cubierto con una toalla durante toda la sesión, salvo la zona en la que se trabaja. Puedes pedirme en cualquier momento que cambie la presión, que evite una zona o que pare del todo, y lo haré."
+        ]
+      },
+      {
+        "h": "Puntualidad",
+        "p": [
+          "Si no estás a la hora acordada, esperaré e intentaré localizarte. Una sesión que empieza tarde puede tener que terminar a la hora prevista, por la cita siguiente."
+        ]
+      },
+      {
+        "h": "Responsabilidad",
+        "p": [
+          "Trabajo con la pericia y el cuidado razonables, conforme a mi formación y certificación. No respondo de una reacción o una lesión derivada de una condición que no me comunicaste cuando te lo pregunté.",
+          "Nada en estas condiciones limita la responsabilidad por muerte o daños personales causados por negligencia, por fraude, ni por cualquier otra cosa que no pueda limitarse conforme al derecho griego. Nada aquí afecta a los derechos que la ley te reconoce como consumidor."
+        ]
+      },
+      {
+        "h": "Esta web",
+        "p": [
+          "Los textos, el diseño y las fotografías de esta web pertenecen a sus respectivos titulares y no pueden reproducirse sin permiso.",
+          "Los comentarios de clientes que aparecen en esta web se dejaron en la versión anterior del sitio entre 2015 y 2018. Se reproducen tal como se escribieron, con los apellidos y otros datos identificativos eliminados. Las traducciones se señalan como traducciones. No hay nada inventado."
+        ]
+      },
+      {
+        "h": "Ley aplicable",
+        "p": [
+          "Estas condiciones se rigen por el derecho griego. Si una controversia no puede resolverse entre nosotros, serán competentes los tribunales de Kos. Como consumidor, conservas cualquier derecho a demandar en tu país de residencia.",
+          "La plataforma de resolución de litigios en línea de la Comisión Europea está disponible en ec.europa.eu/consumers/odr."
+        ]
+      },
+      {
+        "h": "Cambios",
+        "p": [
+          "Estas condiciones pueden cambiar. La versión vigente en el momento en que se confirmó tu reserva es la que se aplica a esa reserva."
+        ]
+      }
+    ]
+  }
+}

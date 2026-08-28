@@ -1,0 +1,32 @@
+---
+pagination: { data: buildLocales, size: 1, alias: loc }
+permalink: "/{{ loc }}/thank-you/index.html"
+pageKey: thankyou
+pathKey: "thank-you"
+routeIndexable: false
+eleventyExcludeFromCollections: true
+---
+{%- import "partials/icons.njk" as icon -%}
+<section class="section">
+  <div class="wrap measure stack-lg">
+    <div class="alert alert--success">
+      <h1 class="alert__title">{{ c.thankyou.title }}</h1>
+    </div>
+    <p class="lede">{{ c.thankyou.lede }}</p>
+    <h2>{{ c.thankyou.bodyTitle }}</h2>
+    <ul class="ticks">
+      {%- for p in c.thankyou.body %}
+      <li>{{ p }}</li>
+      {%- endfor %}
+    </ul>
+    <div class="card">
+      <h3>{{ c.thankyou.urgentTitle }}</h3>
+      <p>{{ c.thankyou.urgentBody }}</p>
+      <div class="btn-row card__foot">
+        <a class="btn btn--accent" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.ui.whatsapp }}</a>
+        <a class="btn btn--ghost" href="{{ business.contact.phoneHref }}">{{ icon.phone() }} {{ business.contact.phone }}</a>
+      </div>
+    </div>
+    <p><a class="btn btn--primary" href="/{{ locale }}/">{{ c.thankyou.cta }}</a></p>
+  </div>
+</section>

@@ -1,0 +1,153 @@
+{
+  "balcony-setup": {
+    "w": 1200,
+    "h": 800,
+    "nativeW": 1536,
+    "nativeH": 1024,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  },
+  "certificate-aromatherapy": {
+    "w": 1200,
+    "h": 853,
+    "nativeW": 1280,
+    "nativeH": 910,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  },
+  "certificate-thai-oil-massage": {
+    "w": 1200,
+    "h": 900,
+    "nativeW": 1280,
+    "nativeH": 960,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  },
+  "certificate-wmf-advanced-massage": {
+    "w": 600,
+    "h": 995,
+    "nativeW": 886,
+    "nativeH": 1470,
+    "widths": [
+      400,
+      600
+    ],
+    "cropped": false
+  },
+  "hero-treatment-room": {
+    "w": 1200,
+    "h": 900,
+    "nativeW": 1728,
+    "nativeH": 1296,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  },
+  "oils-still-life": {
+    "w": 1200,
+    "h": 800,
+    "nativeW": 1536,
+    "nativeH": 1024,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  },
+  "portrait-konstantinos": {
+    "w": 367,
+    "h": 440,
+    "nativeW": 367,
+    "nativeH": 440,
+    "widths": [
+      367
+    ],
+    "cropped": true
+  },
+  "service-antistress-back-massage": {
+    "w": 1200,
+    "h": 800,
+    "nativeW": 1536,
+    "nativeH": 1024,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  },
+  "service-full-body-massage": {
+    "w": 1200,
+    "h": 800,
+    "nativeW": 1536,
+    "nativeH": 1024,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  },
+  "service-relaxing-massage": {
+    "w": 1200,
+    "h": 800,
+    "nativeW": 1536,
+    "nativeH": 1024,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  },
+  "service-therapeutic-sports-massage": {
+    "w": 1200,
+    "h": 800,
+    "nativeW": 1536,
+    "nativeH": 1024,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  },
+  "village-lane": {
+    "w": 1200,
+    "h": 800,
+    "nativeW": 1536,
+    "nativeH": 1024,
+    "widths": [
+      400,
+      600,
+      900,
+      1200
+    ],
+    "cropped": false
+  }
+}

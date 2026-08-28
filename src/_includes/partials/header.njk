@@ -1,0 +1,43 @@
+{%- import "partials/icons.njk" as icon -%}
+{%- set navItems = [
+  { key: "home",     path: "",         label: c.nav.home },
+  { key: "services", path: "services", label: c.nav.services },
+  { key: "about",    path: "about",    label: c.nav.about },
+  { key: "location", path: "location", label: c.nav.location },
+  { key: "contact",  path: "contact",  label: c.nav.contact }
+] -%}
+{%- set switchable = [] -%}
+{%- for l in locales.live %}{% if l.code in buildLocales %}{% set switchable = (switchable.push(l), switchable) %}{% endif %}{% endfor -%}
+{%- if isDraftLocale %}{% set switchable = (switchable.push(L), switchable) %}{% endif -%}
+
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="/{{ locale }}/">
+      {% include "partials/mark.njk" %}
+      <span class="brand__name">Mastichari Massage<span class="brand__sub">{{ business.address.locality }}, {{ business.address.region }}</span></span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      {{ icon.menu() }} <span>{{ c.nav.menu }}</span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="{{ c.nav.menu }}">
+      <ul>
+        {%- for item in navItems %}
+        <li><a href="/{{ locale }}/{{ item.path + '/' if item.path }}"{% if item.key == pageKey or (item.key == "services" and pageKey == "service") %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+
+  <div class="wrap lang-bar">
+    <nav aria-label="{{ c.nav.languageSwitcher }}" class="lang">
+      <p class="lang-bar__label" id="lang-label">{{ c.nav.languageLabel }}</p>
+      <ul class="lang__list" aria-labelledby="lang-label">
+        {%- for l in switchable %}
+        <li><a lang="{{ l.lang }}" hreflang="{{ l.hreflang }}" href="/{{ l.code }}/{{ pagePath + '/' if pagePath }}"{% if l.code == locale %} aria-current="true"{% endif %}>{{ l.endonym }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

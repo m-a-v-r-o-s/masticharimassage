@@ -1,0 +1,164 @@
+---
+pagination: { data: buildLocales, size: 1, alias: loc }
+permalink: "/{{ loc }}/contact/index.html"
+pageKey: contact
+pathKey: "contact"
+eleventyExcludeFromCollections: true
+---
+{%- import "partials/icons.njk" as icon -%}
+{%- set svcs = business | serviceList(c) -%}
+{%- set f = c.contact.form -%}
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">{{ c.nav.contact }}</p>
+      <h1>{{ c.contact.title }}</h1>
+      <p class="lede">{{ c.contact.lede }}</p>
+    </div>
+
+    <h2 class="visually-hidden">{{ c.contact.directTitle }}</h2>
+    <div class="tiles">
+      <div class="tile">
+        <h3>{{ c.ui.whatsapp }}</h3>
+        <a class="big" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ business.contact.phone }}</a>
+        <p>{{ c.contact.whatsappBody }}</p>
+      </div>
+      <div class="tile">
+        <h3>{{ c.ui.phoneLabel }}</h3>
+        <a class="big" href="{{ business.contact.phoneHref }}">{{ business.contact.phone }}</a>
+        <p>{{ c.contact.phoneBody }}</p>
+      </div>
+      <div class="tile">
+        <h3>{{ c.ui.emailLabel }}</h3>
+        <a class="big" href="{{ business.contact.emailHref }}">{{ business.contact.email }}</a>
+        <p>{{ c.contact.emailBody }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--warm">
+  <div class="wrap grid grid--split">
+    <div>
+      <h2 id="form">{{ c.contact.formTitle }}</h2>
+      <p class="form-intro">{{ c.contact.formIntro }}</p>
+
+      <div id="form-status" role="status" aria-live="polite" class="u-my-1"></div>
+
+      {#- Strings the enhanced form needs at runtime. Kept as data, never as inline
+          JavaScript, so the Content-Security-Policy can forbid inline script outright. -#}
+      <script type="application/json" id="form-strings">{{ {
+        "name": c.contact.errors.name,
+        "email": c.contact.errors.email,
+        "emailInvalid": c.contact.errors.emailInvalid,
+        "where": c.contact.errors.where,
+        "message": c.contact.errors.message,
+        "consent": c.contact.errors.consent,
+        "rateLimit": c.contact.errors.rateLimit,
+        "server": c.contact.errors.server,
+        "summaryTitle": c.contact.errors.summaryTitle,
+        "submitting": c.contact.form.submitting,
+        "successTitle": c.contact.success.title,
+        "successBody": c.contact.success.body,
+        "successLink": c.contact.success.link,
+        "thankyouUrl": "/" + locale + "/thank-you/"
+      } | jsonld | safe }}</script>
+
+      <form class="form" id="booking-form" method="post" action="/api/booking" novalidate>
+        <input type="hidden" name="locale" value="{{ locale }}">
+        <input type="hidden" name="csrf" value="" data-csrf>
+        <div class="hp" aria-hidden="true">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" tabindex="-1" autocomplete="off">
+        </div>
+
+        <div class="field" data-field="name">
+          <label for="in-name">{{ f.name }} <span class="req">({{ f.required }})</span></label>
+          <input type="text" id="in-name" name="name" required autocomplete="name" maxlength="120" aria-describedby="err-name">
+          <p class="field__error" id="err-name" hidden></p>
+        </div>
+
+        <div class="field" data-field="email">
+          <label for="in-email">{{ f.email }} <span class="req">({{ f.required }})</span></label>
+          <input type="email" id="in-email" name="email" required autocomplete="email" maxlength="200" aria-describedby="hint-email err-email">
+          <p class="hint" id="hint-email">{{ f.emailHint }}</p>
+          <p class="field__error" id="err-email" hidden></p>
+        </div>
+
+        <div class="field" data-field="phone">
+          <label for="in-phone">{{ f.phone }} <span class="req">({{ f.optional }})</span></label>
+          <input type="tel" id="in-phone" name="phone" autocomplete="tel" maxlength="40" aria-describedby="hint-phone">
+          <p class="hint" id="hint-phone">{{ f.phoneHint }}</p>
+        </div>
+
+        <div class="field" data-field="where">
+          <label for="in-where">{{ f.where }} <span class="req">({{ f.required }})</span></label>
+          <input type="text" id="in-where" name="where" required maxlength="200" aria-describedby="hint-where err-where">
+          <p class="hint" id="hint-where">{{ f.whereHint }}</p>
+          <p class="field__error" id="err-where" hidden></p>
+        </div>
+
+        <div class="field" data-field="service">
+          <label for="in-service">{{ f.service }} <span class="req">({{ f.optional }})</span></label>
+          <select id="in-service" name="service">
+            <option value="">{{ f.serviceAny }}</option>
+            {%- for s in svcs %}
+            <option value="{{ s.slug }}">{{ s.name }}</option>
+            {%- endfor %}
+          </select>
+        </div>
+
+        <div class="field" data-field="when">
+          <label for="in-when">{{ f.when }} <span class="req">({{ f.optional }})</span></label>
+          <input type="text" id="in-when" name="when" maxlength="120" aria-describedby="hint-when">
+          <p class="hint" id="hint-when">{{ f.whenHint }}</p>
+        </div>
+
+        <div class="field" data-field="message">
+          <label for="in-message">{{ f.message }} <span class="req">({{ f.optional }})</span></label>
+          <textarea id="in-message" name="message" maxlength="2000" aria-describedby="hint-message err-message"></textarea>
+          <p class="hint" id="hint-message">{{ f.messageHint }}</p>
+          <p class="field__error" id="err-message" hidden></p>
+        </div>
+
+        <div class="field field--check" data-field="consent">
+          <input type="checkbox" id="in-consent" name="consent" value="yes" required aria-describedby="hint-consent err-consent">
+          <label for="in-consent">{{ f.consentLabel }}</label>
+          <p class="hint" id="hint-consent">{{ f.consentHint }} <a href="/{{ locale }}/privacy/">{{ c.ui.privacy }}</a>.</p>
+          <p class="field__error" id="err-consent" hidden></p>
+        </div>
+
+        <div>
+          <button class="btn btn--accent" type="submit" data-submit>
+            <span data-submit-label>{{ f.submit }}</span>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="stack">
+      <p class="notice">{{ c.ui.wellnessNotice }}</p>
+      <p class="notice">{{ c.ui.priceNote }}</p>
+      <div class="card">
+        <h3>{{ c.ui.findMe }}</h3>
+        <p>{{ c.location.whereBody }}</p>
+        <p class="card__foot"><a class="card__link" href="/{{ locale }}/location/">{{ c.home.areaCta }}</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>{{ c.contact.faqTitle }}</h2></div>
+    <div class="faq">
+      {%- for item in c.contact.faq %}
+      <details>
+        <summary>{{ item.q }}</summary>
+        <div><p>{{ item.a }}</p></div>
+      </details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,80 @@
+---
+pagination: { data: buildLocales, size: 1, alias: loc }
+permalink: "/{{ loc }}/location/index.html"
+pageKey: location
+pathKey: "location"
+eleventyExcludeFromCollections: true
+---
+{%- import "partials/icons.njk" as icon -%}
+{%- import "partials/pic.njk" as p -%}
+
+<section class="section">
+  <div class="wrap grid grid--split">
+    <div class="stack">
+      <p class="eyebrow">{{ c.nav.location }}</p>
+      <h1>{{ c.location.title }}</h1>
+      <p class="lede">{{ c.location.lede }}</p>
+      <div class="btn-row">
+        <a class="btn btn--accent" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.ui.bookNow }}</a>
+      </div>
+    </div>
+    <div>
+      {{ p.pic(images, "balcony-setup", c.location.imageAlt, "(min-width: 52em) 42vw, 100vw", "u-round u-raise", true) }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--warm">
+  <div class="wrap">
+    <div class="section-head reveal"><h2>{{ c.location.areasTitle }}</h2></div>
+    <div class="grid grid--3 reveal">
+      {%- for a in c.location.areas %}
+      <div class="card">
+        <h3>{{ a.name }}</h3>
+        <p>{{ a.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+    <div class="measure stack u-mt-25">
+      <h3>{{ c.location.elsewhereTitle }}</h3>
+      <p>{{ c.location.elsewhereBody }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap grid grid--2">
+    <div class="stack">
+      <h2>{{ c.location.whereTitle }}</h2>
+      <p>{{ c.location.whereBody }}</p>
+      <h2 class="u-mt-15">{{ c.location.practicalTitle }}</h2>
+      <p>{{ c.location.practicalBody }}</p>
+    </div>
+    <div class="stack">
+      <h2>{{ c.location.hotelsTitle }}</h2>
+      {%- if business.hotelPartners.publish %}
+      <p>{{ c.location.hotelsBodyNamed }}</p>
+      <ul class="ticks">
+        {%- for h in business.hotelPartners.list %}
+        <li>{{ h.name }}, {{ h.place }}</li>
+        {%- endfor %}
+      </ul>
+      {%- else %}
+      <p>{{ c.location.hotelsBodyGeneric }}</p>
+      {%- endif %}
+      <h2 class="u-mt-15">{{ c.location.hoursTitle }}</h2>
+      <p>{{ c.location.hoursBody }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink">
+  <div class="wrap measure stack">
+    <h2>{{ c.home.ctaTitle }}</h2>
+    <p>{{ c.home.ctaBody }}</p>
+    <div class="btn-row">
+      <a class="btn btn--onink" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.ui.whatsapp }}</a>
+      <a class="btn btn--onink" href="{{ business.contact.phoneHref }}">{{ icon.phone() }} {{ business.contact.phone }}</a>
+    </div>
+  </div>
+</section>
