@@ -306,7 +306,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 
 /* ---------- contact tiles / FAQ ---------- */
 .tiles { display: grid; gap: var(--gap); }
-@media (min-width: 46em) { .tiles { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 46em) { .tiles { grid-template-columns: repeat(2, 1fr); } }
 .tile { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem; }
 .tile h3 { font-size: var(--step-1); margin: 0; }
 .tile p { color: var(--muted); font-size: var(--step--1); margin: 0; }
