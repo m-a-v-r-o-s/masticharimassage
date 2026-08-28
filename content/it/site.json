@@ -58,7 +58,8 @@
     "wellnessNotice": "Questi sono massaggi di benessere e rilassamento, non trattamenti medici. Se hai una condizione di salute, sei incinta o ti stai riprendendo da un infortunio o da un intervento, dimmelo quando prenoti e chiedi prima al tuo medico.",
     "draftNotice": "Questa pagina è stata tradotta automaticamente e non è ancora stata controllata da un madrelingua. Per qualsiasi cosa importante, leggi la versione inglese o greca - oppure scrivimi e basta.",
     "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, massaggiatore a Mastichari, Kos",
-    "imagePendingAlt": "Un ambiente tranquillo per il trattamento: biancheria pulita, asciugamani piegati e olio, pronti per la seduta."
+    "imagePendingAlt": "Un ambiente tranquillo per il trattamento: biancheria pulita, asciugamani piegati e olio, pronti per la seduta.",
+    "googleMaps": "Google Maps"
   },
   "meta": {
     "home": {
@@ -374,6 +375,10 @@
     "elsewhereBody": "Chiedi pure. Spesso si riesce, dipende solo dall'orario e da come è già impegnata la giornata. Scrivimi dove alloggi e ti dico onestamente se riesco ad arrivarci.",
     "whereTitle": "Trovarmi di persona",
     "whereBody": "A Mastichari di solito mi trovi da Ghitonia, il negozio di souvenir di famiglia nel centro pedonale del paese. Se non ci sono, la famiglia saprà dirti dove sono - oppure chiama o scrivi su WhatsApp, che è più veloce.",
+    "mapTitle": "Su Google Maps",
+    "mapBody": "L'attività è presente su Google Maps come Mastichari Massage, con un segnaposto nel centro del paese. Poiché sono io a venire da voi, il segnaposto serve a trovarmi e a lasciare una recensione — non è un indirizzo dove dovete recarvi.",
+    "mapCta": "Vedi su Google Maps",
+    "directionsCta": "Indicazioni per il centro del paese",
     "hotelsTitle": "Alberghi e appartamenti",
     "hotelsBodyGeneric": "Da anni collaboro con alberghi e complessi di appartamenti a Mastichari, Tigaki e Marmari, e molte prenotazioni arrivano tramite la reception. Se alloggi in albergo puoi chiedere alla reception - oppure scrivermi direttamente, che di solito è più rapido.",
     "hotelsBodyNamed": "Nel corso degli anni ho lavorato con queste strutture, e molte prenotazioni arrivano ancora dalle loro reception:",

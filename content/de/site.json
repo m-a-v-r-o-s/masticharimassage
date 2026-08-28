@@ -58,7 +58,8 @@
     "wellnessNotice": "Dies sind Wellness- und Entspannungsmassagen, keine medizinische Behandlung. Wenn Sie eine Erkrankung haben, schwanger sind oder sich von einer Verletzung oder Operation erholen, sagen Sie es mir bitte bei der Buchung und fragen Sie vorher Ihre Ärztin oder Ihren Arzt.",
     "draftNotice": "Diese Seite wurde maschinell übersetzt und noch nicht von einem Muttersprachler geprüft. Für alles Wichtige lesen Sie bitte die englische oder griechische Fassung - oder schreiben Sie mir einfach.",
     "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, Masseur in Mastichari, Kos",
-    "imagePendingAlt": "Eine ruhige Behandlungssituation: frische Wäsche, zusammengelegte Handtücher und Öl, bereit für eine Sitzung."
+    "imagePendingAlt": "Eine ruhige Behandlungssituation: frische Wäsche, zusammengelegte Handtücher und Öl, bereit für eine Sitzung.",
+    "googleMaps": "Google Maps"
   },
   "meta": {
     "home": {
@@ -374,6 +375,10 @@
     "elsewhereBody": "Fragen Sie ruhig. Oft geht es, es hängt nur von der Tageszeit ab und davon, wie der übrige Tag belegt ist. Schreiben Sie mir, wo Sie wohnen, und ich sage Ihnen ehrlich, ob ich es schaffe.",
     "whereTitle": "Mich persönlich finden",
     "whereBody": "In Mastichari finden Sie mich meist bei Ghitonia, dem Souvenirladen der Familie im Fußgängerzentrum des Dorfes. Wenn ich nicht da bin, sagt Ihnen die Familie, wo ich bin - oder rufen Sie einfach an bzw. schreiben Sie eine WhatsApp-Nachricht, das geht schneller.",
+    "mapTitle": "Bei Google Maps",
+    "mapBody": "Das Unternehmen ist bei Google Maps als Mastichari Massage eingetragen, mit einer Markierung im Ortszentrum. Da ich zu Ihnen komme, dient die Markierung dazu, mich zu finden und zu bewerten — es ist keine Adresse, zu der Sie fahren müssen.",
+    "mapCta": "Bei Google Maps ansehen",
+    "directionsCta": "Route zum Ortszentrum",
     "hotelsTitle": "Hotels und Apartments",
     "hotelsBodyGeneric": "Ich arbeite seit Jahren mit Hotels und Apartmentanlagen in Mastichari, Tigaki und Marmari zusammen, und viele Buchungen kommen über die Rezeption. Wenn Sie in einem Hotel wohnen, können Sie an der Rezeption fragen - oder mir direkt schreiben, was meist schneller geht.",
     "hotelsBodyNamed": "Mit diesen Häusern habe ich über die Jahre gearbeitet, und viele Buchungen kommen weiterhin über ihre Rezeption:",

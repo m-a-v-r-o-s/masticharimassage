@@ -58,7 +58,8 @@
     "wellnessNotice": "To masaże relaksacyjne i wellness, a nie leczenie. Jeśli masz jakąś dolegliwość, jesteś w ciąży albo wracasz do formy po urazie lub operacji, powiedz mi o tym przy rezerwacji i najpierw zapytaj lekarza.",
     "draftNotice": "Ta strona została przetłumaczona maszynowo i nie została jeszcze sprawdzona przez native speakera. W ważnych sprawach przeczytaj wersję angielską lub grecką - albo po prostu napisz do mnie.",
     "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, masażysta w Mastichari na Kos",
-    "imagePendingAlt": "Spokojne miejsce do zabiegu: czysta pościel, złożone ręczniki i olejek, gotowe na sesję."
+    "imagePendingAlt": "Spokojne miejsce do zabiegu: czysta pościel, złożone ręczniki i olejek, gotowe na sesję.",
+    "googleMaps": "Google Maps"
   },
   "meta": {
     "home": {
@@ -374,6 +375,10 @@
     "elsewhereBody": "Zapytaj. Często się udaje, wszystko zależy od pory dnia i od tego, jak zajęta jest reszta dnia. Napisz, gdzie mieszkasz, a szczerze powiem, czy dam radę dojechać.",
     "whereTitle": "Jak znaleźć mnie osobiście",
     "whereBody": "W Mastichari zwykle można mnie znaleźć w \"Ghitonia\", rodzinnym sklepie z pamiątkami w deptakowym centrum wsi. Jeśli mnie tam nie ma, rodzina powie, gdzie jestem - albo po prostu zadzwoń lub napisz na WhatsAppie, tak jest szybciej.",
+    "mapTitle": "W Mapach Google",
+    "mapBody": "Firma jest widoczna w Mapach Google jako Mastichari Massage, z pinezką w centrum wsi. Ponieważ to ja przyjeżdżam do Ciebie, pinezka służy do znalezienia mnie i wystawienia opinii — nie jest to adres, pod który trzeba dojechać.",
+    "mapCta": "Zobacz w Mapach Google",
+    "directionsCta": "Wyznacz trasę do centrum wsi",
     "hotelsTitle": "Hotele i apartamenty",
     "hotelsBodyGeneric": "Od lat współpracuję z hotelami i kompleksami apartamentów w Mastichari, Tigaki i Marmari, a wiele rezerwacji przychodzi przez recepcję. Jeśli mieszkasz w hotelu, możesz zapytać w recepcji - albo napisać do mnie bezpośrednio, co zwykle idzie szybciej.",
     "hotelsBodyNamed": "Z tymi obiektami pracowałem przez lata i wiele rezerwacji nadal przychodzi przez ich recepcje:",

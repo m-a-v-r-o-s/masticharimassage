@@ -4,8 +4,14 @@
       derived from the set of locales this site is published in.
     - No Offer node and no priceRange while business.prices.published is false.
       A stale price in structured data is worse than no price at all.
-    - No aggregateRating: 41 self-hosted comments are not a valid rating source. -#}
+    - No aggregateRating: 41 self-hosted comments are not a valid rating source.
+    - hasMap/geo point at the public Google Business Profile pin (village centre), not
+      a street or home address - the service is mobile. See business.map._note.
+    - sameAs lists only socials without publish:false, so a superseded profile stays
+      in the data file without being asserted as the business's identity. -#}
 {%- set svcs = business | serviceList(c) -%}
+{%- set socials = [] -%}
+{%- for s in business.social %}{% if s.publish != false %}{% set socials = (socials.push(s), socials) %}{% endif %}{% endfor -%}
 {%- set bizId = site.origin + "/#business" -%}
 {%- set personId = site.origin + "/#konstantinos" -%}
 {%- set siteId = site.origin + "/#website" -%}
@@ -35,6 +41,12 @@
       "addressRegion": business.address.region,
       "addressCountry": business.address.country
     },
+    "hasMap": business.map.placeUrl,
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": business.map.lat,
+      "longitude": business.map.lng
+    },
     "areaServed": business.areaServed,
     "openingHoursSpecification": [{
       "@type": "OpeningHoursSpecification",
@@ -42,7 +54,7 @@
       "opens": business.hours.opens,
       "closes": business.hours.closes
     }],
-    "sameAs": business.social | pluck("url"),
+    "sameAs": socials | pluck("url"),
     "founder": { "@id": personId },
     "employee": { "@id": personId },
     "isAccessibleForFree": false,

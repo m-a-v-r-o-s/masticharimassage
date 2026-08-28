@@ -58,7 +58,8 @@
     "wellnessNotice": "Dit zijn wellness- en ontspanningsmassages, geen medische behandeling. Als u een aandoening hebt, zwanger bent of herstelt van een blessure of operatie, laat het me weten bij het boeken en vraag eerst uw arts.",
     "draftNotice": "Deze pagina is machinaal vertaald en nog niet gecontroleerd door een moedertaalspreker. Lees voor iets belangrijks de Engelse of Griekse versie - of stuur me gewoon een bericht.",
     "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, masseur in Mastichari, Kos",
-    "imagePendingAlt": "Een rustige behandelplek: schoon linnen, opgevouwen handdoeken en olie, klaar voor een sessie."
+    "imagePendingAlt": "Een rustige behandelplek: schoon linnen, opgevouwen handdoeken en olie, klaar voor een sessie.",
+    "googleMaps": "Google Maps"
   },
   "meta": {
     "home": {
@@ -374,6 +375,10 @@
     "elsewhereBody": "Vraag het gerust. Vaak lukt het, het hangt alleen van het tijdstip af en van hoe de rest van de dag volzit. Stuur een bericht met waar u verblijft, dan zeg ik eerlijk of ik er kan komen.",
     "whereTitle": "Mij persoonlijk vinden",
     "whereBody": "In Mastichari vindt u mij meestal bij Ghitonia, de souvenirwinkel van de familie in het autovrije centrum van het dorp. Ben ik er niet, dan kan de familie u vertellen waar ik ben - of bel gewoon of stuur een WhatsApp-bericht, dat gaat sneller.",
+    "mapTitle": "Op Google Maps",
+    "mapBody": "Het bedrijf staat op Google Maps als Mastichari Massage, met een markering in het centrum van het dorp. Omdat ik naar u toe kom, is de markering er om mij te vinden en een beoordeling achter te laten — het is geen adres waar u naartoe moet.",
+    "mapCta": "Bekijk op Google Maps",
+    "directionsCta": "Route naar het dorpscentrum",
     "hotelsTitle": "Hotels en appartementen",
     "hotelsBodyGeneric": "Ik werk al jaren samen met hotels en appartementencomplexen in Mastichari, Tigaki en Marmari, en veel boekingen komen via de receptie binnen. Verblijft u in een hotel, vraag het dan bij de balie - of stuur mij rechtstreeks een bericht, dat gaat meestal sneller.",
     "hotelsBodyNamed": "Met deze adressen heb ik door de jaren heen gewerkt, en veel boekingen komen nog steeds via hun receptie:",

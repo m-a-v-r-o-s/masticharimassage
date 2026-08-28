@@ -36,6 +36,9 @@ const SAME_BY_DESIGN = [
   // several of these languages. Translating them for the sake of looking
   // translated would make the page read worse, not better.
   /^serviceContent\.full-body-massage\.name$/,
+  // "Google Maps" is Google's own product name and is left untranslated in every
+  // one of these languages, including the ones that translate it in their UI.
+  /^ui\.googleMaps$/,
 ];
 
 function flatten(obj, prefix = "", out = {}) {

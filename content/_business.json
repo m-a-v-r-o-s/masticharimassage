@@ -47,6 +47,16 @@
     "country": "GR",
     "note": "Village centre, Mastichari, Kos. No street address is published on the client's instruction; see docs/CLIENT-QUESTIONS.md item 6."
   },
+  "map": {
+    "shortUrl": "https://maps.app.goo.gl/ShPXKKdkrtSJvQNn8",
+    "placeUrl": "https://www.google.com/maps/place/Mastichari+Massage/@36.8496693,27.075741,17z/data=!4m6!3m5!1s0x14bdfb8ba554c8c3:0x4358560cf5e8c3c3!8m2!3d36.8496693!4d27.075741!16s%2Fg%2F11dzcx9dht",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=36.8496693%2C27.075741",
+    "featureId": "0x14bdfb8ba554c8c3:0x4358560cf5e8c3c3",
+    "cid": "4852723212156978115",
+    "lat": 36.8496693,
+    "lng": 27.075741,
+    "_note": "Resolved from the client-supplied maps.app.goo.gl short link on 2026-08-28; every value here was read off that redirect, none inferred. This is the business's own Google Business Profile ('Mastichari Massage'). Coordinates are the village-centre point Google already publishes on the public listing - NOT a home address, and nothing finer is published. The service is mobile (he travels to the guest), so this pin is a findability/reviews signal, not a 'come here' address. No ChIJ-form place ID is stored: it cannot be derived from the featureId without a Places API lookup, and Google returns HTTP 200 for a wrong one, so a guessed value would fail silently. Add it only from an API response or the Place ID Finder."
+  },
   "areaServed": [
     "Mastichari",
     "Tigaki",
@@ -150,11 +160,21 @@
   "social": [
     {
       "key": "facebook",
-      "url": "https://www.facebook.com/konstantinos.fessaras"
+      "url": "https://www.facebook.com/profile.php?id=100054644702024",
+      "label": "Facebook",
+      "_note": "Business page supplied by the client 2026-08-28. Canonicalised from web.facebook.com to www.facebook.com - web.* is a regional mirror host and is not the canonical URL Google expects in sameAs."
     },
     {
       "key": "x",
-      "url": "https://twitter.com/massagekos"
+      "url": "https://twitter.com/massagekos",
+      "label": "X"
+    },
+    {
+      "key": "facebook-personal",
+      "url": "https://www.facebook.com/konstantinos.fessaras",
+      "label": "Facebook",
+      "publish": false,
+      "_note": "Konstantinos's personal profile, carried over from the old site. Superseded by the business page above. Kept here, unpublished, pending confirmation that it should be dropped for good - docs/CLIENT-QUESTIONS.md."
     }
   ],
   "_droppedSocial": "Google+ (plus.google.com) was on the old site and no longer exists - dropped, not migrated.",

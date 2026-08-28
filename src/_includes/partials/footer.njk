@@ -41,9 +41,10 @@
       </ul>
       <h2 class="u-mt-15">Social</h2>
       <ul>
-        {%- for s in business.social %}
-        <li><a href="{{ s.url }}" rel="noopener me">{{ s.key | capitalize }}</a></li>
-        {%- endfor %}
+        {%- for s in business.social %}{% if s.publish != false %}
+        <li><a href="{{ s.url }}" rel="noopener me">{{ s.label or (s.key | capitalize) }}</a></li>
+        {%- endif %}{% endfor %}
+        <li><a href="{{ business.map.placeUrl }}" rel="noopener">{{ c.ui.googleMaps }}</a></li>
       </ul>
     </div>
   </div>

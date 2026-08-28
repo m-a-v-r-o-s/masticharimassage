@@ -58,7 +58,8 @@
     "wellnessNotice": "These are wellness and relaxation massages, not medical treatment. If you have a health condition, are pregnant, or are recovering from an injury or surgery, please tell me when you book and ask your doctor first.",
     "draftNotice": "This page has been machine-translated and not yet checked by a native speaker. For anything important, read the English or Greek version - or just send a message.",
     "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, massage therapist in Mastichari, Kos",
-    "imagePendingAlt": "A quiet treatment setting: clean linen, folded towels and oil, ready for a session."
+    "imagePendingAlt": "A quiet treatment setting: clean linen, folded towels and oil, ready for a session.",
+    "googleMaps": "Google Maps"
   },
   "meta": {
     "home": {
@@ -374,6 +375,10 @@
     "elsewhereBody": "Ask. It often works, it just depends on the time of day and how the rest of the day is booked. Send a message with where you are staying and I will tell you honestly whether I can get there.",
     "whereTitle": "Finding me in person",
     "whereBody": "In Mastichari you can usually find me at Ghitonia, the family souvenir shop in the pedestrian centre of the village. If I am not there, the family can tell you where I am - or just call or send a WhatsApp message, which is faster.",
+    "mapTitle": "On Google Maps",
+    "mapBody": "The business is listed on Google Maps as Mastichari Massage, pinned to the centre of the village. Because I come to you, the pin is there so you can find and review the business — not an address you need to drive to.",
+    "mapCta": "View on Google Maps",
+    "directionsCta": "Get directions to the village centre",
     "hotelsTitle": "Hotels and apartments",
     "hotelsBodyGeneric": "I have worked with hotels and apartment complexes in Mastichari, Tigaki and Marmari for years, and many bookings come through reception. If you are staying at a hotel, you can ask at the desk - or just message me directly, which is usually quicker.",
     "hotelsBodyNamed": "I have worked with these places over the years, and many bookings still come through their reception desks:",

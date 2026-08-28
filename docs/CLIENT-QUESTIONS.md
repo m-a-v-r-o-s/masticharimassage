@@ -97,9 +97,19 @@ no street. The Ghitonia souvenir shop is named as the place people can find you 
 person, because that is what the old site said and it is a landmark rather than a
 home address.
 
-**What to tell us.** Whether you want a street address and a map published. A pin
-helps local search; it also publishes where you are. Your call, and it can be added
-later without touching anything else.
+**Answered 2026-08-28 — partly.** You sent the Google Maps link, so the site now
+links to your Google listing from the Location page, the Contact page and the footer,
+and the structured data carries `hasMap` plus the listing's coordinates (36.84967,
+27.07574 — the village-centre pin Google already shows publicly).
+
+Still no street address, and the map is a **link, not an embedded map** — an embed
+would load Google code and a third-party cookie into a site that currently loads
+nothing from anyone else, and would weaken the security policy for very little gain.
+
+**Still to tell us.** Whether a street address should ever be published. Our
+recommendation is no: the service is mobile, the pin and the Ghitonia landmark are
+enough for someone to find and review you, and a street address on a home is not
+worth the small local-search gain.
 
 ---
 
@@ -139,7 +149,14 @@ cookie banner honest and does not need a consent flow.
 
 ## 10. Google Business Profile
 
-**Current state.** Not set up, as far as we know.
+**Current state — updated 2026-08-28.** It **is** set up. The Maps link you sent
+resolves to a live Google Business Profile called "Mastichari Massage", so this item
+is no longer about creating one.
+
+**What is left to do on it.** Two things, both needing your own Google account:
+claim/verify the listing if you have not already, and start asking happy customers to
+leave a Google review there. That is where reviews actually count for search — the 41
+comments on this website cannot be used by Google as ratings.
 
 **Why it matters more than the website.** For "massage Kos" searches, a Google
 Business Profile with real reviews outranks almost anything a website can do on its
@@ -147,5 +164,21 @@ own. The 41 comments on this site are good social proof for a visitor who is alr
 reading it, but they are not reviews Google can use — which is why the structured
 data deliberately carries no `aggregateRating`.
 
-**What to do.** This needs your own Google account. See `docs/LAUNCH.md` for the
-post-launch steps.
+See `docs/LAUNCH.md` for the post-launch steps.
+
+---
+
+## 11. Which Facebook page is the business one
+
+**Current state.** You sent `facebook.com/profile.php?id=100054644702024`, and the
+site now links to that one everywhere and names it as the business's page in the
+structured data.
+
+The old site linked a different, personal-looking profile
+(`facebook.com/konstantinos.fessaras`). That one is still in our data file but is no
+longer published anywhere.
+
+**What to tell us.** Whether the old profile should be deleted from the site's data
+for good, or whether both should be linked. Linking one clear business page is better
+for search than linking two — Google reads these as "this is who the business is",
+and two competing answers is weaker than one.

@@ -58,7 +58,8 @@
     "wellnessNotice": "Estos son masajes de bienestar y relajación, no un tratamiento médico. Si tienes alguna condición de salud, estás embarazada o te estás recuperando de una lesión o una operación, dímelo al reservar y consulta antes con tu médico.",
     "draftNotice": "Esta página se ha traducido automáticamente y todavía no la ha revisado un hablante nativo. Para cualquier cosa importante, lee la versión en inglés o en griego, o simplemente escríbeme.",
     "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, masajista en Mastichari, Kos",
-    "imagePendingAlt": "Un espacio tranquilo de tratamiento: ropa limpia, toallas dobladas y aceite, listo para la sesión."
+    "imagePendingAlt": "Un espacio tranquilo de tratamiento: ropa limpia, toallas dobladas y aceite, listo para la sesión.",
+    "googleMaps": "Google Maps"
   },
   "meta": {
     "home": {
@@ -374,6 +375,10 @@
     "elsewhereBody": "Pregunta. Muchas veces sale, solo depende de la hora del día y de cómo esté el resto de la jornada. Escríbeme dónde te alojas y te digo con sinceridad si puedo llegar.",
     "whereTitle": "Encontrarme en persona",
     "whereBody": "En Mastichari normalmente me encuentras en Ghitonia, la tienda de souvenirs familiar del centro peatonal del pueblo. Si no estoy, la familia te dirá dónde estoy, o simplemente llama o escribe por WhatsApp, que es más rápido.",
+    "mapTitle": "En Google Maps",
+    "mapBody": "El negocio aparece en Google Maps como Mastichari Massage, con un marcador en el centro del pueblo. Como soy yo quien va a su alojamiento, el marcador sirve para encontrarme y dejar una reseña, no es una dirección a la que tenga que desplazarse.",
+    "mapCta": "Ver en Google Maps",
+    "directionsCta": "Cómo llegar al centro del pueblo",
     "hotelsTitle": "Hoteles y apartamentos",
     "hotelsBodyGeneric": "Llevo años trabajando con hoteles y complejos de apartamentos en Mastichari, Tigaki y Marmari, y muchas reservas llegan por recepción. Si te alojas en un hotel, puedes preguntar en el mostrador, o escribirme directamente, que suele ser más rápido.",
     "hotelsBodyNamed": "He trabajado con estos alojamientos a lo largo de los años, y muchas reservas siguen llegando por sus recepciones:",
