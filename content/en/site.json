@@ -32,6 +32,8 @@
     "allMassages": "All massages",
     "backToServices": "Back to all massages",
     "testimonialsTitle": "What guests have said",
+    "reviewsGoogle": "Read more on Google",
+    "reviewsTripadvisor": "Read more on TripAdvisor",
     "showTranslation": "Show translation",
     "showOriginal": "Show original",
     "translationNote": "Translated for this page.",
@@ -50,6 +52,8 @@
     "rights": "All rights reserved.",
     "privacy": "Privacy policy",
     "terms": "Terms of service",
+    "cookies": "Cookie policy",
+    "cookieSettings": "Cookie settings",
     "certifiedBy": "Certified by",
     "issued": "Issued",
     "protocolNo": "Protocol no.",
@@ -93,6 +97,10 @@
     "terms": {
       "title": "Terms of service | Mastichari Massage, Kos",
       "description": "Booking, cancellation, conduct and the scope of the wellness massage services offered by Konstantinos Fessaras in Mastichari, Kos."
+    },
+    "cookies": {
+      "title": "Cookie policy | Mastichari Massage, Kos",
+      "description": "Which cookies this site sets, why, how long they last, and how to accept or decline them at any time."
     },
     "notfound": {
       "title": "Page not found | Mastichari Massage, Kos",
@@ -377,7 +385,7 @@
     "whereBody": "My own place is in the pedestrian centre of Mastichari, right next to Ghitonia, the family souvenir shop - close by, but not the same door. The centre is car-free, so park at the edge and walk the last stretch; the Google Maps pin below takes you to it. Both walk-ins and booked appointments are welcome, though messaging first means you are not waiting if I am out at an appointment.",
     "mapTitle": "The exact spot",
     "studioAddressLine": "Pedestrian centre of Mastichari, next to Ghitonia",
-    "mapBody": "My place is in the pedestrian centre of Mastichari, right next to Ghitonia - close by, but not the same door. Use the map to find your way, or to leave a review after your massage.",
+    "mapBody": "My place is in the pedestrian centre of Mastichari, right next to Ghitonia. Use the map to find your way, or to leave a review after your massage.",
     "mapCta": "View on Google Maps",
     "directionsCta": "Get directions",
     "hotelsTitle": "Hotels and apartments",
@@ -505,9 +513,11 @@
   },
   "cookie": {
     "title": "Cookies",
-    "body": "This site uses no analytics and no tracking. One cookie remembers the language you chose, and one short-lived cookie protects the booking form from abuse. Both are needed for the site to work and neither follows you anywhere.",
-    "accept": "Got it",
-    "more": "Read the privacy policy",
+    "body": "This site uses no analytics and no tracking. One cookie is always set because it keeps the booking form secure. You choose whether the site may also remember the language you picked.",
+    "accept": "Accept all",
+    "decline": "Necessary only",
+    "more": "Cookie policy",
+    "manage": "Cookie settings",
     "ariaLabel": "Cookie notice"
   },
   "privacy": {
@@ -569,8 +579,8 @@
         "h": "Cookies",
         "p": [
           "This site sets no analytics or advertising cookies, and there is nothing here from any advertising network.",
-          "Three small cookies are used, all of them necessary: one remembers the language you chose so you are not sent back to English on the next page (twelve months); one short-lived token protects the booking form against cross-site request forgery (deleted when you close the browser); one records that you dismissed the cookie notice, so it does not reappear on every page (twelve months).",
-          "You can delete them in your browser at any time. The site will keep working - it will simply forget your language and show the notice again.",
+          "Two cookies are strictly necessary and are always set: one protects the booking form against cross-site request forgery, the other remembers whether you chose \"Accept all\" or \"Necessary only\" in the cookie notice. A third cookie, which remembers the language you chose so you are not sent back to English on the next visit, is set only if you accept it. You are asked on your first visit and can change your answer at any time from \"Cookie settings\" in the footer. The full list, with how long each one lasts, is in the cookie policy.",
+          "You can also delete any of them in your browser at any time. The site will keep working - it will simply forget your language and ask again.",
           "The home and Location pages also embed a live Google Map so you can see exactly where the studio is. That map is loaded directly from Google, not from this site, so once that part of the page loads, Google may set its own cookies and see your IP address under its own privacy policy - this site does not control that. If you would rather not load it, the \"View on Google Maps\" and \"Get directions\" links open Google Maps in a new tab instead, and load nothing unless you click them."
         ]
       },
@@ -701,6 +711,66 @@
         "h": "Changes",
         "p": [
           "These terms may change. The version in force when your booking was confirmed is the one that applies to it."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookie policy",
+    "updated": "Last updated: 29 August 2026",
+    "lede": "This is the full list of cookies this site can set, why, and how long each one lasts. You choose which of them are set, and you can change your mind at any time.",
+    "sections": [
+      {
+        "h": "Your choice",
+        "p": [
+          "When you first visit, a small notice asks you to accept all cookies or necessary only. Necessary only means the site sets just the one cookie it cannot work without; accepting all also lets it remember the language you picked.",
+          "You can change your mind at any time - open \"Cookie settings\" in the footer of any page, on any language, to see the notice again and pick a different answer."
+        ]
+      },
+      {
+        "h": "Cookies that are always set",
+        "p": [
+          "csrf - a one-time token that protects the booking form from being submitted by another website on your behalf. It is deleted when you close your browser and is not linked to who you are.",
+          "cookieConsent - remembers whether you chose \"Accept all\" or \"Necessary only\", so the notice does not reappear on every page. Lasts twelve months.",
+          "Both are strictly necessary to run the site and the cookie notice itself, so the GDPR and Greek law do not require your consent for them."
+        ]
+      },
+      {
+        "h": "Cookie set only if you accept",
+        "p": [
+          "lang - remembers the language you chose (English, Greek, German and so on) so the site does not send you back to English on your next visit. Lasts twelve months.",
+          "If you choose \"Necessary only\", this cookie is not set, and any copy already on your device is deleted the next time a page loads. The site still works - it simply asks your browser for its preferred language and falls back to English."
+        ]
+      },
+      {
+        "h": "What this site does not set",
+        "p": [
+          "No analytics, no advertising, no social-media pixels, no cross-site tracking of any kind. Nothing on this site measures how many people visit it or where they came from."
+        ]
+      },
+      {
+        "h": "Google Maps",
+        "p": [
+          "The home and Location pages embed a live Google Map so you can see exactly where the studio is. That map is loaded directly from Google, not from this site, so once it loads, Google may set its own cookies under its own privacy policy - this site does not control that and receives nothing from it.",
+          "If you would rather not load it, the \"View on Google Maps\" and \"Get directions\" links open Google Maps in a new tab instead, and nothing loads unless you click them."
+        ]
+      },
+      {
+        "h": "Controlling cookies in your browser",
+        "p": [
+          "Every browser lets you see and delete cookies, and block them from being set again, in its settings. Doing that here will simply reset your choice and, if you had accepted, forget your saved language."
+        ]
+      },
+      {
+        "h": "Questions",
+        "p": [
+          "For anything about how this site handles your data, including these cookies, see the privacy policy, or write to Konstantinos Fessaras at kosfess@hotmail.com."
+        ]
+      },
+      {
+        "h": "Changes",
+        "p": [
+          "If this policy changes, the date at the top changes with it."
         ]
       }
     ]

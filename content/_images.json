@@ -51,15 +51,15 @@
     "cropped": false
   },
   "hero-treatment-room": {
-    "w": 1200,
-    "h": 900,
-    "nativeW": 1728,
-    "nativeH": 1296,
+    "w": 941,
+    "h": 1672,
+    "nativeW": 941,
+    "nativeH": 1672,
     "widths": [
       400,
       600,
       900,
-      1200
+      941
     ],
     "cropped": false
   },

@@ -1,5 +1,4 @@
 {%- import "partials/icons.njk" as icon -%}
-{%- set svcs = business | serviceList(c) -%}
 <footer class="site-footer">
   <div class="wrap footer-grid">
     <div>
@@ -8,15 +7,6 @@
         <span class="brand__name">Mastichari Massage<span class="brand__sub">{{ business.address.locality }}, {{ business.address.region }}</span></span>
       </a>
       <p class="footer-blurb">{{ c.home.heroLede }}</p>
-    </div>
-
-    <div>
-      <h2>{{ c.ui.footerServices }}</h2>
-      <ul>
-        {%- for s in svcs %}
-        <li><a href="/{{ locale }}/services/{{ s.slug }}/">{{ s.name }}</a></li>
-        {%- endfor %}
-      </ul>
     </div>
 
     <div>
@@ -52,8 +42,10 @@
     <p class="footer-legal">
       <a href="/{{ locale }}/privacy/">{{ c.ui.privacy }}</a>
       <a href="/{{ locale }}/terms/">{{ c.ui.terms }}</a>
+      <a href="/{{ locale }}/cookies/">{{ c.ui.cookies }}</a>
+      <button type="button" class="footer-legal__manage" data-cookie-manage>{{ c.ui.cookieSettings }}</button>
       <span>&copy; {{ site.year }} Konstantinos Fessaras. {{ c.ui.rights }}</span>
     </p>
-    <p class="footer-credit">&copy; {{ site.year }} Akos Digital Services</p>
+    <p class="footer-credit">&copy; {{ site.year }} <a href="https://akosds.com" rel="noopener">Akos Digital Services</a></p>
   </div>
 </footer>

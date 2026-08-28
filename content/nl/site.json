@@ -32,6 +32,8 @@
     "allMassages": "Alle massages",
     "backToServices": "Terug naar alle massages",
     "testimonialsTitle": "Wat gasten hebben gezegd",
+    "reviewsGoogle": "Meer reviews op Google",
+    "reviewsTripadvisor": "Meer reviews op TripAdvisor",
     "showTranslation": "Vertaling tonen",
     "showOriginal": "Origineel tonen",
     "translationNote": "Vertaald voor deze pagina.",
@@ -50,6 +52,8 @@
     "rights": "Alle rechten voorbehouden.",
     "privacy": "Privacyverklaring",
     "terms": "Servicevoorwaarden",
+    "cookies": "Cookiebeleid",
+    "cookieSettings": "Cookie-instellingen",
     "certifiedBy": "Gecertificeerd door",
     "issued": "Afgegeven",
     "protocolNo": "Protocolnr.",
@@ -93,6 +97,10 @@
     "terms": {
       "title": "Servicevoorwaarden | Mastichari Massage, Kos",
       "description": "Boeken, annuleren, gedrag en de reikwijdte van de wellnessmassages van Konstantinos Fessaras in Mastichari, Kos."
+    },
+    "cookies": {
+      "title": "Cookiebeleid | Mastichari Massage, Kos",
+      "description": "Welke cookies deze site plaatst, waarom, hoe lang ze gelden en hoe u ze op elk moment kunt accepteren of weigeren."
     },
     "notfound": {
       "title": "Pagina niet gevonden | Mastichari Massage, Kos",
@@ -377,7 +385,7 @@
     "whereBody": "Mijn eigen plek ligt in het voetgangerscentrum van Mastichari, vlak naast Ghitonia, de familiesouvenirwinkel — ernaast, maar niet dezelfde deur. Het centrum is autovrij, parkeer dus aan de rand en loop het laatste stukje; de Google Maps-pin hieronder brengt u er precies naartoe. Zowel binnenlopen als een afspraak maken kan, al voorkomt een bericht vooraf dat u moet wachten als ik net op pad ben.",
     "mapTitle": "De precieze plek",
     "studioAddressLine": "Voetgangerscentrum van Mastichari, naast Ghitonia",
-    "mapBody": "Mijn eigen plek ligt in het voetgangerscentrum van Mastichari, vlak naast Ghitonia - ernaast, maar niet dezelfde deur. Gebruik de kaart om de weg te vinden, of om na de massage een beoordeling achter te laten.",
+    "mapBody": "Mijn eigen plek ligt in het voetgangerscentrum van Mastichari, vlak naast Ghitonia. Gebruik de kaart om de weg te vinden, of om na de massage een beoordeling achter te laten.",
     "mapCta": "Bekijk op Google Maps",
     "directionsCta": "Route uitstippelen",
     "hotelsTitle": "Hotels en appartementen",
@@ -505,9 +513,11 @@
   },
   "cookie": {
     "title": "Cookies",
-    "body": "Deze site gebruikt geen analytics en geen tracking. Eén cookie onthoudt de taal die u gekozen hebt, en één kortlevende cookie beschermt het boekingsformulier tegen misbruik. Allebei zijn nodig om de site te laten werken en geen van beide volgt u ergens heen.",
-    "accept": "Begrepen",
-    "more": "Lees de privacyverklaring",
+    "body": "Deze site gebruikt geen analytics en geen tracking. Eén cookie wordt altijd geplaatst, omdat het boekingsformulier daarmee beveiligd wordt. U kiest zelf of de site ook de door u gekozen taal mag onthouden.",
+    "accept": "Alles accepteren",
+    "decline": "Alleen noodzakelijk",
+    "more": "Cookiebeleid",
+    "manage": "Cookie-instellingen",
     "ariaLabel": "Cookiemelding"
   },
   "privacy": {
@@ -569,8 +579,8 @@
         "h": "Cookies",
         "p": [
           "Deze site plaatst geen analytics- of advertentiecookies, en er staat hier niets van welk advertentienetwerk dan ook.",
-          "Er worden drie kleine cookies gebruikt, alle noodzakelijk: één onthoudt de taal die u gekozen hebt zodat u op de volgende pagina niet terug naar het Engels gaat (twaalf maanden); een kortlevend token beschermt het boekingsformulier tegen cross-site request forgery (verdwijnt als u de browser sluit); één legt vast dat u de cookiemelding hebt weggeklikt, zodat die niet op elke pagina terugkomt (twaalf maanden).",
-          "U kunt ze op elk moment in uw browser verwijderen. De site blijft werken - hij vergeet dan alleen uw taal en toont de melding opnieuw.",
+          "Twee cookies zijn strikt noodzakelijk en worden altijd geplaatst: één beschermt het boekingsformulier tegen cross-site request forgery, de andere onthoudt of u \"Alles accepteren\" of \"Alleen noodzakelijk\" hebt gekozen in de cookiemelding. Een derde cookie, die de door u gekozen taal onthoudt zodat u bij uw volgende bezoek niet terug naar het Engels gaat, wordt alleen geplaatst als u die accepteert. U wordt dit bij uw eerste bezoek gevraagd en u kunt uw antwoord op elk moment wijzigen via \"Cookie-instellingen\" in de footer. De volledige lijst, met de bewaartermijn van elk, staat in het cookiebeleid.",
+          "U kunt ze ook op elk moment in uw browser verwijderen. De site blijft werken - hij vergeet dan alleen uw taal en vraagt opnieuw.",
           "De homepage en de pagina \"Waar de massage plaatsvindt\" bevatten ook een live Google Maps-kaart, zodat u precies kunt zien waar de ruimte is. Die kaart wordt rechtstreeks door Google geladen, niet door deze site, dus zodra dat deel van de pagina laadt, kan Google zijn eigen cookies plaatsen en uw IP-adres zien volgens zijn eigen privacybeleid - dat heeft deze site niet in de hand. Wilt u dat liever niet, dan openen de links \"Bekijk op Google Maps\" en \"Route uitstippelen\" Google Maps in plaats daarvan in een nieuw tabblad, en laden ze niets totdat u erop klikt."
         ]
       },
@@ -701,6 +711,66 @@
         "h": "Wijzigingen",
         "p": [
           "Deze voorwaarden kunnen veranderen. De versie die gold toen uw boeking werd bevestigd, is de versie die daarop van toepassing is."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookiebeleid",
+    "updated": "Laatst bijgewerkt: 29 augustus 2026",
+    "lede": "Dit is de volledige lijst van cookies die deze site kan plaatsen, waarom, en hoe lang elke cookie geldt. U kiest zelf welke daarvan geplaatst worden, en u kunt op elk moment van gedachten veranderen.",
+    "sections": [
+      {
+        "h": "Uw keuze",
+        "p": [
+          "Bij uw eerste bezoek vraagt een kleine melding u om alle cookies te accepteren of alleen de noodzakelijke. Alleen noodzakelijk betekent dat de site alleen de ene cookie plaatst waarzonder ze niet kan werken; bij Alles accepteren onthoudt ze ook de door u gekozen taal.",
+          "U kunt op elk moment van gedachten veranderen - open \"Cookie-instellingen\" in de footer van elke pagina, in elke taal, om de melding opnieuw te zien en een ander antwoord te kiezen."
+        ]
+      },
+      {
+        "h": "Cookies die altijd worden geplaatst",
+        "p": [
+          "csrf - een eenmalig token dat voorkomt dat het boekingsformulier namens u vanaf een andere site wordt verzonden. Wordt verwijderd zodra u uw browser sluit en is niet aan uw identiteit gekoppeld.",
+          "cookieConsent - onthoudt of u \"Alles accepteren\" of \"Alleen noodzakelijk\" hebt gekozen, zodat de melding niet op elke pagina terugkomt. Geldt twaalf maanden.",
+          "Beide zijn strikt noodzakelijk voor de werking van de site en van de cookiemelding zelf, dus de AVG en het Griekse recht vereisen hiervoor geen toestemming van u."
+        ]
+      },
+      {
+        "h": "Cookie die alleen wordt geplaatst als u accepteert",
+        "p": [
+          "lang - onthoudt de taal die u gekozen hebt (Engels, Grieks, Duits enzovoort) zodat de site u bij uw volgende bezoek niet terugstuurt naar het Engels. Geldt twaalf maanden.",
+          "Als u \"Alleen noodzakelijk\" kiest, wordt deze cookie niet geplaatst, en wordt een eventueel al aanwezige kopie op uw apparaat bij het laden van de volgende pagina verwijderd. De site blijft werken - ze vraagt dan gewoon uw browser naar diens voorkeurstaal en valt terug op Engels."
+        ]
+      },
+      {
+        "h": "Wat deze site niet plaatst",
+        "p": [
+          "Geen analytics, geen advertenties, geen social-media-pixels, geen enkele vorm van cross-site tracking. Niets op deze site meet hoeveel mensen ze bezoeken of waar ze vandaan komen."
+        ]
+      },
+      {
+        "h": "Google Maps",
+        "p": [
+          "De homepage en de pagina \"Waar de massage plaatsvindt\" bevatten een live Google Maps-kaart, zodat u precies kunt zien waar de ruimte is. Die kaart wordt rechtstreeks door Google geladen, niet door deze site, dus zodra ze laadt, kan Google zijn eigen cookies plaatsen volgens zijn eigen privacybeleid - dat heeft deze site niet in de hand en ontvangt daar niets van.",
+          "Wilt u dat liever niet, dan openen de links \"Bekijk op Google Maps\" en \"Route uitstippelen\" Google Maps in plaats daarvan in een nieuw tabblad, en laden ze niets totdat u erop klikt."
+        ]
+      },
+      {
+        "h": "Cookies beheren in uw browser",
+        "p": [
+          "Elke browser laat u in zijn instellingen cookies bekijken en verwijderen, en het opnieuw plaatsen ervan blokkeren. Dat zet hier alleen uw keuze terug en laat, als u had geaccepteerd, uw opgeslagen taal vergeten."
+        ]
+      },
+      {
+        "h": "Vragen",
+        "p": [
+          "Voor alles over hoe deze site met uw gegevens omgaat, inclusief deze cookies, zie de privacyverklaring, of schrijf naar Konstantinos Fessaras op kosfess@hotmail.com."
+        ]
+      },
+      {
+        "h": "Wijzigingen",
+        "p": [
+          "Als dit beleid verandert, verandert de datum bovenaan mee."
         ]
       }
     ]

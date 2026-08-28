@@ -1,15 +1,16 @@
 {
   "default": "en",
   "locales": [
-    { "code": "en", "lang": "en",    "endonym": "English",    "dir": "ltr", "status": "live",  "hreflang": "en" },
-    { "code": "el", "lang": "el",    "endonym": "Ελληνικά",   "dir": "ltr", "status": "live",  "hreflang": "el" },
-    { "code": "de", "lang": "de",    "endonym": "Deutsch",    "dir": "ltr", "status": "live",  "hreflang": "de" },
-    { "code": "it", "lang": "it",    "endonym": "Italiano",   "dir": "ltr", "status": "live",  "hreflang": "it" },
-    { "code": "ru", "lang": "ru",    "endonym": "Русский",    "dir": "ltr", "status": "live",  "hreflang": "ru" },
-    { "code": "nl", "lang": "nl",    "endonym": "Nederlands", "dir": "ltr", "status": "live", "hreflang": "nl" },
-    { "code": "pl", "lang": "pl",    "endonym": "Polski",     "dir": "ltr", "status": "live", "hreflang": "pl" },
-    { "code": "es", "lang": "es",    "endonym": "Español",    "dir": "ltr", "status": "live", "hreflang": "es" },
-    { "code": "uk", "lang": "uk",    "endonym": "Українська", "dir": "ltr", "status": "live", "hreflang": "uk" }
+    { "code": "en", "lang": "en",    "endonym": "English",    "dir": "ltr", "status": "live",  "hreflang": "en", "flag": "🇬🇧" },
+    { "code": "el", "lang": "el",    "endonym": "Ελληνικά",   "dir": "ltr", "status": "live",  "hreflang": "el", "flag": "🇬🇷" },
+    { "code": "de", "lang": "de",    "endonym": "Deutsch",    "dir": "ltr", "status": "live",  "hreflang": "de", "flag": "🇩🇪" },
+    { "code": "fr", "lang": "fr",    "endonym": "Français",   "dir": "ltr", "status": "live",  "hreflang": "fr", "flag": "🇫🇷" },
+    { "code": "it", "lang": "it",    "endonym": "Italiano",   "dir": "ltr", "status": "live",  "hreflang": "it", "flag": "🇮🇹" },
+    { "code": "ru", "lang": "ru",    "endonym": "Русский",    "dir": "ltr", "status": "live",  "hreflang": "ru", "flag": "🇷🇺" },
+    { "code": "nl", "lang": "nl",    "endonym": "Nederlands", "dir": "ltr", "status": "live", "hreflang": "nl", "flag": "🇳🇱" },
+    { "code": "pl", "lang": "pl",    "endonym": "Polski",     "dir": "ltr", "status": "live", "hreflang": "pl", "flag": "🇵🇱" },
+    { "code": "es", "lang": "es",    "endonym": "Español",    "dir": "ltr", "status": "live", "hreflang": "es", "flag": "🇪🇸" },
+    { "code": "uk", "lang": "uk",    "endonym": "Українська", "dir": "ltr", "status": "live", "hreflang": "uk", "flag": "🇺🇦" }
   ],
-  "_note": "status live = indexed, in sitemap, in language switcher. status draft = built, but noindex + excluded from sitemap and switcher until a native speaker has reviewed the translation. Flip to live per locale after review. nl/pl/es/uk were flipped live 2026-08-28 on the client's explicit instruction, without native-speaker review - see docs/CLIENT-QUESTIONS.md."
+  "_note": "status live = indexed, in sitemap, in language switcher. status draft = built, but noindex + excluded from sitemap and switcher until a native speaker has reviewed the translation. Flip to live per locale after review. nl/pl/es/uk were flipped live 2026-08-28 on the client's explicit instruction, without native-speaker review - see docs/CLIENT-QUESTIONS.md. fr was added 2026-08-29 (machine-translated, not yet reviewed by a native speaker) and flipped live immediately so it appears in the switcher, matching the nl/pl/es/uk precedent - flag it for native review same as those. The 'flag' field is a flag emoji used by the language-picker UI (header.njk); note uk's flag is Ukraine (🇺🇦), not the United Kingdom - the locale code is the ISO language code for Ukrainian, not a country."
 }

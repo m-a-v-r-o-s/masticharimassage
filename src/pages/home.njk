@@ -91,9 +91,12 @@ eleventyExcludeFromCollections: true
       <h2>{{ c.ui.testimonialsTitle }}</h2>
     </div>
     <div class="reveal">
-      {{ q.wall(testimonials.items | reverse, c, L, locale, 6) }}
+      {{ q.wall(testimonials.items | pickIds(["sylvie-philippe", "peter-2017", "heiko"]), c, L, locale) }}
     </div>
-    <p class="u-mt-2"><a class="btn btn--ghost" href="/{{ locale }}/about/#testimonials">{{ c.home.reviewsCta }}</a></p>
+    <div class="btn-row u-mt-2">
+      <a class="btn btn--ghost" href="{{ business.map.placeUrl }}" rel="noopener" target="_blank">{{ icon.star() }} {{ c.ui.reviewsGoogle }}</a>
+      <a class="btn btn--ghost" href="{{ (business.social | byKey('tripadvisor')).url }}" rel="noopener" target="_blank">{{ icon.tripadvisor() }} {{ c.ui.reviewsTripadvisor }}</a>
+    </div>
   </div>
 </section>
 

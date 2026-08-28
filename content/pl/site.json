@@ -32,6 +32,8 @@
     "allMassages": "Wszystkie masaże",
     "backToServices": "Wróć do wszystkich masaży",
     "testimonialsTitle": "Co pisali goście",
+    "reviewsGoogle": "Więcej opinii na Google",
+    "reviewsTripadvisor": "Więcej opinii na TripAdvisor",
     "showTranslation": "Pokaż tłumaczenie",
     "showOriginal": "Pokaż oryginał",
     "translationNote": "Przetłumaczone na potrzeby tej strony.",
@@ -50,6 +52,8 @@
     "rights": "Wszelkie prawa zastrzeżone.",
     "privacy": "Polityka prywatności",
     "terms": "Warunki świadczenia usług",
+    "cookies": "Polityka plików cookie",
+    "cookieSettings": "Ustawienia cookie",
     "certifiedBy": "Certyfikat wydany przez",
     "issued": "Data wydania",
     "protocolNo": "Nr protokołu",
@@ -93,6 +97,10 @@
     "terms": {
       "title": "Warunki świadczenia usług | Mastichari Massage, Kos",
       "description": "Rezerwacja, odwoływanie, zasady zachowania i zakres usług masażu wellness świadczonych przez Konstantinosa Fessarasa w Mastichari na Kos."
+    },
+    "cookies": {
+      "title": "Polityka plików cookie | Mastichari Massage, Kos",
+      "description": "Jakie pliki cookie ustawia ta strona, po co, jak długo obowiązują i jak je zaakceptować lub odrzucić w każdej chwili."
     },
     "notfound": {
       "title": "Nie znaleziono strony | Mastichari Massage, Kos",
@@ -377,7 +385,7 @@
     "whereBody": "Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok Ghitonia, rodzinnego sklepu z pamiątkami — obok, ale to inne drzwi. Centrum jest bez ruchu samochodowego, więc zaparkuj na skraju i przejdź ostatni odcinek pieszo; pinezka Google Maps poniżej zaprowadzi Cię dokładnie tutaj. Mile widziane są zarówno osoby wpadające bez zapowiedzi, jak i te umówione, ale wiadomość z wyprzedzeniem oznacza, że nie będziesz czekać, jeśli akurat jestem na wyjeździe.",
     "mapTitle": "Dokładne miejsce",
     "studioAddressLine": "Piesza strefa centrum Mastichari, obok Ghitonia",
-    "mapBody": "Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok Ghitonia - obok, ale to inne drzwi. Skorzystaj z mapy, żeby trafić na miejsce, albo żeby zostawić opinię po masażu.",
+    "mapBody": "Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok Ghitonia. Skorzystaj z mapy, żeby trafić na miejsce, albo żeby zostawić opinię po masażu.",
     "mapCta": "Zobacz w Mapach Google",
     "directionsCta": "Wyznacz trasę",
     "hotelsTitle": "Hotele i apartamenty",
@@ -505,9 +513,11 @@
   },
   "cookie": {
     "title": "Pliki cookie",
-    "body": "Ta strona nie używa analityki ani żadnego śledzenia. Jeden plik cookie zapamiętuje wybrany przez Ciebie język, a drugi, krótkotrwały, chroni formularz rezerwacji przed nadużyciami. Oba są potrzebne do działania strony i żaden z nich nigdzie za Tobą nie chodzi.",
-    "accept": "Rozumiem",
-    "more": "Przeczytaj politykę prywatności",
+    "body": "Ta strona nie używa analityki ani żadnego śledzenia. Jeden plik cookie jest ustawiany zawsze, ponieważ zabezpiecza formularz rezerwacji. Ty decydujesz, czy strona może też zapamiętać wybrany przez Ciebie język.",
+    "accept": "Akceptuj wszystkie",
+    "decline": "Tylko niezbędne",
+    "more": "Polityka plików cookie",
+    "manage": "Ustawienia cookie",
     "ariaLabel": "Informacja o plikach cookie"
   },
   "privacy": {
@@ -569,8 +579,8 @@
         "h": "Pliki cookie",
         "p": [
           "Ta strona nie ustawia plików cookie analitycznych ani reklamowych i nie ma tu niczego z żadnej sieci reklamowej.",
-          "Używane są trzy małe pliki cookie, wszystkie niezbędne: jeden zapamiętuje wybrany przez Ciebie język, żeby na następnej stronie nie wracał angielski (dwanaście miesięcy); krótkotrwały token chroni formularz rezerwacji przed atakiem typu cross-site request forgery (znika po zamknięciu przeglądarki); jeden zapisuje, że zamknąłeś informację o cookie, żeby nie pojawiała się na każdej stronie (dwanaście miesięcy).",
-          "Możesz je w każdej chwili usunąć w przeglądarce. Strona nadal będzie działać - po prostu zapomni Twój język i pokaże informację ponownie.",
+          "Dwa pliki cookie są bezwzględnie niezbędne i są ustawiane zawsze: jeden chroni formularz rezerwacji przed atakiem typu cross-site request forgery, drugi zapamiętuje, czy wybrałeś \"Akceptuj wszystkie\" czy \"Tylko niezbędne\" w informacji o cookie. Trzeci plik cookie, który zapamiętuje wybrany przez Ciebie język, żeby przy kolejnej wizycie nie wracać do angielskiego, jest ustawiany tylko wtedy, gdy go zaakceptujesz. Pytanie o to pojawia się przy pierwszej wizycie, a odpowiedź możesz zmienić w dowolnym momencie w \"Ustawieniach cookie\" w stopce. Pełna lista, wraz z czasem przechowywania każdego z nich, znajduje się w polityce plików cookie.",
+          "Możesz je też w każdej chwili usunąć w przeglądarce. Strona nadal będzie działać - po prostu zapomni Twój język i zapyta ponownie.",
           "Strona główna i strona \"Gdzie odbywa się masaż\" zawierają też osadzoną, aktywną mapę Google, dzięki której widać dokładnie, gdzie znajduje się to miejsce. Ta mapa jest ładowana bezpośrednio z serwerów Google, a nie z tej strony, więc gdy tylko ten fragment strony się załaduje, Google może ustawić własne pliki cookie i zobaczyć Twój adres IP zgodnie z własną polityką prywatności - ta strona nie ma na to wpływu. Jeśli wolisz jej nie ładować, linki \"Zobacz w Mapach Google\" i \"Wyznacz trasę\" otwierają zamiast tego Mapy Google w nowej karcie i niczego nie ładują, dopóki w nie nie klikniesz."
         ]
       },
@@ -701,6 +711,66 @@
         "h": "Zmiany",
         "p": [
           "Te warunki mogą się zmieniać. Do Twojej rezerwacji stosuje się wersja obowiązująca w chwili jej potwierdzenia."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Polityka plików cookie",
+    "updated": "Ostatnia aktualizacja: 29 sierpnia 2026",
+    "lede": "To pełna lista plików cookie, które może ustawić ta strona, po co, i jak długo obowiązuje każdy z nich. Ty decydujesz, które z nich są ustawiane, i możesz zmienić zdanie w dowolnym momencie.",
+    "sections": [
+      {
+        "h": "Twój wybór",
+        "p": [
+          "Przy pierwszej wizycie mała informacja pyta, czy zaakceptować wszystkie pliki cookie, czy tylko niezbędne. Tylko niezbędne oznacza, że strona ustawia jedynie ten jeden plik cookie, bez którego nie może działać; Akceptuj wszystkie pozwala jej też zapamiętać wybrany przez Ciebie język.",
+          "Możesz zmienić zdanie w dowolnym momencie - otwórz \"Ustawienia cookie\" w stopce dowolnej strony, w dowolnym języku, aby ponownie zobaczyć informację i wybrać inną odpowiedź."
+        ]
+      },
+      {
+        "h": "Pliki cookie ustawiane zawsze",
+        "p": [
+          "csrf - jednorazowy token, który chroni formularz rezerwacji przed wysłaniem w Twoim imieniu z innej strony. Znika po zamknięciu przeglądarki i nie jest powiązany z Twoją tożsamością.",
+          "cookieConsent - zapamiętuje, czy wybrałeś \"Akceptuj wszystkie\" czy \"Tylko niezbędne\", żeby informacja nie pojawiała się ponownie na każdej stronie. Obowiązuje dwanaście miesięcy.",
+          "Oba są bezwzględnie niezbędne do działania strony i samej informacji o cookie, dlatego RODO i prawo greckie nie wymagają na nie Twojej zgody."
+        ]
+      },
+      {
+        "h": "Plik cookie ustawiany tylko po akceptacji",
+        "p": [
+          "lang - zapamiętuje wybrany przez Ciebie język (angielski, grecki, niemiecki i tak dalej), żeby strona nie wracała do angielskiego przy kolejnej wizycie. Obowiązuje dwanaście miesięcy.",
+          "Jeśli wybierzesz \"Tylko niezbędne\", ten plik cookie nie zostanie ustawiony, a ewentualna kopia już obecna na Twoim urządzeniu zostanie usunięta przy kolejnym wczytaniu strony. Strona nadal działa - po prostu pyta przeglądarkę o preferowany język i domyślnie używa angielskiego."
+        ]
+      },
+      {
+        "h": "Czego ta strona nie ustawia",
+        "p": [
+          "Żadnej analityki, żadnych reklam, żadnych pikseli mediów społecznościowych, żadnego śledzenia między witrynami. Nic na tej stronie nie mierzy, ile osób ją odwiedza ani skąd przychodzą."
+        ]
+      },
+      {
+        "h": "Mapy Google",
+        "p": [
+          "Strona główna i strona \"Gdzie odbywa się masaż\" zawierają osadzoną, aktywną mapę Google, dzięki której widać dokładnie, gdzie znajduje się to miejsce. Ta mapa jest ładowana bezpośrednio z serwerów Google, a nie z tej strony, więc gdy tylko się załaduje, Google może ustawić własne pliki cookie zgodnie z własną polityką prywatności - ta strona nie ma na to wpływu i niczego z tego nie otrzymuje.",
+          "Jeśli wolisz jej nie ładować, linki \"Zobacz w Mapach Google\" i \"Wyznacz trasę\" otwierają zamiast tego Mapy Google w nowej karcie i niczego nie ładują, dopóki w nie nie klikniesz."
+        ]
+      },
+      {
+        "h": "Kontrolowanie plików cookie w przeglądarce",
+        "p": [
+          "Każda przeglądarka pozwala w swoich ustawieniach zobaczyć i usunąć pliki cookie oraz zablokować ich ponowne ustawienie. Zrobienie tego tutaj po prostu zresetuje Twój wybór i, jeśli zaakceptowałeś, sprawi, że zapomni Twój zapisany język."
+        ]
+      },
+      {
+        "h": "Pytania",
+        "p": [
+          "W sprawie tego, jak ta strona przetwarza Twoje dane, w tym te pliki cookie, zobacz politykę prywatności lub napisz do Konstantinosa Fessarasa na adres kosfess@hotmail.com."
+        ]
+      },
+      {
+        "h": "Zmiany",
+        "p": [
+          "Jeśli ta polityka się zmieni, zmieni się wraz z nią data na górze."
         ]
       }
     ]

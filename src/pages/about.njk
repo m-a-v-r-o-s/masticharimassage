@@ -83,6 +83,10 @@ eleventyExcludeFromCollections: true
     <div class="reveal">
       {{ q.wall(testimonials.items | reverse, c, L, locale) }}
     </div>
+    <div class="btn-row u-mt-2">
+      <a class="btn btn--ghost" href="{{ business.map.placeUrl }}" rel="noopener" target="_blank">{{ icon.star() }} {{ c.ui.reviewsGoogle }}</a>
+      <a class="btn btn--ghost" href="{{ (business.social | byKey('tripadvisor')).url }}" rel="noopener" target="_blank">{{ icon.tripadvisor() }} {{ c.ui.reviewsTripadvisor }}</a>
+    </div>
   </div>
 </section>
 

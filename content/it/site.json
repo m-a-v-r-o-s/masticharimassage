@@ -32,6 +32,8 @@
     "allMassages": "Tutti i massaggi",
     "backToServices": "Torna a tutti i massaggi",
     "testimonialsTitle": "Cosa hanno detto gli ospiti",
+    "reviewsGoogle": "Leggi altre recensioni su Google",
+    "reviewsTripadvisor": "Leggi altre recensioni su TripAdvisor",
     "showTranslation": "Mostra la traduzione",
     "showOriginal": "Mostra l'originale",
     "translationNote": "Tradotto per questa pagina.",
@@ -50,6 +52,8 @@
     "rights": "Tutti i diritti riservati.",
     "privacy": "Informativa sulla privacy",
     "terms": "Termini di servizio",
+    "cookies": "Informativa sui cookie",
+    "cookieSettings": "Impostazioni cookie",
     "certifiedBy": "Certificato da",
     "issued": "Rilasciato",
     "protocolNo": "Protocollo n.",
@@ -93,6 +97,10 @@
     "terms": {
       "title": "Termini di servizio | Mastichari Massage, Kos",
       "description": "Prenotazioni, disdette, comportamento e ambito dei servizi di massaggio benessere offerti da Konstantinos Fessaras a Mastichari, Kos."
+    },
+    "cookies": {
+      "title": "Informativa sui cookie | Mastichari Massage, Kos",
+      "description": "Quali cookie imposta questo sito, perché, quanto durano e come accettarli o rifiutarli in qualsiasi momento."
     },
     "notfound": {
       "title": "Pagina non trovata | Mastichari Massage, Kos",
@@ -377,7 +385,7 @@
     "whereBody": "Il mio studio si trova nel centro pedonale di Mastichari, proprio accanto a Ghitonia, il negozio di souvenir di famiglia — accanto, ma non la stessa porta. Il centro è pedonale, quindi parcheggiate ai margini e fate a piedi l'ultimo tratto; il segnaposto di Google Maps qui sotto vi porta esattamente qui. Sono benvenuti sia chi passa senza appuntamento sia chi prenota, ma un messaggio prima evita di aspettare se sono fuori per un appuntamento.",
     "mapTitle": "Il punto esatto",
     "studioAddressLine": "Centro pedonale di Mastichari, accanto a Ghitonia",
-    "mapBody": "Il mio studio si trova nel centro pedonale di Mastichari, proprio accanto a Ghitonia - accanto, ma non la stessa porta. Usate la mappa per trovare la strada, o per lasciare una recensione dopo il massaggio.",
+    "mapBody": "Il mio studio si trova nel centro pedonale di Mastichari, proprio accanto a Ghitonia. Usate la mappa per trovare la strada, o per lasciare una recensione dopo il massaggio.",
     "mapCta": "Vedi su Google Maps",
     "directionsCta": "Ottieni indicazioni",
     "hotelsTitle": "Alberghi e appartamenti",
@@ -505,9 +513,11 @@
   },
   "cookie": {
     "title": "Cookie",
-    "body": "Questo sito non usa analytics né alcun tracciamento. Un cookie ricorda la lingua che hai scelto e un cookie di breve durata protegge il modulo di prenotazione dagli abusi. Entrambi servono al funzionamento del sito e nessuno dei due ti segue da nessuna parte.",
-    "accept": "Ho capito",
-    "more": "Leggi l'informativa sulla privacy",
+    "body": "Questo sito non usa analytics né alcun tracciamento. Un cookie viene sempre impostato perché protegge il modulo di prenotazione. Sei tu a scegliere se il sito può anche ricordare la lingua che hai scelto.",
+    "accept": "Accetta tutti",
+    "decline": "Solo necessari",
+    "more": "Informativa sui cookie",
+    "manage": "Impostazioni cookie",
     "ariaLabel": "Avviso sui cookie"
   },
   "privacy": {
@@ -569,8 +579,8 @@
         "h": "Cookie",
         "p": [
           "Questo sito non imposta cookie di analytics o pubblicitari, e qui non c'è nulla proveniente da alcun circuito pubblicitario.",
-          "Vengono usati tre piccoli cookie, tutti necessari: uno ricorda la lingua che hai scelto, così non torni all'inglese alla pagina successiva (dodici mesi); un token di breve durata protegge il modulo di prenotazione dalla falsificazione di richieste tra siti (viene eliminato quando chiudi il browser); uno registra che hai chiuso l'avviso sui cookie, così non ricompare a ogni pagina (dodici mesi).",
-          "Puoi eliminarli dal browser quando vuoi. Il sito continuerà a funzionare: semplicemente dimenticherà la tua lingua e mostrerà di nuovo l'avviso.",
+          "Due cookie sono strettamente necessari e vengono sempre impostati: uno protegge il modulo di prenotazione dalla falsificazione di richieste tra siti, l'altro ricorda se hai scelto \"Accetta tutti\" o \"Solo necessari\" nell'avviso sui cookie. Un terzo cookie, che ricorda la lingua che hai scelto così da non tornare all'inglese alla prossima visita, viene impostato solo se lo accetti. Ti viene chiesto alla prima visita e puoi cambiare la tua risposta in qualsiasi momento da \"Impostazioni cookie\" nel footer. L'elenco completo, con la durata di ciascuno, è nell'informativa sui cookie.",
+          "Puoi anche eliminarli dal browser quando vuoi. Il sito continuerà a funzionare: semplicemente dimenticherà la tua lingua e te lo chiederà di nuovo.",
           "La home page e la pagina \"Dove avviene il massaggio\" incorporano anche una mappa Google dal vivo, così potete vedere esattamente dove si trova lo studio. Questa mappa viene caricata direttamente da Google, non da questo sito, quindi non appena quella parte della pagina si carica, Google può impostare i propri cookie e vedere il vostro indirizzo IP secondo la propria informativa sulla privacy - questo sito non ha controllo su ciò. Se preferite non caricarla, i link \"Vedi su Google Maps\" e \"Ottieni indicazioni\" aprono invece Google Maps in una nuova scheda e non caricano nulla finché non li cliccate."
         ]
       },
@@ -701,6 +711,66 @@
         "h": "Modifiche",
         "p": [
           "Questi termini possono cambiare. La versione in vigore quando la tua prenotazione è stata confermata è quella che si applica a quella prenotazione."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Informativa sui cookie",
+    "updated": "Ultimo aggiornamento: 29 agosto 2026",
+    "lede": "Questo è l'elenco completo dei cookie che questo sito può impostare, perché, e per quanto dura ciascuno. Sei tu a scegliere quali vengono impostati, e puoi cambiare idea in qualsiasi momento.",
+    "sections": [
+      {
+        "h": "La tua scelta",
+        "p": [
+          "Alla prima visita, un piccolo avviso ti chiede di accettare tutti i cookie o solo quelli necessari. Solo necessari significa che il sito imposta solo l'unico cookie senza cui non può funzionare; Accetta tutti gli permette anche di ricordare la lingua che hai scelto.",
+          "Puoi cambiare idea in qualsiasi momento - apri \"Impostazioni cookie\" nel footer di qualsiasi pagina, in qualsiasi lingua, per rivedere l'avviso e scegliere una risposta diversa."
+        ]
+      },
+      {
+        "h": "Cookie sempre impostati",
+        "p": [
+          "csrf - un token monouso che protegge il modulo di prenotazione dall'essere inviato a tuo nome da un altro sito. Viene eliminato quando chiudi il browser e non è collegato alla tua identità.",
+          "cookieConsent - ricorda se hai scelto \"Accetta tutti\" o \"Solo necessari\", così l'avviso non ricompare a ogni pagina. Dura dodici mesi.",
+          "Entrambi sono strettamente necessari al funzionamento del sito e dell'avviso sui cookie stesso, quindi il GDPR e la legge greca non richiedono il tuo consenso per questi."
+        ]
+      },
+      {
+        "h": "Cookie impostato solo se accetti",
+        "p": [
+          "lang - ricorda la lingua che hai scelto (inglese, greco, tedesco e così via) così il sito non ti riporta all'inglese alla prossima visita. Dura dodici mesi.",
+          "Se scegli \"Solo necessari\", questo cookie non viene impostato, e qualsiasi copia già presente sul tuo dispositivo viene eliminata al prossimo caricamento di una pagina. Il sito continua a funzionare - chiede semplicemente al tuo browser la sua lingua preferita e torna all'inglese."
+        ]
+      },
+      {
+        "h": "Cosa questo sito non imposta",
+        "p": [
+          "Nessun analytics, nessuna pubblicità, nessun pixel dei social media, nessun tracciamento tra siti di alcun tipo. Niente su questo sito misura quante persone lo visitano o da dove provengono."
+        ]
+      },
+      {
+        "h": "Google Maps",
+        "p": [
+          "La home page e la pagina \"Dove avviene il massaggio\" incorporano una mappa Google dal vivo, così potete vedere esattamente dove si trova lo studio. Questa mappa viene caricata direttamente da Google, non da questo sito, quindi non appena si carica, Google può impostare i propri cookie secondo la propria informativa sulla privacy - questo sito non ha controllo su ciò e non riceve nulla in cambio.",
+          "Se preferite non caricarla, i link \"Vedi su Google Maps\" e \"Ottieni indicazioni\" aprono invece Google Maps in una nuova scheda, e non caricano nulla finché non li cliccate."
+        ]
+      },
+      {
+        "h": "Controllare i cookie nel browser",
+        "p": [
+          "Ogni browser permette, nelle sue impostazioni, di vedere ed eliminare i cookie, e di impedirne una nuova impostazione. Farlo qui azzererà semplicemente la tua scelta e, se avevi accettato, farà dimenticare la lingua salvata."
+        ]
+      },
+      {
+        "h": "Domande",
+        "p": [
+          "Per qualsiasi cosa riguardi come questo sito tratta i tuoi dati, compresi questi cookie, consulta l'informativa sulla privacy, oppure scrivi a Konstantinos Fessaras a kosfess@hotmail.com."
+        ]
+      },
+      {
+        "h": "Modifiche",
+        "p": [
+          "Se questa informativa cambia, la data in alto cambia con essa."
         ]
       }
     ]

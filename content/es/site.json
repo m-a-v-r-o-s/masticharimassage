@@ -32,6 +32,8 @@
     "allMassages": "Todos los masajes",
     "backToServices": "Volver a todos los masajes",
     "testimonialsTitle": "Lo que han dicho los clientes",
+    "reviewsGoogle": "Ver más reseñas en Google",
+    "reviewsTripadvisor": "Ver más reseñas en TripAdvisor",
     "showTranslation": "Ver traducción",
     "showOriginal": "Ver original",
     "translationNote": "Traducido para esta página.",
@@ -50,6 +52,8 @@
     "rights": "Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "terms": "Condiciones del servicio",
+    "cookies": "Política de cookies",
+    "cookieSettings": "Configuración de cookies",
     "certifiedBy": "Certificado por",
     "issued": "Expedido",
     "protocolNo": "N.º de protocolo",
@@ -93,6 +97,10 @@
     "terms": {
       "title": "Condiciones del servicio | Mastichari Massage, Kos",
       "description": "Reservas, cancelaciones, comportamiento y alcance de los servicios de masaje de bienestar de Konstantinos Fessaras en Mastichari, Kos."
+    },
+    "cookies": {
+      "title": "Política de cookies | Mastichari Massage, Kos",
+      "description": "Qué cookies instala esta web, para qué, cuánto duran y cómo aceptarlas o rechazarlas en cualquier momento."
     },
     "notfound": {
       "title": "Página no encontrada | Mastichari Massage, Kos",
@@ -377,7 +385,7 @@
     "whereBody": "Mi propio local está en el centro peatonal de Mastichari, justo al lado de Ghitonia, la tienda de souvenirs familiar — al lado, pero no es la misma puerta. El centro es peatonal, así que aparque en el borde y camine el último tramo; el marcador de Google Maps de más abajo le lleva exactamente aquí. Se aceptan tanto visitas sin cita como con cita previa, aunque avisar antes por mensaje evita esperas si estoy fuera en otra cita.",
     "mapTitle": "El lugar exacto",
     "studioAddressLine": "Centro peatonal de Mastichari, junto a Ghitonia",
-    "mapBody": "Mi propio local está en el centro peatonal de Mastichari, justo al lado de Ghitonia - al lado, pero no es la misma puerta. Use el mapa para encontrar el camino, o para dejar una reseña después del masaje.",
+    "mapBody": "Mi propio local está en el centro peatonal de Mastichari, justo al lado de Ghitonia. Use el mapa para encontrar el camino, o para dejar una reseña después del masaje.",
     "mapCta": "Ver en Google Maps",
     "directionsCta": "Cómo llegar",
     "hotelsTitle": "Hoteles y apartamentos",
@@ -505,9 +513,11 @@
   },
   "cookie": {
     "title": "Cookies",
-    "body": "Esta web no usa analítica ni seguimiento de ningún tipo. Una cookie recuerda el idioma que has elegido y otra, de corta duración, protege el formulario de reserva frente a abusos. Ambas son necesarias para que la web funcione y ninguna te sigue a ninguna parte.",
-    "accept": "Entendido",
-    "more": "Leer la política de privacidad",
+    "body": "Esta web no usa analítica ni seguimiento de ningún tipo. Una cookie se instala siempre porque protege el formulario de reserva. Tú eliges si la web puede además recordar el idioma que has elegido.",
+    "accept": "Aceptar todas",
+    "decline": "Solo necesarias",
+    "more": "Política de cookies",
+    "manage": "Configuración de cookies",
     "ariaLabel": "Aviso de cookies"
   },
   "privacy": {
@@ -569,8 +579,8 @@
         "h": "Cookies",
         "p": [
           "Esta web no instala cookies analíticas ni publicitarias, y aquí no hay nada de ninguna red de publicidad.",
-          "Se usan tres cookies pequeñas, todas necesarias: una recuerda el idioma que has elegido, para que en la siguiente página no vuelvas al inglés (doce meses); un token de corta duración protege el formulario de reserva frente a la falsificación de peticiones entre sitios (se borra al cerrar el navegador); otra registra que has cerrado el aviso de cookies, para que no reaparezca en cada página (doce meses).",
-          "Puedes borrarlas en tu navegador cuando quieras. La web seguirá funcionando: simplemente olvidará tu idioma y volverá a mostrar el aviso.",
+          "Dos cookies son estrictamente necesarias y se instalan siempre: una protege el formulario de reserva frente a la falsificación de peticiones entre sitios, la otra recuerda si elegiste \"Aceptar todas\" o \"Solo necesarias\" en el aviso de cookies. Una tercera cookie, que recuerda el idioma que elegiste para que en tu próxima visita no vuelvas al inglés, solo se instala si la aceptas. Se te pregunta en tu primera visita y puedes cambiar tu respuesta en cualquier momento desde \"Configuración de cookies\" en el pie de página. La lista completa, con la duración de cada una, está en la política de cookies.",
+          "También puedes borrarlas en tu navegador cuando quieras. La web seguirá funcionando: simplemente olvidará tu idioma y volverá a preguntar.",
           "La página de inicio y la página \"Dónde se hace el masaje\" también incorporan un mapa de Google en vivo, para que pueda ver exactamente dónde está el local. Ese mapa se carga directamente desde Google, no desde este sitio, así que en cuanto se carga esa parte de la página, Google puede instalar sus propias cookies y ver su dirección IP según su propia política de privacidad - esto no lo controla este sitio. Si prefiere no cargarlo, los enlaces \"Ver en Google Maps\" y \"Cómo llegar\" abren Google Maps en una pestaña nueva en su lugar, y no cargan nada hasta que se hace clic en ellos."
         ]
       },
@@ -701,6 +711,66 @@
         "h": "Cambios",
         "p": [
           "Estas condiciones pueden cambiar. La versión vigente en el momento en que se confirmó tu reserva es la que se aplica a esa reserva."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Política de cookies",
+    "updated": "Última actualización: 29 de agosto de 2026",
+    "lede": "Esta es la lista completa de cookies que esta web puede instalar, para qué, y cuánto dura cada una. Tú eliges cuáles se instalan, y puedes cambiar de opinión en cualquier momento.",
+    "sections": [
+      {
+        "h": "Tu elección",
+        "p": [
+          "En tu primera visita, un pequeño aviso te pide que aceptes todas las cookies o solo las necesarias. Solo necesarias significa que la web instala únicamente la cookie sin la que no puede funcionar; Aceptar todas le permite además recordar el idioma que elegiste.",
+          "Puedes cambiar de opinión en cualquier momento - abre \"Configuración de cookies\" en el pie de página de cualquier página, en cualquier idioma, para volver a ver el aviso y elegir otra respuesta."
+        ]
+      },
+      {
+        "h": "Cookies que se instalan siempre",
+        "p": [
+          "csrf - un token de un solo uso que protege el formulario de reserva de ser enviado en tu nombre desde otra web. Se elimina al cerrar el navegador y no está vinculado a tu identidad.",
+          "cookieConsent - recuerda si elegiste \"Aceptar todas\" o \"Solo necesarias\", para que el aviso no vuelva a aparecer en cada página. Dura doce meses.",
+          "Ambas son estrictamente necesarias para el funcionamiento de la web y del propio aviso de cookies, por lo que el RGPD y la legislación griega no exigen tu consentimiento para ellas."
+        ]
+      },
+      {
+        "h": "Cookie que solo se instala si aceptas",
+        "p": [
+          "lang - recuerda el idioma que elegiste (inglés, griego, alemán, etc.) para que la web no te devuelva al inglés en tu próxima visita. Dura doce meses.",
+          "Si eliges \"Solo necesarias\", esta cookie no se instala, y cualquier copia ya presente en tu dispositivo se elimina la próxima vez que cargue una página. La web sigue funcionando - simplemente pregunta a tu navegador su idioma preferido y recurre al inglés por defecto."
+        ]
+      },
+      {
+        "h": "Lo que esta web no instala",
+        "p": [
+          "Ninguna analítica, ninguna publicidad, ningún píxel de redes sociales, ningún seguimiento entre sitios de ningún tipo. Nada en esta web mide cuánta gente la visita ni de dónde viene."
+        ]
+      },
+      {
+        "h": "Google Maps",
+        "p": [
+          "La página de inicio y la página \"Dónde se hace el masaje\" incorporan un mapa de Google en vivo, para que puedas ver exactamente dónde está el local. Ese mapa se carga directamente desde Google, no desde este sitio, así que en cuanto se carga, Google puede instalar sus propias cookies según su propia política de privacidad - esto no lo controla este sitio, que no recibe nada a cambio.",
+          "Si prefieres no cargarlo, los enlaces \"Ver en Google Maps\" y \"Cómo llegar\" abren Google Maps en una pestaña nueva en su lugar, y no cargan nada hasta que se hace clic en ellos."
+        ]
+      },
+      {
+        "h": "Controlar las cookies en tu navegador",
+        "p": [
+          "Todos los navegadores te permiten, en sus ajustes, ver y eliminar cookies, y bloquear que se vuelvan a instalar. Hacerlo aquí simplemente restablecerá tu elección y, si habías aceptado, hará que se olvide tu idioma guardado."
+        ]
+      },
+      {
+        "h": "Preguntas",
+        "p": [
+          "Para cualquier cuestión sobre cómo esta web trata tus datos, incluidas estas cookies, consulta la política de privacidad, o escribe a Konstantinos Fessaras a kosfess@hotmail.com."
+        ]
+      },
+      {
+        "h": "Cambios",
+        "p": [
+          "Si esta política cambia, la fecha de arriba cambia con ella."
         ]
       }
     ]

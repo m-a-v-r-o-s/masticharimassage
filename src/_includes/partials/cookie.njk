@@ -1,8 +1,9 @@
 <aside class="cookie" id="cookie-notice" role="region" aria-label="{{ c.cookie.ariaLabel }}" hidden>
-  <h2>{{ c.cookie.title }}</h2>
+  <h2 tabindex="-1">{{ c.cookie.title }}</h2>
   <p>{{ c.cookie.body }}</p>
   <div class="btn-row">
     <button class="btn btn--primary" type="button" data-cookie-accept>{{ c.cookie.accept }}</button>
-    <a class="btn btn--ghost" href="/{{ locale }}/privacy/">{{ c.cookie.more }}</a>
+    <button class="btn btn--ghost" type="button" data-cookie-decline>{{ c.cookie.decline }}</button>
   </div>
+  <a class="cookie__link" href="/{{ locale }}/cookies/">{{ c.cookie.more }}</a>
 </aside>

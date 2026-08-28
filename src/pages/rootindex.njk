@@ -29,11 +29,11 @@ layout: false
   <div class="wrap measure stack">
     <h1>Mastichari Massage</h1>
     <p class="lede">{{ dc.home.heroLede }}</p>
-    <nav aria-label="{{ dc.nav.languageSwitcher }}" class="lang">
-      <p class="lang-bar__label">{{ dc.nav.languageLabel }}</p>
-      <ul class="lang__list">
+    <nav aria-label="{{ dc.nav.languageSwitcher }}" class="lang-fallback">
+      <p class="lang-fallback__label">{{ dc.nav.languageLabel }}</p>
+      <ul class="lang-fallback__list">
         {%- for l in locales.all %}{% if l.code in buildLocales %}
-        <li><a lang="{{ l.lang }}" hreflang="{{ l.hreflang }}" href="/{{ l.code }}/">{{ l.endonym }}</a></li>
+        <li><a lang="{{ l.lang }}" hreflang="{{ l.hreflang }}" href="/{{ l.code }}/">{{ l.flag }} {{ l.endonym }}</a></li>
         {%- endif %}{% endfor %}
       </ul>
     </nav>

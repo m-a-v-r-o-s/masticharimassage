@@ -52,6 +52,12 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("bySlug", (arr, slug) => (arr || []).find((o) => o.slug === slug));
 
+  eleventyConfig.addFilter("byKey", (arr, key) => (arr || []).find((o) => o.key === key));
+
+  eleventyConfig.addFilter("pickIds", (arr, ids) =>
+    ids.map((id) => (arr || []).find((o) => o.id === id)).filter(Boolean)
+  );
+
   eleventyConfig.addFilter("pluck", (arr, key) => (arr || []).map((o) => o[key]));
 
   eleventyConfig.addFilter("featured", (list) => list.filter((s) => s.featured));

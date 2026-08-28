@@ -5,6 +5,7 @@ const built = locales.filter((l) => fs.existsSync(path.join("content", l.code, "
 const docs = [
   { key: "privacy", path: "privacy" },
   { key: "terms", path: "terms" },
+  { key: "cookies", path: "cookies" },
 ];
 const out = [];
 for (const l of built) for (const d of docs) out.push({ locale: l.code, ...d });

@@ -4,20 +4,71 @@
   var doc = document;
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* ---------- cookie helpers ---------- */
+  function readCookie(name) {
+    var m = doc.cookie.match(new RegExp("(?:^|;\\s*)" + name + "=([^;]*)"));
+    return m ? decodeURIComponent(m[1]) : "";
+  }
+  function writeCookie(name, value, maxAge) {
+    doc.cookie = name + "=" + encodeURIComponent(value) + ";path=/;max-age=" + maxAge + ";samesite=Lax";
+  }
+  function eraseCookie(name) {
+    doc.cookie = name + "=;path=/;max-age=0;samesite=Lax";
+  }
+
   /* ---------- mobile navigation ---------- */
   var toggle = doc.querySelector(".nav-toggle");
   var nav = doc.getElementById("site-nav");
+  var header = doc.querySelector(".site-header");
+  var setHeaderHeight = function () {
+    if (header) doc.documentElement.style.setProperty("--header-h", header.getBoundingClientRect().height + "px");
+  };
+  setHeaderHeight();
+  window.addEventListener("resize", setHeaderHeight);
   if (toggle && nav) {
     toggle.addEventListener("click", function () {
       var open = toggle.getAttribute("aria-expanded") === "true";
+      if (!open) setHeaderHeight();
       toggle.setAttribute("aria-expanded", String(!open));
       nav.setAttribute("data-open", String(!open));
+      doc.body.classList.toggle("nav-open", !open);
     });
     doc.addEventListener("keydown", function (e) {
       if (e.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
         toggle.setAttribute("aria-expanded", "false");
         nav.setAttribute("data-open", "false");
+        doc.body.classList.remove("nav-open");
         toggle.focus();
+      }
+    });
+  }
+
+  /* ---------- language picker ---------- */
+  var langToggle = doc.querySelector(".lang-picker__toggle");
+  var langList = doc.getElementById("lang-picker-list");
+  if (langToggle && langList) {
+    var closeLangPicker = function () {
+      langToggle.setAttribute("aria-expanded", "false");
+      langList.hidden = true;
+    };
+    langToggle.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var open = langToggle.getAttribute("aria-expanded") === "true";
+      if (open) closeLangPicker();
+      else {
+        langToggle.setAttribute("aria-expanded", "true");
+        langList.hidden = false;
+      }
+    });
+    doc.addEventListener("click", function (e) {
+      if (langToggle.getAttribute("aria-expanded") === "true" && !langList.contains(e.target) && e.target !== langToggle) {
+        closeLangPicker();
+      }
+    });
+    doc.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && langToggle.getAttribute("aria-expanded") === "true") {
+        closeLangPicker();
+        langToggle.focus();
       }
     });
   }
@@ -39,26 +90,54 @@
     for (var j = 0; j < reveals.length; j++) io.observe(reveals[j]);
   }
 
-  /* ---------- remember the chosen language ---------- */
-  var current = doc.documentElement.getAttribute("lang");
-  if (current) {
-    try { doc.cookie = "lang=" + current.slice(0, 2) + ";path=/;max-age=31536000;samesite=Lax"; } catch (e) {}
+  /* ---------- cookie consent + remembered language ---------- */
+  function getConsent() {
+    try {
+      var stored = localStorage.getItem("cookie-consent");
+      if (stored === "accepted" || stored === "declined") return stored;
+    } catch (e) {}
+    var fromCookie = readCookie("cookieConsent");
+    return fromCookie === "accepted" || fromCookie === "declined" ? fromCookie : null;
   }
+  function setConsent(value) {
+    try { localStorage.setItem("cookie-consent", value); } catch (e) {}
+    writeCookie("cookieConsent", value, 31536000);
+  }
+  function applyLangCookie() {
+    var current = doc.documentElement.getAttribute("lang");
+    if (!current) return;
+    if (getConsent() === "accepted") writeCookie("lang", current.slice(0, 2), 31536000);
+    else eraseCookie("lang");
+  }
+  applyLangCookie();
 
-  /* ---------- cookie notice ---------- */
   var notice = doc.getElementById("cookie-notice");
   if (notice) {
-    var seen = false;
-    try { seen = localStorage.getItem("cookie-notice") === "seen"; } catch (e) { seen = /(?:^|;\s*)cookieNotice=seen/.test(doc.cookie); }
-    if (!seen) {
+    var noticeTitle = notice.querySelector("h2");
+    var openNotice = function () {
       notice.hidden = false;
-      var accept = notice.querySelector("[data-cookie-accept]");
-      if (accept) accept.addEventListener("click", function () {
-        notice.hidden = true;
-        try { localStorage.setItem("cookie-notice", "seen"); }
-        catch (e) { doc.cookie = "cookieNotice=seen;path=/;max-age=31536000;samesite=Lax"; }
-      });
-    }
+      if (noticeTitle) noticeTitle.focus();
+    };
+    var closeNotice = function () { notice.hidden = true; };
+
+    if (getConsent() === null) openNotice();
+
+    var acceptBtn = notice.querySelector("[data-cookie-accept]");
+    if (acceptBtn) acceptBtn.addEventListener("click", function () {
+      setConsent("accepted");
+      applyLangCookie();
+      closeNotice();
+    });
+
+    var declineBtn = notice.querySelector("[data-cookie-decline]");
+    if (declineBtn) declineBtn.addEventListener("click", function () {
+      setConsent("declined");
+      applyLangCookie();
+      closeNotice();
+    });
+
+    var manageBtn = doc.querySelector("[data-cookie-manage]");
+    if (manageBtn) manageBtn.addEventListener("click", openNotice);
   }
 
   /* ---------- testimonial translation toggle ---------- */
@@ -94,10 +173,6 @@
   try { strings = JSON.parse(doc.getElementById("form-strings").textContent); } catch (e) {}
 
   var csrfField = form.querySelector("[data-csrf]");
-  function readCookie(name) {
-    var m = doc.cookie.match(new RegExp("(?:^|;\\s*)" + name + "=([^;]*)"));
-    return m ? decodeURIComponent(m[1]) : "";
-  }
   if (csrfField) csrfField.value = readCookie("csrf");
 
   function setFieldError(name, message) {

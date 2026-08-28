@@ -32,6 +32,8 @@
     "allMassages": "Alle Massagen",
     "backToServices": "Zurück zu allen Massagen",
     "testimonialsTitle": "Was Gäste geschrieben haben",
+    "reviewsGoogle": "Mehr Bewertungen auf Google",
+    "reviewsTripadvisor": "Mehr Bewertungen auf TripAdvisor",
     "showTranslation": "Übersetzung anzeigen",
     "showOriginal": "Original anzeigen",
     "translationNote": "Für diese Seite übersetzt.",
@@ -50,6 +52,8 @@
     "rights": "Alle Rechte vorbehalten.",
     "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "cookieSettings": "Cookie-Einstellungen",
     "certifiedBy": "Zertifiziert von",
     "issued": "Ausgestellt",
     "protocolNo": "Protokoll-Nr.",
@@ -93,6 +97,10 @@
     "terms": {
       "title": "Nutzungsbedingungen | Mastichari Massage, Kos",
       "description": "Buchung, Absage, Verhalten und Umfang der Wellness-Massageleistungen von Konstantinos Fessaras in Mastichari auf Kos."
+    },
+    "cookies": {
+      "title": "Cookie-Richtlinie | Mastichari Massage, Kos",
+      "description": "Welche Cookies diese Website setzt, warum, wie lange sie gelten und wie Sie sie jederzeit akzeptieren oder ablehnen können."
     },
     "notfound": {
       "title": "Seite nicht gefunden | Mastichari Massage, Kos",
@@ -377,7 +385,7 @@
     "whereBody": "Meine eigenen Räume liegen in der Fußgängerzone von Mastichari, direkt neben Ghitonia, dem Familien-Souvenirladen — nebenan, aber nicht dieselbe Tür. Das Zentrum ist autofrei, parken Sie also am Rand und gehen Sie das letzte Stück zu Fuß; der Google-Maps-Pin unten führt Sie hierher. Sowohl spontane Besuche als auch feste Termine sind willkommen, aber eine kurze Nachricht vorab bedeutet, dass Sie nicht warten, falls ich gerade bei einem Termin bin.",
     "mapTitle": "Der genaue Ort",
     "studioAddressLine": "Fußgängerzone von Mastichari, neben Ghitonia",
-    "mapBody": "Meine eigenen Räume liegen in der Fußgängerzone von Mastichari, direkt neben Ghitonia - nebenan, aber nicht dieselbe Tür. Nutzen Sie die Karte, um herzufinden, oder um nach der Massage eine Bewertung zu hinterlassen.",
+    "mapBody": "Meine eigenen Räume liegen in der Fußgängerzone von Mastichari, direkt neben Ghitonia. Nutzen Sie die Karte, um herzufinden, oder um nach der Massage eine Bewertung zu hinterlassen.",
     "mapCta": "Bei Google Maps ansehen",
     "directionsCta": "Route berechnen",
     "hotelsTitle": "Hotels und Apartments",
@@ -505,9 +513,11 @@
   },
   "cookie": {
     "title": "Cookies",
-    "body": "Diese Website nutzt keine Analyse und kein Tracking. Ein Cookie merkt sich die von Ihnen gewählte Sprache, ein kurzlebiges Cookie schützt das Buchungsformular vor Missbrauch. Beide sind für den Betrieb der Seite nötig, und keines folgt Ihnen irgendwohin.",
-    "accept": "Verstanden",
-    "more": "Datenschutzerklärung lesen",
+    "body": "Diese Website nutzt keine Analyse und kein Tracking. Ein Cookie wird immer gesetzt, weil es das Buchungsformular absichert. Sie entscheiden, ob die Website sich zusätzlich die von Ihnen gewählte Sprache merken darf.",
+    "accept": "Alle akzeptieren",
+    "decline": "Nur notwendige",
+    "more": "Cookie-Richtlinie",
+    "manage": "Cookie-Einstellungen",
     "ariaLabel": "Cookie-Hinweis"
   },
   "privacy": {
@@ -569,8 +579,8 @@
         "h": "Cookies",
         "p": [
           "Diese Website setzt keine Analyse- oder Werbe-Cookies, und es gibt hier nichts aus irgendeinem Werbenetzwerk.",
-          "Drei kleine Cookies werden verwendet, alle notwendig: eines merkt sich die von Ihnen gewählte Sprache, damit Sie auf der nächsten Seite nicht wieder auf Englisch landen (zwölf Monate); ein kurzlebiges Token schützt das Buchungsformular gegen Cross-Site-Request-Forgery (wird beim Schließen des Browsers gelöscht); eines hält fest, dass Sie den Cookie-Hinweis geschlossen haben, damit er nicht auf jeder Seite wieder erscheint (zwölf Monate).",
-          "Sie können sie jederzeit im Browser löschen. Die Seite funktioniert weiter - sie vergisst dann lediglich Ihre Sprache und zeigt den Hinweis erneut.",
+          "Zwei Cookies sind unbedingt notwendig und werden immer gesetzt: eines schützt das Buchungsformular gegen Cross-Site-Request-Forgery, das andere merkt sich, ob Sie im Cookie-Hinweis \"Alle akzeptieren\" oder \"Nur notwendige\" gewählt haben. Ein drittes Cookie, das sich die von Ihnen gewählte Sprache merkt, damit Sie beim nächsten Besuch nicht wieder auf Englisch landen, wird nur gesetzt, wenn Sie es akzeptieren. Sie werden bei Ihrem ersten Besuch gefragt und können Ihre Antwort jederzeit über \"Cookie-Einstellungen\" im Footer ändern. Die vollständige Liste mit der jeweiligen Laufzeit steht in der Cookie-Richtlinie.",
+          "Sie können sie auch jederzeit im Browser löschen. Die Seite funktioniert weiter - sie vergisst dann lediglich Ihre Sprache und fragt erneut.",
           "Die Startseite und die Seite \"Wo die Massage stattfindet\" binden außerdem eine Live-Google-Karte ein, damit Sie genau sehen, wo sich der Raum befindet. Diese Karte wird direkt von Google geladen, nicht von dieser Website, sodass Google, sobald dieser Teil der Seite lädt, eigene Cookies setzen und Ihre IP-Adresse gemäß seiner eigenen Datenschutzerklärung sehen kann - das liegt außerhalb der Kontrolle dieser Website. Wenn Sie sie lieber nicht laden möchten, öffnen die Links \"Bei Google Maps ansehen\" und \"Route berechnen\" Google Maps stattdessen in einem neuen Tab und laden nichts, bevor Sie darauf klicken."
         ]
       },
@@ -701,6 +711,66 @@
         "h": "Änderungen",
         "p": [
           "Diese Bedingungen können sich ändern. Es gilt jeweils die Fassung, die bei der Bestätigung Ihrer Buchung in Kraft war."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookie-Richtlinie",
+    "updated": "Zuletzt aktualisiert: 29. August 2026",
+    "lede": "Dies ist die vollständige Liste der Cookies, die diese Website setzen kann, warum, und wie lange jedes davon gilt. Sie entscheiden, welche davon gesetzt werden, und können es sich jederzeit anders überlegen.",
+    "sections": [
+      {
+        "h": "Ihre Wahl",
+        "p": [
+          "Bei Ihrem ersten Besuch fragt Sie ein kleiner Hinweis, ob Sie alle Cookies akzeptieren oder nur die notwendigen. Nur notwendige bedeutet, dass die Website nur das eine Cookie setzt, ohne das sie nicht funktioniert; bei Alle akzeptieren merkt sie sich zusätzlich die von Ihnen gewählte Sprache.",
+          "Sie können Ihre Wahl jederzeit ändern - öffnen Sie \"Cookie-Einstellungen\" im Footer jeder Seite, in jeder Sprache, um den Hinweis erneut zu sehen und eine andere Antwort zu geben."
+        ]
+      },
+      {
+        "h": "Cookies, die immer gesetzt werden",
+        "p": [
+          "csrf - ein einmaliges Token, das das Buchungsformular davor schützt, in Ihrem Namen von einer anderen Website aus abgeschickt zu werden. Es wird gelöscht, wenn Sie Ihren Browser schließen, und ist nicht mit Ihrer Identität verknüpft.",
+          "cookieConsent - merkt sich, ob Sie \"Alle akzeptieren\" oder \"Nur notwendige\" gewählt haben, damit der Hinweis nicht auf jeder Seite erneut erscheint. Gilt zwölf Monate.",
+          "Beide sind für den Betrieb der Website und des Cookie-Hinweises selbst unbedingt notwendig, daher verlangen die DSGVO und das griechische Recht dafür keine Einwilligung."
+        ]
+      },
+      {
+        "h": "Cookie, das nur bei Zustimmung gesetzt wird",
+        "p": [
+          "lang - merkt sich die von Ihnen gewählte Sprache (Englisch, Griechisch, Deutsch und so weiter), damit die Website Sie beim nächsten Besuch nicht wieder auf Englisch schickt. Gilt zwölf Monate.",
+          "Wenn Sie \"Nur notwendige\" wählen, wird dieses Cookie nicht gesetzt, und eine bereits auf Ihrem Gerät vorhandene Kopie wird beim nächsten Laden einer Seite gelöscht. Die Website funktioniert weiterhin - sie fragt dann einfach Ihren Browser nach dessen bevorzugter Sprache und weicht auf Englisch aus."
+        ]
+      },
+      {
+        "h": "Was diese Website nicht setzt",
+        "p": [
+          "Keine Analyse, keine Werbung, keine Social-Media-Pixel, keinerlei seitenübergreifendes Tracking. Nichts auf dieser Website misst, wie viele Menschen sie besuchen oder woher sie kommen."
+        ]
+      },
+      {
+        "h": "Google Maps",
+        "p": [
+          "Die Startseite und die Seite \"Wo die Massage stattfindet\" binden eine Live-Google-Karte ein, damit Sie genau sehen, wo sich der Raum befindet. Diese Karte wird direkt von Google geladen, nicht von dieser Website, sodass Google, sobald sie lädt, eigene Cookies gemäß seiner eigenen Datenschutzerklärung setzen kann - das liegt außerhalb der Kontrolle dieser Website, die dadurch nichts erhält.",
+          "Wenn Sie sie lieber nicht laden möchten, öffnen die Links \"Bei Google Maps ansehen\" und \"Route berechnen\" Google Maps stattdessen in einem neuen Tab und laden nichts, bevor Sie darauf klicken."
+        ]
+      },
+      {
+        "h": "Cookies im Browser kontrollieren",
+        "p": [
+          "Jeder Browser lässt Sie in seinen Einstellungen Cookies ansehen, löschen und erneut blockieren. Das setzt hier lediglich Ihre Wahl zurück und lässt, falls Sie akzeptiert hatten, Ihre gespeicherte Sprache vergessen."
+        ]
+      },
+      {
+        "h": "Fragen",
+        "p": [
+          "Für alles rund um den Umgang dieser Website mit Ihren Daten, einschließlich dieser Cookies, siehe die Datenschutzerklärung, oder schreiben Sie an Konstantinos Fessaras unter kosfess@hotmail.com."
+        ]
+      },
+      {
+        "h": "Änderungen",
+        "p": [
+          "Wenn sich diese Richtlinie ändert, ändert sich das Datum oben mit."
         ]
       }
     ]
