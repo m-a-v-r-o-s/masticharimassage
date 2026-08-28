@@ -242,5 +242,23 @@
       "order": 7
     }
   ],
-  "_omittedServices": "Face Massage and Cellulite Massage appeared only as options in the old (non-functional) reservation widget, with no page copy. Omitted from v1 pending the client's decision - docs/CLIENT-QUESTIONS.md item 4."
+  "_omittedServices": "Face Massage and Cellulite Massage appeared only as options in the old (non-functional) reservation widget, with no page copy. Omitted from v1 pending the client's decision - docs/CLIENT-QUESTIONS.md item 4.",
+  "venues": {
+    "mobile": {
+      "publish": true,
+      "primary": true,
+      "_note": "The original and still primary service: he travels to the guest's hotel, apartment or villa. Years of testimonials describe this, so it leads the hero and the meta copy."
+    },
+    "studio": {
+      "publish": true,
+      "primary": false,
+      "landmark": "Ghitonia",
+      "landmarkRelation": "adjacent",
+      "walkIns": true,
+      "appointments": true,
+      "sameHours": true,
+      "streetAddress": null,
+      "_note": "Added 2026-08-28 on the client's instruction: he now also treats at his own place in Mastichari, which is what the Google Business Profile pin marks. It is NEXT TO the family's Ghitonia souvenir shop, not the same premises - do not conflate them. No street address supplied, and Google's public listing does not expose one in server HTML, so every language locates it by landmark plus the Maps link. Both walk-ins and appointments are accepted; hours are identical to the mobile service. If the client later supplies a street number, set streetAddress and add it to the PostalAddress in jsonld.njk."
+    }
+  }
 }

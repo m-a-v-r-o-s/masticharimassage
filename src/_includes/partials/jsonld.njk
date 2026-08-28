@@ -1,12 +1,17 @@
 {#- Structured data. Rules held to here:
-    - HealthAndBeautyBusiness, not DaySpa (implies premises) and not MedicalBusiness (would overclaim).
+    - HealthAndBeautyBusiness, not MedicalBusiness (would overclaim). DaySpa was
+      originally rejected because it implies premises and the service was mobile-only;
+      premises now exist, but DaySpa still overclaims - one therapist with one room is
+      not a day spa, and the type must not promise facilities that are not there.
     - knowsLanguage lives ONLY on the Person, and lists el/en/it. It must never be
       derived from the set of locales this site is published in.
     - No Offer node and no priceRange while business.prices.published is false.
       A stale price in structured data is worse than no price at all.
     - No aggregateRating: 41 self-hosted comments are not a valid rating source.
-    - hasMap/geo point at the public Google Business Profile pin (village centre), not
-      a street or home address - the service is mobile. See business.map._note.
+    - The business now works both ways: at its own premises in Mastichari and at the
+      guest's accommodation. hasMap/geo therefore mark real premises, and areaServed
+      still carries the villages travelled to. No streetAddress is published because
+      the client has not supplied one - see business.venues.studio._note.
     - sameAs lists only socials without publish:false, so a superseded profile stays
       in the data file without being asserted as the business's identity. -#}
 {%- set svcs = business | serviceList(c) -%}
@@ -42,6 +47,7 @@
       "addressCountry": business.address.country
     },
     "hasMap": business.map.placeUrl,
+    "publicAccess": true,
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": business.map.lat,

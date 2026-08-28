@@ -16,7 +16,7 @@ export async function sendBooking({ apiKey, from, to, enquiry, serviceName, site
     ["Name", enquiry.name],
     ["Email", enquiry.email],
     ["Phone / WhatsApp", enquiry.phone || "-"],
-    ["Staying at", enquiry.where],
+    ["Where", enquiry.where],
     ["Massage", serviceName || "Not specified - asked for a suggestion"],
     ["Preferred time", enquiry.when || "-"],
     ["Language of the page", enquiry.locale],

@@ -25,7 +25,7 @@
     "minutes": "min",
     "priceLabel": "Prijs",
     "priceOnRequest": "Op aanvraag",
-    "priceNote": "De prijs hoort u zodra u contact opneemt, zo krijgt u altijd het actuele tarief en wordt de reistijd naar u toe eerlijk meegerekend.",
+    "priceNote": "Prijzen worden doorgegeven zodra u contact opneemt, zo hoort u altijd de actuele prijs, en reistijd wordt eerlijk meegerekend.",
     "goodFor": "Waarvoor mensen meestal komen",
     "howItWorks": "Hoe de sessie verloopt",
     "readMore": "Lees verder",
@@ -63,8 +63,8 @@
   },
   "meta": {
     "home": {
-      "title": "Massage in Mastichari, Kos - op uw hotelkamer | Konstantinos Fessaras",
-      "description": "Professionele massage in Mastichari, Tigaki en Marmari op Kos. Gecertificeerd masseur sinds 2011, komt met de tafel naar uw kamer. WhatsApp +30 6977784790."
+      "title": "Massage in Mastichari, Kos - bij mij of in uw hotel",
+      "description": "Professionele massage in Mastichari, Tigaki en Marmari, Kos. Gecertificeerd therapeut sinds 2011, bij mij of in uw hotel."
     },
     "about": {
       "title": "Konstantinos Fessaras - gecertificeerd masseur op Kos",
@@ -75,8 +75,8 @@
       "description": "Full body, ontspannende, therapeutische en sportmassage, rug, Indiase hoofdmassage, voetmassage en aromatherapie op Kos. Prijzen op aanvraag."
     },
     "location": {
-      "title": "Massage in Mastichari, Tigaki en Marmari - ik kom naar u toe | Kos",
-      "description": "Ik breng de massagetafel naar uw hotelkamer, appartement of villa in Mastichari, Tigaki en Marmari op Kos. Elke dag van 9:00 tot 22:00. Boek per telefoon of WhatsApp."
+      "title": "Massage in Mastichari, Tigaki en Marmari - bij mij of bij u | Kos",
+      "description": "Kom naar mijn massageruimte in Mastichari, of ik breng de tafel naar uw hotel in Mastichari, Tigaki en Marmari."
     },
     "contact": {
       "title": "Massage boeken op Kos - telefoon, WhatsApp of formulier",
@@ -100,49 +100,49 @@
     },
     "service": {
       "full-body-massage": {
-        "title": "Full body massage in Mastichari, Kos - op uw hotelkamer",
-        "description": "Full body massage van 45, 60 of 90 minuten, in uw hotel of appartement in Mastichari, Tigaki en Marmari. Gecertificeerd masseur. Prijs op aanvraag."
+        "title": "Massage hele lichaam in Mastichari, Kos - bij mij of uw hotel",
+        "description": "Massage van het hele lichaam, 45, 60 of 90 minuten, bij mij of in uw hotel in Mastichari, Tigaki of Marmari. Gecertificeerd."
       },
       "relaxing-massage": {
-        "title": "Ontspanningsmassage in Mastichari, Kos - klassieke massage op de kamer",
-        "description": "Klassieke ontspanningsmassage op uw kamer in Mastichari, Tigaki of Marmari, Kos. De juiste keuze voor een eerste massage. 45 minuten, prijs op aanvraag."
+        "title": "Ontspanningsmassage in Mastichari, Kos - bij mij of bij u",
+        "description": "Klassieke ontspanningsmassage bij mij of in uw hotel in Mastichari, Tigaki of Marmari. De juiste keuze voor een eerste massage."
       },
       "therapeutic-sports-massage": {
         "title": "Sport- en therapeutische massage op Kos - rug, nek en blessures",
-        "description": "Diepe therapeutische en sportmassage op Kos bij rugpijn, ischias, oude sportblessures en beperkte beweeglijkheid. In uw hotel in Mastichari, Tigaki of Marmari."
+        "description": "Diepe therapeutische en sportmassage op Kos voor rugpijn, ischias en oude blessures. Bij mij of in uw hotel."
       },
       "antistress-back-massage": {
         "title": "Rugmassage in Mastichari, Kos - antistress, van onderrug tot nek",
-        "description": "Antistress rugmassage van de onderrug tot de nek, in uw hotel op Kos. De beste 45 minuten voor een rug die er genoeg van heeft. Prijs op aanvraag."
+        "description": "Antistress rugmassage van de onderrug tot de nek, bij mij of in uw hotel op Kos. De beste 45 minuten voor een vermoeide rug."
       },
       "indian-head-massage": {
         "title": "Indiase hoofdmassage op Kos - nek, schouders en hoofdhuid, zittend",
-        "description": "Indiase hoofdmassage op Kos: nek, schouders, hoofdhuid en gezicht, zittend en volledig gekleed. In uw hotel in Mastichari, Tigaki of Marmari."
+        "description": "Indiase hoofdmassage op Kos: nek, schouders, hoofdhuid en gezicht, zittend en gekleed. Bij mij of in uw hotel."
       },
       "foot-massage": {
         "title": "Voetmassage en reflexologie in Mastichari, Kos",
-        "description": "Voetmassage en reflexwerk in uw hotel of appartement op Kos, voor voeten die de hele dag gelopen hebben. Mastichari, Tigaki en Marmari. Prijs op aanvraag."
+        "description": "Voetmassage en reflexologie bij mij of in uw hotel op Kos, voor voeten die de hele dag gelopen hebben. Prijs op aanvraag."
       },
       "aromatherapy": {
         "title": "Aromatherapiemassage in Mastichari, Kos - natuurlijke etherische oliën",
-        "description": "Aromatherapiemassage met natuurlijke etherische oliën, op uw kamer op Kos. Gecertificeerd in advanced body oil massage. Mastichari, Tigaki en Marmari."
+        "description": "Aromatherapiemassage met natuurlijke etherische oliën, bij mij of in uw hotel op Kos. Gecertificeerd in lichaamsoliemassage."
       }
     }
   },
   "home": {
     "heroKicker": "Mastichari, Tigaki en Marmari - Kos",
-    "heroTitle": "Massage waar u verblijft",
-    "heroLede": "Ik ben Konstantinos Fessaras, gecertificeerd masseur, en ik werk sinds 2011 op Kos. Ik breng de tafel naar uw hotelkamer, appartement of villa, zodat de weg terug daarna ongeveer tien stappen is.",
+    "heroTitle": "Massage bij mij, of waar u verblijft",
+    "heroLede": "Ik ben Konstantinos Fessaras, gecertificeerd massagetherapeut, werkzaam op Kos sinds 2011. Kom naar mijn plek in het centrum van Mastichari, of ik breng de tafel naar uw hotelkamer, appartement of villa in Mastichari, Tigaki en Marmari.",
     "heroPrimary": "Boek via WhatsApp",
     "heroSecondary": "Bekijk de massages",
     "heroNote": "Elke dag, 9:00 - 22:00. Grieks, Engels en Italiaans.",
-    "introTitle": "Eén masseur, geen receptie",
-    "introBody": "Er is geen spa waar u naartoe moet rijden en geen pakket waarvoor u tekent. U zegt waar u verblijft en wanneer het u ongeveer uitkomt, ik kom met een professionele massagetafel, oliën en schoon linnen, en voordat er iets begint spreken we af waar gewerkt moet worden. De meeste mensen boeken voor een stijve nek, voor een rug die er genoeg van heeft, of gewoon omdat ze op vakantie zijn en een uur voor zichzelf willen.",
+    "introTitle": "Eén therapeut, twee manieren",
+    "introBody": "Geen spa-keten en geen pakket om u voor aan te melden. Of u komt naar mijn plek in het voetgangerscentrum van Mastichari, of ik kom met een professionele massagetafel, oliën en schoon linnen naar waar u verblijft. Hoe u ook kiest, we bespreken vooraf wat aandacht nodig heeft. De meeste mensen boeken voor een stijve nek, een rug die het welletjes vindt, of gewoon omdat ze op vakantie zijn en een uur voor zichzelf willen.",
     "pointsTitle": "Wat dat in de praktijk betekent",
     "points": [
       {
-        "title": "Ik kom naar u toe",
-        "body": "Hotelkamer, appartement, villa of balkon. In Mastichari, Tigaki en Marmari. De tafel, de oliën en het linnen gaan met mij mee."
+        "title": "Bij u of bij mij",
+        "body": "Meestal kom ik naar u toe — hotelkamer, appartement, villa of balkon, in Mastichari, Tigaki en Marmari. Of kom naar mijn plek in het centrum van Mastichari, vlak naast souvenirwinkel Ghitonia."
       },
       {
         "title": "Eerst praten we",
@@ -164,22 +164,22 @@
     "howSteps": [
       {
         "title": "Stuur een bericht",
-        "body": "WhatsApp gaat het snelst, bellen werkt ook, en het formulier op deze site net zo goed. Vertel me waar u verblijft en wanneer u de massage zou willen."
+        "body": "WhatsApp is het snelst, een telefoontje werkt ook, het formulier op deze site eveneens. Laat me weten of u naar mij wilt komen of dat ik naar u kom, en wanneer het u uitkomt."
       },
       {
         "title": "We spreken een tijd af",
         "body": "Ik bevestig de tijd, de massage en de prijs voordat er iets geboekt is. Er is geen aanbetaling en online hoeft u niets te betalen."
       },
       {
-        "title": "Ik kom met de tafel",
-        "body": "Opbouwen duurt een paar minuten. U houdt uw ondergoed aan en bent de hele sessie bedekt met een handdoek, behalve op de plek waar gewerkt wordt."
+        "title": "De massage",
+        "body": "Bij mij staat alles al klaar. Kom ik naar u, dan duurt het opbouwen een paar minuten. In beide gevallen houdt u uw ondergoed aan en blijft u de hele tijd bedekt met een handdoek, behalve op de plek waar ik werk."
       }
     ],
-    "areaTitle": "Waar ik werk",
-    "areaBody": "Mastichari, Tigaki en Marmari, en de hotels en appartementen daaromheen. Verblijft u elders op Kos, vraag het gerust - vaak lukt het toch, het hangt alleen van het tijdstip af.",
+    "areaTitle": "Waar de massage plaatsvindt",
+    "areaBody": "Bij mij in het centrum van Mastichari, of waar u verblijft in Mastichari, Tigaki en Marmari en de hotels en appartementen daaromheen. Verblijft u ergens anders op Kos, vraag het gewoon — het lukt vaak, het hangt af van het tijdstip.",
     "areaCta": "Bekijk het gebied in detail",
     "ctaTitle": "Gun uzelf dat uur",
-    "ctaBody": "Stuur me uw hotel en een tijd bij benadering. Ik zeg u wat er vandaag vrij is.",
+    "ctaBody": "Laat me weten of u naar mij komt of dat ik naar u kom, en een globale tijd. Ik zeg wat er vandaag vrij is.",
     "reviewsCta": "Lees wat gasten hebben gezegd",
     "heroImageAlt": "Een massagetafel opgemaakt met schoon linnen in een rustige, lichte kamer, met een opgevouwen handdoek en een klein flesje olie ernaast.",
     "areaImageAlt": "Een smal wit gekalkt straatje in het autovrije centrum van het dorp Mastichari, met bougainville en deuren met luiken."
@@ -189,8 +189,8 @@
     "lede": "Konstantinos Fessaras - masseur, Mastichari, Kos.",
     "bio": [
       "Ik werk sinds 2011 professioneel met massage. Ik ben opgeleid in ontspannings-, therapeutische en sportmassage, daarna in Indiase hoofdmassage, aromatherapie en Thaise oliemassage, en ik volgde aparte seminars over ischias, pijn in de bovenrug en pijn in de onderrug.",
-      "Ik werk alleen. Er is geen receptie, geen wachtrij en niets wat u er nog bij verkocht wordt: er is ik, een professionele massagetafel en het uur dat u geboekt hebt. Ik kom naar waar u verblijft, want na een goede massage is het laatste wat u wilt u aankleden en ergens heen rijden.",
-      "Het grootste deel van mijn werk is met gasten in Mastichari, Tigaki en Marmari, en ik werk al jaren samen met hotels en appartementencomplexen in dat deel van het eiland. Buiten het seizoen, en tussen afspraken door, vindt u mij meestal in de souvenirwinkel van de familie, \"Ghitonia\", in het autovrije centrum van Mastichari - als ik er niet ben, kan de familie u vertellen waar ik ben, of u belt gewoon."
+      "Ik werk alleen. Geen receptie, geen wachtrij en niets extra's opgedrongen: alleen ik, een professionele massagetafel en het uur dat u geboekt heeft. Ik werk nu op beide manieren — in mijn eigen ruimte in het centrum van Mastichari en waar u verblijft, want na een goede massage wilt u zich niet meteen aankleden en ergens naartoe rijden.",
+      "Het meeste werk doe ik met gasten die verblijven in Mastichari, Tigaki en Marmari, en ik werk al jaren samen met hotels en appartementencomplexen in dat deel van het eiland. Mijn eigen ruimte ligt in het voetgangerscentrum van Mastichari, vlak naast de familiesouvenirwinkel Ghitonia — ben ik er niet, dan vertelt de familie u waar ik ben, of u belt gewoon."
     ],
     "languagesTitle": "Talen",
     "languagesBody": "Ik spreek Grieks, Engels en Italiaans. Deze website is in meer talen beschikbaar zodat u in uw eigen taal over de massages kunt lezen, maar het gesprek op de dag zelf gaat in het Grieks, Engels of Italiaans.",
@@ -211,13 +211,13 @@
     },
     "portraitAlt": "Konstantinos Fessaras, masseur in Mastichari op Kos",
     "ctaTitle": "Boek een sessie",
-    "ctaBody": "Vertel me waar u verblijft en wat u dwarszit. Ik stel een massage en een tijd voor."
+    "ctaBody": "Laat me weten wat u dwarszit en of u naar mij wilt komen of dat ik naar u kom. Ik stel een massage en een tijd voor."
   },
   "services": {
     "title": "Massages",
-    "lede": "Zeven behandelingen, allemaal op de plek waar u verblijft, allemaal met een professionele tafel. Sessies duren normaal 45 minuten, met 60 en 90 minuten beschikbaar voor de full body massage.",
+    "lede": "Zeven behandelingen, allemaal met professionele tafel — bij mij in Mastichari of waar u verblijft. Sessies duren normaal 45 minuten, met 60 en 90 minuten mogelijk voor een massage van het hele lichaam.",
     "pricingTitle": "Over de prijzen",
-    "pricingBody": "De prijs hoort u zodra u contact opneemt. Zo krijgt u altijd het actuele tarief in plaats van een getal dat op een oude webpagina is blijven staan, en wordt de rit naar uw hotel eerlijk meegerekend.",
+    "pricingBody": "Prijzen geef ik door zodra u contact opneemt. Zo hoort u altijd de actuele prijs in plaats van een getal dat op een oude webpagina is blijven staan, en als ik naar u toe reis, wordt dat eerlijk meegerekend.",
     "chooseHelp": "Weet u niet welke het moet worden? Zeg wat er pijn doet, of hoe uw week was, en ik stel er een voor als u me schrijft.",
     "cardCta": "Lees over deze massage",
     "imageAlt": "Kleine flesjes van donker glas met massageolie op een linnen doek, naast een schaaltje met gedroogde kruiden."
@@ -354,13 +354,13 @@
     }
   },
   "location": {
-    "title": "Waar ik werk",
-    "lede": "Ik kom naar u toe. De massagetafel, de oliën en schoon linnen gaan met mij mee, en u hoeft daarna nergens heen te rijden.",
-    "areasTitle": "Werkgebied",
+    "title": "Waar de massage plaatsvindt",
+    "lede": "Twee opties: kom naar mijn plek in het centrum van Mastichari, of ik kom naar u met de tafel, oliën en schoon linnen, en achteraf hoeft u nergens naartoe te rijden.",
+    "areasTitle": "Gebieden waar ik naartoe reis",
     "areas": [
       {
         "name": "Mastichari",
-        "body": "Mijn dorp, aan de noordkust van Kos. Hotels, appartementen en kamers in het hele dorp en langs de strandweg."
+        "body": "Mijn geboortedorp, aan de noordkust van Kos, en waar ook mijn eigen plek is. Hotels, appartementen en kamers in het hele dorp en langs de strandweg."
       },
       {
         "name": "Tigaki",
@@ -373,19 +373,19 @@
     ],
     "elsewhereTitle": "Verblijft u elders op Kos?",
     "elsewhereBody": "Vraag het gerust. Vaak lukt het, het hangt alleen van het tijdstip af en van hoe de rest van de dag volzit. Stuur een bericht met waar u verblijft, dan zeg ik eerlijk of ik er kan komen.",
-    "whereTitle": "Mij persoonlijk vinden",
-    "whereBody": "In Mastichari vindt u mij meestal bij Ghitonia, de souvenirwinkel van de familie in het autovrije centrum van het dorp. Ben ik er niet, dan kan de familie u vertellen waar ik ben - of bel gewoon of stuur een WhatsApp-bericht, dat gaat sneller.",
+    "whereTitle": "Mijn plek in Mastichari",
+    "whereBody": "Mijn eigen plek ligt in het voetgangerscentrum van Mastichari, vlak naast Ghitonia, de familiesouvenirwinkel — ernaast, maar niet dezelfde deur. Het centrum is autovrij, parkeer dus aan de rand en loop het laatste stukje; de Google Maps-pin hieronder brengt u er precies naartoe. Zowel binnenlopen als een afspraak maken kan, al voorkomt een bericht vooraf dat u moet wachten als ik net op pad ben.",
     "mapTitle": "Op Google Maps",
-    "mapBody": "Het bedrijf staat op Google Maps als Mastichari Massage, met een markering in het centrum van het dorp. Omdat ik naar u toe kom, is de markering er om mij te vinden en een beoordeling achter te laten — het is geen adres waar u naartoe moet.",
+    "mapBody": "Het bedrijf staat op Google Maps als Mastichari Massage, en de pin markeert mijn eigen plek in het centrum van het dorp. Gebruik hem om de weg te vinden, of om na de massage een beoordeling achter te laten.",
     "mapCta": "Bekijk op Google Maps",
-    "directionsCta": "Route naar het dorpscentrum",
+    "directionsCta": "Route uitstippelen",
     "hotelsTitle": "Hotels en appartementen",
     "hotelsBodyGeneric": "Ik werk al jaren samen met hotels en appartementencomplexen in Mastichari, Tigaki en Marmari, en veel boekingen komen via de receptie binnen. Verblijft u in een hotel, vraag het dan bij de balie - of stuur mij rechtstreeks een bericht, dat gaat meestal sneller.",
     "hotelsBodyNamed": "Met deze adressen heb ik door de jaren heen gewerkt, en veel boekingen komen nog steeds via hun receptie:",
-    "practicalTitle": "Wat ik in de kamer nodig heb",
-    "practicalBody": "Heel weinig: ongeveer twee meter vrije vloer, en een stopcontact is niet eens nodig. Ik zet de tafel op en neem hem weer mee. Een hotelkamer, een balkon of een terras werken even goed.",
+    "practicalTitle": "Als ik naar u kom, wat ik nodig heb in de kamer",
+    "practicalBody": "Heel weinig: ongeveer twee meter vrije vloer, een stopcontact is zelfs niet nodig. Ik zet de tafel op en neem hem weer mee. In een hotelkamer, op een balkon of op een terras werkt het allemaal even goed. Bij mij hoeft u niets voor te bereiden — daar staat alles al klaar.",
     "hoursTitle": "Openingstijden",
-    "hoursBody": "Elke dag van 9:00 tot 22:00. Avondafspraken zijn in het hoogseizoen gewild, dus hoe eerder u het vraagt, hoe meer keuze er is.",
+    "hoursBody": "Elke dag van 9:00 tot 22:00 uur, hetzelfde voor mijn plek en voor bezoek bij u. Avondafspraken zijn populair in het hoogseizoen, dus hoe eerder u vraagt, hoe meer keuze er is.",
     "imageAlt": "Een massagetafel opgezet op een schaduwrijk balkon, met de zee zichtbaar achter de balustrade."
   },
   "contact": {
@@ -396,15 +396,15 @@
     "phoneBody": "Elke dag, 9:00 - 22:00.",
     "emailBody": "Voor alles wat niet dringend is.",
     "formTitle": "Of stuur een boekingsaanvraag",
-    "formIntro": "Vertel me waar u verblijft, wanneer het u schikt en wat voor massage u zoekt. Niets is bevestigd tot ik antwoord.",
+    "formIntro": "Laat me weten of u naar mij wilt komen of dat ik naar u kom, wanneer het u uitkomt en welke massage u wilt. Niets is bevestigd totdat ik reageer.",
     "form": {
       "name": "Uw naam",
       "email": "E-mail",
       "emailHint": "Zodat ik u kan antwoorden.",
       "phone": "Telefoon- of WhatsApp-nummer",
       "phoneHint": "Optioneel, maar het maakt antwoorden veel sneller.",
-      "where": "Waar u verblijft",
-      "whereHint": "Hotel, appartement of gebied - bijvoorbeeld \"Princess of Kos, Mastichari\" of \"een appartement in Tigaki\".",
+      "where": "Waar wilt u de massage",
+      "whereHint": "Óf \"in de massageruimte in Mastichari\", óf waar u verblijft — bijvoorbeeld \"Princess of Kos, Mastichari\" of \"een appartement in Tigaki\".",
       "service": "Welke massage",
       "serviceAny": "Weet ik nog niet - stel maar iets voor",
       "when": "Wanneer u het zou willen",
@@ -422,7 +422,7 @@
       "name": "Vul de naam in die ik moet gebruiken als ik antwoord.",
       "email": "Vul een e-mailadres in waarop ik kan antwoorden, bijvoorbeeld naam@example.com.",
       "emailInvalid": "Dit lijkt geen volledig e-mailadres. Controleer het even.",
-      "where": "Vertel me waar u verblijft, zodat ik weet of ik er kan komen.",
+      "where": "Laat me weten waar u de massage wilt, zodat ik weet of ik erheen kan komen.",
       "message": "Houd het bericht onder de 2000 tekens.",
       "consent": "Vink het vakje aan zodat ik u mag antwoorden.",
       "rateLimit": "Dat zijn veel aanvragen in korte tijd. Wacht een paar minuten en probeer het opnieuw - of stuur gewoon een WhatsApp-bericht, dat werkt altijd.",
@@ -434,8 +434,12 @@
     "faqTitle": "Vragen die mensen stellen",
     "faq": [
       {
-        "q": "Komt u echt naar de hotelkamer?",
-        "a": "Ja. Zo werk ik normaal. Ik breng een professionele massagetafel, oliën en schoon linnen mee, zet alles in een paar minuten op en neem het daarna weer mee. Ik heb alleen ongeveer twee meter vrije vloer nodig."
+        "q": "Kom ik naar u, of komt u naar mij?",
+        "a": "Beide kan. Mijn eigen plek ligt in het voetgangerscentrum van Mastichari, vlak naast souvenirwinkel Ghitonia, en daar staat alles al klaar. Of ik kom naar u: ik breng een professionele massagetafel, oliën en schoon linnen mee, bouw het in een paar minuten op en neem alles weer mee terug. Ik heb alleen ongeveer twee meter vrije vloer nodig."
+      },
+      {
+        "q": "Kan ik gewoon binnenlopen?",
+        "a": "Ja, u kunt tijdens openingstijden aankloppen bij mijn plek in Mastichari. Maar ik ben vaak op pad voor een afspraak, dus een kort WhatsApp-bericht vooraf voorkomt dat u voor een gesloten deur staat."
       },
       {
         "q": "Wat kost het?",
@@ -471,7 +475,7 @@
       },
       {
         "q": "Welke gebieden dekt u?",
-        "a": "Mastichari, Tigaki en Marmari, en de hotels en appartementen daaromheen. Elders op Kos: vraag het gerust - vaak lukt het, afhankelijk van het tijdstip."
+        "a": "Mijn eigen plek is in het centrum van Mastichari. Voor bezoek bij u: Mastichari, Tigaki en Marmari, en de hotels en appartementen daaromheen. Ergens anders op Kos, vraag het gewoon — het lukt vaak, afhankelijk van het tijdstip."
       }
     ],
     "success": {
@@ -521,7 +525,7 @@
       {
         "h": "Wat het boekingsformulier verzamelt",
         "p": [
-          "Als u het boekingsformulier verstuurt, ontvang ik: uw naam, uw e-mailadres, uw telefoonnummer als u dat hebt opgegeven, waar u verblijft, naar welke massage u vroeg, wanneer u die zou willen, alles wat u in het berichtveld hebt geschreven, en het feit dat u het toestemmingsvakje hebt aangevinkt.",
+          "Als u het boekingsformulier verstuurt, ontvang ik: uw naam, uw e-mailadres, uw telefoonnummer als u dat hebt opgegeven, waar u de massage wilt laten plaatsvinden, naar welke massage u vroeg, wanneer u die zou willen, alles wat u in het berichtveld hebt geschreven, en het feit dat u het toestemmingsvakje hebt aangevinkt.",
           "Dat wordt voor één ding gebruikt: u antwoorden en de afspraak regelen. Het wordt niet voor marketing gebruikt, met niemand gedeeld en niet verkocht."
         ]
       },
@@ -654,8 +658,8 @@
       {
         "h": "Waar de massage plaatsvindt",
         "p": [
-          "Normaal in uw hotelkamer, appartement of villa in Mastichari, Tigaki of Marmari. Ik breng de massagetafel, de oliën en schoon linnen mee.",
-          "U bent er verantwoordelijk voor dat ik de dienst mag leveren op de plek waar u verblijft. Sommige hotels beperken de toegang van externe therapeuten op hun terrein; twijfelt u, vraag het dan bij de receptie voordat u boekt."
+          "Ofwel bij mij in het voetgangerscentrum van Mastichari, ofwel in uw hotelkamer, appartement of villa in Mastichari, Tigaki of Marmari. Reis ik naar u toe, dan breng ik de massagetafel, de oliën en schoon linnen mee. De locatie wordt met u afgesproken voordat de afspraak wordt bevestigd.",
+          "Vindt de massage plaats in uw accommodatie, dan bent u er zelf verantwoordelijk voor dat het is toegestaan dat ik de dienst daar verleen. Sommige hotels beperken de toegang voor externe therapeuten; vraag bij twijfel vooraf bij de receptie."
         ]
       },
       {
