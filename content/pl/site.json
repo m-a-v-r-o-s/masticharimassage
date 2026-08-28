@@ -32,9 +32,9 @@
     "allMassages": "Wszystkie masaże",
     "backToServices": "Wróć do wszystkich masaży",
     "testimonialsTitle": "Co pisali goście",
-    "testimonialsIntro": "Komentarze zostawione przez klientów na poprzedniej wersji tej strony w latach 2015-2018. Są przytoczone tak, jak zostały napisane, w języku, w którym powstały.",
     "showTranslation": "Pokaż tłumaczenie",
-    "translationNote": "Przetłumaczone na potrzeby tej strony. Oryginalna treść jest powyżej.",
+    "showOriginal": "Pokaż oryginał",
+    "translationNote": "Przetłumaczone na potrzeby tej strony.",
     "abridgedNote": "Skrócone.",
     "sessionsCount": "sesji",
     "openingHours": "Codziennie, 9:00 - 22:00",
@@ -376,6 +376,8 @@
     "whereTitle": "Moje miejsce w Mastichari",
     "whereBody": "Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok Ghitonia, rodzinnego sklepu z pamiątkami — obok, ale to inne drzwi. Centrum jest bez ruchu samochodowego, więc zaparkuj na skraju i przejdź ostatni odcinek pieszo; pinezka Google Maps poniżej zaprowadzi Cię dokładnie tutaj. Mile widziane są zarówno osoby wpadające bez zapowiedzi, jak i te umówione, ale wiadomość z wyprzedzeniem oznacza, że nie będziesz czekać, jeśli akurat jestem na wyjeździe.",
     "mapTitle": "W Mapach Google",
+    "studioInfoTitle": "Informacje o miejscu",
+    "studioAddressLine": "Piesza strefa centrum Mastichari, obok Ghitonia",
     "mapBody": "Firma jest widoczna w Mapach Google jako Mastichari Massage, a pinezka oznacza moje własne miejsce w centrum wsi. Skorzystaj z niej, żeby trafić na miejsce, albo żeby zostawić opinię po masażu.",
     "mapCta": "Zobacz w Mapach Google",
     "directionsCta": "Wyznacz trasę",
@@ -570,7 +572,8 @@
         "p": [
           "Ta strona nie ustawia plików cookie analitycznych ani reklamowych i nie ma tu niczego z żadnej sieci reklamowej.",
           "Używane są trzy małe pliki cookie, wszystkie niezbędne: jeden zapamiętuje wybrany przez Ciebie język, żeby na następnej stronie nie wracał angielski (dwanaście miesięcy); krótkotrwały token chroni formularz rezerwacji przed atakiem typu cross-site request forgery (znika po zamknięciu przeglądarki); jeden zapisuje, że zamknąłeś informację o cookie, żeby nie pojawiała się na każdej stronie (dwanaście miesięcy).",
-          "Możesz je w każdej chwili usunąć w przeglądarce. Strona nadal będzie działać - po prostu zapomni Twój język i pokaże informację ponownie."
+          "Możesz je w każdej chwili usunąć w przeglądarce. Strona nadal będzie działać - po prostu zapomni Twój język i pokaże informację ponownie.",
+          "Strona główna i strona \"Gdzie odbywa się masaż\" zawierają też osadzoną, aktywną mapę Google, dzięki której widać dokładnie, gdzie znajduje się to miejsce. Ta mapa jest ładowana bezpośrednio z serwerów Google, a nie z tej strony, więc gdy tylko ten fragment strony się załaduje, Google może ustawić własne pliki cookie i zobaczyć Twój adres IP zgodnie z własną polityką prywatności - ta strona nie ma na to wpływu. Jeśli wolisz jej nie ładować, linki \"Zobacz w Mapach Google\" i \"Wyznacz trasę\" otwierają zamiast tego Mapy Google w nowej karcie i niczego nie ładują, dopóki w nie nie klikniesz."
         ]
       },
       {

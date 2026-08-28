@@ -32,9 +32,9 @@
     "allMassages": "Todos los masajes",
     "backToServices": "Volver a todos los masajes",
     "testimonialsTitle": "Lo que han dicho los clientes",
-    "testimonialsIntro": "Comentarios dejados por clientes en la versión anterior de esta web entre 2015 y 2018. Se reproducen tal como se escribieron, en el idioma en que se escribieron.",
     "showTranslation": "Ver traducción",
-    "translationNote": "Traducido para esta página. El texto original está arriba.",
+    "showOriginal": "Ver original",
+    "translationNote": "Traducido para esta página.",
     "abridgedNote": "Abreviado.",
     "sessionsCount": "sesiones",
     "openingHours": "Todos los días, 9:00 - 22:00",
@@ -376,6 +376,8 @@
     "whereTitle": "Mi local en Mastichari",
     "whereBody": "Mi propio local está en el centro peatonal de Mastichari, justo al lado de Ghitonia, la tienda de souvenirs familiar — al lado, pero no es la misma puerta. El centro es peatonal, así que aparque en el borde y camine el último tramo; el marcador de Google Maps de más abajo le lleva exactamente aquí. Se aceptan tanto visitas sin cita como con cita previa, aunque avisar antes por mensaje evita esperas si estoy fuera en otra cita.",
     "mapTitle": "En Google Maps",
+    "studioInfoTitle": "Información del local",
+    "studioAddressLine": "Centro peatonal de Mastichari, junto a Ghitonia",
     "mapBody": "El negocio aparece en Google Maps como Mastichari Massage, y el marcador señala mi propio local en el centro del pueblo. Úselo para encontrar el camino, o para dejar una reseña después del masaje.",
     "mapCta": "Ver en Google Maps",
     "directionsCta": "Cómo llegar",
@@ -570,7 +572,8 @@
         "p": [
           "Esta web no instala cookies analíticas ni publicitarias, y aquí no hay nada de ninguna red de publicidad.",
           "Se usan tres cookies pequeñas, todas necesarias: una recuerda el idioma que has elegido, para que en la siguiente página no vuelvas al inglés (doce meses); un token de corta duración protege el formulario de reserva frente a la falsificación de peticiones entre sitios (se borra al cerrar el navegador); otra registra que has cerrado el aviso de cookies, para que no reaparezca en cada página (doce meses).",
-          "Puedes borrarlas en tu navegador cuando quieras. La web seguirá funcionando: simplemente olvidará tu idioma y volverá a mostrar el aviso."
+          "Puedes borrarlas en tu navegador cuando quieras. La web seguirá funcionando: simplemente olvidará tu idioma y volverá a mostrar el aviso.",
+          "La página de inicio y la página \"Dónde se hace el masaje\" también incorporan un mapa de Google en vivo, para que pueda ver exactamente dónde está el local. Ese mapa se carga directamente desde Google, no desde este sitio, así que en cuanto se carga esa parte de la página, Google puede instalar sus propias cookies y ver su dirección IP según su propia política de privacidad - esto no lo controla este sitio. Si prefiere no cargarlo, los enlaces \"Ver en Google Maps\" y \"Cómo llegar\" abren Google Maps en una pestaña nueva en su lugar, y no cargan nada hasta que se hace clic en ellos."
         ]
       },
       {

@@ -33,7 +33,7 @@
     <div>
       <h2>{{ c.ui.footerContact }}</h2>
       <ul>
-        <li><a href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ business.contact.phone }} ({{ c.ui.whatsapp }})</a></li>
+        <li><a href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ business.contact.phone }}</a></li>
         <li><a href="{{ business.contact.phoneHref }}">{{ icon.phone() }} {{ business.contact.phone }}</a></li>
         <li><a href="{{ business.contact.emailHref }}">{{ icon.mail() }} {{ business.contact.email }}</a></li>
         <li>{{ c.ui.openingHours }}</li>
@@ -44,17 +44,18 @@
         {%- for s in business.social %}{% if s.publish != false %}
         <li><a href="{{ s.url }}" rel="noopener me">{{ s.label or (s.key | capitalize) }}</a></li>
         {%- endif %}{% endfor %}
-        <li><a href="{{ business.map.placeUrl }}" rel="noopener">{{ c.ui.googleMaps }}</a></li>
       </ul>
     </div>
   </div>
 
   <div class="wrap footer-bottom">
-    <p class="footer-legal">
-      <a href="/{{ locale }}/privacy/">{{ c.ui.privacy }}</a>
-      <a href="/{{ locale }}/terms/">{{ c.ui.terms }}</a>
-    </p>
-    <p>&copy; {{ site.year }} Konstantinos Fessaras. {{ c.ui.rights }}</p>
+    <div class="footer-bottom__legal-copy">
+      <p class="footer-legal">
+        <a href="/{{ locale }}/privacy/">{{ c.ui.privacy }}</a>
+        <a href="/{{ locale }}/terms/">{{ c.ui.terms }}</a>
+      </p>
+      <p>&copy; {{ site.year }} Konstantinos Fessaras. {{ c.ui.rights }}</p>
+    </div>
     <p class="footer-credit">&copy; {{ site.year }} Akos Digital Services</p>
   </div>
 </footer>

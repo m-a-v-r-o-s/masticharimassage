@@ -32,9 +32,9 @@
     "allMassages": "Tutti i massaggi",
     "backToServices": "Torna a tutti i massaggi",
     "testimonialsTitle": "Cosa hanno detto gli ospiti",
-    "testimonialsIntro": "Commenti lasciati dai clienti sulla precedente versione di questo sito tra il 2015 e il 2018. Sono riportati come sono stati scritti, nella lingua in cui sono stati scritti.",
     "showTranslation": "Mostra la traduzione",
-    "translationNote": "Tradotto per questa pagina. Il testo originale è qui sopra.",
+    "showOriginal": "Mostra l'originale",
+    "translationNote": "Tradotto per questa pagina.",
     "abridgedNote": "Testo accorciato.",
     "sessionsCount": "sedute",
     "openingHours": "Tutti i giorni, 9:00 - 22:00",
@@ -376,6 +376,8 @@
     "whereTitle": "Il mio studio a Mastichari",
     "whereBody": "Il mio studio si trova nel centro pedonale di Mastichari, proprio accanto a Ghitonia, il negozio di souvenir di famiglia — accanto, ma non la stessa porta. Il centro è pedonale, quindi parcheggiate ai margini e fate a piedi l'ultimo tratto; il segnaposto di Google Maps qui sotto vi porta esattamente qui. Sono benvenuti sia chi passa senza appuntamento sia chi prenota, ma un messaggio prima evita di aspettare se sono fuori per un appuntamento.",
     "mapTitle": "Su Google Maps",
+    "studioInfoTitle": "Informazioni sullo studio",
+    "studioAddressLine": "Centro pedonale di Mastichari, accanto a Ghitonia",
     "mapBody": "L'attività è presente su Google Maps come Mastichari Massage, e il segnaposto indica il mio studio nel centro del paese. Usatelo per trovare la strada, o per lasciare una recensione dopo il massaggio.",
     "mapCta": "Vedi su Google Maps",
     "directionsCta": "Ottieni indicazioni",
@@ -570,7 +572,8 @@
         "p": [
           "Questo sito non imposta cookie di analytics o pubblicitari, e qui non c'è nulla proveniente da alcun circuito pubblicitario.",
           "Vengono usati tre piccoli cookie, tutti necessari: uno ricorda la lingua che hai scelto, così non torni all'inglese alla pagina successiva (dodici mesi); un token di breve durata protegge il modulo di prenotazione dalla falsificazione di richieste tra siti (viene eliminato quando chiudi il browser); uno registra che hai chiuso l'avviso sui cookie, così non ricompare a ogni pagina (dodici mesi).",
-          "Puoi eliminarli dal browser quando vuoi. Il sito continuerà a funzionare: semplicemente dimenticherà la tua lingua e mostrerà di nuovo l'avviso."
+          "Puoi eliminarli dal browser quando vuoi. Il sito continuerà a funzionare: semplicemente dimenticherà la tua lingua e mostrerà di nuovo l'avviso.",
+          "La home page e la pagina \"Dove avviene il massaggio\" incorporano anche una mappa Google dal vivo, così potete vedere esattamente dove si trova lo studio. Questa mappa viene caricata direttamente da Google, non da questo sito, quindi non appena quella parte della pagina si carica, Google può impostare i propri cookie e vedere il vostro indirizzo IP secondo la propria informativa sulla privacy - questo sito non ha controllo su ciò. Se preferite non caricarla, i link \"Vedi su Google Maps\" e \"Ottieni indicazioni\" aprono invece Google Maps in una nuova scheda e non caricano nulla finché non li cliccate."
         ]
       },
       {

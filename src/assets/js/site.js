@@ -61,6 +61,27 @@
     }
   }
 
+  /* ---------- testimonial translation toggle ---------- */
+  var quoteToggles = doc.querySelectorAll("[data-quote-toggle]");
+  for (var qi = 0; qi < quoteToggles.length; qi++) {
+    (function (btn) {
+      var figure = btn.closest(".quote");
+      if (!figure) return;
+      var original = figure.querySelector(".quote__original");
+      var translated = figure.querySelector(".quote__translated");
+      var note = figure.querySelector(".quote__t-note");
+      if (!original || !translated) return;
+      btn.addEventListener("click", function () {
+        var showTranslation = btn.getAttribute("aria-expanded") !== "true";
+        original.hidden = showTranslation;
+        translated.hidden = !showTranslation;
+        if (note) note.hidden = !showTranslation;
+        btn.setAttribute("aria-expanded", String(showTranslation));
+        btn.textContent = showTranslation ? btn.getAttribute("data-label-hide") : btn.getAttribute("data-label-show");
+      });
+    })(quoteToggles[qi]);
+  }
+
   /* ---------- booking form ---------- */
   var form = doc.getElementById("booking-form");
   if (!form) return;

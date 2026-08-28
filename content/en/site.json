@@ -32,9 +32,9 @@
     "allMassages": "All massages",
     "backToServices": "Back to all massages",
     "testimonialsTitle": "What guests have said",
-    "testimonialsIntro": "Comments left by clients on the previous version of this site between 2015 and 2018. They are reproduced as written, in the language they were written in.",
     "showTranslation": "Show translation",
-    "translationNote": "Translated for this page. The original wording is shown above.",
+    "showOriginal": "Show original",
+    "translationNote": "Translated for this page.",
     "abridgedNote": "Shortened.",
     "sessionsCount": "sessions",
     "openingHours": "Every day, 9:00 - 22:00",
@@ -376,6 +376,8 @@
     "whereTitle": "My place in Mastichari",
     "whereBody": "My own place is in the pedestrian centre of Mastichari, right next to Ghitonia, the family souvenir shop - close by, but not the same door. The centre is car-free, so park at the edge and walk the last stretch; the Google Maps pin below takes you to it. Both walk-ins and booked appointments are welcome, though messaging first means you are not waiting if I am out at an appointment.",
     "mapTitle": "On Google Maps",
+    "studioInfoTitle": "Studio info",
+    "studioAddressLine": "Pedestrian centre of Mastichari, next to Ghitonia",
     "mapBody": "The business is listed on Google Maps as Mastichari Massage, and the pin marks my own place in the centre of the village. Use it to find your way here, or to leave a review after a massage.",
     "mapCta": "View on Google Maps",
     "directionsCta": "Get directions",
@@ -570,7 +572,8 @@
         "p": [
           "This site sets no analytics or advertising cookies, and there is nothing here from any advertising network.",
           "Three small cookies are used, all of them necessary: one remembers the language you chose so you are not sent back to English on the next page (twelve months); one short-lived token protects the booking form against cross-site request forgery (deleted when you close the browser); one records that you dismissed the cookie notice, so it does not reappear on every page (twelve months).",
-          "You can delete them in your browser at any time. The site will keep working - it will simply forget your language and show the notice again."
+          "You can delete them in your browser at any time. The site will keep working - it will simply forget your language and show the notice again.",
+          "The home and Location pages also embed a live Google Map so you can see exactly where the studio is. That map is loaded directly from Google, not from this site, so once that part of the page loads, Google may set its own cookies and see your IP address under its own privacy policy - this site does not control that. If you would rather not load it, the \"View on Google Maps\" and \"Get directions\" links open Google Maps in a new tab instead, and load nothing unless you click them."
         ]
       },
       {

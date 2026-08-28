@@ -32,9 +32,9 @@
     "allMassages": "Alle massages",
     "backToServices": "Terug naar alle massages",
     "testimonialsTitle": "Wat gasten hebben gezegd",
-    "testimonialsIntro": "Reacties die klanten tussen 2015 en 2018 hebben achtergelaten op de vorige versie van deze website. Ze staan hier zoals ze geschreven zijn, in de taal waarin ze geschreven zijn.",
     "showTranslation": "Vertaling tonen",
-    "translationNote": "Vertaald voor deze pagina. De originele tekst staat hierboven.",
+    "showOriginal": "Origineel tonen",
+    "translationNote": "Vertaald voor deze pagina.",
     "abridgedNote": "Ingekort.",
     "sessionsCount": "sessies",
     "openingHours": "Elke dag, 9:00 - 22:00",
@@ -376,6 +376,8 @@
     "whereTitle": "Mijn plek in Mastichari",
     "whereBody": "Mijn eigen plek ligt in het voetgangerscentrum van Mastichari, vlak naast Ghitonia, de familiesouvenirwinkel — ernaast, maar niet dezelfde deur. Het centrum is autovrij, parkeer dus aan de rand en loop het laatste stukje; de Google Maps-pin hieronder brengt u er precies naartoe. Zowel binnenlopen als een afspraak maken kan, al voorkomt een bericht vooraf dat u moet wachten als ik net op pad ben.",
     "mapTitle": "Op Google Maps",
+    "studioInfoTitle": "Info over de ruimte",
+    "studioAddressLine": "Voetgangerscentrum van Mastichari, naast Ghitonia",
     "mapBody": "Het bedrijf staat op Google Maps als Mastichari Massage, en de pin markeert mijn eigen plek in het centrum van het dorp. Gebruik hem om de weg te vinden, of om na de massage een beoordeling achter te laten.",
     "mapCta": "Bekijk op Google Maps",
     "directionsCta": "Route uitstippelen",
@@ -570,7 +572,8 @@
         "p": [
           "Deze site plaatst geen analytics- of advertentiecookies, en er staat hier niets van welk advertentienetwerk dan ook.",
           "Er worden drie kleine cookies gebruikt, alle noodzakelijk: één onthoudt de taal die u gekozen hebt zodat u op de volgende pagina niet terug naar het Engels gaat (twaalf maanden); een kortlevend token beschermt het boekingsformulier tegen cross-site request forgery (verdwijnt als u de browser sluit); één legt vast dat u de cookiemelding hebt weggeklikt, zodat die niet op elke pagina terugkomt (twaalf maanden).",
-          "U kunt ze op elk moment in uw browser verwijderen. De site blijft werken - hij vergeet dan alleen uw taal en toont de melding opnieuw."
+          "U kunt ze op elk moment in uw browser verwijderen. De site blijft werken - hij vergeet dan alleen uw taal en toont de melding opnieuw.",
+          "De homepage en de pagina \"Waar de massage plaatsvindt\" bevatten ook een live Google Maps-kaart, zodat u precies kunt zien waar de ruimte is. Die kaart wordt rechtstreeks door Google geladen, niet door deze site, dus zodra dat deel van de pagina laadt, kan Google zijn eigen cookies plaatsen en uw IP-adres zien volgens zijn eigen privacybeleid - dat heeft deze site niet in de hand. Wilt u dat liever niet, dan openen de links \"Bekijk op Google Maps\" en \"Route uitstippelen\" Google Maps in plaats daarvan in een nieuw tabblad, en laden ze niets totdat u erop klikt."
         ]
       },
       {

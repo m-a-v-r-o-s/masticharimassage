@@ -51,11 +51,13 @@
     "shortUrl": "https://maps.app.goo.gl/ShPXKKdkrtSJvQNn8",
     "placeUrl": "https://www.google.com/maps/place/Mastichari+Massage/@36.8496693,27.075741,17z/data=!4m6!3m5!1s0x14bdfb8ba554c8c3:0x4358560cf5e8c3c3!8m2!3d36.8496693!4d27.075741!16s%2Fg%2F11dzcx9dht",
     "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=36.8496693%2C27.075741",
+    "embedUrl": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!3m2!1m1!4s4852723212156978115",
     "featureId": "0x14bdfb8ba554c8c3:0x4358560cf5e8c3c3",
     "cid": "4852723212156978115",
     "lat": 36.8496693,
     "lng": 27.075741,
-    "_note": "Resolved from the client-supplied maps.app.goo.gl short link on 2026-08-28; every value here was read off that redirect, none inferred. This is the business's own Google Business Profile ('Mastichari Massage'). Coordinates are the village-centre point Google already publishes on the public listing - NOT a home address, and nothing finer is published. The service is mobile (he travels to the guest), so this pin is a findability/reviews signal, not a 'come here' address. No ChIJ-form place ID is stored: it cannot be derived from the featureId without a Places API lookup, and Google returns HTTP 200 for a wrong one, so a guessed value would fail silently. Add it only from an API response or the Place ID Finder."
+    "_note": "Resolved from the client-supplied maps.app.goo.gl short link on 2026-08-28; every value here was read off that redirect, none inferred. This is the business's own Google Business Profile ('Mastichari Massage'). Coordinates are the village-centre point Google already publishes on the public listing - NOT a home address, and nothing finer is published. The service is mobile (he travels to the guest), so this pin is a findability/reviews signal, not a 'come here' address. No ChIJ-form place ID is stored: it cannot be derived from the featureId without a Places API lookup, and Google returns HTTP 200 for a wrong one, so a guessed value would fail silently. Add it only from an API response or the Place ID Finder.",
+    "_embedNote": "embedUrl added 2026-08-28 for the studio-map section on the home and location pages. Resolved by following https://maps.google.com/maps?cid=<cid>&output=embed (no API key, no billing) to its actual redirect target, which is Google's own maps/embed endpoint keyed to this exact business listing via cid - not a generic coordinate marker. Loading it is the only third-party request this site makes; see server/security.js frame-src and the Cookies section of the privacy policy, which now discloses it."
   },
   "areaServed": [
     "Mastichari",
@@ -168,6 +170,12 @@
       "key": "x",
       "url": "https://twitter.com/massagekos",
       "label": "X"
+    },
+    {
+      "key": "tripadvisor",
+      "url": "https://www.tripadvisor.com.gr/Attraction_Review-g1177714-d19140021-Reviews-Mastichari_Massage-Mastichari_Kos_Dodecanese_South_Aegean.html",
+      "label": "TripAdvisor",
+      "_note": "Listing link supplied by the user 2026-08-28. TripAdvisor returns HTTP 403 to automated fetches, so this URL is used as given rather than verified/canonicalised by crawling it."
     },
     {
       "key": "facebook-personal",

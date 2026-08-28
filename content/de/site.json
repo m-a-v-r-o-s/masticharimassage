@@ -32,9 +32,9 @@
     "allMassages": "Alle Massagen",
     "backToServices": "Zurück zu allen Massagen",
     "testimonialsTitle": "Was Gäste geschrieben haben",
-    "testimonialsIntro": "Kommentare, die Kundinnen und Kunden zwischen 2015 und 2018 auf der früheren Version dieser Website hinterlassen haben. Sie stehen hier so, wie sie geschrieben wurden, in der Sprache, in der sie geschrieben wurden.",
     "showTranslation": "Übersetzung anzeigen",
-    "translationNote": "Für diese Seite übersetzt. Der Originalwortlaut steht darüber.",
+    "showOriginal": "Original anzeigen",
+    "translationNote": "Für diese Seite übersetzt.",
     "abridgedNote": "Gekürzt.",
     "sessionsCount": "Sitzungen",
     "openingHours": "Täglich, 9:00 - 22:00 Uhr",
@@ -376,6 +376,8 @@
     "whereTitle": "Meine Räume in Mastichari",
     "whereBody": "Meine eigenen Räume liegen in der Fußgängerzone von Mastichari, direkt neben Ghitonia, dem Familien-Souvenirladen — nebenan, aber nicht dieselbe Tür. Das Zentrum ist autofrei, parken Sie also am Rand und gehen Sie das letzte Stück zu Fuß; der Google-Maps-Pin unten führt Sie hierher. Sowohl spontane Besuche als auch feste Termine sind willkommen, aber eine kurze Nachricht vorab bedeutet, dass Sie nicht warten, falls ich gerade bei einem Termin bin.",
     "mapTitle": "Bei Google Maps",
+    "studioInfoTitle": "Infos zum Raum",
+    "studioAddressLine": "Fußgängerzone von Mastichari, neben Ghitonia",
     "mapBody": "Das Unternehmen ist bei Google Maps als Mastichari Massage eingetragen, und die Markierung zeigt meine eigenen Räume im Ortszentrum. Nutzen Sie sie, um herzufinden, oder um nach der Massage eine Bewertung zu hinterlassen.",
     "mapCta": "Bei Google Maps ansehen",
     "directionsCta": "Route berechnen",
@@ -570,7 +572,8 @@
         "p": [
           "Diese Website setzt keine Analyse- oder Werbe-Cookies, und es gibt hier nichts aus irgendeinem Werbenetzwerk.",
           "Drei kleine Cookies werden verwendet, alle notwendig: eines merkt sich die von Ihnen gewählte Sprache, damit Sie auf der nächsten Seite nicht wieder auf Englisch landen (zwölf Monate); ein kurzlebiges Token schützt das Buchungsformular gegen Cross-Site-Request-Forgery (wird beim Schließen des Browsers gelöscht); eines hält fest, dass Sie den Cookie-Hinweis geschlossen haben, damit er nicht auf jeder Seite wieder erscheint (zwölf Monate).",
-          "Sie können sie jederzeit im Browser löschen. Die Seite funktioniert weiter - sie vergisst dann lediglich Ihre Sprache und zeigt den Hinweis erneut."
+          "Sie können sie jederzeit im Browser löschen. Die Seite funktioniert weiter - sie vergisst dann lediglich Ihre Sprache und zeigt den Hinweis erneut.",
+          "Die Startseite und die Seite \"Wo die Massage stattfindet\" binden außerdem eine Live-Google-Karte ein, damit Sie genau sehen, wo sich der Raum befindet. Diese Karte wird direkt von Google geladen, nicht von dieser Website, sodass Google, sobald dieser Teil der Seite lädt, eigene Cookies setzen und Ihre IP-Adresse gemäß seiner eigenen Datenschutzerklärung sehen kann - das liegt außerhalb der Kontrolle dieser Website. Wenn Sie sie lieber nicht laden möchten, öffnen die Links \"Bei Google Maps ansehen\" und \"Route berechnen\" Google Maps stattdessen in einem neuen Tab und laden nichts, bevor Sie darauf klicken."
         ]
       },
       {

@@ -47,15 +47,6 @@ eleventyExcludeFromCollections: true
     <div class="stack">
       <h2>{{ c.location.whereTitle }}</h2>
       <p>{{ c.location.whereBody }}</p>
-      {#- Deliberately a link, not an embedded map. An iframe would mean loosening
-          frame-src and img-src for Google and shipping a third-party cookie on a
-          page that currently loads nothing off-origin. See server/security.js. -#}
-      <h2 class="u-mt-15">{{ c.location.mapTitle }}</h2>
-      <p>{{ c.location.mapBody }}</p>
-      <div class="btn-row">
-        <a class="btn btn--ghost" href="{{ business.map.placeUrl }}" rel="noopener">{{ c.location.mapCta }}</a>
-        <a class="btn btn--ghost" href="{{ business.map.directionsUrl }}" rel="noopener">{{ c.location.directionsCta }}</a>
-      </div>
       <h2 class="u-mt-15">{{ c.location.practicalTitle }}</h2>
       <p>{{ c.location.practicalBody }}</p>
     </div>
@@ -76,6 +67,8 @@ eleventyExcludeFromCollections: true
     </div>
   </div>
 </section>
+
+{% include "partials/studio-map.njk" %}
 
 <section class="section section--ink">
   <div class="wrap measure stack">

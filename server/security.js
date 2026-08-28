@@ -12,14 +12,16 @@ export const SECURITY_HEADERS = {
     "midi=(), payment=(), usb=(), interest-cohort=(), browsing-topics=()",
 };
 
-// Nothing on this site loads from a third party: no CDN, no analytics, no embedded
-// map, no hotlinked font. That makes a strict policy achievable rather than
-// aspirational - which is why no template is allowed an inline style or script.
+// The only third party ever loaded is Google Maps, and only inside the single
+// iframe on the studio-map section (home and location pages) - frame-src is
+// scoped to exactly that origin. Everything else stays as strict as before: no
+// CDN, no analytics, no hotlinked font, no inline style or script anywhere.
 export const CSP = [
   "default-src 'none'",
   "base-uri 'none'",
   "form-action 'self'",
   "frame-ancestors 'none'",
+  "frame-src https://www.google.com",
   "script-src 'self'",
   "style-src 'self'",
   "img-src 'self' data:",

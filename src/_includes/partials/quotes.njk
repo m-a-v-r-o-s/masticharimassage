@@ -1,23 +1,30 @@
 {#- Testimonial wall.
     The original wording is always rendered with its own lang attribute (WCAG 3.1.2,
-    Language of Parts - a hard criterion, not styling). A translation into the page's
-    language is offered underneath, and is labelled as a translation. -#}
+    Language of Parts - a hard criterion, not styling), and stays in the DOM even while
+    hidden so it's still crawlable and available to assistive tech via the toggle. A
+    translation into the page's language can be swapped in over it in place, so toggling
+    doesn't change the card's height. -#}
 {% macro wall(items, c, L, locale, limit) %}
 <div class="quotes">
   {%- for t in items -%}
   {%- if not limit or loop.index0 < limit -%}
   <figure class="quote">
+    {%- if t.lang != locale and t.t and t.t[locale] %}
+    <blockquote class="quote__original" lang="{{ t.lang }}" cite="">
+      <p>{{ t.text }}</p>
+    </blockquote>
+    <blockquote class="quote__translated" lang="{{ L.lang }}" cite="" hidden>
+      <p>{{ t.t[locale] }}</p>
+    </blockquote>
+    <button type="button" class="quote__t-toggle" data-quote-toggle aria-expanded="false" data-label-show="{{ c.ui.showTranslation }}" data-label-hide="{{ c.ui.showOriginal }}">{{ c.ui.showTranslation }}</button>
+    <p class="quote__t-note" hidden>{{ c.ui.translationNote }}{% if t.abridged %} {{ c.ui.abridgedNote }}{% endif %}</p>
+    {%- else %}
     <blockquote lang="{{ t.lang }}" cite="">
       <p>{{ t.text }}</p>
     </blockquote>
-    {%- if t.lang != locale and t.t and t.t[locale] %}
-    <details class="quote__t">
-      <summary>{{ c.ui.showTranslation }}</summary>
-      <p lang="{{ L.lang }}">{{ t.t[locale] }}</p>
-      <p class="quote__t-note">{{ c.ui.translationNote }}{% if t.abridged %} {{ c.ui.abridgedNote }}{% endif %}</p>
-    </details>
-    {%- elif t.abridged %}
+    {%- if t.abridged %}
     <p class="quote__t-note">{{ c.ui.abridgedNote }}</p>
+    {%- endif %}
     {%- endif %}
     <figcaption>
       <cite>{{ t.name }}</cite>
