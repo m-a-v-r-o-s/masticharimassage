@@ -191,6 +191,58 @@
     ],
     "cropped": false
   },
+  "session-back-massage-wide": {
+    "w": 956,
+    "h": 638,
+    "nativeW": 956,
+    "nativeH": 638,
+    "widths": [
+      400,
+      600,
+      900,
+      956
+    ],
+    "cropped": false
+  },
+  "session-forearm-technique": {
+    "w": 960,
+    "h": 614,
+    "nativeW": 960,
+    "nativeH": 614,
+    "widths": [
+      400,
+      600,
+      900,
+      960
+    ],
+    "cropped": false
+  },
+  "session-oil-pour": {
+    "w": 959,
+    "h": 603,
+    "nativeW": 959,
+    "nativeH": 603,
+    "widths": [
+      400,
+      600,
+      900,
+      959
+    ],
+    "cropped": false
+  },
+  "session-shoulders-closeup": {
+    "w": 957,
+    "h": 613,
+    "nativeW": 957,
+    "nativeH": 613,
+    "widths": [
+      400,
+      600,
+      900,
+      957
+    ],
+    "cropped": false
+  },
   "village-lane": {
     "w": 1200,
     "h": 800,
