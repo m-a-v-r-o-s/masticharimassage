@@ -18,7 +18,7 @@ layout: false
 {%- endif %}{% endfor %}
 <link rel="alternate" hreflang="x-default" href="{{ site.origin }}/{{ d }}/">
 <meta http-equiv="refresh" content="0; url=/{{ d }}/">
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | assetv }}">
 </head>
 <body>
 <!-- The Fastify server normally 302s "/" to a negotiated locale before this page is
@@ -39,6 +39,6 @@ layout: false
     </nav>
   </div>
 </main>
-<script src="/assets/js/root-redirect.js" data-locales="{{ buildLocales | dump | escape }}"></script>
+<script src="{{ "/assets/js/root-redirect.js" | assetv }}" data-locales="{{ buildLocales | dump | escape }}"></script>
 </body>
 </html>

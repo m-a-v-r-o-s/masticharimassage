@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import crypto from "node:crypto";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets/css": "assets/css" });
@@ -61,6 +62,27 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("pluck", (arr, key) => (arr || []).map((o) => o[key]));
 
   eleventyConfig.addFilter("featured", (list) => list.filter((s) => s.featured));
+
+  // Cache-bust CSS/JS by content. These are served with a day-long max-age and
+  // no revalidation, so without a hash in the URL a visitor keeps yesterday's
+  // stylesheet against today's markup for up to 24h. The hash is computed once
+  // per file per build, not once per page.
+  const assetHashes = new Map();
+  // Cleared before every build: in --watch the config module is loaded once, so
+  // without this the map keeps the hash from the first build of the session and
+  // the markup goes on pointing at ?v=<yesterday's stylesheet>, which the day-long
+  // max-age then serves from cache against freshly rebuilt HTML.
+  eleventyConfig.on("eleventy.before", () => assetHashes.clear());
+  eleventyConfig.addFilter("assetv", (p) => {
+    if (!assetHashes.has(p)) {
+      const full = path.join(process.cwd(), "src", p.replace(/^\//, ""));
+      const hash = fs.existsSync(full)
+        ? crypto.createHash("md5").update(fs.readFileSync(full)).digest("hex").slice(0, 8)
+        : "";
+      assetHashes.set(p, hash ? p + "?v=" + hash : p);
+    }
+    return assetHashes.get(p);
+  });
 
   // Inline a built asset (critical CSS, the SVG mark) straight into the document.
   eleventyConfig.addFilter("inlineFile", (p) => {
