@@ -22,8 +22,22 @@ eleventyExcludeFromCollections: true
       </div>
       <p class="hero__note">{{ c.home.heroNote }}</p>
     </div>
-    <div class="hero__media">
-      {{ p.pic(images, "hero-treatment-room", c.home.heroImageAlt, "(min-width: 58em) 44vw, 100vw", "", true) }}
+    <div class="hero__media hero__slides" data-slides
+         data-slides-labels='{"pause": {{ c.ui.pauseSlideshow | dump }}, "play": {{ c.ui.playSlideshow | dump }}}'>
+      <div class="hero__slide is-active">
+        {{ p.pic(images, "hero-treatment-room", c.home.heroRoomAlt, "(min-width: 58em) 44vw, 100vw", "", true) }}
+      </div>
+      <div class="hero__slide">
+        {{ p.pic(images, "session-back-massage-wide", c.home.heroImageAlt, "(min-width: 58em) 44vw, 100vw", "", "eager") }}
+      </div>
+      <div class="hero__slide">
+        {{ p.pic(images, "session-shoulders-closeup", c.home.heroImageAlt2, "(min-width: 58em) 44vw, 100vw", "", "eager") }}
+      </div>
+      <button type="button" class="hero__slides-btn" data-slides-toggle
+              aria-label="{{ c.ui.pauseSlideshow }}">
+        <span class="hero__slides-icon" data-icon-pause>{{ icon.pause() }}</span>
+        <span class="hero__slides-icon" data-icon-play hidden>{{ icon.play() }}</span>
+      </button>
     </div>
   </div>
 </section>
@@ -55,7 +69,10 @@ eleventyExcludeFromCollections: true
     <div class="grid grid--3 reveal">
       {%- for s in svcs %}
       <a class="card card--link u-plain" href="/{{ locale }}/services/{{ s.slug }}/">
-        <h3>{{ s.name }}</h3>
+        <div class="card__media card__media--titled">
+          {{ p.pic(images, "service-" + s.slug, s.imageAlt, "(min-width: 66em) 30vw, (min-width: 46em) 46vw, 100vw", "", false, "hero-treatment-room", c.ui.imagePendingAlt) }}
+          <h3 class="card__media-title">{{ s.name }}</h3>
+        </div>
         <p>{{ s.short }}</p>
         <p class="card__foot"><span class="card__link">{{ c.services.cardCta }}</span></p>
       </a>

@@ -63,6 +63,8 @@
     "draftNotice": "Cette page a été traduite automatiquement et n'a pas encore été vérifiée par un locuteur natif. Pour tout ce qui est important, consultez la version anglaise ou grecque - ou envoyez-moi simplement un message.",
     "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, masseur à Mastichari, Kos",
     "imagePendingAlt": "Un espace de soin paisible : linge propre, serviettes pliées et huile, prêt pour une séance.",
+    "pauseSlideshow": "Mettre le diaporama en pause",
+    "playSlideshow": "Lancer le diaporama",
     "googleMaps": "Google Maps"
   },
   "meta": {
@@ -189,7 +191,9 @@
     "ctaTitle": "Offrez-vous cette heure",
     "ctaBody": "Dites-moi si vous venez chez moi ou souhaitez que je vienne chez vous, et un horaire approximatif. Je vous dirai ce qui est disponible aujourd'hui.",
     "reviewsCta": "Lire ce que disent les clients",
-    "heroImageAlt": "Une table de massage préparée avec du linge propre dans une pièce calme et lumineuse, avec une serviette pliée et une petite bouteille d'huile à côté.",
+    "heroRoomAlt": "Une table de massage préparée avec du linge propre dans une pièce calme et lumineuse, avec une serviette pliée et une petite bouteille d'huile à côté.",
+    "heroImageAlt": "Konstantinos Fessaras travaille le dos d'une cliente sur la table de massage, dans une pièce blanche et lumineuse.",
+    "heroImageAlt2": "Gros plan : les deux mains travaillent les épaules et le haut du dos d'une cliente.",
     "areaImageAlt": "Une ruelle étroite aux murs blanchis à la chaux, au centre piétonnier du village de Mastichari, avec des bougainvilliers et des porches aux volets fermés."
   },
   "about": {
@@ -218,6 +222,8 @@
       "lower-back-pain": "Douleurs du bas du dos"
     },
     "portraitAlt": "Konstantinos Fessaras, masseur à Mastichari, Kos",
+    "sessionAlt1": "Konstantinos utilise son avant-bras le long du dos d'une cliente pendant une séance.",
+    "sessionAlt2": "Konstantinos verse de l'huile de massage dans sa main avant de commencer sur le dos de la cliente.",
     "ctaTitle": "Réserver une séance",
     "ctaBody": "Dites-moi ce qui vous gêne, et si vous préférez venir chez moi ou que je vienne chez vous. Je vous proposerai un massage et un horaire."
   },

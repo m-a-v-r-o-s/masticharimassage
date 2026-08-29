@@ -252,10 +252,75 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .hero__media img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .hero h1 { max-width: 15ch; }
 .hero__note { font-size: var(--step--1); color: var(--muted); }
+
+/* The hero photograph is three photographs taking turns in one frame. The first
+   slide stays in flow and so sets the height; the rest are stacked over it and
+   crossfaded. Without JS none of that runs and the first slide is simply the hero
+   image, which is why the others start at opacity 0 rather than display:none. */
+.hero__slides { position: relative; }
+.hero__slide { position: absolute; inset: 0; opacity: 0; transition: opacity 0.8s ease; }
+.hero__slide:first-child { position: relative; }
+.hero__slide.is-active { opacity: 1; }
+.hero__slide img { width: 100%; height: 100%; object-fit: cover; }
+
+/* Hidden until JS is present: with no script the frame never advances, and a
+   pause control for something that cannot move is a lie to a keyboard user. */
+.hero__slides-btn { display: none; }
+.js .hero__slides-btn {
+  display: grid; place-items: center;
+  position: absolute; right: 0.75rem; bottom: 0.75rem; z-index: 1;
+  width: 44px; height: 44px; padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.55); border-radius: 50%;
+  background: rgba(11, 31, 38, 0.62); color: #fff;
+  cursor: pointer; transition: background 0.2s ease;
+}
+.js .hero__slides-btn:hover { background: rgba(11, 31, 38, 0.82); }
+.hero__slides-icon { display: grid; place-items: center; }
+/* An author display: value outranks the UA rule behind the hidden attribute, so
+   without this the inactive icon stays on screen and both show at once. */
+.hero__slides-icon[hidden] { display: none; }
+.hero__slides-icon svg { width: 16px; height: 16px; }
+@media (prefers-reduced-motion: reduce) { .hero__slide { transition: none; } }
+
 @media (min-width: 58em) {
-  .hero__inner { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
-  .hero__media { margin-top: 0; }
-  .hero__media img { aspect-ratio: 3 / 4; }
+  /* On a desktop screen the hero owns the whole first viewport, so nothing of
+     the next section peeks in above the fold. The section fills the height left
+     under the header (--header-h is measured in site.js; the fallback matches
+     the desktop bar) and the photo frame stretches into whatever that leaves
+     rather than holding the 4/3 box it keeps on phones. */
+  .hero__inner {
+    display: grid; grid-template-columns: 1fr 1.1fr;
+    gap: clamp(2rem, 5vw, 4rem); align-items: center;
+    min-height: calc(100svh - var(--header-h, 4.8rem));
+    padding-block: clamp(2rem, 4vw, 3.5rem);
+  }
+  /* The photo column takes the larger half now that it is the tall one - a
+     narrower column would crop the two landscape session photos down to a
+     slice of themselves at this height. */
+  .hero__media { margin-top: 0; align-self: stretch; min-height: 24rem; }
+  /* Every slide leaves the flow here - the frame's height now comes from the
+     grid row, not from the first photograph, so the first slide no longer needs
+     to stand in the flow to set it. */
+  .hero__slide, .hero__slide:first-child { position: absolute; inset: 0; }
+  .hero__slide picture { display: block; height: 100%; }
+  .hero__media img { aspect-ratio: auto; height: 100%; }
+}
+
+/* A single full-width photograph, used as a band under the About bio. The frame
+   only flattens to a letterbox once there is width to spare - at phone widths a
+   16/7 strip would be a sliver, so it keeps the photograph's own 3/2 there. */
+.img-band { margin: 0; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); }
+.img-band img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+@media (min-width: 46em) { .img-band img { aspect-ratio: 16 / 7; } }
+
+/* The About languages band: copy on the left, the three spoken-language flags
+   on the right. They stack under the copy below 46em, where a side column would
+   squeeze the paragraph to a ribbon. */
+.lang-row { display: grid; gap: var(--gap-lg); }
+.lang-row .section-head { margin-bottom: 0; }
+.lang-flags { display: flex; gap: 0.85rem; margin: 0; font-size: clamp(3rem, 8vw, 4.5rem); line-height: 1; }
+@media (min-width: 46em) {
+  .lang-row { grid-template-columns: 1fr auto; align-items: center; gap: clamp(2rem, 5vw, 4rem); }
 }
 
 /* ---------- cards ---------- */
@@ -274,6 +339,21 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .card--link:hover { border-color: var(--gold); box-shadow: var(--shadow-lg); }
 .card__media { margin: calc(-1 * clamp(1.25rem, 3vw, 1.75rem)) calc(-1 * clamp(1.25rem, 3vw, 1.75rem)) 0; border-radius: var(--radius-lg) var(--radius-lg) 0 0; overflow: hidden; }
 .card__media img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+
+/* Home service cards: a taller photo with the treatment name laid over its
+   foot. The scrim is dark enough for white text to clear AA on any photo. */
+.card__media--titled { position: relative; }
+.card__media--titled img { aspect-ratio: 4 / 3; }
+.card__media--titled::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.45) 34%, rgba(0, 0, 0, 0) 68%);
+}
+.card__media-title {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 1; margin: 0;
+  padding: 0 clamp(0.9rem, 3vw, 1.15rem) clamp(0.75rem, 2.5vw, 1rem);
+  color: #fff; font-size: var(--step-1); text-wrap: balance;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
 
 .numbered { list-style: none; padding: 0; counter-reset: step; display: grid; gap: var(--gap-lg); }
 .numbered li { counter-increment: step; padding-left: 3.25rem; position: relative; }

@@ -90,6 +90,60 @@
     for (var j = 0; j < reveals.length; j++) io.observe(reveals[j]);
   }
 
+  /* ---------- hero photographs taking turns ----------
+     WCAG 2.2.2: anything that moves on its own has to be stoppable, so the frame
+     ships with a real pause control rather than relying on the visitor's patience.
+     Reduced motion starts it paused instead of hiding the control - the photos are
+     still reachable, they just never move unless asked. */
+  var slidesRoot = doc.querySelector("[data-slides]");
+  if (slidesRoot) {
+    var slides = slidesRoot.querySelectorAll(".hero__slide");
+    var slidesBtn = slidesRoot.querySelector("[data-slides-toggle]");
+    var iconPause = slidesRoot.querySelector("[data-icon-pause]");
+    var iconPlay = slidesRoot.querySelector("[data-icon-play]");
+    var labels = slidesRoot.getAttribute("data-slides-labels");
+    try { labels = labels ? JSON.parse(labels) : null; } catch (e) { labels = null; }
+
+    if (slides.length > 1 && slidesBtn) {
+      var current = 0;
+      var timer = null;
+      var INTERVAL = 6000;
+
+      function show(next) {
+        slides[current].classList.remove("is-active");
+        current = (next + slides.length) % slides.length;
+        slides[current].classList.add("is-active");
+      }
+      function advance() { show(current + 1); }
+      function start() {
+        if (timer) return;
+        timer = window.setInterval(advance, INTERVAL);
+        slidesBtn.setAttribute("aria-pressed", "false");
+        if (labels) slidesBtn.setAttribute("aria-label", labels.pause);
+        if (iconPause) iconPause.hidden = false;
+        if (iconPlay) iconPlay.hidden = true;
+      }
+      function stop() {
+        if (timer) { window.clearInterval(timer); timer = null; }
+        slidesBtn.setAttribute("aria-pressed", "true");
+        if (labels) slidesBtn.setAttribute("aria-label", labels.play);
+        if (iconPause) iconPause.hidden = true;
+        if (iconPlay) iconPlay.hidden = false;
+      }
+
+      slidesBtn.addEventListener("click", function () {
+        if (timer) stop(); else { start(); advance(); }
+      });
+      // A tab in the background should not burn through the rotation unwatched.
+      doc.addEventListener("visibilitychange", function () {
+        if (doc.hidden) { if (timer) { window.clearInterval(timer); timer = null; } }
+        else if (slidesBtn.getAttribute("aria-pressed") === "false") start();
+      });
+
+      if (reduce) stop(); else start();
+    }
+  }
+
   /* ---------- cookie consent + remembered language ---------- */
   function getConsent() {
     try {

@@ -63,6 +63,8 @@
     "draftNotice": "Deze pagina is machinaal vertaald en nog niet gecontroleerd door een moedertaalspreker. Lees voor iets belangrijks de Engelse of Griekse versie - of stuur me gewoon een bericht.",
     "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, masseur in Mastichari, Kos",
     "imagePendingAlt": "Een rustige behandelplek: schoon linnen, opgevouwen handdoeken en olie, klaar voor een sessie.",
+    "pauseSlideshow": "Diavoorstelling pauzeren",
+    "playSlideshow": "Diavoorstelling afspelen",
     "googleMaps": "Google Maps"
   },
   "meta": {
@@ -150,7 +152,7 @@
     "points": [
       {
         "title": "Bij u of bij mij",
-        "body": "Meestal kom ik naar u toe — hotelkamer, appartement, villa of balkon, in Mastichari, Tigaki en Marmari. Of kom naar mijn plek in het centrum van Mastichari, vlak naast souvenirwinkel Ghitonia."
+        "body": "Meestal kom ik naar u toe: hotelkamer, appartement, villa of balkon, in Mastichari, Tigaki en Marmari. Of kom naar mijn plek in het centrum van Mastichari, vlak naast souvenirwinkel Ghitonia."
       },
       {
         "title": "Eerst praten we",
@@ -184,12 +186,14 @@
       }
     ],
     "areaTitle": "Waar de massage plaatsvindt",
-    "areaBody": "Bij mij in het centrum van Mastichari, of waar u verblijft in Mastichari, Tigaki en Marmari en de hotels en appartementen daaromheen. Verblijft u ergens anders op Kos, vraag het gewoon — het lukt vaak, het hangt af van het tijdstip.",
+    "areaBody": "Bij mij in het centrum van Mastichari, of waar u verblijft in Mastichari, Tigaki en Marmari en de hotels en appartementen daaromheen. Verblijft u ergens anders op Kos, vraag het gewoon: het lukt vaak, het hangt af van het tijdstip.",
     "areaCta": "Bekijk het gebied in detail",
     "ctaTitle": "Gun uzelf dat uur",
     "ctaBody": "Laat me weten of u naar mij komt of dat ik naar u kom, en een globale tijd. Ik zeg wat er vandaag vrij is.",
     "reviewsCta": "Lees wat gasten hebben gezegd",
-    "heroImageAlt": "Een massagetafel opgemaakt met schoon linnen in een rustige, lichte kamer, met een opgevouwen handdoek en een klein flesje olie ernaast.",
+    "heroRoomAlt": "Een massagetafel opgemaakt met schoon linnen in een rustige, lichte kamer, met een opgevouwen handdoek en een klein flesje olie ernaast.",
+    "heroImageAlt": "Konstantinos Fessaras werkt aan de rug van een cliënte op de massagetafel, in een lichte witte ruimte.",
+    "heroImageAlt2": "Close-up: beide handen werken over de schouders en de bovenrug van een cliënte.",
     "areaImageAlt": "Een smal wit gekalkt straatje in het autovrije centrum van het dorp Mastichari, met bougainville en deuren met luiken."
   },
   "about": {
@@ -197,8 +201,8 @@
     "lede": "Konstantinos Fessaras - masseur, Mastichari, Kos.",
     "bio": [
       "Ik werk sinds 2011 professioneel met massage. Ik ben opgeleid in ontspannings-, therapeutische en sportmassage, daarna in Indiase hoofdmassage, aromatherapie en Thaise oliemassage, en ik volgde aparte seminars over ischias, pijn in de bovenrug en pijn in de onderrug.",
-      "Ik werk alleen. Geen receptie, geen wachtrij en niets extra's opgedrongen: alleen ik, een professionele massagetafel en het uur dat u geboekt heeft. Ik werk nu op beide manieren — in mijn eigen ruimte in het centrum van Mastichari en waar u verblijft, want na een goede massage wilt u zich niet meteen aankleden en ergens naartoe rijden.",
-      "Het meeste werk doe ik met gasten die verblijven in Mastichari, Tigaki en Marmari, en ik werk al jaren samen met hotels en appartementencomplexen in dat deel van het eiland. Mijn eigen ruimte ligt in het voetgangerscentrum van Mastichari, vlak naast de familiesouvenirwinkel Ghitonia — ben ik er niet, dan vertelt de familie u waar ik ben, of u belt gewoon."
+      "Ik werk alleen. Geen receptie, geen wachtrij en niets extra's opgedrongen: alleen ik, een professionele massagetafel en het uur dat u geboekt heeft. Ik werk nu op beide manieren: in mijn eigen ruimte in het centrum van Mastichari en waar u verblijft, want na een goede massage wilt u zich niet meteen aankleden en ergens naartoe rijden.",
+      "Het meeste werk doe ik met gasten die verblijven in Mastichari, Tigaki en Marmari, en ik werk al jaren samen met hotels en appartementencomplexen in dat deel van het eiland. Mijn eigen ruimte ligt in het voetgangerscentrum van Mastichari, vlak naast de familiesouvenirwinkel Ghitonia; ben ik er niet, dan vertelt de familie u waar ik ben, of u belt gewoon."
     ],
     "languagesTitle": "Talen",
     "languagesBody": "Ik spreek Grieks, Engels en Italiaans. Deze website is in meer talen beschikbaar zodat u in uw eigen taal over de massages kunt lezen, maar het gesprek op de dag zelf gaat in het Grieks, Engels of Italiaans.",
@@ -218,12 +222,14 @@
       "lower-back-pain": "Pijn in de onderrug"
     },
     "portraitAlt": "Konstantinos Fessaras, masseur in Mastichari op Kos",
+    "sessionAlt1": "Konstantinos gebruikt zijn onderarm langs de rug van een cliënte tijdens een behandeling.",
+    "sessionAlt2": "Konstantinos giet massageolie in zijn hand voordat hij aan de rug van de cliënte begint.",
     "ctaTitle": "Boek een sessie",
     "ctaBody": "Laat me weten wat u dwarszit en of u naar mij wilt komen of dat ik naar u kom. Ik stel een massage en een tijd voor."
   },
   "services": {
     "title": "Massages",
-    "lede": "Zeven behandelingen, allemaal met professionele tafel — bij mij in Mastichari of waar u verblijft. Sessies duren normaal 45 minuten, met 60 en 90 minuten mogelijk voor een massage van het hele lichaam.",
+    "lede": "Zeven behandelingen, allemaal met professionele tafel, bij mij in Mastichari of waar u verblijft. Sessies duren normaal 45 minuten, met 60 en 90 minuten mogelijk voor een massage van het hele lichaam.",
     "pricingTitle": "Over de prijzen",
     "pricingBody": "Prijzen geef ik door zodra u contact opneemt. Zo hoort u altijd de actuele prijs in plaats van een getal dat op een oude webpagina is blijven staan, en als ik naar u toe reis, wordt dat eerlijk meegerekend.",
     "chooseHelp": "Weet u niet welke het moet worden? Zeg wat er pijn doet, of hoe uw week was, en ik stel er een voor als u me schrijft.",
@@ -382,7 +388,7 @@
     "elsewhereTitle": "Verblijft u elders op Kos?",
     "elsewhereBody": "Vraag het gerust. Vaak lukt het, het hangt alleen van het tijdstip af en van hoe de rest van de dag volzit. Stuur een bericht met waar u verblijft, dan zeg ik eerlijk of ik er kan komen.",
     "whereTitle": "Mijn plek in Mastichari",
-    "whereBody": "Mijn eigen plek ligt in het voetgangerscentrum van Mastichari, vlak naast Ghitonia, de familiesouvenirwinkel — ernaast, maar niet dezelfde deur. Het centrum is autovrij, parkeer dus aan de rand en loop het laatste stukje; de Google Maps-pin hieronder brengt u er precies naartoe. Zowel binnenlopen als een afspraak maken kan, al voorkomt een bericht vooraf dat u moet wachten als ik net op pad ben.",
+    "whereBody": "Mijn eigen plek ligt in het voetgangerscentrum van Mastichari, vlak naast Ghitonia, de familiesouvenirwinkel: ernaast, maar niet dezelfde deur. Het centrum is autovrij, parkeer dus aan de rand en loop het laatste stukje; de Google Maps-pin hieronder brengt u er precies naartoe. Zowel binnenlopen als een afspraak maken kan, al voorkomt een bericht vooraf dat u moet wachten als ik net op pad ben.",
     "mapTitle": "De precieze plek",
     "studioAddressLine": "Voetgangerscentrum van Mastichari, naast Ghitonia",
     "mapBody": "Mijn eigen plek ligt in het voetgangerscentrum van Mastichari, vlak naast Ghitonia. Gebruik de kaart om de weg te vinden, of om na de massage een beoordeling achter te laten.",
@@ -392,7 +398,7 @@
     "hotelsBodyGeneric": "Ik werk al jaren samen met hotels en appartementencomplexen in Mastichari, Tigaki en Marmari, en veel boekingen komen via de receptie binnen. Verblijft u in een hotel, vraag het dan bij de balie - of stuur mij rechtstreeks een bericht, dat gaat meestal sneller.",
     "hotelsBodyNamed": "Met deze adressen heb ik door de jaren heen gewerkt, en veel boekingen komen nog steeds via hun receptie:",
     "practicalTitle": "Als ik naar u kom, wat ik nodig heb in de kamer",
-    "practicalBody": "Heel weinig: ongeveer twee meter vrije vloer, een stopcontact is zelfs niet nodig. Ik zet de tafel op en neem hem weer mee. In een hotelkamer, op een balkon of op een terras werkt het allemaal even goed. Bij mij hoeft u niets voor te bereiden — daar staat alles al klaar.",
+    "practicalBody": "Heel weinig: ongeveer twee meter vrije vloer, een stopcontact is zelfs niet nodig. Ik zet de tafel op en neem hem weer mee. In een hotelkamer, op een balkon of op een terras werkt het allemaal even goed. Bij mij hoeft u niets voor te bereiden: daar staat alles al klaar.",
     "hoursTitle": "Openingstijden",
     "hoursBody": "Elke dag van 9:00 tot 22:00 uur, hetzelfde voor mijn plek en voor bezoek bij u. Avondafspraken zijn populair in het hoogseizoen, dus hoe eerder u vraagt, hoe meer keuze er is.",
     "imageAlt": "Een massagetafel opgezet op een schaduwrijk balkon, met de zee zichtbaar achter de balustrade."
@@ -412,7 +418,7 @@
       "phone": "Telefoon- of WhatsApp-nummer",
       "phoneHint": "Optioneel, maar het maakt antwoorden veel sneller.",
       "where": "Waar wilt u de massage",
-      "whereHint": "Óf \"in de massageruimte in Mastichari\", óf waar u verblijft — bijvoorbeeld \"Princess of Kos, Mastichari\" of \"een appartement in Tigaki\".",
+      "whereHint": "Óf \"in de massageruimte in Mastichari\", óf waar u verblijft, bijvoorbeeld \"Princess of Kos, Mastichari\" of \"een appartement in Tigaki\".",
       "service": "Welke massage",
       "serviceAny": "Weet ik nog niet - stel maar iets voor",
       "when": "Wanneer u het zou willen",
@@ -483,7 +489,7 @@
       },
       {
         "q": "Welke gebieden dekt u?",
-        "a": "Mijn eigen plek is in het centrum van Mastichari. Voor bezoek bij u: Mastichari, Tigaki en Marmari, en de hotels en appartementen daaromheen. Ergens anders op Kos, vraag het gewoon — het lukt vaak, afhankelijk van het tijdstip."
+        "a": "Mijn eigen plek is in het centrum van Mastichari. Voor bezoek bij u: Mastichari, Tigaki en Marmari, en de hotels en appartementen daaromheen. Ergens anders op Kos, vraag het gewoon: het lukt vaak, afhankelijk van het tijdstip."
       }
     ],
     "success": {

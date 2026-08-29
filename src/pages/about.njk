@@ -23,14 +23,22 @@ eleventyExcludeFromCollections: true
       {{ p.pic(images, "portrait-konstantinos", c.about.portraitAlt, "(min-width: 52em) 34vw, 100vw", "portrait") }}
     </div>
   </div>
+  <div class="wrap u-mt-3">
+    <figure class="img-band reveal">
+      {{ p.pic(images, "session-forearm-technique", c.about.sessionAlt1, "(min-width: 74em) 1152px, 100vw") }}
+    </figure>
+  </div>
 </section>
 
 <section class="section section--warm">
-  <div class="wrap">
-    <div class="section-head reveal">
+  <div class="wrap lang-row reveal">
+    <div class="section-head">
       <h2>{{ c.about.languagesTitle }}</h2>
       <p>{{ c.about.languagesBody }}</p>
     </div>
+    {#- Decorative: the paragraph already names all three languages, so the flags
+        repeat rather than add and are hidden from screen readers. -#}
+    <p class="lang-flags" aria-hidden="true"><span>🇬🇷</span><span>🇬🇧</span><span>🇮🇹</span></p>
   </div>
 </section>
 

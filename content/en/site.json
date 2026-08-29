@@ -63,6 +63,8 @@
     "draftNotice": "This page has been machine-translated and not yet checked by a native speaker. For anything important, read the English or Greek version - or just send a message.",
     "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, massage therapist in Mastichari, Kos",
     "imagePendingAlt": "A quiet treatment setting: clean linen, folded towels and oil, ready for a session.",
+    "pauseSlideshow": "Pause the photo slideshow",
+    "playSlideshow": "Play the photo slideshow",
     "googleMaps": "Google Maps"
   },
   "meta": {
@@ -189,7 +191,9 @@
     "ctaTitle": "Give yourself the hour",
     "ctaBody": "Tell me whether you are coming to me or would like me to come to you, and a rough time. I will tell you what is free today.",
     "reviewsCta": "Read what guests have said",
-    "heroImageAlt": "A massage table made up with clean linen in a quiet, bright room, with a folded towel and a small bottle of oil beside it.",
+    "heroRoomAlt": "A massage table made up with clean linen in a quiet, bright room, with a folded towel and a small bottle of oil beside it.",
+    "heroImageAlt": "Konstantinos Fessaras working along a client's back on a massage table in a bright white treatment room.",
+    "heroImageAlt2": "A close-up of both hands working across a client's shoulders and upper back.",
     "areaImageAlt": "A narrow whitewashed lane in the pedestrian centre of Mastichari village, with bougainvillea and shuttered doorways."
   },
   "about": {
@@ -218,6 +222,8 @@
       "lower-back-pain": "Lower back pain"
     },
     "portraitAlt": "Konstantinos Fessaras, massage therapist in Mastichari, Kos",
+    "sessionAlt1": "Konstantinos using his forearm along a client's back during a treatment.",
+    "sessionAlt2": "Konstantinos pouring massage oil into his hand before starting work on a client's back.",
     "ctaTitle": "Book a session",
     "ctaBody": "Tell me what is bothering you, and whether you would like to come to me or have me come to you. I will suggest a massage and a time."
   },

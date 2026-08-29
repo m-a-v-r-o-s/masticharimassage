@@ -2,7 +2,10 @@
     AVIF first, then WebP, then JPEG for anything that understands neither.
     width/height always come from the manifest, so the box is reserved before the
     bytes arrive. Everything below the fold is lazy; the one LCP image per page
-    passes priority=true and is loaded eagerly.
+    passes priority=true and is loaded eagerly. priority="eager" is the middle
+    setting: loaded up front but without the high fetchpriority, for an
+    above-the-fold image that is not the LCP one - a hero slide waiting its turn,
+    which must not arrive blank when the frame reaches it.
 
     If the requested image has not been produced yet, a stand-in is rendered with
     generic alt text that honestly describes the stand-in. It never inherits the
@@ -26,7 +29,7 @@
        srcset="{% for w in m.widths %}/assets/img/r/{{ useKey }}-{{ w }}.jpg {{ w }}w{% if not loop.last %}, {% endif %}{% endfor %}"
        width="{{ m.w }}" height="{{ m.h }}"
        alt="{{ useAlt }}"
-       {% if priority %}fetchpriority="high" decoding="async"{% else %}loading="lazy" decoding="async"{% endif %}
+       {% if priority === true %}fetchpriority="high" decoding="async"{% elif priority == "eager" %}decoding="async"{% else %}loading="lazy" decoding="async"{% endif %}
        {% if cls %}class="{{ cls }}"{% endif %}>
 </picture>
 {%- endif -%}

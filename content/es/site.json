@@ -63,6 +63,8 @@
     "draftNotice": "Esta página se ha traducido automáticamente y todavía no la ha revisado un hablante nativo. Para cualquier cosa importante, lee la versión en inglés o en griego, o simplemente escríbeme.",
     "ogImageAlt": "Mastichari Massage - Konstantinos Fessaras, masajista en Mastichari, Kos",
     "imagePendingAlt": "Un espacio tranquilo de tratamiento: ropa limpia, toallas dobladas y aceite, listo para la sesión.",
+    "pauseSlideshow": "Pausar la presentación de fotos",
+    "playSlideshow": "Reproducir la presentación de fotos",
     "googleMaps": "Google Maps"
   },
   "meta": {
@@ -150,7 +152,7 @@
     "points": [
       {
         "title": "En su alojamiento o en el mío",
-        "body": "La mayoría de las veces voy yo a su alojamiento — habitación de hotel, apartamento, villa o terraza, en Mastichari, Tigaki y Marmari. O venga a mi local en el centro de Mastichari, justo al lado de la tienda de souvenirs Ghitonia."
+        "body": "La mayoría de las veces voy yo a su alojamiento: habitación de hotel, apartamento, villa o terraza, en Mastichari, Tigaki y Marmari. O venga a mi local en el centro de Mastichari, justo al lado de la tienda de souvenirs Ghitonia."
       },
       {
         "title": "Primero hablamos",
@@ -184,12 +186,14 @@
       }
     ],
     "areaTitle": "Dónde se hace el masaje",
-    "areaBody": "En mi local, en el centro de Mastichari, o donde se aloje en Mastichari, Tigaki y Marmari y los hoteles y apartamentos de alrededor. Si se aloja en otra zona de Kos, pregunte — muchas veces se puede, depende de la hora del día.",
+    "areaBody": "En mi local, en el centro de Mastichari, o donde se aloje en Mastichari, Tigaki y Marmari y los hoteles y apartamentos de alrededor. Si se aloja en otra zona de Kos, pregunte: muchas veces se puede, depende de la hora del día.",
     "areaCta": "Ver la zona en detalle",
     "ctaTitle": "Regálate esa hora",
     "ctaBody": "Dígame si viene usted o si quiere que vaya yo, y una hora aproximada. Le diré qué hay libre hoy.",
     "reviewsCta": "Leer lo que han dicho los clientes",
-    "heroImageAlt": "Una camilla de masaje vestida con ropa limpia en una habitación tranquila y luminosa, con una toalla doblada y un frasquito de aceite al lado.",
+    "heroRoomAlt": "Una camilla de masaje vestida con ropa limpia en una habitación tranquila y luminosa, con una toalla doblada y un frasquito de aceite al lado.",
+    "heroImageAlt": "Konstantinos Fessaras trabaja la espalda de una clienta sobre la camilla de masaje, en una sala blanca y luminosa.",
+    "heroImageAlt2": "Primer plano: ambas manos trabajan sobre los hombros y la parte alta de la espalda de una clienta.",
     "areaImageAlt": "Una calle estrecha encalada en el centro peatonal del pueblo de Mastichari, con buganvilla y puertas con contraventanas."
   },
   "about": {
@@ -197,8 +201,8 @@
     "lede": "Konstantinos Fessaras - masajista, Mastichari, Kos.",
     "bio": [
       "Trabajo profesionalmente con el masaje desde 2011. Me formé en masaje relajante, terapéutico y deportivo, después en masaje indio de cabeza, aromaterapia y masaje tailandés con aceite, e hice seminarios aparte sobre ciática y dolor en la parte alta y baja de la espalda.",
-      "Trabajo solo. No hay recepción, ni cola, ni intentos de venderle algo más: solo yo, una camilla de masaje profesional y la hora que ha reservado. Ahora trabajo de las dos formas — en mi propio local en el centro de Mastichari y donde usted se aloje, porque después de un buen masaje lo último que apetece es vestirse e ir en coche a alguna parte.",
-      "La mayor parte de mi trabajo es con huéspedes alojados en Mastichari, Tigaki y Marmari, y llevo años colaborando con hoteles y complejos de apartamentos de esa zona de la isla. Mi propio local está en el centro peatonal de Mastichari, justo al lado de la tienda de souvenirs familiar Ghitonia — si no estoy allí, la familia le dirá dónde encontrarme, o simplemente llame."
+      "Trabajo solo. No hay recepción, ni cola, ni intentos de venderle algo más: solo yo, una camilla de masaje profesional y la hora que ha reservado. Ahora trabajo de las dos formas: en mi propio local en el centro de Mastichari y donde usted se aloje, porque después de un buen masaje lo último que apetece es vestirse e ir en coche a alguna parte.",
+      "La mayor parte de mi trabajo es con huéspedes alojados en Mastichari, Tigaki y Marmari, y llevo años colaborando con hoteles y complejos de apartamentos de esa zona de la isla. Mi propio local está en el centro peatonal de Mastichari, justo al lado de la tienda de souvenirs familiar Ghitonia; si no estoy allí, la familia le dirá dónde encontrarme, o simplemente llame."
     ],
     "languagesTitle": "Idiomas",
     "languagesBody": "Hablo griego, inglés e italiano. Esta web está en más idiomas para que puedas leer sobre los masajes en el tuyo, pero la conversación el día de la cita será en griego, inglés o italiano.",
@@ -218,12 +222,14 @@
       "lower-back-pain": "Dolor lumbar"
     },
     "portraitAlt": "Konstantinos Fessaras, masajista en Mastichari, Kos",
+    "sessionAlt1": "Konstantinos usa el antebrazo a lo largo de la espalda de una clienta durante un tratamiento.",
+    "sessionAlt2": "Konstantinos vierte aceite de masaje en su mano antes de empezar en la espalda de la clienta.",
     "ctaTitle": "Reserva una sesión",
     "ctaBody": "Dígame qué le molesta y si prefiere venir usted o que vaya yo. Le propondré un masaje y una hora."
   },
   "services": {
     "title": "Masajes",
-    "lede": "Siete tratamientos, todos con camilla profesional — en mi local en Mastichari o donde se aloje. Las sesiones suelen durar 45 minutos, con 60 y 90 minutos disponibles para el masaje de cuerpo completo.",
+    "lede": "Siete tratamientos, todos con camilla profesional, en mi local en Mastichari o donde se aloje. Las sesiones suelen durar 45 minutos, con 60 y 90 minutos disponibles para el masaje de cuerpo completo.",
     "pricingTitle": "Sobre los precios",
     "pricingBody": "Los precios se los doy al contactar conmigo. Así siempre oye la tarifa actual y no una cifra olvidada en una página antigua, y si tengo que desplazarme hasta usted, eso se calcula honestamente.",
     "chooseHelp": "¿No sabes cuál elegir? Dime qué te duele, o cómo ha ido tu semana, y te propongo uno cuando me escribas.",
@@ -382,7 +388,7 @@
     "elsewhereTitle": "¿Te alojas en otro punto de Kos?",
     "elsewhereBody": "Pregunta. Muchas veces sale, solo depende de la hora del día y de cómo esté el resto de la jornada. Escríbeme dónde te alojas y te digo con sinceridad si puedo llegar.",
     "whereTitle": "Mi local en Mastichari",
-    "whereBody": "Mi propio local está en el centro peatonal de Mastichari, justo al lado de Ghitonia, la tienda de souvenirs familiar — al lado, pero no es la misma puerta. El centro es peatonal, así que aparque en el borde y camine el último tramo; el marcador de Google Maps de más abajo le lleva exactamente aquí. Se aceptan tanto visitas sin cita como con cita previa, aunque avisar antes por mensaje evita esperas si estoy fuera en otra cita.",
+    "whereBody": "Mi propio local está en el centro peatonal de Mastichari, justo al lado de Ghitonia, la tienda de souvenirs familiar: al lado, pero no es la misma puerta. El centro es peatonal, así que aparque en el borde y camine el último tramo; el marcador de Google Maps de más abajo le lleva exactamente aquí. Se aceptan tanto visitas sin cita como con cita previa, aunque avisar antes por mensaje evita esperas si estoy fuera en otra cita.",
     "mapTitle": "El lugar exacto",
     "studioAddressLine": "Centro peatonal de Mastichari, junto a Ghitonia",
     "mapBody": "Mi propio local está en el centro peatonal de Mastichari, justo al lado de Ghitonia. Use el mapa para encontrar el camino, o para dejar una reseña después del masaje.",
@@ -392,7 +398,7 @@
     "hotelsBodyGeneric": "Llevo años trabajando con hoteles y complejos de apartamentos en Mastichari, Tigaki y Marmari, y muchas reservas llegan por recepción. Si te alojas en un hotel, puedes preguntar en el mostrador, o escribirme directamente, que suele ser más rápido.",
     "hotelsBodyNamed": "He trabajado con estos alojamientos a lo largo de los años, y muchas reservas siguen llegando por sus recepciones:",
     "practicalTitle": "Si voy yo, qué necesito en la habitación",
-    "practicalBody": "Muy poco: unos dos metros de suelo libre, ni siquiera hace falta un enchufe. Monto la camilla y me la llevo después. En una habitación de hotel, en una terraza o en un balcón funciona igual de bien. En mi local no hay que preparar nada — ya está todo listo.",
+    "practicalBody": "Muy poco: unos dos metros de suelo libre, ni siquiera hace falta un enchufe. Monto la camilla y me la llevo después. En una habitación de hotel, en una terraza o en un balcón funciona igual de bien. En mi local no hay que preparar nada: ya está todo listo.",
     "hoursTitle": "Horario",
     "hoursBody": "Todos los días de 9:00 a 22:00, igual para mi local que para ir a su alojamiento. Las citas por la tarde son muy solicitadas en temporada alta, así que cuanto antes pregunte, más opciones tendrá.",
     "imageAlt": "Una camilla de masaje montada en un balcón a la sombra, con el mar visible tras la barandilla."
@@ -483,7 +489,7 @@
       },
       {
         "q": "¿Qué zonas cubres?",
-        "a": "Mi propio local está en el centro de Mastichari. Para ir a su alojamiento: Mastichari, Tigaki y Marmari, y los hoteles y apartamentos de alrededor. En otra zona de Kos, pregunte — muchas veces se puede, depende de la hora del día."
+        "a": "Mi propio local está en el centro de Mastichari. Para ir a su alojamiento: Mastichari, Tigaki y Marmari, y los hoteles y apartamentos de alrededor. En otra zona de Kos, pregunte: muchas veces se puede, depende de la hora del día."
       }
     ],
     "success": {
