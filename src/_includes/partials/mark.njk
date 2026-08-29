@@ -1,7 +1,8 @@
-{# Brand mark. Raster rather than inline SVG because the supplied artwork is a
-   PNG with its own two-colour palette; it does not inherit currentColor the way
-   the previous drawn mark did, so the footer gets a lightened variant (see
-   .site-footer .mark in main.css) to stay legible against --ink. #}
+{# Header brand mark. Raster rather than inline SVG because the supplied artwork is
+   a PNG with its own two-colour palette; it does not inherit currentColor the way
+   the previous drawn mark did. Header only - the footer carries its own lockup
+   (.footer-brand__disc) at 96px, so nothing here needs a dark-ground variant.
+   Both these files come out of scripts/build-icons.js. #}
 <img class="mark" src="/assets/img/logo-76.png"
      srcset="/assets/img/logo-76.png 1x, /assets/img/logo-114.png 1.5x"
      width="38" height="38" alt="" aria-hidden="true" decoding="async">

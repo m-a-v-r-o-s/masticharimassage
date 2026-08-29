@@ -1,9 +1,22 @@
 {%- import "partials/icons.njk" as icon -%}
 <footer class="site-footer">
+  {# The mark at full scale is the footer's ground rather than an item in it: knocked
+     out to white, bled past both edges and dropped to 8.5%. Decorative, so it is
+     hidden from assistive tech. Dimensions are the file's own, which keeps it out of
+     the layout entirely (it is positioned).
+     Deliberately NOT loading="lazy", and NOT fetchpriority="low": this image is the
+     footer's surface rather than content in it, so arriving late makes the whole
+     block pop from flat ink to watermarked. Both were tried and both did exactly
+     that. At 10KB it costs the LCP image nothing worth measuring to just load it. #}
+  <img class="footer-watermark" src="/assets/img/logo-watermark-1200.png"
+       width="1200" height="819" alt="" aria-hidden="true" decoding="async">
+
   <div class="wrap footer-grid">
     <div>
       <a class="brand footer-brand" href="/{{ locale }}/">
-        {% include "partials/mark.njk" %}
+        <span class="footer-brand__disc">
+          <img src="/assets/img/logo-mark-144.png" width="72" height="72" alt="" aria-hidden="true" decoding="async">
+        </span>
         <span class="brand__name">Mastichari Massage<span class="brand__sub">{{ business.address.locality }}, {{ business.address.region }}</span></span>
       </a>
       <p class="footer-blurb">{{ c.home.heroLede }}</p>

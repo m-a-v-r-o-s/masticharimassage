@@ -152,10 +152,6 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .brand { display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; color: var(--ink); }
 .brand:hover { color: var(--ink); }
 .brand svg, .brand .mark { width: 38px; height: 38px; flex: none; }
-/* The mark's navy sits very close to --ink, so it loses definition against the
-   footer. A white disc behind it gives full contrast without altering the mark's
-   own colours, the way the brightness/saturate filter it replaced only partly did. */
-.site-footer .mark { width: 42px; height: 42px; box-sizing: border-box; padding: 5px; background: #fff; border-radius: 50%; }
 .brand__name { font-family: var(--serif); font-weight: 600; font-size: var(--step-1); line-height: 1.1; }
 .brand__sub { display: block; font-family: var(--sans); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); }
 
@@ -396,7 +392,24 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .prose > p:first-of-type { color: var(--ink); }
 
 /* ---------- footer ---------- */
-.site-footer { background: var(--ink); color: #D8E2E6; padding-block: var(--section) 2rem; }
+.site-footer { position: relative; overflow: hidden; background: var(--ink); color: #D8E2E6; padding-block: var(--section) 2rem; }
+
+/* The mark, knocked out to white and scaled well past the content column, is the
+   footer's ground. Sized in vw rather than a fixed px so it stays a readable
+   silhouette on a phone instead of a smear - it is meant to bleed off the left and
+   right edges, which is what .site-footer's overflow clips.
+   The 920px ceiling is measured, not chosen for looks: the mark is 1.465:1, so 920
+   wide is 628 tall, and a desktop footer is about 670. Anything larger runs out the
+   bottom and what is left reads as abstract swirls rather than as the logo.
+   8.5% is likewise a ceiling: it lifts the ground to #28424B, the point at which
+   every colour in this block still clears WCAG AA. Raising it fails the credit line
+   first, then the gold headings. */
+.footer-watermark {
+  position: absolute; z-index: 0; top: 2rem; left: 50%;
+  width: clamp(600px, 72vw, 920px); height: auto; aspect-ratio: 1456 / 994;
+  transform: translateX(-50%);
+  opacity: 0.085; pointer-events: none;
+}
 .site-footer h2 { font-family: var(--sans); font-size: var(--step--1); letter-spacing: 0.09em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.9rem; }
 .site-footer a { color: #EAF1F3; text-decoration: none; }
 .site-footer a:hover { color: #fff; text-decoration: underline; }
@@ -406,16 +419,16 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
    back to the SVG's own 24px viewBox, which reads far larger than the label beside
    it. Size them to the text and align them to its baseline-ish centre. */
 .site-footer li a svg { display: inline-block; width: 1em; height: 1em; flex: none; vertical-align: -0.125em; margin-right: 0.15rem; }
-.footer-grid { display: grid; gap: 2.25rem; }
+.footer-grid { position: relative; z-index: 1; display: grid; gap: 2.25rem; }
 @media (min-width: 46em) { .footer-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 66em) { .footer-grid { grid-template-columns: 1.4fr 1fr 1.2fr; } }
-.footer-bottom { border-top: 1px solid rgba(255,255,255,0.16); margin-top: 2.5rem; padding-top: 1.5rem; font-size: var(--step--1); color: #AFC0C6; display: grid; gap: 0.75rem; }
+.footer-bottom { position: relative; z-index: 1; border-top: 1px solid rgba(255,255,255,0.16); margin-top: 2.5rem; padding-top: 1.5rem; font-size: var(--step--1); color: #AFC0C6; display: grid; gap: 0.75rem; }
 .footer-bottom a { text-decoration: underline; }
 .footer-bottom p { margin: 0; }
 .footer-legal { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 1rem; }
 .footer-legal__manage { background: none; border: none; padding: 0; margin: 0; font: inherit; font-size: var(--step--1); color: #EAF1F3; text-decoration: underline; cursor: pointer; min-height: 32px; }
 .footer-legal__manage:hover { color: #fff; }
-.footer-credit { color: #8FA3AA; }
+.footer-credit { color: #9CAFB6; }   /* 4.68:1 over the watermarked ground, 6.09:1 without it */
 
 /* ---------- sticky mobile CTA ---------- */
 .sticky-cta {
@@ -497,7 +510,17 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .notice--ink { background: rgba(255, 255, 255, 0.06); border-left-color: var(--gold); color: #D8E2E6; }
 .notice--ink strong { color: #fff; }
 .u-on-ink { font-size: var(--step--1); color: #AFC0C6; }
-.footer-brand { color: #EAF1F3; }
+.footer-brand { gap: 0.9rem; color: #EAF1F3; }
+.footer-brand .brand__name { font-size: var(--step-2); }
+/* The mark's navy sits very close to --ink and loses definition against it, so it
+   keeps a light disc here exactly as it does in the favicon tiles - now at 96px
+   rather than 42, since the lockup is the footer's only full-colour mark. */
+.footer-brand__disc { display: flex; align-items: center; justify-content: center; width: 96px; height: 96px; flex: none; border-radius: 50%; background: var(--shell); }
+.footer-brand__disc img { width: 72px; height: 72px; }
+@media (max-width: 30em) {
+  .footer-brand__disc { width: 76px; height: 76px; }
+  .footer-brand__disc img { width: 56px; height: 56px; }
+}
 .footer-brand:hover { color: #fff; }
 .footer-brand .brand__sub { color: #AFC0C6; }
 .footer-blurb { margin-top: 1rem; max-width: 32ch; color: #C5D2D7; }

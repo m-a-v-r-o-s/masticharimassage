@@ -14,6 +14,7 @@ import sharp from "sharp";
 
 const OUT = "src/assets/favicon";
 const OG_DIR = "src/assets/img/og";
+const IMG_DIR = "src/assets/img";
 const SRC = "src/assets/img/_src";
 
 const INK = "#14303A";
@@ -156,5 +157,50 @@ async function og() {
   console.log(`og: ${OG_DIR}/og.jpg built from ${path.basename(base)}${base === fallback ? " (fallback - og-base.webp not present yet)" : ""}`);
 }
 
+/**
+ * The in-page renditions of the mark, as opposed to the browser-chrome icons above.
+ *
+ * These four used to be hand-committed PNGs with nothing recording where they came
+ * from. They are built from the same LOGO master as every favicon so the two can
+ * never drift apart.
+ *
+ * The square pair (76/114) is what the header wears at 38px. The mark is 1.465:1,
+ * so squaring it letterboxes with transparency and the wide silhouette still
+ * centres correctly at any box size - which is also why the footer lockup can reuse
+ * the same shape at 144.
+ *
+ * The watermark is the odd one out: it is the mark flattened to pure white for the
+ * footer backdrop, where it sits at 8.5% over --ink. Two things follow from that.
+ * It is trimmed to the mark's real bounding box rather than squared, because a
+ * letterboxed square would silently shrink it inside its CSS box; and it is
+ * palette-quantised, because one opaque colour plus alpha compresses to a few KB
+ * where the full-colour master is 600.
+ */
+async function marks() {
+  fs.mkdirSync(IMG_DIR, { recursive: true });
+
+  for (const size of [76, 114, 144]) {
+    await sharp(LOGO)
+      .resize(size, size, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } })
+      .png({ compressionLevel: 9 })
+      .toFile(path.join(IMG_DIR, size === 144 ? "logo-mark-144.png" : `logo-${size}.png`));
+  }
+
+  // trim() drops the transparent margin the square master carries; threshold 10
+  // rather than 0 because the master has faint stray pixels outside the artwork.
+  const W = 1200;
+  const trimmed = await sharp(LOGO).trim({ threshold: 10 }).toBuffer();
+  const { width, height } = await sharp(trimmed).metadata();
+  await sharp(trimmed)
+    .resize({ width: W })
+    // Every visible pixel becomes white; alpha is untouched, so the silhouette holds.
+    .composite([{ input: { create: { width: W, height: Math.round((W * height) / width), channels: 3, background: "#FFFFFF" } }, blend: "in" }])
+    .png({ compressionLevel: 9, palette: true, colours: 2 })
+    .toFile(path.join(IMG_DIR, "logo-watermark-1200.png"));
+
+  console.log(`marks: 4 files in ${IMG_DIR} (mark ${width}x${height} native)`);
+}
+
 await icons();
 await og();
+await marks();
