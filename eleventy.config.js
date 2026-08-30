@@ -90,6 +90,18 @@ export default function (eleventyConfig) {
     return fs.existsSync(full) ? fs.readFileSync(full, "utf8") : "";
   });
 
+  // Copy marks the word to enlarge with *asterisks* - "Massage on *Kos*," - so
+  // which word carries the stress is a per-language decision made in the content
+  // file rather than a word this code goes looking for. Greek, Italian and Polish
+  // drop the pronoun into the verb and mark that instead, and a locale that marks
+  // nothing simply renders a plain string. The input is escaped first: the only
+  // markup that survives is the span this builds.
+  const escapeHtml = (s) =>
+    String(s).replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
+  eleventyConfig.addFilter("stress", (s) =>
+    escapeHtml(s).replace(/\*([^*]+)\*/g, '<span class="stress">$1</span>')
+  );
+
   eleventyConfig.addFilter("dateISO", (d) => new Date(d).toISOString().slice(0, 10));
 
   eleventyConfig.addFilter("formatDate", (iso, locale) => {

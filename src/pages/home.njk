@@ -12,32 +12,57 @@ eleventyExcludeFromCollections: true
 
 <section class="hero">
   <div class="wrap hero__inner">
+    {#- The mark as the hero's ground, the light-ground counterpart to the footer's.
+        It lives inside the wrap rather than the section so it stays anchored to the
+        text column instead of to the viewport: centred on the section it would spend
+        half its width under an opaque photograph on desktop. Bleeds off the left
+        edge, which .hero { overflow: hidden } clips. Decorative, so hidden from
+        assistive tech, and deliberately not lazy - see the footer's note. -#}
+    <img class="hero__watermark" src="/assets/img/logo-watermark-colour-1200.png"
+         width="1200" height="819" alt="" aria-hidden="true" decoding="async">
     <div class="stack">
-      <p class="eyebrow">{{ c.home.heroKicker }}</p>
-      <h1>{{ c.home.heroTitle }}</h1>
+      {#- The kicker is written as "<places> - <island>" in every locale, so the
+          ornament goes where that dash already is. A locale that ever drops the
+          dash simply renders one segment and no squiggle. -#}
+      {%- set kick = c.home.heroKicker.split(" - ") -%}
+      <p class="eyebrow eyebrow--rule">
+        <span>{{ kick[0] }}</span>
+        {%- if kick[1] %}<span class="eyebrow__rule">{{ icon.squiggle() }}</span><span>{{ kick[1] }}</span>{% endif -%}
+      </p>
+      <h1 class="hero__title">{{ c.home.heroTitle | stress | safe }} <span class="hero__title-accent">{{ c.home.heroTitleAccent | stress | safe }}</span></h1>
       <p class="lede">{{ c.home.heroLede }}</p>
-      <div class="btn-row">
+      <div class="btn-row hero__actions">
         <a class="btn btn--accent" href="{{ business.contact.whatsappHref }}" rel="noopener">{{ icon.whatsapp() }} {{ c.home.heroPrimary }}</a>
         <a class="btn btn--ghost" href="/{{ locale }}/services/">{{ c.home.heroSecondary }}</a>
+        <p class="hero__call">{{ c.home.heroCallPrefix }} <a href="{{ business.contact.phoneHref }}">{{ business.contact.phone }}</a></p>
       </div>
-      <p class="hero__note">{{ c.home.heroNote }}</p>
+      <p class="badge">{{ icon.globe() }} {{ c.home.heroBadge }}</p>
     </div>
-    <div class="hero__media hero__slides" data-slides
-         data-slides-labels='{"pause": {{ c.ui.pauseSlideshow | dump }}, "play": {{ c.ui.playSlideshow | dump }}}'>
-      <div class="hero__slide is-active">
-        {{ p.pic(images, "hero-treatment-room", c.home.heroRoomAlt, "(min-width: 58em) 44vw, 100vw", "", true) }}
+    <div class="hero__figure">
+      <div class="hero__media hero__slides" data-slides
+           data-slides-labels='{"pause": {{ c.ui.pauseSlideshow | dump }}, "play": {{ c.ui.playSlideshow | dump }}}'>
+        <div class="hero__slide is-active">
+          {{ p.pic(images, "hero-treatment-room", c.home.heroRoomAlt, "(min-width: 58em) 46vw, 100vw", "", true) }}
+        </div>
+        <div class="hero__slide">
+          {{ p.pic(images, "session-back-massage-wide", c.home.heroImageAlt, "(min-width: 58em) 46vw, 100vw", "", "eager") }}
+        </div>
+        <div class="hero__slide">
+          {{ p.pic(images, "session-shoulders-closeup", c.home.heroImageAlt2, "(min-width: 58em) 46vw, 100vw", "", "eager") }}
+        </div>
+        <button type="button" class="hero__slides-btn" data-slides-toggle
+                aria-label="{{ c.ui.pauseSlideshow }}">
+          <span class="hero__slides-icon" data-icon-pause>{{ icon.pause() }}</span>
+          <span class="hero__slides-icon" data-icon-play hidden>{{ icon.play() }}</span>
+        </button>
       </div>
-      <div class="hero__slide">
-        {{ p.pic(images, "session-back-massage-wide", c.home.heroImageAlt, "(min-width: 58em) 44vw, 100vw", "", "eager") }}
-      </div>
-      <div class="hero__slide">
-        {{ p.pic(images, "session-shoulders-closeup", c.home.heroImageAlt2, "(min-width: 58em) 44vw, 100vw", "", "eager") }}
-      </div>
-      <button type="button" class="hero__slides-btn" data-slides-toggle
-              aria-label="{{ c.ui.pauseSlideshow }}">
-        <span class="hero__slides-icon" data-icon-pause>{{ icon.pause() }}</span>
-        <span class="hero__slides-icon" data-icon-play hidden>{{ icon.play() }}</span>
-      </button>
+      {#- Sits at the frame's lower left, the corner the slideshow's pause button
+          leaves free. Decorative repetition of the lede's "since 2011", so it is
+          hidden from assistive tech rather than read out twice. -#}
+      <p class="hero__stat" aria-hidden="true">
+        <span class="hero__stat-value">{{ c.home.heroStatValue }}</span>
+        <span class="hero__stat-label">{{ c.home.heroStatLabel }}</span>
+      </p>
     </div>
   </div>
 </section>
@@ -66,8 +91,10 @@ eleventyExcludeFromCollections: true
       <h2>{{ c.home.servicesTitle }}</h2>
       <p>{{ c.home.servicesIntro }}</p>
     </div>
+    {#- The home page shows only the three featured massages; the rest live on
+        the services page, which the button below leads to. -#}
     <div class="grid grid--3 reveal">
-      {%- for s in svcs %}
+      {%- for s in svcs | featured %}
       <a class="card card--link u-plain" href="/{{ locale }}/services/{{ s.slug }}/">
         <div class="card__media card__media--titled">
           {{ p.pic(images, "service-" + s.slug, s.imageAlt, "(min-width: 66em) 30vw, (min-width: 46em) 46vw, 100vw", "", false, "hero-treatment-room", c.ui.imagePendingAlt) }}
@@ -77,6 +104,9 @@ eleventyExcludeFromCollections: true
         <p class="card__foot"><span class="card__link">{{ c.services.cardCta }}</span></p>
       </a>
       {%- endfor %}
+    </div>
+    <div class="btn-row u-mt-2">
+      <a class="btn btn--primary" href="/{{ locale }}/services/">{{ c.home.servicesCta }}</a>
     </div>
     <p class="notice u-mt-2">{{ c.ui.priceNote }}</p>
   </div>

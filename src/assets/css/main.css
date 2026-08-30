@@ -112,10 +112,30 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .measure { max-width: var(--measure); }
 .lede { font-size: var(--step-1); line-height: 1.5; color: var(--muted); max-width: 34ch; }
 @media (min-width: 40em) { .lede { max-width: 46ch; } }
+/* --terracotta is 4.31:1 on --shell-warm, which the hero uses as its ground -
+   fine for the h1 at --step-4, short of AA at this size. The deep tone is
+   6.22:1 there and 8.5:1 on --shell, so it clears AA on both grounds. */
 .eyebrow {
   font-size: var(--step--1); font-weight: 600; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--terracotta); margin-bottom: 0.75rem;
+  text-transform: uppercase; color: var(--terracotta-deep); margin-bottom: 0.75rem;
 }
+/* The kicker's two halves with a drawn rule between them. --gold carries no
+   text here, only the ornament, which is what it is reserved for. */
+.eyebrow--rule { display: flex; align-items: center; flex-wrap: wrap; gap: 0.6rem; }
+.eyebrow__rule { display: block; color: var(--gold); }
+.eyebrow__rule svg { width: 30px; height: 8px; }
+
+/* A tinted pill for a single short claim - a credential, the languages spoken.
+   Takes the hero's own ground rather than a tint of its own, so it belongs to the
+   band it sits in; the hairline is what keeps it reading as a pill there instead
+   of an indented line of text. --sea-deep on this ground is 8.3:1. */
+.badge {
+  display: flex; width: fit-content; align-items: center; gap: 0.5rem;
+  margin: 0; padding: 0.5rem 0.95rem;
+  background: var(--shell-warm); border: 1px solid var(--line); border-radius: 999px;
+  font-size: var(--step--1); font-weight: 550; color: var(--sea-deep);
+}
+.badge svg { width: 16px; height: 16px; flex: none; }
 .section-head { max-width: var(--measure); margin-bottom: clamp(1.75rem, 4vw, 2.75rem); }
 
 .grid { display: grid; gap: var(--gap-lg); }
@@ -248,10 +268,75 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 /* ---------- hero ---------- */
 .hero { position: relative; background: var(--shell-warm); overflow: hidden; }
 .hero__inner { position: relative; padding-block: clamp(2.5rem, 8vw, 5rem); }
-.hero__media { position: relative; margin-top: 2rem; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); }
+
+/* The mark as the hero's ground - the same idea as .footer-watermark, but keeping
+   the artwork's own palette rather than knocking it out to a flat colour. That only
+   works over a ground this pale; the footer still needs its white knockout.
+   The three brand colours do not carry equal weight and cannot be made to. Against
+   --shell-warm the indigo is 13.59:1, the bright blue 3.20:1 and the orange 2.66:1,
+   so at any single opacity the indigo draws the shape and the other two tint it.
+   10% is set by the indigo, which is much darker than the flat terracotta this
+   replaced and so reaches the same visual weight at a lower alpha. Worst case is a
+   full-alpha indigo pixel, which puts the ground at #DBD7D9: the terracotta h1
+   holds 3.52:1 (it needs 3:1 as large text), the muted lede 5.08:1, and the sea
+   phone link 4.72:1 against the 4.5 it needs at --step--1. That link is the real
+   ceiling - by 14% it is 4.32:1 and fails, so this must not be raised much.
+   max-width overrides the global img rule, which would otherwise clamp it to the
+   wrap and undo the bleed.
+   32% rather than 50% because on a phone the photograph stacks under the text
+   inside this same box, so the box's middle is roughly where the two meet - a
+   centred mark would spend its lower half behind an opaque photo. 32% keeps it on
+   the text. The desktop rule puts it back to 50%, where the grid centres the text
+   in the row and the photo is beside it rather than below. */
+.hero__watermark {
+  position: absolute; z-index: 0; pointer-events: none;
+  top: 32%; left: 50%;
+  width: clamp(420px, 116vw, 620px); max-width: none;
+  height: auto; aspect-ratio: 1456 / 994;
+  transform: translate(-50%, -50%);
+  opacity: 0.10;
+}
+/* The watermark is positioned and so paints over static siblings regardless of
+   source order. The text has to be lifted out of its way, exactly as .footer-grid
+   is. .hero__figure is already positioned, but relies on source order alone
+   without this. */
+.hero__inner > .stack, .hero__figure { position: relative; z-index: 1; }
+.hero__media { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); }
 .hero__media img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
-.hero h1 { max-width: 15ch; }
-.hero__note { font-size: var(--step--1); color: var(--muted); }
+
+/* The headline is one sentence in two voices: an upright opening line and an
+   italic closing clause in the accent colour. The <em> is a line of its own, so
+   the break lands in the same place in all ten languages instead of wherever
+   the column happens to run out. Terracotta on --shell-warm is 4.31:1 - short
+   of AA for body text, comfortably past the 3:1 that large text needs, and this
+   is --step-4. It must not be reused at a smaller size. */
+.hero__title { max-width: 22ch; margin-bottom: 0.35em; text-wrap: balance; }
+.hero__title-accent { display: block; font-style: italic; color: var(--terracotta); }
+/* Only the place name is set larger, and only on the upright line - it is the
+   one distinction that line has. The accent line is left alone: it already
+   carries italic, terracotta and a line of its own, and a fourth signal on top
+   of three is where emphasis stops reading as deliberate. A 1.15em word at
+   line-height 1 occupies exactly the 1.15em the h1's own line box already
+   reserves, so the word grows without opening the leading between the lines. */
+.hero__title .stress { font-size: 1.15em; line-height: 1; }
+
+
+/* The phone number rides along inside the button row rather than becoming a
+   third button - two pills already compete, and a third would flatten the
+   hierarchy the accent pill is there to create. It wraps to its own line on a
+   phone, where the buttons go full width. */
+.hero__call {
+  display: flex; align-items: center; gap: 0.4rem;
+  margin: 0; align-self: center;
+  font-size: var(--step--1); color: var(--muted);
+}
+.hero__call a { font-weight: 650; color: var(--sea); white-space: nowrap; }
+/* Where the row wraps, the call line has to read as the WhatsApp button's
+   footnote and not as a caption on the badge below it. The row-gap holding it to
+   the buttons is therefore kept well under the space that separates the row from
+   the badge, which the stack's 1rem left too close to call either way. */
+.hero__actions { row-gap: 0.45rem; }
+.hero__actions + .badge { margin-top: 1.75rem; }
 
 /* The hero photograph is three photographs taking turns in one frame. The first
    slide stays in flow and so sets the height; the rest are stacked over it and
@@ -262,6 +347,27 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .hero__slide:first-child { position: relative; }
 .hero__slide.is-active { opacity: 1; }
 .hero__slide img { width: 100%; height: 100%; object-fit: cover; }
+
+/* Wraps the frame so the stat card can hang off its corner: the frame itself
+   clips to its own rounded corners and would cut the card in half. */
+.hero__figure { position: relative; margin-top: 2rem; }
+
+/* Lower left, because the slideshow's pause button owns the lower right. The
+   figure is not a stacking context of its own, so the card needs a z-index to
+   clear the frame's shadow. */
+.hero__stat {
+  position: absolute; left: 0.75rem; bottom: 0.75rem; z-index: 1;
+  margin: 0; padding: 0.6rem 1rem;
+  background: var(--surface); border-radius: var(--radius);
+  box-shadow: var(--shadow-lg); text-align: left;
+}
+.hero__stat-value {
+  display: block; font-family: var(--serif); font-size: var(--step-2);
+  line-height: 1.1; color: var(--ink);
+}
+.hero__stat-label {
+  display: block; font-size: var(--step--1); line-height: 1.3; color: var(--muted);
+}
 
 /* Hidden until JS is present: with no script the frame never advances, and a
    pause control for something that cannot move is a lie to a keyboard user. */
@@ -289,7 +395,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
      the desktop bar) and the photo frame stretches into whatever that leaves
      rather than holding the 4/3 box it keeps on phones. */
   .hero__inner {
-    display: grid; grid-template-columns: 1fr 1.1fr;
+    display: grid; grid-template-columns: 0.95fr 1.15fr;
     gap: clamp(2rem, 5vw, 4rem); align-items: center;
     min-height: calc(100svh - var(--header-h, 4.8rem));
     padding-block: clamp(2rem, 4vw, 3.5rem);
@@ -297,13 +403,25 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
   /* The photo column takes the larger half now that it is the tall one - a
      narrower column would crop the two landscape session photos down to a
      slice of themselves at this height. */
-  .hero__media { margin-top: 0; align-self: stretch; min-height: 24rem; }
+  .hero__figure { margin-top: 0; align-self: stretch; display: flex; }
+  .hero__media { flex: 1; min-height: 24rem; }
   /* Every slide leaves the flow here - the frame's height now comes from the
      grid row, not from the first photograph, so the first slide no longer needs
      to stand in the flow to set it. */
   .hero__slide, .hero__slide:first-child { position: absolute; inset: 0; }
   .hero__slide picture { display: block; height: 100%; }
   .hero__media img { aspect-ratio: auto; height: 100%; }
+  /* Hangs off the corner at this size. The offset stays inside .hero__inner's
+     own padding, so .hero { overflow: hidden } never clips it. */
+  .hero__stat { left: -1.25rem; bottom: -1.25rem; padding: 0.85rem 1.35rem; }
+  /* On a phone the text is full width and the mark bleeds off both edges. Here the
+     text is only the left column, so the mark moves with it: pinned to that
+     column's left edge and pulled a third of its own width past it, which puts its
+     centre behind the headline and lets the left third run off screen. */
+  .hero__watermark {
+    top: 50%; left: 0; width: clamp(600px, 52vw, 860px);
+    transform: translate(-32%, -50%);
+  }
 }
 
 /* A single full-width photograph, used as a band under the About bio. The frame

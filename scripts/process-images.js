@@ -21,14 +21,7 @@ const MANIFEST = "content/_images.json";
 const WIDTHS = [400, 600, 900, 1200];
 
 // Masters that need a crop before anything else happens to them.
-const PRE = {
-  // The master is a treatment-room photograph, not a posed headshot: Konstantinos is
-  // working on a client whose bare back and head fill the lower half of the frame.
-  // This crop keeps him and the WMF polo and leaves the client out of the published
-  // image entirely - she did not sit for a portrait on a business's About page, and
-  // the alt text in all nine locales describes one person, not two. Do not widen it.
-  "portrait-konstantinos": { extract: { left: 60, top: 70, width: 560, height: 630 } },
-};
+const PRE = {};
 
 // NOTE on certificate-wmf-advanced-massage: the recovered scan was a two-panel
 // image. The right-hand panel was a certified translation carrying the validating

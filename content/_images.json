@@ -90,15 +90,16 @@
     "cropped": false
   },
   "portrait-konstantinos": {
-    "w": 560,
-    "h": 630,
-    "nativeW": 560,
-    "nativeH": 630,
+    "w": 900,
+    "h": 1200,
+    "nativeW": 900,
+    "nativeH": 1200,
     "widths": [
       400,
-      560
+      600,
+      900
     ],
-    "cropped": true
+    "cropped": false
   },
   "service-antistress-back-massage": {
     "w": 1200,

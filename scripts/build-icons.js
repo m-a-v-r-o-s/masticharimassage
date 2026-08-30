@@ -169,12 +169,12 @@ async function og() {
  * centres correctly at any box size - which is also why the footer lockup can reuse
  * the same shape at 144.
  *
- * The watermark is the odd one out: it is the mark flattened to pure white for the
- * footer backdrop, where it sits at 8.5% over --ink. Two things follow from that.
- * It is trimmed to the mark's real bounding box rather than squared, because a
- * letterboxed square would silently shrink it inside its CSS box; and it is
- * palette-quantised, because one opaque colour plus alpha compresses to a few KB
- * where the full-colour master is 600.
+ * The watermarks are the odd ones out: the mark blown up as a backdrop, once for
+ * the footer and once for the hero. Both are trimmed to the mark's real bounding
+ * box rather than squared, because a letterboxed square would silently shrink them
+ * inside their CSS box, and both are palette-quantised. They differ in colour
+ * because their grounds do: the footer's is knocked out to white for --ink, while
+ * the hero's keeps the artwork's own palette over the pale --shell-warm.
  */
 async function marks() {
   fs.mkdirSync(IMG_DIR, { recursive: true });
@@ -191,14 +191,28 @@ async function marks() {
   const W = 1200;
   const trimmed = await sharp(LOGO).trim({ threshold: 10 }).toBuffer();
   const { width, height } = await sharp(trimmed).metadata();
+  const H = Math.round((W * height) / width);
+  // The footer's, knocked out to white: it sits over --ink, where the mark's own
+  // indigo would close up into the ground and vanish.
   await sharp(trimmed)
     .resize({ width: W })
     // Every visible pixel becomes white; alpha is untouched, so the silhouette holds.
-    .composite([{ input: { create: { width: W, height: Math.round((W * height) / width), channels: 3, background: "#FFFFFF" } }, blend: "in" }])
+    .composite([{ input: { create: { width: W, height: H, channels: 3, background: "#FFFFFF" } }, blend: "in" }])
     .png({ compressionLevel: 9, palette: true, colours: 2 })
     .toFile(path.join(IMG_DIR, "logo-watermark-1200.png"));
 
-  console.log(`marks: 4 files in ${IMG_DIR} (mark ${width}x${height} native)`);
+  // The hero's, in the artwork's own three colours - indigo, orange and bright blue -
+  // over the light --shell-warm, which is pale enough to hold them at low opacity.
+  // Quantised because the mark is flat colour plus antialiasing: 16 entries is more
+  // than it uses and takes this from 347KB truecolour to ~34KB with no visible
+  // banding. It is still three times the flat knockout, which is the price of
+  // keeping the real palette.
+  await sharp(trimmed)
+    .resize({ width: W })
+    .png({ compressionLevel: 9, palette: true, colours: 16 })
+    .toFile(path.join(IMG_DIR, "logo-watermark-colour-1200.png"));
+
+  console.log(`marks: 5 files in ${IMG_DIR} (mark ${width}x${height} native)`);
 }
 
 await icons();
