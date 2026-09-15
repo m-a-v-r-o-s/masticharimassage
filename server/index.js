@@ -26,6 +26,7 @@ const IP_SALT = process.env.IP_SALT || crypto.randomBytes(16).toString("hex");
 const BOOKING_TO = process.env.BOOKING_TO || "kosfess@hotmail.com";
 const BOOKING_FROM = process.env.BOOKING_FROM || "bookings@mastichari-massage.gr";
 const RESEND_API_KEY = process.env.RESEND_API_KEY || "";
+const COMPRESSIBLE = /\.(html|css|js|svg|json|xml|webmanifest|txt)(\.br|\.gz)?$/;
 
 if (!process.env.FORM_SECRET) {
   console.warn("[warn] FORM_SECRET is not set - a random one was generated. Every running instance will reject the other's form tokens. Set it in production.");
@@ -360,7 +361,9 @@ await app.register(fastifyStatic, {
   cacheControl: false,
   etag: true,
   lastModified: true,
+  preCompressed: true,
   setHeaders(res, filePath) {
+    if (COMPRESSIBLE.test(filePath)) res.setHeader("vary", "accept-encoding");
     if (!PROD) {
       res.setHeader("cache-control", "no-cache");
     } else if (/[\\/]assets[\\/](fonts|img)[\\/]/.test(filePath)) {

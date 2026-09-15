@@ -8,7 +8,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "node scripts/i18n-check.js && eleventy",
+    "build": "node scripts/i18n-check.js && eleventy && node scripts/precompress.js",
     "watch": "eleventy --watch",
     "serve": "node server/index.js",
     "dev": "eleventy && node server/index.js",
