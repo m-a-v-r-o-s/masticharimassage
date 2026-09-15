@@ -42,6 +42,28 @@ Automated checks first, then the things a machine cannot do.
 - [x] Google Fonts never hotlinked (German courts have held that an unlawful transfer; German is the largest non-English audience here)
 - [x] Static assets `immutable` for a year, CSS a day, HTML 5 minutes
 - [x] One stylesheet, two small scripts, no framework, no third-party request of any kind
+- [x] Image masters (`_src`, `_brand`, 6.2MB) excluded from the build output; `npm run audit` fails if they reappear
+- [x] Every buildable asset over 1KB precompressed with brotli and gzip at build time, served via `@fastify/static`'s `preCompressed` (5.9MB compressible output -> 1.17MB brotli)
+- [x] CSS and JS minified with esbuild: `main.css` 40.5KB -> 26.0KB, `site.js` 14.1KB -> 7.7KB
+- [x] `fonts.css` linked directly instead of `@import`-ed from `main.css` (removed a serial render-blocking request)
+- [x] `@fastify/helmet` and `pino` removed (both unused; headers are hand-rolled, Fastify bundles its own pino)
+- [x] Localized 404 pages read into memory once at boot instead of on every miss
+- [x] Header height uses `ResizeObserver` instead of an unthrottled `resize` listener
+
+Lighthouse mobile (simulated throttling, local machine, not a clean CI runner — treat as approximate):
+
+| Page | LCP | CLS | TBT | Requests | Transfer |
+|---|---|---|---|---|---|
+| `/en/` | 2.49s | 0 | 0ms | 33 | 735KB |
+| `/en/services/relaxing-massage/` | 2.03s | 0 | 89ms | 13 | 188KB |
+| `/en/contact/` | 1.89s | 0 | 0ms | 12 | 167KB |
+
+All three green (LCP < 2.5s, CLS < 0.1, TBT < 200ms). The home page LCP sits close to
+the 2.5s boundary — not a regression from this work, but worth a clean-environment
+recheck before launch rather than trusting a shared dev machine's numbers.
+
+Not done (Phase 2 of `docs/PERFORMANCE-PLAN.md`, needs a decision): lazy-loading the
+Google Maps iframe on the home page, and a CDN in front of Railway.
 
 **Security**
 - [x] CSP with no `unsafe-inline` anywhere — no template carries an inline style or script, and the audit enforces it
