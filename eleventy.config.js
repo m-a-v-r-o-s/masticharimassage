@@ -5,7 +5,10 @@ import crypto from "node:crypto";
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets/css": "assets/css" });
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "assets/js" });
-  eleventyConfig.addPassthroughCopy({ "src/assets/img": "assets/img" });
+  eleventyConfig.addPassthroughCopy(
+    { "src/assets/img": "assets/img" },
+    { filter: ["**", "!_src/**", "!_brand/**"] }
+  );
   eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
   eleventyConfig.addPassthroughCopy({ "src/assets/favicon": "assets/favicon" });
   eleventyConfig.addPassthroughCopy({ "src/root": "/" });

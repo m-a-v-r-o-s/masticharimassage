@@ -21,6 +21,12 @@ function walk(dir, out = []) {
   return out;
 }
 
+for (const dir of ["_src", "_brand"]) {
+  if (fs.existsSync(path.join(SITE, "assets/img", dir))) {
+    problems.push(`assets/img/${dir}: image masters published in the build output`);
+  }
+}
+
 const pages = walk(SITE);
 const allPaths = new Set(
   pages.map((p) => "/" + path.relative(SITE, p).replace(/index\.html$/, "").replace(/\\/g, "/"))
