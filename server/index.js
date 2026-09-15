@@ -147,7 +147,7 @@ app.addHook("onSend", async (req, reply, payload) => {
 
 /* ----------------------------------------------------------- booking form */
 
-const FIELD_LIMITS = { name: 120, email: 200, phone: 40, where: 200, when: 120, message: 2000 };
+const FIELD_LIMITS = { name: 120, email: 200, phone: 40, when: 120, message: 2000 };
 
 function parseBody(req) {
   if (req.body && typeof req.body === "object") return req.body;
@@ -159,7 +159,6 @@ function validate(raw) {
     name: clean(raw.name, FIELD_LIMITS.name),
     email: clean(raw.email, FIELD_LIMITS.email).toLowerCase(),
     phone: clean(raw.phone, FIELD_LIMITS.phone),
-    where: clean(raw.where, FIELD_LIMITS.where),
     when: clean(raw.when, FIELD_LIMITS.when),
     message: cleanMultiline(raw.message, FIELD_LIMITS.message),
     service: clean(raw.service, 60),
@@ -170,7 +169,6 @@ function validate(raw) {
   if (!enquiry.name) errors.name = "required";
   if (!enquiry.email) errors.email = "required";
   else if (!isEmail(enquiry.email)) errors.email = "invalid";
-  if (!enquiry.where) errors.where = "required";
   if (typeof raw.message === "string" && raw.message.length > FIELD_LIMITS.message) errors.message = "too-long";
   const consent = raw.consent === true || raw.consent === "yes" || raw.consent === "on";
   if (!consent) errors.consent = "required";

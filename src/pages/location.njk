@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
       </div>
     </div>
     <div>
-      {{ p.pic(images, "balcony-setup", c.location.imageAlt, "(min-width: 52em) 42vw, 100vw", "u-round u-raise", true) }}
+      {{ p.pic(images, "hero-treatment-room", c.location.imageAlt, "(min-width: 52em) 42vw, 100vw", "u-round u-raise", true) }}
     </div>
   </div>
 </section>
@@ -51,17 +51,6 @@ eleventyExcludeFromCollections: true
       <p>{{ c.location.practicalBody }}</p>
     </div>
     <div class="stack">
-      <h2>{{ c.location.hotelsTitle }}</h2>
-      {%- if business.hotelPartners.publish %}
-      <p>{{ c.location.hotelsBodyNamed }}</p>
-      <ul class="ticks">
-        {%- for h in business.hotelPartners.list %}
-        <li>{{ h.name }}, {{ h.place }}</li>
-        {%- endfor %}
-      </ul>
-      {%- else %}
-      <p>{{ c.location.hotelsBodyGeneric }}</p>
-      {%- endif %}
       <h2 class="u-mt-15">{{ c.location.hoursTitle }}</h2>
       <p>{{ c.location.hoursBody }}</p>
     </div>

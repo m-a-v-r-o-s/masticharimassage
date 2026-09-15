@@ -247,7 +247,7 @@
   }
 
   function clearErrors() {
-    ["name", "email", "where", "message", "consent"].forEach(function (n) { setFieldError(n, ""); });
+    ["name", "email", "message", "consent"].forEach(function (n) { setFieldError(n, ""); });
     if (status) status.innerHTML = "";
   }
 
@@ -257,7 +257,6 @@
     var email = String(data.email || "").trim();
     if (!email) errors.email = strings.email;
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) errors.emailInvalid = true, errors.email = strings.emailInvalid;
-    if (!String(data.where || "").trim()) errors.where = strings.where;
     if (String(data.message || "").length > 2000) errors.message = strings.message;
     if (!data.consent) errors.consent = strings.consent;
     return errors;

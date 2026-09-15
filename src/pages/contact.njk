@@ -47,7 +47,6 @@ eleventyExcludeFromCollections: true
         "name": c.contact.errors.name,
         "email": c.contact.errors.email,
         "emailInvalid": c.contact.errors.emailInvalid,
-        "where": c.contact.errors.where,
         "message": c.contact.errors.message,
         "consent": c.contact.errors.consent,
         "rateLimit": c.contact.errors.rateLimit,
@@ -85,13 +84,6 @@ eleventyExcludeFromCollections: true
           <label for="in-phone">{{ f.phone }} <span class="req">({{ f.optional }})</span></label>
           <input type="tel" id="in-phone" name="phone" autocomplete="tel" maxlength="40" aria-describedby="hint-phone">
           <p class="hint" id="hint-phone">{{ f.phoneHint }}</p>
-        </div>
-
-        <div class="field" data-field="where">
-          <label for="in-where">{{ f.where }} <span class="req">({{ f.required }})</span></label>
-          <input type="text" id="in-where" name="where" required maxlength="200" aria-describedby="hint-where err-where">
-          <p class="hint" id="hint-where">{{ f.whereHint }}</p>
-          <p class="field__error" id="err-where" hidden></p>
         </div>
 
         <div class="field" data-field="service">

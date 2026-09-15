@@ -17,6 +17,8 @@ eleventyExcludeFromCollections: true
       <p class="lede">{{ c.services.lede }}</p>
     </div>
 
+    <p class="notice">{{ c.services.mixNote }}</p>
+
     <div class="grid grid--3 reveal">
       {%- for s in svcs %}
       <a class="card card--link u-plain" href="/{{ locale }}/services/{{ s.slug }}/">
@@ -26,7 +28,7 @@ eleventyExcludeFromCollections: true
         <h2 class="card__title">{{ s.name }}</h2>
         <p>{{ s.short }}</p>
         <p class="meta-line">
-          {{ c.ui.duration }}: {{ s.durations | join(" / ") }} {{ c.ui.minutes }} &middot; {{ c.ui.priceLabel }}: {{ c.ui.priceOnRequest }}
+          {{ c.ui.duration }}: {{ s.durations | first }}-{{ s.durations | last }} {{ c.ui.minutes }} &middot; {{ c.ui.priceLabel }}: {{ c.ui.priceOnRequest }}
         </p>
         <p class="card__foot"><span class="card__link">{{ c.services.cardCta }}</span></p>
       </a>

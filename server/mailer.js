@@ -10,13 +10,12 @@ import { escapeHtml } from "./security.js";
  * this whole site: send a real test message before launch (see docs/LAUNCH.md).
  */
 export async function sendBooking({ apiKey, from, to, enquiry, serviceName, siteOrigin }) {
-  const subject = `Booking request - ${enquiry.name}${enquiry.where ? ` (${enquiry.where})` : ""}`;
+  const subject = `Booking request - ${enquiry.name}`;
 
   const rows = [
     ["Name", enquiry.name],
     ["Email", enquiry.email],
     ["Phone / WhatsApp", enquiry.phone || "-"],
-    ["Where", enquiry.where],
     ["Massage", serviceName || "Not specified - asked for a suggestion"],
     ["Preferred time", enquiry.when || "-"],
     ["Language of the page", enquiry.locale],

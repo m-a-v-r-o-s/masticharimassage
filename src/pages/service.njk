@@ -3,8 +3,8 @@ pagination: { data: servicePages, size: 1, alias: sp }
 permalink: "/{{ sp.locale }}/services/{{ sp.slug }}/index.html"
 eleventyExcludeFromCollections: true
 eleventyComputed:
-  metaTitle: "{{ copy[sp.locale].meta.service[sp.slug].title }}"
-  metaDesc: "{{ copy[sp.locale].meta.service[sp.slug].description }}"
+  metaTitle: "{{ copy[sp.locale].meta.service[sp.slug].title | safe }}"
+  metaDesc: "{{ copy[sp.locale].meta.service[sp.slug].description | safe }}"
 ---
 {%- import "partials/icons.njk" as icon -%}
 {%- import "partials/pic.njk" as p -%}
@@ -24,7 +24,7 @@ eleventyComputed:
         <p class="lede">{{ s.lede }}</p>
         <dl class="spec">
           <div><dt>{{ c.ui.duration }}</dt>
-          <dd>{{ def.durations | join(" / ") }} {{ c.ui.minutes }}</dd></div>
+          <dd>{{ def.durations | first }}-{{ def.durations | last }} {{ c.ui.minutes }}</dd></div>
           <div><dt>{{ c.ui.priceLabel }}</dt>
           <dd>{{ c.ui.priceOnRequest }}</dd></div>
         </dl>

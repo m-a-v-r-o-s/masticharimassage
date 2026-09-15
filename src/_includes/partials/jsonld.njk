@@ -1,17 +1,17 @@
 {#- Structured data. Rules held to here:
-    - HealthAndBeautyBusiness, not MedicalBusiness (would overclaim). DaySpa was
-      originally rejected because it implies premises and the service was mobile-only;
-      premises now exist, but DaySpa still overclaims - one therapist with one room is
-      not a day spa, and the type must not promise facilities that are not there.
-    - knowsLanguage lives ONLY on the Person, and lists el/en/it. It must never be
-      derived from the set of locales this site is published in.
+    - HealthAndBeautyBusiness, not MedicalBusiness (would overclaim). DaySpa is also
+      rejected: one therapist with one room is not a day spa, and the type must not
+      promise facilities that are not there.
+    - knowsLanguage lives ONLY on the Person, and lists el/en/it/fr/de/ru. It must
+      never be derived from the set of locales this site is published in.
     - No Offer node and no priceRange while business.prices.published is false.
       A stale price in structured data is worse than no price at all.
     - No aggregateRating: 41 self-hosted comments are not a valid rating source.
-    - The business now works both ways: at its own premises in Mastichari and at the
-      guest's accommodation. hasMap/geo therefore mark real premises, and areaServed
-      still carries the villages travelled to. No streetAddress is published because
-      the client has not supplied one - see business.venues.studio._note.
+    - Studio-only since 2026-09-14: the business works at its own premises in
+      Mastichari only, no travel to guests. hasMap/geo mark those real premises, and
+      areaServed carries the villages clients travel FROM, not places travelled TO.
+      No streetAddress is published because the client has not supplied one - see
+      business.venues.studio._note.
     - sameAs lists only socials without publish:false, so a superseded profile stays
       in the data file without being asserted as the business's identity. -#}
 {%- set svcs = business | serviceList(c) -%}
