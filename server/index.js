@@ -220,6 +220,7 @@ function errorPage(locale, messages) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(c.contact.errors.summaryTitle)}</title>
 <meta name="robots" content="noindex">
+<link rel="stylesheet" href="/assets/css/fonts.css">
 <link rel="stylesheet" href="/assets/css/main.css"></head>
 <body><main id="main" class="section"><div class="wrap measure stack">
 <div class="alert alert--error"><h1 class="alert__title">${escapeHtml(c.contact.errors.summaryTitle)}</h1><ul>${items}</ul></div>
