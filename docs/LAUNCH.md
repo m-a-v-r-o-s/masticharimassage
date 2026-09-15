@@ -41,7 +41,7 @@ Automated checks first, then the things a machine cannot do.
 - [x] Fonts self-hosted and split by `unicode-range` — a Greek page never downloads Cyrillic
 - [x] Google Fonts never hotlinked (German courts have held that an unlawful transfer; German is the largest non-English audience here)
 - [x] Static assets `immutable` for a year, CSS a day, HTML 5 minutes
-- [x] One stylesheet, two small scripts, no framework, no third-party request of any kind
+- [x] One stylesheet, two small scripts, no framework. The one third-party request is the Google Maps iframe (home and location pages), disclosed in the privacy policy and now `loading="lazy"` so it never loads unless a visitor scrolls to it
 - [x] Image masters (`_src`, `_brand`, 6.2MB) excluded from the build output; `npm run audit` fails if they reappear
 - [x] Every buildable asset over 1KB precompressed with brotli and gzip at build time, served via `@fastify/static`'s `preCompressed` (5.9MB compressible output -> 1.17MB brotli)
 - [x] CSS and JS minified with esbuild: `main.css` 40.5KB -> 26.0KB, `site.js` 14.1KB -> 7.7KB
@@ -49,21 +49,34 @@ Automated checks first, then the things a machine cannot do.
 - [x] `@fastify/helmet` and `pino` removed (both unused; headers are hand-rolled, Fastify bundles its own pino)
 - [x] Localized 404 pages read into memory once at boot instead of on every miss
 - [x] Header height uses `ResizeObserver` instead of an unthrottled `resize` listener
+- [x] Google Maps iframe (home, location) is `loading="lazy"`: it only loads once a
+      visitor scrolls near it, not on every page load
+- [x] Booking rate limiter keys on `X-Real-Ip` instead of `req.ip` — Railway's own
+      guidance on which end of `X-Forwarded-For` to trust is inconsistent, but Railway
+      confirms clients cannot set `X-Real-Ip` themselves
 
 Lighthouse mobile (simulated throttling, local machine, not a clean CI runner — treat as approximate):
 
 | Page | LCP | CLS | TBT | Requests | Transfer |
 |---|---|---|---|---|---|
-| `/en/` | 2.49s | 0 | 0ms | 33 | 735KB |
+| `/en/` | 2.5s | 0 | 0ms | 16 | 272KB |
 | `/en/services/relaxing-massage/` | 2.03s | 0 | 89ms | 13 | 188KB |
 | `/en/contact/` | 1.89s | 0 | 0ms | 12 | 167KB |
 
-All three green (LCP < 2.5s, CLS < 0.1, TBT < 200ms). The home page LCP sits close to
-the 2.5s boundary — not a regression from this work, but worth a clean-environment
-recheck before launch rather than trusting a shared dev machine's numbers.
+All three green (LCP < 2.5s, CLS < 0.1, TBT < 200ms). The home page row is the Phase 2
+recheck: lazy-loading the Maps iframe cut its transfer from 735KB to 272KB and its
+requests from 33 to 16 (the map's own JS and tiles no longer load until scrolled to).
+The other two rows are unchanged from Phase 1 — nothing in Phase 2 touched those pages.
+The home page LCP sits close to the 2.5s boundary — not a regression from this work,
+but worth a clean-environment recheck before launch rather than trusting a shared dev
+machine's numbers.
 
-Not done (Phase 2 of `docs/PERFORMANCE-PLAN.md`, needs a decision): lazy-loading the
-Google Maps iframe on the home page, and a CDN in front of Railway.
+Not done: a CDN in front of Railway (`docs/PERFORMANCE-PLAN.md` step 8). Deferred, not
+declined — it needs a Cloudflare account and DNS access to set up. When it happens,
+cache `/assets/*` at the edge only (safe on its own); do not cache HTML at the edge
+without first scoping the `ft`/`csrf` cookies to only the pages that need them, since
+Cloudflare does not honour `Vary: accept-language, cookie` and every HTML response here
+sets both cookies today.
 
 **Security**
 - [x] CSP with no `unsafe-inline` anywhere — no template carries an inline style or script, and the audit enforces it
