@@ -2,9 +2,10 @@
 {#- Shared by home.njk and location.njk. The only iframe on the site - see
     server/security.js (frame-src) and the Cookies section of the privacy
     policy, which discloses this as the one third-party load the site makes.
-    No loading="lazy": with it, the card rendered at the right size with its
-    shadow but the iframe itself was still empty at the point the page was
-    checked, so it now loads eagerly with the rest of the page instead. -#}
+    loading="lazy": the map sits below the fold on both pages it appears on,
+    so the browser defers the request until it nears the viewport. A prior
+    screenshot check judged this "blank" because it captured the page before
+    scrolling the map into view - scroll to it first when checking. -#}
 <section class="section section--warm">
   <div class="wrap grid grid--split">
     <div class="stack reveal">
@@ -22,7 +23,7 @@
     </div>
     <div class="reveal">
       <div class="map-embed u-round u-raise">
-        <iframe src="{{ business.map.embedUrl }}" title="{{ business.name }} – {{ c.ui.googleMaps }}" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="{{ business.map.embedUrl }}" title="{{ business.name }} – {{ c.ui.googleMaps }}" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe>
       </div>
       <p class="map-embed__caption">{{ icon.pin() }} {{ c.location.studioAddressLine }}</p>
     </div>
