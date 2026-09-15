@@ -38,13 +38,13 @@
     "showOriginal": "Show original",
     "translationNote": "Translated for this page.",
     "abridgedNote": "Shortened.",
+    "showMoreReviews": "Show more reviews",
     "sessionsCount": "sessions",
-    "openingHours": "Every day, 9:00 - 22:00",
+    "openingHours": "Every day, 9:30 - 21:30, late April to October",
     "hoursLabel": "Hours",
     "phoneLabel": "Phone and WhatsApp",
     "emailLabel": "Email",
     "areaLabel": "Where clients come from",
-    "findMe": "Where to find me",
     "footerServices": "Massages",
     "footerLinks": "Pages",
     "footerContact": "Get in touch",
@@ -82,11 +82,11 @@
     },
     "location": {
       "title": "Massage studio in Mastichari, Kos - next to Ghitonia",
-      "description": "My massage studio is in the centre of Mastichari, Kos, right next to Ghitonia. Guests come from Tigaki, Marmari and all over the island. Every day 9:00 to 22:00."
+      "description": "My massage studio is in the centre of Mastichari, Kos, right next to Ghitonia. Guests come from Tigaki, Marmari and all over the island. Every day 9:30 to 21:30."
     },
     "contact": {
-      "title": "Book a massage on Kos - phone, WhatsApp or booking form",
-      "description": "Book a massage in Mastichari, Tigaki or Marmari on Kos. WhatsApp or call +30 6977784790, or send the booking form. Reply usually the same day."
+      "title": "Book a massage on Kos - phone or WhatsApp",
+      "description": "Book a massage in Mastichari, Tigaki or Marmari on Kos. WhatsApp or call +30 6977784790, or send an email. Reply usually the same day."
     },
     "thankyou": {
       "title": "Thank you - your booking request has been sent",
@@ -144,9 +144,9 @@
     }
   },
   "home": {
-    "heroKicker": "Mastichari, Tigaki and Marmari - Kos",
-    "heroTitle": "Every body looks for its own massage,",
-    "heroTitleAccent": "it finds it in *Mastichari*.",
+    "heroKicker": "Mastichari - Kos",
+    "heroTitle": "Every body deserves it's own massage,",
+    "heroTitleAccent": "it finds it here.",
     "heroLede": "I'm Konstantinos, a certified therapist on Kos since 2011. Come to my studio in the centre of Mastichari, right next to Ghitonia.",
     "heroPrimary": "Book on WhatsApp",
     "heroSecondary": "See the massages",
@@ -213,7 +213,7 @@
       "Most of my work is with visitors staying in Mastichari, Tigaki and Marmari, and plenty of guests come from further afield across the island too. My own place is in the pedestrian centre of Mastichari, right by the family souvenir shop Ghitonia - if I am not there, the family can tell you where I am, or you can simply call."
     ],
     "languagesTitle": "Languages",
-    "languagesBody": "I speak Greek, English, Italian, French, German and Russian. This website is offered in a few more languages than that so you can read about the massages in your own, but the conversation on the day will be in one of those six.",
+    "languagesBody": "I speak Greek, English, Italian, French, German and a little bit of Russian. This website is offered in a few more languages than that so you can read about the massages in your own, but the conversation on the day will be in one of those six.",
     "credentialsTitle": "Training and certificates",
     "credentialsIntro": "The scans below are of my own certificates. Where a certificate has a number and a date, they are printed here as they appear on the document.",
     "credentialNames": {
@@ -422,15 +422,13 @@
     "directionsCta": "Get directions",
     "practicalTitle": "When you arrive",
     "practicalBody": "Everything is already set up: the table, the oils and clean linen are ready before you get here. There is nothing to bring and nothing to prepare - just knock, or message ahead if you would rather not wait.",
-    "hoursTitle": "Hours",
-    "hoursBody": "Every day, 9:00 to 22:00. Evening appointments are popular in high season, so the earlier you ask, the more choice there is.",
-    "imageAlt": "The massage studio in Mastichari: a table made up with clean linen, ready for a session."
+    "imageAlt": "A massage table set up on a sunlit terrace with a sea view, towels folded and ready."
   },
   "contact": {
     "title": "Book a massage",
-    "lede": "The fastest way is WhatsApp or a phone call. If you would rather write, the form below reaches the same place.",
+    "lede": "The fastest way is WhatsApp or a phone call. Email works too, if you would rather write.",
     "directTitle": "Direct",
-    "phoneBody": "Every day, 9:00 - 22:00.",
+    "phoneBody": "Every day, 9:30 - 21:30, late April to October.",
     "emailBody": "For anything that is not urgent.",
     "formTitle": "Or send a booking request",
     "formIntro": "Tell me when suits you and what kind of massage you are after. Nothing is confirmed until I reply.",

@@ -26,8 +26,8 @@
   },
   "hours": {
     "days": "Mo,Tu,We,Th,Fr,Sa,Su",
-    "opens": "09:00",
-    "closes": "22:00",
+    "opens": "09:30",
+    "closes": "21:30",
     "schemaSpec": [
       {
         "dayOfWeek": [
@@ -39,8 +39,8 @@
           "Saturday",
           "Sunday"
         ],
-        "opens": "09:00",
-        "closes": "22:00"
+        "opens": "09:30",
+        "closes": "21:30"
       }
     ]
   },

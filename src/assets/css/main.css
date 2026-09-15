@@ -319,6 +319,10 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
    line-height 1 occupies exactly the 1.15em the h1's own line box already
    reserves, so the word grows without opening the leading between the lines. */
 .hero__title .stress { font-size: 1.15em; line-height: 1; }
+/* Not when the stressed word already sits on the accent line: italic, terracotta
+   and a line of its own are already three signals, and sizing it up on top makes
+   it read as a mismatch rather than emphasis. */
+.hero__title-accent .stress { font-size: 1em; }
 
 
 /* The phone number rides along inside the button row rather than becoming a

@@ -5,10 +5,10 @@
     translation into the page's language can be swapped in over it in place, so toggling
     doesn't change the card's height. -#}
 {% macro wall(items, c, L, locale, limit) %}
+{%- if limit %}<div data-quote-wall>{% endif %}
 <div class="quotes">
   {%- for t in items -%}
-  {%- if not limit or loop.index0 < limit -%}
-  <figure class="quote">
+  <figure class="quote"{% if limit and loop.index0 >= limit %} hidden data-quote-extra{% endif %}>
     {%- if t.lang != locale and t.t and t.t[locale] %}
     <blockquote class="quote__original" lang="{{ t.lang }}" cite="">
       <p>{{ t.text }}</p>
@@ -35,7 +35,12 @@
       </span>
     </figcaption>
   </figure>
-  {%- endif -%}
   {%- endfor -%}
 </div>
+{%- if limit and items.length > limit %}
+<div class="btn-row u-mt-2">
+  <button type="button" class="btn btn--ghost" data-quote-more>{{ c.ui.showMoreReviews }}</button>
+</div>
+{%- endif %}
+{%- if limit %}</div>{% endif %}
 {% endmacro %}

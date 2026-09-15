@@ -21,7 +21,10 @@ const MANIFEST = "content/_images.json";
 const WIDTHS = [400, 600, 900, 1200];
 
 // Masters that need a crop before anything else happens to them.
-const PRE = {};
+const PRE = {
+  // Slight center-crop for a tighter frame on the location page.
+  "balcony-setup": { extract: { left: 56, top: 53, width: 592, height: 551 } },
+};
 
 // NOTE on certificate-wmf-advanced-massage: the recovered scan was a two-panel
 // image. The right-hand panel was a certified translation carrying the validating

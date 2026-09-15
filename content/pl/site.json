@@ -38,13 +38,13 @@
     "showOriginal": "Pokaż oryginał",
     "translationNote": "Przetłumaczone na potrzeby tej strony.",
     "abridgedNote": "Skrócone.",
+    "showMoreReviews": "Pokaż więcej opinii",
     "sessionsCount": "sesji",
-    "openingHours": "Codziennie, 9:00 - 22:00",
+    "openingHours": "Codziennie, 9:30 - 21:30, od końca kwietnia do października",
     "hoursLabel": "Godziny",
     "phoneLabel": "Telefon i WhatsApp",
     "emailLabel": "E-mail",
     "areaLabel": "Skąd przyjeżdżają klienci",
-    "findMe": "Gdzie mnie znaleźć",
     "footerServices": "Masaże",
     "footerLinks": "Strony",
     "footerContact": "Kontakt",
@@ -82,11 +82,11 @@
     },
     "location": {
       "title": "Gabinet masażu w Mastichari, Kos - obok Ghitonia",
-      "description": "Mój gabinet masażu znajduje się w centrum Mastichari, tuż obok Ghitonia. Klienci przyjeżdżają z Tigaki, Marmari i całej wyspy. Codziennie od 9:00 do 22:00."
+      "description": "Mój gabinet masażu znajduje się w centrum Mastichari, tuż obok Ghitonia. Klienci przyjeżdżają z Tigaki, Marmari i całej wyspy. Codziennie od 9:30 do 21:30."
     },
     "contact": {
-      "title": "Umów masaż na Kos - telefon, WhatsApp lub formularz",
-      "description": "Umów masaż w Mastichari, Tigaki lub Marmari na Kos. WhatsApp lub telefon +30 6977784790, albo wyślij formularz. Odpowiedź zwykle tego samego dnia."
+      "title": "Umów masaż na Kos - telefon lub WhatsApp",
+      "description": "Umów masaż w Mastichari, Tigaki lub Marmari na Kos. WhatsApp lub telefon +30 6977784790, albo e-mail. Odpowiedź zwykle tego samego dnia."
     },
     "thankyou": {
       "title": "Dziękuję - Twoje zgłoszenie zostało wysłane",
@@ -144,9 +144,9 @@
     }
   },
   "home": {
-    "heroKicker": "Mastichari, Tigaki i Marmari - Kos",
-    "heroTitle": "Każde ciało szuka swojego masażu,",
-    "heroTitleAccent": "w *Mastichari* je znajduje.",
+    "heroKicker": "Mastichari - Kos",
+    "heroTitle": "Każde ciało zasługuje na swój masaż,",
+    "heroTitleAccent": "tu je znajduje.",
     "heroLede": "Nazywam się Konstantinos, jestem certyfikowanym masażystą na Kos od 2011 roku. Przyjdź do mojego gabinetu w centrum Mastichari, tuż obok Ghitonia.",
     "heroPrimary": "Umów przez WhatsApp",
     "heroSecondary": "Zobacz masaże",
@@ -213,7 +213,7 @@
       "Pracuję głównie z gośćmi mieszkającymi w Mastichari, Tigaki i Marmari, ale sporo klientów przyjeżdża też z daleka, z całej wyspy. Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok rodzinnego sklepu z pamiątkami Ghitonia, jeśli mnie tam nie ma, rodzina powie, gdzie jestem, albo po prostu zadzwoń."
     ],
     "languagesTitle": "Języki",
-    "languagesBody": "Mówię po grecku, angielsku, włosku, francusku, niemiecku i rosyjsku. Ta strona jest dostępna jeszcze w kilku językach, żebyś mógł przeczytać o masażach we własnym, ale rozmowa w dniu wizyty odbędzie się w jednym z tych sześciu.",
+    "languagesBody": "Mówię po grecku, angielsku, włosku, francusku, niemiecku i trochę po rosyjsku. Ta strona jest dostępna jeszcze w kilku językach, żebyś mógł przeczytać o masażach we własnym, ale rozmowa w dniu wizyty odbędzie się w jednym z tych sześciu.",
     "credentialsTitle": "Szkolenia i certyfikaty",
     "credentialsIntro": "Poniższe skany to moje własne certyfikaty. Tam, gdzie certyfikat ma numer i datę, są one podane dokładnie tak, jak widnieją na dokumencie.",
     "credentialNames": {
@@ -422,15 +422,13 @@
     "directionsCta": "Wyznacz trasę",
     "practicalTitle": "Gdy przyjedziesz",
     "practicalBody": "Wszystko jest już gotowe: leżanka, olejki i czysta pościel czekają, zanim jeszcze dotrzesz. Nie musisz niczego przynosić ani przygotowywać - po prostu zapukaj, albo napisz wcześniej, jeśli wolisz nie czekać.",
-    "hoursTitle": "Godziny",
-    "hoursBody": "Codziennie od 9:00 do 22:00. Wizyty wieczorne cieszą się popularnością w wysokim sezonie, więc im wcześniej zapytasz, tym większy wybór.",
-    "imageAlt": "Gabinet masażu w Mastichari: leżanka zaścielona czystą pościelą, gotowa na sesję."
+    "imageAlt": "Leżanka do masażu na słonecznym tarasie z widokiem na morze, ręczniki złożone i gotowe."
   },
   "contact": {
     "title": "Umów masaż",
-    "lede": "Najszybciej przez WhatsApp albo telefonicznie. Jeśli wolisz napisać, formularz poniżej trafia w to samo miejsce.",
+    "lede": "Najszybciej przez WhatsApp albo telefonicznie. E-mail też się sprawdzi, jeśli wolisz napisać.",
     "directTitle": "Bezpośrednio",
-    "phoneBody": "Codziennie, 9:00 - 22:00.",
+    "phoneBody": "Codziennie, 9:30 - 21:30, od końca kwietnia do października.",
     "emailBody": "Do wszystkiego, co nie jest pilne.",
     "formTitle": "Albo wyślij zgłoszenie rezerwacji",
     "formIntro": "Napisz, kiedy Ci pasuje i jakiego masażu szukasz. Nic nie jest potwierdzone, dopóki nie odpowiem.",

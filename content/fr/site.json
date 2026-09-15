@@ -38,13 +38,13 @@
     "showOriginal": "Afficher l'original",
     "translationNote": "Traduit pour cette page.",
     "abridgedNote": "Raccourci.",
+    "showMoreReviews": "Afficher plus d'avis",
     "sessionsCount": "séances",
-    "openingHours": "Tous les jours, de 9h00 à 22h00",
+    "openingHours": "Tous les jours, de 9h30 à 21h30, de fin avril à octobre",
     "hoursLabel": "Horaires",
     "phoneLabel": "Téléphone et WhatsApp",
     "emailLabel": "E-mail",
     "areaLabel": "D'où viennent les clients",
-    "findMe": "Où me trouver",
     "footerServices": "Massages",
     "footerLinks": "Pages",
     "footerContact": "Me contacter",
@@ -82,11 +82,11 @@
     },
     "location": {
       "title": "Espace de massage à Mastichari, Kos - à côté de Ghitonia",
-      "description": "Mon espace de massage se trouve au centre de Mastichari, juste à côté de Ghitonia. Les clients viennent de Tigaki, Marmari et de tout Kos. Tous les jours de 9h00 à 22h00."
+      "description": "Mon espace de massage se trouve au centre de Mastichari, juste à côté de Ghitonia. Les clients viennent de Tigaki, Marmari et de tout Kos. Tous les jours de 9h30 à 21h30."
     },
     "contact": {
-      "title": "Réserver un massage à Kos - téléphone, WhatsApp ou formulaire",
-      "description": "Réservez un massage à Mastichari, Tigaki ou Marmari, à Kos. WhatsApp ou appelez le +30 6977784790, ou envoyez le formulaire de réservation. Réponse généralement le jour même."
+      "title": "Réserver un massage à Kos - téléphone ou WhatsApp",
+      "description": "Réservez un massage à Mastichari, Tigaki ou Marmari, à Kos. WhatsApp ou appelez le +30 6977784790, ou envoyez un e-mail. Réponse généralement le jour même."
     },
     "thankyou": {
       "title": "Merci - votre demande de réservation a été envoyée",
@@ -144,9 +144,9 @@
     }
   },
   "home": {
-    "heroKicker": "Mastichari, Tigaki et Marmari - Kos",
-    "heroTitle": "Chaque corps cherche son propre massage,",
-    "heroTitleAccent": "il le trouve à *Mastichari*.",
+    "heroKicker": "Mastichari - Kos",
+    "heroTitle": "Chaque corps mérite son propre massage,",
+    "heroTitleAccent": "il le trouve ici.",
     "heroLede": "Je suis Konstantinos, masseur certifié à Kos depuis 2011. Venez dans mon espace au centre de Mastichari, tout près de Ghitonia.",
     "heroPrimary": "Réserver sur WhatsApp",
     "heroSecondary": "Voir les massages",
@@ -213,7 +213,7 @@
       "L'essentiel de mon activité concerne des visiteurs séjournant à Mastichari, Tigaki et Marmari, mais pas mal de clients viennent aussi de plus loin, de toute l'île. Mon propre espace se trouve au centre piétonnier de Mastichari, tout près de la boutique de souvenirs familiale Ghitonia - si je ne suis pas sur place, la famille peut vous indiquer où je suis, ou vous pouvez simplement m'appeler."
     ],
     "languagesTitle": "Langues",
-    "languagesBody": "Je parle grec, anglais, italien, français, allemand et russe. Ce site est proposé dans quelques langues supplémentaires afin que vous puissiez lire les descriptions des massages dans la vôtre, mais la conversation le jour J se fera dans l'une de ces six langues.",
+    "languagesBody": "Je parle grec, anglais, italien, français, allemand et un peu de russe. Ce site est proposé dans quelques langues supplémentaires afin que vous puissiez lire les descriptions des massages dans la vôtre, mais la conversation le jour J se fera dans l'une de ces six langues.",
     "credentialsTitle": "Formations et certificats",
     "credentialsIntro": "Les documents ci-dessous sont mes propres certificats numérisés. Lorsqu'un certificat comporte un numéro et une date, ils sont reproduits ici tels qu'ils figurent sur le document.",
     "credentialNames": {
@@ -422,15 +422,13 @@
     "directionsCta": "Obtenir l'itinéraire",
     "practicalTitle": "À votre arrivée",
     "practicalBody": "Tout est déjà installé : la table, les huiles et le linge propre vous attendent avant même votre arrivée. Rien à apporter, rien à préparer - il suffit de frapper, ou d'envoyer un message à l'avance si vous préférez ne pas attendre.",
-    "hoursTitle": "Horaires",
-    "hoursBody": "Tous les jours, de 9h00 à 22h00. Les rendez-vous en soirée sont très demandés en haute saison, donc plus vous demandez tôt, plus vous avez de choix.",
-    "imageAlt": "L'espace de massage à Mastichari : une table préparée avec du linge propre, prête pour une séance."
+    "imageAlt": "Une table de massage installée sur une terrasse ensoleillée avec vue sur la mer, serviettes pliées et prêtes."
   },
   "contact": {
     "title": "Réserver un massage",
-    "lede": "Le plus rapide est WhatsApp ou un appel téléphonique. Si vous préférez écrire, le formulaire ci-dessous arrive au même endroit.",
+    "lede": "Le plus rapide est WhatsApp ou un appel téléphonique. Un e-mail fonctionne aussi, si vous préférez écrire.",
     "directTitle": "Contact direct",
-    "phoneBody": "Tous les jours, de 9h00 à 22h00.",
+    "phoneBody": "Tous les jours, de 9h30 à 21h30, de fin avril à octobre.",
     "emailBody": "Pour tout ce qui n'est pas urgent.",
     "formTitle": "Ou envoyez une demande de réservation",
     "formIntro": "Dites-moi à quel moment cela vous arrange, et quel type de massage vous souhaitez. Rien n'est confirmé avant ma réponse.",

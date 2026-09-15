@@ -12,7 +12,6 @@ eleventyExcludeFromCollections: true
 <section class="section">
   <div class="wrap grid grid--split">
     <div class="stack">
-      <p class="eyebrow">{{ c.nav.about }}</p>
       <h1>{{ c.about.title }}</h1>
       <p class="lede">{{ c.about.lede }}</p>
       {%- for p in c.about.bio %}
@@ -89,7 +88,7 @@ eleventyExcludeFromCollections: true
       <h2>{{ c.ui.testimonialsTitle }}</h2>
     </div>
     <div class="reveal">
-      {{ q.wall(testimonials.items | reverse, c, L, locale) }}
+      {{ q.wall(testimonials.items | reverse, c, L, locale, 3) }}
     </div>
     <div class="btn-row u-mt-2">
       <a class="btn btn--ghost" href="{{ business.map.placeUrl }}" rel="noopener" target="_blank">{{ icon.star() }} {{ c.ui.reviewsGoogle }}</a>

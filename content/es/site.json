@@ -38,13 +38,13 @@
     "showOriginal": "Ver original",
     "translationNote": "Traducido para esta página.",
     "abridgedNote": "Abreviado.",
+    "showMoreReviews": "Mostrar más reseñas",
     "sessionsCount": "sesiones",
-    "openingHours": "Todos los días, 9:00 - 22:00",
+    "openingHours": "Todos los días, 9:30 - 21:30, de finales de abril a octubre",
     "hoursLabel": "Horario",
     "phoneLabel": "Teléfono y WhatsApp",
     "emailLabel": "Correo",
     "areaLabel": "De dónde vienen los clientes",
-    "findMe": "Dónde encontrarme",
     "footerServices": "Masajes",
     "footerLinks": "Páginas",
     "footerContact": "Contacto",
@@ -82,11 +82,11 @@
     },
     "location": {
       "title": "Local de masaje en Mastichari, Kos - junto a Ghitonia",
-      "description": "Mi local de masaje está en el centro de Mastichari, justo al lado de Ghitonia. Los clientes vienen de Tigaki, Marmari y toda la isla. Todos los días de 9:00 a 22:00."
+      "description": "Mi local de masaje está en el centro de Mastichari, justo al lado de Ghitonia. Los clientes vienen de Tigaki, Marmari y toda la isla. Todos los días de 9:30 a 21:30."
     },
     "contact": {
-      "title": "Reservar masaje en Kos - teléfono, WhatsApp o formulario",
-      "description": "Reserva un masaje en Mastichari, Tigaki o Marmari, en Kos. WhatsApp o llamada al +30 6977784790, o envía el formulario. Suelo responder el mismo día."
+      "title": "Reservar masaje en Kos - teléfono o WhatsApp",
+      "description": "Reserva un masaje en Mastichari, Tigaki o Marmari, en Kos. WhatsApp o llamada al +30 6977784790, o envía un correo. Suelo responder el mismo día."
     },
     "thankyou": {
       "title": "Gracias - tu solicitud se ha enviado",
@@ -144,9 +144,9 @@
     }
   },
   "home": {
-    "heroKicker": "Mastichari, Tigaki y Marmari - Kos",
-    "heroTitle": "Cada cuerpo busca su propio masaje,",
-    "heroTitleAccent": "en *Mastichari* lo encuentra.",
+    "heroKicker": "Mastichari - Kos",
+    "heroTitle": "Cada cuerpo merece su propio masaje,",
+    "heroTitleAccent": "aquí lo encuentra.",
     "heroLede": "Soy Konstantinos, masajista certificado en Kos desde 2011. Venga a mi local en el centro de Mastichari, justo al lado de Ghitonia.",
     "heroPrimary": "Reservar por WhatsApp",
     "heroSecondary": "Ver los masajes",
@@ -213,7 +213,7 @@
       "La mayor parte de mi trabajo es con huéspedes alojados en Mastichari, Tigaki y Marmari, pero también llegan bastantes clientes de más lejos, de toda la isla. Mi propio local está en el centro peatonal de Mastichari, justo al lado de la tienda de souvenirs familiar Ghitonia; si no estoy allí, la familia le dirá dónde encontrarme, o simplemente llame."
     ],
     "languagesTitle": "Idiomas",
-    "languagesBody": "Hablo griego, inglés, italiano, francés, alemán y ruso. Esta web está en algunos idiomas más para que puedas leer sobre los masajes en el tuyo, pero la conversación el día de la cita será en uno de estos seis.",
+    "languagesBody": "Hablo griego, inglés, italiano, francés, alemán y un poco de ruso. Esta web está en algunos idiomas más para que puedas leer sobre los masajes en el tuyo, pero la conversación el día de la cita será en uno de estos seis.",
     "credentialsTitle": "Formación y certificados",
     "credentialsIntro": "Los escaneos de abajo son de mis propios certificados. Donde un certificado lleva número y fecha, aparecen aquí exactamente como figuran en el documento.",
     "credentialNames": {
@@ -422,15 +422,13 @@
     "directionsCta": "Cómo llegar",
     "practicalTitle": "Cuando llegue",
     "practicalBody": "Todo está ya preparado: la camilla, los aceites y la ropa de cama limpia le esperan antes incluso de que llegue. No hay que traer nada ni preparar nada: solo llame a la puerta, o escriba antes si prefiere no esperar.",
-    "hoursTitle": "Horario",
-    "hoursBody": "Todos los días de 9:00 a 22:00. Las citas por la tarde son muy solicitadas en temporada alta, así que cuanto antes pregunte, más opciones tendrá.",
-    "imageAlt": "El local de masaje en Mastichari: una camilla vestida con ropa limpia, lista para una sesión."
+    "imageAlt": "Una camilla de masaje en una terraza soleada con vistas al mar, toallas dobladas y listas."
   },
   "contact": {
     "title": "Reservar masaje",
-    "lede": "Lo más rápido es WhatsApp o una llamada. Si prefieres escribir, el formulario de abajo llega al mismo sitio.",
+    "lede": "Lo más rápido es WhatsApp o una llamada. Un correo también funciona, si prefieres escribir.",
     "directTitle": "Directo",
-    "phoneBody": "Todos los días, 9:00 - 22:00.",
+    "phoneBody": "Todos los días, 9:30 - 21:30, de finales de abril a octubre.",
     "emailBody": "Para todo lo que no sea urgente.",
     "formTitle": "O envía una solicitud de reserva",
     "formIntro": "Dígame cuándo le viene bien y qué tipo de masaje busca. Nada se confirma hasta que le responda.",

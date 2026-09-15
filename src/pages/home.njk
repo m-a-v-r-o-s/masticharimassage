@@ -42,13 +42,13 @@ eleventyExcludeFromCollections: true
       <div class="hero__media hero__slides" data-slides
            data-slides-labels='{"pause": {{ c.ui.pauseSlideshow | dump }}, "play": {{ c.ui.playSlideshow | dump }}}'>
         <div class="hero__slide is-active">
-          {{ p.pic(images, "hero-treatment-room", c.home.heroRoomAlt, "(min-width: 58em) 46vw, 100vw", "", true) }}
+          {{ p.pic(images, "session-shoulders-closeup", c.home.heroImageAlt2, "(min-width: 58em) 46vw, 100vw", "", true) }}
+        </div>
+        <div class="hero__slide">
+          {{ p.pic(images, "hero-treatment-room", c.home.heroRoomAlt, "(min-width: 58em) 46vw, 100vw", "", "eager") }}
         </div>
         <div class="hero__slide">
           {{ p.pic(images, "session-back-massage-wide", c.home.heroImageAlt, "(min-width: 58em) 46vw, 100vw", "", "eager") }}
-        </div>
-        <div class="hero__slide">
-          {{ p.pic(images, "session-shoulders-closeup", c.home.heroImageAlt2, "(min-width: 58em) 46vw, 100vw", "", "eager") }}
         </div>
         <button type="button" class="hero__slides-btn" data-slides-toggle
                 aria-label="{{ c.ui.pauseSlideshow }}">
@@ -87,7 +87,6 @@ eleventyExcludeFromCollections: true
 <section class="section section--warm">
   <div class="wrap">
     <div class="section-head reveal">
-      <p class="eyebrow">{{ c.nav.services }}</p>
       <h2>{{ c.home.servicesTitle }}</h2>
       <p>{{ c.home.servicesIntro }}</p>
     </div>
@@ -115,7 +114,6 @@ eleventyExcludeFromCollections: true
 <section class="section">
   <div class="wrap grid grid--split">
     <div class="stack reveal">
-      <p class="eyebrow">{{ c.home.howTitle }}</p>
       <h2>{{ c.home.ctaTitle }}</h2>
       <p>{{ c.home.ctaBody }}</p>
       <div class="btn-row">
@@ -150,7 +148,6 @@ eleventyExcludeFromCollections: true
 <section class="section">
   <div class="wrap grid grid--split">
     <div class="stack reveal">
-      <p class="eyebrow">{{ c.nav.location }}</p>
       <h2>{{ c.home.areaTitle }}</h2>
       <p>{{ c.home.areaBody }}</p>
       <p><a class="btn btn--ghost" href="/{{ locale }}/location/">{{ c.home.areaCta }}</a></p>
@@ -162,9 +159,3 @@ eleventyExcludeFromCollections: true
 </section>
 
 {% include "partials/studio-map.njk" %}
-
-<section class="section section--ink">
-  <div class="wrap measure">
-    <p class="notice notice--ink">{{ c.ui.wellnessNotice }}</p>
-  </div>
-</section>

@@ -215,6 +215,20 @@
     })(quoteToggles[qi]);
   }
 
+  /* ---------- testimonial "show more" ---------- */
+  var quoteMoreBtns = doc.querySelectorAll("[data-quote-more]");
+  for (var qmi = 0; qmi < quoteMoreBtns.length; qmi++) {
+    (function (btn) {
+      var wall = btn.closest("[data-quote-wall]");
+      if (!wall) return;
+      btn.addEventListener("click", function () {
+        var extras = wall.querySelectorAll("[data-quote-extra]");
+        for (var i = 0; i < extras.length; i++) extras[i].hidden = false;
+        btn.hidden = true;
+      });
+    })(quoteMoreBtns[qmi]);
+  }
+
   /* ---------- booking form ---------- */
   var form = doc.getElementById("booking-form");
   if (!form) return;

@@ -39,6 +39,10 @@ const SAME_BY_DESIGN = [
   // "Google Maps" is Google's own product name and is left untranslated in every
   // one of these languages, including the ones that translate it in their UI.
   /^ui\.googleMaps$/,
+  // Just two place names joined by a dash - nothing left to translate, so it is
+  // expected to come out identical to English in languages that do not inflect
+  // or otherwise change "Mastichari" or "Kos".
+  /^home\.heroKicker$/,
 ];
 
 function flatten(obj, prefix = "", out = {}) {

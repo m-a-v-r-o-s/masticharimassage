@@ -11,7 +11,6 @@ eleventyExcludeFromCollections: true
 <section class="section">
   <div class="wrap grid grid--split">
     <div class="stack">
-      <p class="eyebrow">{{ c.nav.location }}</p>
       <h1>{{ c.location.title }}</h1>
       <p class="lede">{{ c.location.lede }}</p>
       <div class="btn-row">
@@ -19,7 +18,7 @@ eleventyExcludeFromCollections: true
       </div>
     </div>
     <div>
-      {{ p.pic(images, "hero-treatment-room", c.location.imageAlt, "(min-width: 52em) 42vw, 100vw", "u-round u-raise", true) }}
+      {{ p.pic(images, "balcony-setup", c.location.imageAlt, "(min-width: 52em) 42vw, 100vw", "u-round u-raise", true) }}
     </div>
   </div>
 </section>
@@ -43,16 +42,12 @@ eleventyExcludeFromCollections: true
 </section>
 
 <section class="section">
-  <div class="wrap grid grid--2">
-    <div class="stack">
+  <div class="wrap">
+    <div class="stack measure">
       <h2>{{ c.location.whereTitle }}</h2>
       <p>{{ c.location.whereBody }}</p>
       <h2 class="u-mt-15">{{ c.location.practicalTitle }}</h2>
       <p>{{ c.location.practicalBody }}</p>
-    </div>
-    <div class="stack">
-      <h2 class="u-mt-15">{{ c.location.hoursTitle }}</h2>
-      <p>{{ c.location.hoursBody }}</p>
     </div>
   </div>
 </section>

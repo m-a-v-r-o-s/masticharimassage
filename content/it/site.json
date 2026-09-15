@@ -38,13 +38,13 @@
     "showOriginal": "Mostra l'originale",
     "translationNote": "Tradotto per questa pagina.",
     "abridgedNote": "Testo accorciato.",
+    "showMoreReviews": "Mostra altre recensioni",
     "sessionsCount": "sedute",
-    "openingHours": "Tutti i giorni, 9:00 - 22:00",
+    "openingHours": "Tutti i giorni, 9:30 - 21:30, da fine aprile a ottobre",
     "hoursLabel": "Orari",
     "phoneLabel": "Telefono e WhatsApp",
     "emailLabel": "Email",
     "areaLabel": "Da dove vengono i clienti",
-    "findMe": "Dove trovarmi",
     "footerServices": "Massaggi",
     "footerLinks": "Pagine",
     "footerContact": "Contatti",
@@ -85,8 +85,8 @@
       "description": "Il mio studio di massaggio è nel centro di Mastichari, proprio accanto a Ghitonia. I clienti arrivano da Tigaki, Marmari e da tutta l'isola."
     },
     "contact": {
-      "title": "Prenota un massaggio a Kos - telefono, WhatsApp o modulo",
-      "description": "Prenota un massaggio a Mastichari, Tigaki o Marmari, a Kos. WhatsApp o telefono al +30 6977784790, oppure invia il modulo. Di solito rispondo in giornata."
+      "title": "Prenota un massaggio a Kos - telefono o WhatsApp",
+      "description": "Prenota un massaggio a Mastichari, Tigaki o Marmari, a Kos. WhatsApp o telefono al +30 6977784790, oppure invia un'email. Di solito rispondo in giornata."
     },
     "thankyou": {
       "title": "Grazie - la tua richiesta è stata inviata",
@@ -144,9 +144,9 @@
     }
   },
   "home": {
-    "heroKicker": "Mastichari, Tigaki e Marmari - Kos",
-    "heroTitle": "Ogni corpo cerca il proprio massaggio,",
-    "heroTitleAccent": "a *Mastichari* lo trova.",
+    "heroKicker": "Mastichari - Kos",
+    "heroTitle": "Ogni corpo merita il proprio massaggio,",
+    "heroTitleAccent": "qui lo trova.",
     "heroLede": "Sono Konstantinos, massaggiatore certificato a Kos dal 2011. Venite nel mio studio nel centro di Mastichari, proprio accanto a Ghitonia.",
     "heroPrimary": "Prenota su WhatsApp",
     "heroSecondary": "Guarda i massaggi",
@@ -213,7 +213,7 @@
       "Lavoro soprattutto con ospiti che alloggiano a Mastichari, Tigaki e Marmari, ma arrivano parecchi clienti anche da più lontano, da tutta l'isola. Il mio studio si trova nel centro pedonale di Mastichari, proprio accanto al negozio di souvenir di famiglia Ghitonia; se non ci sono, la famiglia vi dirà dove sono, oppure potete semplicemente chiamare."
     ],
     "languagesTitle": "Lingue",
-    "languagesBody": "Parlo greco, inglese, italiano, francese, tedesco e russo. Questo sito è disponibile in qualche lingua in più perché tu possa leggere dei massaggi nella tua, ma il giorno dell'appuntamento la conversazione sarà in una di queste sei.",
+    "languagesBody": "Parlo greco, inglese, italiano, francese, tedesco e un po' di russo. Questo sito è disponibile in qualche lingua in più perché tu possa leggere dei massaggi nella tua, ma il giorno dell'appuntamento la conversazione sarà in una di queste sei.",
     "credentialsTitle": "Formazione e certificati",
     "credentialsIntro": "Le scansioni qui sotto sono dei miei certificati. Dove un certificato riporta un numero e una data, sono trascritti qui esattamente come compaiono sul documento.",
     "credentialNames": {
@@ -422,15 +422,13 @@
     "directionsCta": "Ottieni indicazioni",
     "practicalTitle": "Quando arrivi",
     "practicalBody": "È già tutto pronto: lettino, oli e biancheria pulita vi aspettano prima ancora che arriviate. Non c'è nulla da portare né da preparare: basta bussare, o scrivere in anticipo se preferite non aspettare.",
-    "hoursTitle": "Orari",
-    "hoursBody": "Tutti i giorni, dalle 9:00 alle 22:00. Gli appuntamenti serali sono molto richiesti in alta stagione, quindi prima chiedete, più scelta c'è.",
-    "imageAlt": "Lo studio di massaggio a Mastichari: un lettino preparato con biancheria pulita, pronto per una seduta."
+    "imageAlt": "Un lettino da massaggio su una terrazza soleggiata con vista sul mare, asciugamani piegati e pronti."
   },
   "contact": {
     "title": "Prenota un massaggio",
-    "lede": "Il modo più rapido è WhatsApp o una telefonata. Se preferisci scrivere, il modulo qui sotto arriva nello stesso posto.",
+    "lede": "Il modo più rapido è WhatsApp o una telefonata. Va bene anche un'email, se preferisci scrivere.",
     "directTitle": "Diretto",
-    "phoneBody": "Tutti i giorni, 9:00 - 22:00.",
+    "phoneBody": "Tutti i giorni, 9:30 - 21:30, da fine aprile a ottobre.",
     "emailBody": "Per tutto ciò che non è urgente.",
     "formTitle": "Oppure invia una richiesta di prenotazione",
     "formIntro": "Ditemi quando vi è comodo e che tipo di massaggio desiderate. Nulla è confermato finché non rispondo.",

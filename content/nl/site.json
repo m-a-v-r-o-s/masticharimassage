@@ -38,13 +38,13 @@
     "showOriginal": "Origineel tonen",
     "translationNote": "Vertaald voor deze pagina.",
     "abridgedNote": "Ingekort.",
+    "showMoreReviews": "Meer beoordelingen tonen",
     "sessionsCount": "sessies",
-    "openingHours": "Elke dag, 9:00 - 22:00",
+    "openingHours": "Elke dag, 9:30 - 21:30, van eind april tot oktober",
     "hoursLabel": "Openingstijden",
     "phoneLabel": "Telefoon en WhatsApp",
     "emailLabel": "E-mail",
     "areaLabel": "Waar de gasten vandaan komen",
-    "findMe": "Waar u mij vindt",
     "footerServices": "Massages",
     "footerLinks": "Pagina's",
     "footerContact": "Contact",
@@ -82,11 +82,11 @@
     },
     "location": {
       "title": "Massageruimte in Mastichari, Kos - naast Ghitonia",
-      "description": "Mijn massageruimte ligt in het centrum van Mastichari, vlak naast Ghitonia. Gasten komen uit Tigaki, Marmari en het hele eiland. Elke dag van 9:00 tot 22:00 uur."
+      "description": "Mijn massageruimte ligt in het centrum van Mastichari, vlak naast Ghitonia. Gasten komen uit Tigaki, Marmari en het hele eiland. Elke dag van 9:30 tot 21:30 uur."
     },
     "contact": {
-      "title": "Massage boeken op Kos - telefoon, WhatsApp of formulier",
-      "description": "Boek een massage in Mastichari, Tigaki of Marmari op Kos. WhatsApp of bel +30 6977784790, of stuur het boekingsformulier. Meestal dezelfde dag antwoord."
+      "title": "Massage boeken op Kos - telefoon of WhatsApp",
+      "description": "Boek een massage in Mastichari, Tigaki of Marmari op Kos. WhatsApp of bel +30 6977784790, of stuur een e-mail. Meestal dezelfde dag antwoord."
     },
     "thankyou": {
       "title": "Bedankt - uw aanvraag is verstuurd",
@@ -144,9 +144,9 @@
     }
   },
   "home": {
-    "heroKicker": "Mastichari, Tigaki en Marmari - Kos",
-    "heroTitle": "Elk lichaam zoekt zijn eigen massage,",
-    "heroTitleAccent": "in *Mastichari* vindt het die.",
+    "heroKicker": "Mastichari - Kos",
+    "heroTitle": "Elk lichaam verdient zijn eigen massage,",
+    "heroTitleAccent": "hier vindt het die.",
     "heroLede": "Ik ben Konstantinos, gecertificeerd therapeut op Kos sinds 2011. Kom naar mijn ruimte in het centrum van Mastichari, vlak naast Ghitonia.",
     "heroPrimary": "Boek via WhatsApp",
     "heroSecondary": "Bekijk de massages",
@@ -213,7 +213,7 @@
       "Het meeste werk doe ik met gasten die verblijven in Mastichari, Tigaki en Marmari, maar er komen ook heel wat gasten van verder weg, van het hele eiland. Mijn eigen ruimte ligt in het voetgangerscentrum van Mastichari, vlak naast de familiesouvenirwinkel Ghitonia; ben ik er niet, dan vertelt de familie u waar ik ben, of u belt gewoon."
     ],
     "languagesTitle": "Talen",
-    "languagesBody": "Ik spreek Grieks, Engels, Italiaans, Frans, Duits en Russisch. Deze website is in nog een paar talen extra beschikbaar zodat u in uw eigen taal over de massages kunt lezen, maar het gesprek op de dag zelf gaat in een van deze zes.",
+    "languagesBody": "Ik spreek Grieks, Engels, Italiaans, Frans, Duits en een beetje Russisch. Deze website is in nog een paar talen extra beschikbaar zodat u in uw eigen taal over de massages kunt lezen, maar het gesprek op de dag zelf gaat in een van deze zes.",
     "credentialsTitle": "Opleiding en certificaten",
     "credentialsIntro": "De scans hieronder zijn van mijn eigen certificaten. Waar een certificaat een nummer en een datum draagt, staan die hier precies zoals ze op het document staan.",
     "credentialNames": {
@@ -422,15 +422,13 @@
     "directionsCta": "Route uitstippelen",
     "practicalTitle": "Wanneer u aankomt",
     "practicalBody": "Alles staat al klaar: de tafel, oliën en schoon linnen wachten al voordat u er bent. U hoeft niets mee te brengen en niets voor te bereiden - klop gewoon aan, of stuur van tevoren een bericht als u liever niet wacht.",
-    "hoursTitle": "Openingstijden",
-    "hoursBody": "Elke dag van 9:00 tot 22:00 uur. Avondafspraken zijn populair in het hoogseizoen, dus hoe eerder u vraagt, hoe meer keuze er is.",
-    "imageAlt": "De massageruimte in Mastichari: een tafel opgemaakt met schoon linnen, klaar voor een sessie."
+    "imageAlt": "Een massagetafel op een zonnig terras met zeezicht, handdoeken opgevouwen en klaar."
   },
   "contact": {
     "title": "Massage boeken",
-    "lede": "Het snelst gaat WhatsApp of even bellen. Schrijft u liever, dan komt het formulier hieronder op dezelfde plek terecht.",
+    "lede": "Het snelst gaat WhatsApp of even bellen. Een e-mail werkt ook, als u liever schrijft.",
     "directTitle": "Direct",
-    "phoneBody": "Elke dag, 9:00 - 22:00.",
+    "phoneBody": "Elke dag, 9:30 - 21:30, van eind april tot oktober.",
     "emailBody": "Voor alles wat niet dringend is.",
     "formTitle": "Of stuur een boekingsaanvraag",
     "formIntro": "Laat me weten wanneer het u uitkomt en welke massage u wilt. Niets is bevestigd totdat ik reageer.",

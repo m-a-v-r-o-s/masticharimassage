@@ -361,7 +361,9 @@ await app.register(fastifyStatic, {
   etag: true,
   lastModified: true,
   setHeaders(res, filePath) {
-    if (/[\\/]assets[\\/](fonts|img)[\\/]/.test(filePath)) {
+    if (!PROD) {
+      res.setHeader("cache-control", "no-cache");
+    } else if (/[\\/]assets[\\/](fonts|img)[\\/]/.test(filePath)) {
       res.setHeader("cache-control", "public, max-age=31536000, immutable");
     } else if (/[\\/]assets[\\/]/.test(filePath)) {
       res.setHeader("cache-control", "public, max-age=86400, must-revalidate");

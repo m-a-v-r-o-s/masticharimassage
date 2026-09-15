@@ -1,16 +1,14 @@
 {
   "balcony-setup": {
-    "w": 1200,
-    "h": 800,
-    "nativeW": 1536,
-    "nativeH": 1024,
+    "w": 592,
+    "h": 551,
+    "nativeW": 592,
+    "nativeH": 551,
     "widths": [
       400,
-      600,
-      900,
-      1200
+      592
     ],
-    "cropped": false
+    "cropped": true
   },
   "certificate-aromatherapy": {
     "w": 1200,
@@ -51,15 +49,14 @@
     "cropped": false
   },
   "hero-treatment-room": {
-    "w": 941,
-    "h": 1672,
-    "nativeW": 941,
-    "nativeH": 1672,
+    "w": 704,
+    "h": 657,
+    "nativeW": 704,
+    "nativeH": 657,
     "widths": [
       400,
       600,
-      900,
-      941
+      704
     ],
     "cropped": false
   },
@@ -258,15 +255,14 @@
     "cropped": false
   },
   "village-lane": {
-    "w": 1200,
-    "h": 800,
-    "nativeW": 1536,
-    "nativeH": 1024,
+    "w": 728,
+    "h": 607,
+    "nativeW": 728,
+    "nativeH": 607,
     "widths": [
       400,
       600,
-      900,
-      1200
+      728
     ],
     "cropped": false
   }
