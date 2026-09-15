@@ -111,7 +111,7 @@ async function icons() {
       {
         name: "Mastichari Massage",
         short_name: "Mastichari Massage",
-        description: "Massage in your hotel room in Mastichari, Tigaki and Marmari, Kos.",
+        description: "Massage at the studio in Mastichari, Kos.",
         start_url: "/",
         display: "browser",
         background_color: SHELL,
@@ -132,7 +132,7 @@ async function icons() {
 async function og() {
   fs.mkdirSync(OG_DIR, { recursive: true });
   const preferred = path.join(SRC, "og-base.webp");
-  const fallback = path.join(SRC, "balcony-setup.webp");
+  const fallback = path.join(SRC, "hero-treatment-room.webp");
   const base = fs.existsSync(preferred) ? preferred : fallback;
   if (!fs.existsSync(base)) {
     console.warn("og: no base image found, skipping");

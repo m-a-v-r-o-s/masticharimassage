@@ -1,7 +1,7 @@
 /**
  * Static audit of the built site. This is not a substitute for axe, a keyboard
  * pass or a screen reader - it is the part that a machine can check on every one
- * of 145 pages, so the manual passes can concentrate on what needs judgement.
+ * of 181 pages, so the manual passes can concentrate on what needs judgement.
  *
  * Run: npm run audit  (after npm run build)
  */
@@ -103,8 +103,8 @@ for (const page of pages) {
       if (/"(price|priceCurrency|lowPrice|highPrice)"/.test(asText)) flag(page, "JSON-LD contains a price while prices are unpublished");
       if (/aggregateRating/.test(asText)) flag(page, "JSON-LD contains aggregateRating, which self-hosted comments cannot support");
       const person = graph.find((n) => n["@type"] === "Person");
-      if (person && JSON.stringify(person.knowsLanguage) !== JSON.stringify(["el", "en", "it"])) {
-        flag(page, `Person.knowsLanguage is ${JSON.stringify(person.knowsLanguage)}, it must stay el/en/it`);
+      if (person && JSON.stringify(person.knowsLanguage) !== JSON.stringify(["el", "en", "it", "fr", "de", "ru"])) {
+        flag(page, `Person.knowsLanguage is ${JSON.stringify(person.knowsLanguage)}, it must stay el/en/it/fr/de/ru`);
       }
     } catch {
       flag(page, "JSON-LD does not parse");
@@ -113,7 +113,7 @@ for (const page of pages) {
 
   // --- stale prices from the old site -------------------------------------
   const body = html.replace(/<script[\s\S]*?<\/script>/g, "");
-  if (/\b(29|39|59)\s?(€|EUR)/i.test(body)) flag(page, "a 2015 price appears in the page text");
+  if (/\d+\s?(€|EUR)|€\s?\d+/i.test(body)) flag(page, "a price appears in the page text");
 
   // --- skip link and main landmark ---------------------------------------
   if (!isRootShim && !/class="skip-link"/.test(html)) flag(page, "no skip link");

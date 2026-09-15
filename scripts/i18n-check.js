@@ -69,7 +69,7 @@ for (const slug of Object.keys(ref.serviceContent)) {
   if (!slugs.includes(slug)) errors.push(`${REF}: serviceContent has "${slug}", which no longer exists in _business.json`);
 }
 if (business.prices.published === false) {
-  const stale = JSON.stringify(ref).match(/\b(29|39|59)\s?(€|EUR|euro)/i);
+  const stale = JSON.stringify(ref).match(/\d+\s?(€|EUR|euro)|€\s?\d+/i);
   if (stale) errors.push(`${REF}: a price appears in the copy while business.prices.published is false: ${stale[0]}`);
 }
 
@@ -141,7 +141,6 @@ const manifest = fs.existsSync("content/_images.json")
 const expectedImages = [
   "hero-treatment-room",
   "village-lane",
-  "balcony-setup",
   "oils-still-life",
   "portrait-konstantinos",
   ...business.credentials.diplomas.filter((d) => d.image).map((d) => d.image),
