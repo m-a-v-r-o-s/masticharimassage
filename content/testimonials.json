@@ -284,13 +284,15 @@
       "date": "2015-08-31",
       "source": "about",
       "lang": "fr",
-      "text": "Konstantinos est un vrai professionnel. Il s'est déplacé à notre hôtel avec tout le matériel. Ponctuel, il est charmant et vraiment professionnel. Ne pas hésiter, et le forfait 1 heure est top! Même en France nous n'avons pas cette qualité dans les centres. Merci!",
+      "abridged": true,
+      "abridgedReason": "describes the in-room service, discontinued 2026-09-14",
+      "text": "Konstantinos est un vrai professionnel. Ponctuel, il est charmant et vraiment professionnel. Ne pas hésiter, et le forfait 1 heure est top! Même en France nous n'avons pas cette qualité dans les centres. Merci!",
       "t": {
-        "en": "Konstantinos is a true professional. He came to our hotel with all his equipment. Punctual, charming and genuinely professional. Don't hesitate - and the one-hour session is excellent. Even in France we don't get this quality in the centres. Thank you!",
-        "el": "Ο Κωνσταντίνος είναι πραγματικός επαγγελματίας. Ήρθε στο ξενοδοχείο μας με όλο τον εξοπλισμό. Συνεπής, γοητευτικός και πραγματικά επαγγελματίας. Μη διστάσετε: η μονόωρη συνεδρία είναι εξαιρετική. Ούτε στη Γαλλία δεν βρίσκουμε τέτοια ποιότητα στα κέντρα. Ευχαριστούμε!",
-        "de": "Konstantinos ist ein echter Profi. Er kam mit der kompletten Ausrüstung zu uns ins Hotel. Pünktlich, charmant und wirklich professionell. Nicht zögern - und die Stunde ist top! Selbst in Frankreich haben wir diese Qualität in den Studios nicht. Danke!",
-        "it": "Konstantinos è un vero professionista. È venuto in albergo con tutta l'attrezzatura. Puntuale, gentile e davvero professionale. Non esitate: il pacchetto da un'ora è ottimo. Nemmeno in Francia troviamo questa qualità nei centri. Grazie!",
-        "ru": "Констанинос оказался настоящим профессионалом. Он приехал к нам в отель со всем оборудованием. Пунктуальный, обаятельный и по-настоящему профессиональный. Не сомневайтесь: часовой сеанс отличный. Даже во Франции в салонах нет такого качества. Спасибо!"
+        "en": "Konstantinos is a true professional. Punctual, charming and genuinely professional. Don't hesitate - and the one-hour session is excellent. Even in France we don't get this quality in the centres. Thank you!",
+        "el": "Ο Κωνσταντίνος είναι πραγματικός επαγγελματίας. Συνεπής, γοητευτικός και πραγματικά επαγγελματίας. Μη διστάσετε: η μονόωρη συνεδρία είναι εξαιρετική. Ούτε στη Γαλλία δεν βρίσκουμε τέτοια ποιότητα στα κέντρα. Ευχαριστούμε!",
+        "de": "Konstantinos ist ein echter Profi. Pünktlich, charmant und wirklich professionell. Nicht zögern - und die Stunde ist top! Selbst in Frankreich haben wir diese Qualität in den Studios nicht. Danke!",
+        "it": "Konstantinos è un vero professionista. Puntuale, gentile e davvero professionale. Non esitate: il pacchetto da un'ora è ottimo. Nemmeno in Francia troviamo questa qualità nei centri. Grazie!",
+        "ru": "Констанинос оказался настоящим профессионалом. Пунктуальный, обаятельный и по-настоящему профессиональный. Не сомневайтесь: часовой сеанс отличный. Даже во Франции в салонах нет такого качества. Спасибо!"
       }
     },
     {
@@ -316,13 +318,13 @@
       "source": "services",
       "lang": "ru",
       "abridged": true,
-      "abridgedReason": "One clause listing the languages the commenter believed Konstantinos spoke in 2015 has been removed. It would read to a visitor as a service promise about language, and the site states his languages accurately elsewhere. Nothing about the massage itself has been changed.",
-      "text": "Костантинос человек своего дела! С полной отдачей уделяет внимание проблемным местам во время массажа. Учитывает все пожелания клиента. Порадовал сервис: Костантинос приходил к нам в номер отеля в удобное для нас время, с собой приносил профессиональный массажный стол. Рекомендуем массаж от Костантиноса как приятное дополнение к вашему отпуску!",
+      "abridgedReason": "Two clauses have been removed: one listing the languages the commenter believed Konstantinos spoke in 2015 (would read as a service promise about language; the site states his languages accurately elsewhere) and one describing the in-room service, discontinued 2026-09-14. Nothing else about the massage itself has been changed.",
+      "text": "Костантинос человек своего дела! С полной отдачей уделяет внимание проблемным местам во время массажа. Учитывает все пожелания клиента. Рекомендуем массаж от Костантиноса как приятное дополнение к вашему отпуску!",
       "t": {
-        "en": "Konstantinos knows his craft. He gives full attention to the problem areas during the massage and takes every request from the client into account. The service was a pleasure: he came to our hotel room at a time that suited us and brought a professional massage table with him. We recommend a massage from Konstantinos as a lovely addition to your holiday.",
-        "el": "Ο Κωνσταντίνος ξέρει τη δουλειά του. Δίνει απόλυτη προσοχή στα προβληματικά σημεία και λαμβάνει υπόψη κάθε επιθυμία του πελάτη. Η εξυπηρέτηση ήταν χαρά: ήρθε στο δωμάτιό μας την ώρα που μας βόλευε, φέρνοντας μαζί επαγγελματικό κρεβάτι μασάζ. Συνιστούμε το μασάζ του ως υπέροχη προσθήκη στις διακοπές σας.",
-        "de": "Konstantinos versteht sein Handwerk. Er kümmert sich mit voller Aufmerksamkeit um die Problemzonen und geht auf jeden Wunsch des Kunden ein. Der Service war eine Freude: Er kam zu einer für uns passenden Zeit auf unser Hotelzimmer und brachte eine professionelle Massageliege mit. Wir empfehlen eine Massage bei Konstantinos als schöne Ergänzung zum Urlaub.",
-        "it": "Konstantinos sa il fatto suo. Durante il massaggio dedica tutta l'attenzione ai punti critici e tiene conto di ogni richiesta del cliente. Il servizio è stato un piacere: è venuto nella nostra camera d'albergo all'orario che ci faceva comodo, portando un lettino professionale. Consigliamo un massaggio da Konstantinos come piacevole aggiunta alla vacanza."
+        "en": "Konstantinos knows his craft. He gives full attention to the problem areas during the massage and takes every request from the client into account. We recommend a massage from Konstantinos as a lovely addition to your holiday.",
+        "el": "Ο Κωνσταντίνος ξέρει τη δουλειά του. Δίνει απόλυτη προσοχή στα προβληματικά σημεία και λαμβάνει υπόψη κάθε επιθυμία του πελάτη. Συνιστούμε το μασάζ του ως υπέροχη προσθήκη στις διακοπές σας.",
+        "de": "Konstantinos versteht sein Handwerk. Er kümmert sich mit voller Aufmerksamkeit um die Problemzonen und geht auf jeden Wunsch des Kunden ein. Wir empfehlen eine Massage bei Konstantinos als schöne Ergänzung zum Urlaub.",
+        "it": "Konstantinos sa il fatto suo. Durante il massaggio dedica tutta l'attenzione ai punti critici e tiene conto di ogni richiesta del cliente. Consigliamo un massaggio da Konstantinos come piacevole aggiunta alla vacanza."
       }
     },
     {
@@ -501,12 +503,14 @@
       "date": "2016-09-29",
       "source": "about",
       "lang": "de",
-      "text": "Kann ich nur weiter empfehlen! Er bringt seine Liege mit aufs Zimmer, wäscht sich die Hände, fragt nach Schmerzen, wo behandelt werden soll, und los geht's. Aus medizinischer Sicht einwandfrei! Sehr freundlich. Das Preis-Leistungs-Verhältnis ist super!",
+      "abridged": true,
+      "abridgedReason": "describes the in-room service, discontinued 2026-09-14",
+      "text": "Kann ich nur weiter empfehlen! Er wäscht sich die Hände, fragt nach Schmerzen, wo behandelt werden soll, und los geht's. Aus medizinischer Sicht einwandfrei! Sehr freundlich. Das Preis-Leistungs-Verhältnis ist super!",
       "t": {
-        "en": "I can only recommend him. He brings his table up to the room, washes his hands, asks where it hurts and where you want to be worked on, and off you go. From a medical point of view, faultless. Very friendly. The value for money is great.",
-        "el": "Τον συνιστώ ανεπιφύλακτα! Φέρνει το κρεβάτι του στο δωμάτιο, πλένει τα χέρια του, ρωτάει πού πονάς και πού θέλεις να δουλέψει, και ξεκινάς. Από ιατρικής πλευράς, άψογος. Πολύ φιλικός. Η σχέση ποιότητας-τιμής είναι εξαιρετική!",
-        "it": "Posso solo consigliarlo! Porta il lettino in camera, si lava le mani, chiede dove fa male e dove vuoi essere trattata, e si comincia. Dal punto di vista medico, impeccabile. Molto cordiale. Il rapporto qualità-prezzo è ottimo!",
-        "ru": "Могу только рекомендовать! Он приносит стол прямо в номер, моет руки, спрашивает, где болит и где нужно поработать, и начинает. С медицинской точки зрения безупречно. Очень приветливый. Соотношение цены и качества отличное!"
+        "en": "I can only recommend him. He washes his hands, asks where it hurts and where you want to be worked on, and off you go. From a medical point of view, faultless. Very friendly. The value for money is great.",
+        "el": "Τον συνιστώ ανεπιφύλακτα! Πλένει τα χέρια του, ρωτάει πού πονάς και πού θέλεις να δουλέψει, και ξεκινάς. Από ιατρικής πλευράς, άψογος. Πολύ φιλικός. Η σχέση ποιότητας-τιμής είναι εξαιρετική!",
+        "it": "Posso solo consigliarlo! Si lava le mani, chiede dove fa male e dove vuoi essere trattata, e si comincia. Dal punto di vista medico, impeccabile. Molto cordiale. Il rapporto qualità-prezzo è ottimo!",
+        "ru": "Могу только рекомендовать! Он моет руки, спрашивает, где болит и где нужно поработать, и начинает. С медицинской точки зрения безупречно. Очень приветливый. Соотношение цены и качества отличное!"
       }
     },
     {

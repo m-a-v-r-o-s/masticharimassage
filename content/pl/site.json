@@ -25,7 +25,7 @@
     "minutes": "min",
     "priceLabel": "Cena",
     "priceOnRequest": "Na zapytanie",
-    "priceNote": "Ceny podawane są po kontakcie, dzięki czemu zawsze poznajesz aktualną stawkę, a czas dojazdu jest uczciwie uwzględniony.",
+    "priceNote": "Ceny podawane są po kontakcie, dzięki czemu zawsze poznajesz aktualną stawkę.",
     "goodFor": "Z czym zwykle przychodzą",
     "howItWorks": "Jak wygląda sesja",
     "readMore": "Czytaj dalej",
@@ -43,7 +43,7 @@
     "hoursLabel": "Godziny",
     "phoneLabel": "Telefon i WhatsApp",
     "emailLabel": "E-mail",
-    "areaLabel": "Obszar dojazdu",
+    "areaLabel": "Skąd przyjeżdżają klienci",
     "findMe": "Gdzie mnie znaleźć",
     "footerServices": "Masaże",
     "footerLinks": "Strony",
@@ -69,8 +69,8 @@
   },
   "meta": {
     "home": {
-      "title": "Masaż w Mastichari, Kos - u mnie lub w Twoim hotelu",
-      "description": "Profesjonalny masaż w Mastichari, Tigaki i Marmari, Kos. Certyfikowany masażysta od 2011 roku, u mnie lub w hotelu."
+      "title": "Masaż w Mastichari, Kos - gabinet obok Ghitonia",
+      "description": "Profesjonalny masaż w moim gabinecie w Mastichari, Kos, tuż obok Ghitonia. Certyfikowany masażysta od 2011 roku. Klienci przyjeżdżają z Tigaki, Marmari i całej wyspy."
     },
     "about": {
       "title": "Konstantinos Fessaras - certyfikowany masażysta na Kos",
@@ -78,11 +78,11 @@
     },
     "services": {
       "title": "Masaże w Mastichari na Kos - całego ciała, sportowy, relaksacyjny",
-      "description": "Masaż całego ciała, relaksacyjny, leczniczo-sportowy, pleców, indyjski masaż głowy, stóp i aromaterapia na Kos. Ceny na zapytanie."
+      "description": "Masaż całego ciała, relaksacyjny, leczniczo-sportowy, przy zamrożonym barku, pleców, indyjski masaż głowy, stóp i aromaterapia w Mastichari, Kos. Ceny na zapytanie."
     },
     "location": {
-      "title": "Masaż w Mastichari, Tigaki i Marmari - u mnie lub u Ciebie | Kos",
-      "description": "Przyjdź do mojego gabinetu w Mastichari, albo przywiozę leżankę do Twojego hotelu w Mastichari, Tigaki i Marmari."
+      "title": "Gabinet masażu w Mastichari, Kos - obok Ghitonia",
+      "description": "Mój gabinet masażu znajduje się w centrum Mastichari, tuż obok Ghitonia. Klienci przyjeżdżają z Tigaki, Marmari i całej wyspy. Codziennie od 9:00 do 22:00."
     },
     "contact": {
       "title": "Umów masaż na Kos - telefon, WhatsApp lub formularz",
@@ -110,53 +110,57 @@
     },
     "service": {
       "full-body-massage": {
-        "title": "Masaż całego ciała w Mastichari, Kos - u mnie lub w Twoim hotelu",
-        "description": "Masaż całego ciała, 45, 60 lub 90 minut, u mnie lub w hotelu w Mastichari, Tigaki lub Marmari. Certyfikowany masażysta."
+        "title": "Masaż całego ciała w Mastichari, Kos - w moim gabinecie",
+        "description": "Masaż całego ciała, od 30 do 90 minut, w moim gabinecie w Mastichari, Kos, obok Ghitonia. Certyfikowany masażysta."
       },
       "relaxing-massage": {
-        "title": "Masaż relaksacyjny w Mastichari, Kos - u mnie lub u Ciebie",
-        "description": "Klasyczny masaż relaksacyjny u mnie lub w hotelu w Mastichari, Tigaki lub Marmari. Dobry wybór na pierwszy masaż."
+        "title": "Masaż relaksacyjny w Mastichari, Kos - w moim gabinecie",
+        "description": "Klasyczny masaż relaksacyjny w moim gabinecie w Mastichari, Kos. Dobry wybór na pierwszy masaż."
       },
       "therapeutic-sports-massage": {
         "title": "Masaż sportowy i leczniczy na Kos - plecy, kark, urazy",
-        "description": "Głęboki masaż terapeutyczny i sportowy na Kos przy bólu pleców, rwie kulszowej i starych kontuzjach. U mnie lub w hotelu."
+        "description": "Głęboki masaż terapeutyczny i sportowy w moim gabinecie w Mastichari, Kos, przy bólu pleców, rwie kulszowej i starych kontuzjach."
+      },
+      "frozen-shoulder-treatment": {
+        "title": "Zabieg na zamrożony bark w Mastichari, Kos",
+        "description": "Delikatna, stopniowa praca ze sztywnym lub bolesnym barkiem, w moim gabinecie w Mastichari, Kos. To nie leczenie: najpierw uzyskaj diagnozę u lekarza."
       },
       "antistress-back-massage": {
         "title": "Masaż pleców w Mastichari na Kos - antystresowy, od lędźwi po kark",
-        "description": "Antystresowy masaż pleców od lędźwi po kark, u mnie lub w hotelu na Kos. Najlepsze 45 minut dla zmęczonych pleców."
+        "description": "Antystresowy masaż pleców od lędźwi po kark, w moim gabinecie w Mastichari, Kos. Najlepsza sesja dla zmęczonych pleców."
       },
       "indian-head-massage": {
         "title": "Indyjski masaż głowy na Kos - kark, barki i skóra głowy, na siedząco",
-        "description": "Indyjski masaż głowy na Kos: kark, ramiona, skóra głowy i twarz, na siedząco i w ubraniu. U mnie lub w hotelu."
+        "description": "Indyjski masaż głowy w moim gabinecie w Mastichari, Kos: kark, ramiona, skóra głowy i twarz, na siedząco i w ubraniu."
       },
       "foot-massage": {
         "title": "Masaż stóp i refleksologia w Mastichari na Kos",
-        "description": "Masaż stóp i refleksologia u mnie lub w hotelu na Kos, dla stóp zmęczonych całodziennym chodzeniem. Cena po kontakcie."
+        "description": "Masaż stóp i refleksologia w moim gabinecie w Mastichari, Kos, dla stóp zmęczonych całodziennym chodzeniem. Cena po kontakcie."
       },
       "aromatherapy": {
         "title": "Masaż aromaterapeutyczny w Mastichari na Kos",
-        "description": "Masaż aromaterapeutyczny z naturalnymi olejkami eterycznymi, u mnie lub w hotelu na Kos. Certyfikat z masażu olejkowego."
+        "description": "Masaż aromaterapeutyczny z naturalnymi olejkami eterycznymi, w moim gabinecie w Mastichari, Kos. Certyfikat z masażu olejkowego."
       }
     }
   },
   "home": {
     "heroKicker": "Mastichari, Tigaki i Marmari - Kos",
-    "heroTitle": "Masaż na *Kos*,",
-    "heroTitleAccent": "gdziekolwiek jesteś.",
-    "heroLede": "Nazywam się Konstantinos, jestem certyfikowanym masażystą na Kos od 2011 roku. Przyjdź do mnie do Mastichari, albo przywiozę leżankę do Twojego hotelu lub willi w Tigaki i Marmari.",
+    "heroTitle": "Każde ciało szuka swojego masażu,",
+    "heroTitleAccent": "w *Mastichari* je znajduje.",
+    "heroLede": "Nazywam się Konstantinos, jestem certyfikowanym masażystą na Kos od 2011 roku. Przyjdź do mojego gabinetu w centrum Mastichari, tuż obok Ghitonia.",
     "heroPrimary": "Umów przez WhatsApp",
     "heroSecondary": "Zobacz masaże",
     "heroCallPrefix": "albo zadzwoń",
-    "heroBadge": "Grecki, angielski i włoski",
+    "heroBadge": "Mówię po grecku, angielsku, włosku, francusku, niemiecku i rosyjsku",
     "heroStatValue": "15+",
     "heroStatLabel": "lat doświadczenia",
-    "introTitle": "Jeden masażysta, dwa sposoby",
-    "introBody": "Nie ma tu sieci spa ani pakietu do wykupienia. Albo przychodzisz do mnie, do pieszej strefy w centrum Mastichari, albo ja przyjeżdżam tam, gdzie mieszkasz, z profesjonalną leżanką, olejkami i czystą pościelą. Niezależnie od wyboru, najpierw ustalamy, nad czym trzeba popracować. Większość osób umawia się z powodu zesztywniałego karku, zmęczonych pleców albo po prostu dlatego, że są na wakacjach i chcą mieć godzinę tylko dla siebie.",
+    "introTitle": "Jeden masażysta, jeden spokojny gabinet",
+    "introBody": "Nie ma tu sieci spa ani pakietu do wykupienia. Przychodzisz do mojego gabinetu w pieszej strefie w centrum Mastichari, tuż obok Ghitonia, gdzie leżanka, olejki i czysta pościel są już gotowe. Zanim cokolwiek się zacznie, ustalamy, nad czym trzeba popracować. Większość osób umawia się z powodu zesztywniałego karku, zmęczonych pleców albo po prostu dlatego, że są na wakacjach i chcą mieć godzinę tylko dla siebie.",
     "pointsTitle": "Co to znaczy w praktyce",
     "points": [
       {
-        "title": "U Ciebie albo u mnie",
-        "body": "Najczęściej przyjeżdżam do Ciebie: pokój hotelowy, apartament, willa lub balkon, w Mastichari, Tigaki i Marmari. Albo przyjdź do mnie, do centrum Mastichari, tuż obok sklepu z pamiątkami Ghitonia."
+        "title": "Mój gabinet w Mastichari",
+        "body": "Gabinet znajduje się w pieszej strefie w centrum Mastichari, tuż obok sklepu z pamiątkami Ghitonia. Klienci przyjeżdżają z Tigaki, Marmari i jeszcze dalej, z całej wyspy Kos."
       },
       {
         "title": "Najpierw rozmawiamy",
@@ -172,13 +176,13 @@
       }
     ],
     "servicesTitle": "Masaże",
-    "servicesIntro": "Siedem zabiegów. Jeśli nie wiesz, który wybrać, powiedz, co boli, a ja coś zaproponuję.",
+    "servicesIntro": "Osiem zabiegów. Jeśli nie wiesz, który wybrać, powiedz, co boli, a ja coś zaproponuję.",
     "servicesCta": "Zobacz wszystkie masaże",
     "howTitle": "Jak się umówić",
     "howSteps": [
       {
         "title": "Napisz wiadomość",
-        "body": "WhatsApp jest najszybszy, telefon też się sprawdza, formularz na stronie również. Napisz, czy wolisz przyjść do mnie, czy żebym ja przyjechał, i kiedy Ci pasuje."
+        "body": "WhatsApp jest najszybszy, telefon też się sprawdza, formularz na stronie również. Napisz, kiedy Ci pasuje, a ja potwierdzę godzinę w gabinecie."
       },
       {
         "title": "Ustalamy godzinę",
@@ -186,14 +190,14 @@
       },
       {
         "title": "Masaż",
-        "body": "U mnie wszystko jest już gotowe. Jeśli przyjeżdżam do Ciebie, przygotowanie zajmuje kilka minut. W obu przypadkach zostajesz w bieliźnie i przez cały czas jesteś okryty ręcznikiem, poza obszarem, na którym pracuję."
+        "body": "W gabinecie wszystko jest już gotowe. Zostajesz w bieliźnie i przez cały czas jesteś okryty ręcznikiem, poza obszarem, na którym pracuję."
       }
     ],
     "areaTitle": "Gdzie odbywa się masaż",
-    "areaBody": "U mnie, w centrum Mastichari, albo tam, gdzie mieszkasz: w Mastichari, Tigaki i Marmari oraz w okolicznych hotelach i apartamentach. Jeśli mieszkasz gdzie indziej na Kos, zapytaj. Często się udaje, zależy tylko od pory dnia.",
+    "areaBody": "W moim gabinecie, w centrum Mastichari, tuż obok Ghitonia. Klienci przyjeżdżają tu z Tigaki, Marmari i innych miejsc na Kos: jeśli mieszkasz dalej, zapytaj, a szczerze powiem, czy to wygodny dojazd.",
     "areaCta": "Zobacz okolicę dokładniej",
     "ctaTitle": "Podaruj sobie tę godzinę",
-    "ctaBody": "Napisz, czy przyjdziesz do mnie, czy mam przyjechać do Ciebie, i orientacyjną godzinę. Powiem, co jest wolne dzisiaj.",
+    "ctaBody": "Napisz orientacyjną godzinę, która Ci pasuje. Powiem, co jest wolne dzisiaj.",
     "reviewsCta": "Przeczytaj opinie gości",
     "heroRoomAlt": "Stół do masażu zaścielony czystą pościelą w cichym, jasnym pokoju, obok złożony ręcznik i mała buteleczka olejku.",
     "heroImageAlt": "Konstantinos Fessaras pracuje wzdłuż pleców klientki na leżance do masażu, w jasnym białym pomieszczeniu.",
@@ -205,11 +209,11 @@
     "lede": "Konstantinos Fessaras - masażysta, Mastichari, Kos.",
     "bio": [
       "Zawodowo zajmuję się masażem od 2011 roku. Uczyłem się masażu relaksacyjnego, leczniczego i sportowego, potem indyjskiego masażu głowy, aromaterapii i tajskiego masażu olejowego, a także ukończyłem osobne seminaria o rwie kulszowej oraz bólu w górnej i dolnej części pleców.",
-      "Pracuję sam. Nie ma recepcji, kolejki ani naciągania na dodatkowe usługi: jestem tylko ja, profesjonalna leżanka do masażu i zarezerwowana przez Ciebie godzina. Teraz pracuję na oba sposoby: we własnym miejscu w centrum Mastichari i tam, gdzie mieszkasz, bo po dobrym masażu ostatnią rzeczą, na jaką ma się ochotę, jest ubieranie się i dokądś jazda.",
-      "Pracuję głównie z gośćmi mieszkającymi w Mastichari, Tigaki i Marmari, i od lat współpracuję z hotelami oraz kompleksami apartamentów w tej części wyspy. Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok rodzinnego sklepu z pamiątkami Ghitonia, jeśli mnie tam nie ma, rodzina powie, gdzie jestem, albo po prostu zadzwoń."
+      "Pracuję sam. Nie ma recepcji, kolejki ani naciągania na dodatkowe usługi: jestem tylko ja, profesjonalna leżanka do masażu i zarezerwowana przez Ciebie godzina, we własnym miejscu w centrum Mastichari.",
+      "Pracuję głównie z gośćmi mieszkającymi w Mastichari, Tigaki i Marmari, ale sporo klientów przyjeżdża też z daleka, z całej wyspy. Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok rodzinnego sklepu z pamiątkami Ghitonia, jeśli mnie tam nie ma, rodzina powie, gdzie jestem, albo po prostu zadzwoń."
     ],
     "languagesTitle": "Języki",
-    "languagesBody": "Mówię po grecku, angielsku i włosku. Ta strona jest dostępna w większej liczbie języków, żebyś mógł przeczytać o masażach we własnym, ale rozmowa w dniu wizyty odbędzie się po grecku, angielsku lub włosku.",
+    "languagesBody": "Mówię po grecku, angielsku, włosku, francusku, niemiecku i rosyjsku. Ta strona jest dostępna jeszcze w kilku językach, żebyś mógł przeczytać o masażach we własnym, ale rozmowa w dniu wizyty odbędzie się w jednym z tych sześciu.",
     "credentialsTitle": "Szkolenia i certyfikaty",
     "credentialsIntro": "Poniższe skany to moje własne certyfikaty. Tam, gdzie certyfikat ma numer i datę, są one podane dokładnie tak, jak widnieją na dokumencie.",
     "credentialNames": {
@@ -229,13 +233,14 @@
     "sessionAlt1": "Konstantinos prowadzi przedramię wzdłuż pleców klientki podczas zabiegu.",
     "sessionAlt2": "Konstantinos nalewa olejek do masażu na dłoń, zanim zacznie pracę na plecach klientki.",
     "ctaTitle": "Umów sesję",
-    "ctaBody": "Napisz, co Cię dolega i czy wolisz przyjść do mnie, czy żebym przyjechał do Ciebie. Zaproponuję masaż i godzinę."
+    "ctaBody": "Napisz, co Cię dolega. Zaproponuję masaż i godzinę."
   },
   "services": {
     "title": "Masaże",
-    "lede": "Siedem zabiegów, wszystkie z profesjonalną leżanką, u mnie w Mastichari albo tam, gdzie mieszkasz. Sesje trwają zwykle 45 minut, dla masażu całego ciała dostępne są też 60 i 90 minut.",
+    "lede": "Osiem zabiegów, wszystkie z profesjonalną leżanką, w moim gabinecie w Mastichari.",
+    "mixNote": "Każde ciało jest inne, więc i masaż jest za każdym razem inny. Zwykle to połączenie relaksacyjnego, szwedzkiego, leczniczego, sportowego, deep tissue massage i masażu tajskiego. Trwa od 30 do 90 minut.",
     "pricingTitle": "O cenach",
-    "pricingBody": "Ceny podaję po kontakcie. Dzięki temu zawsze poznajesz aktualną stawkę, a nie liczbę zapomnianą na starej stronie, a jeśli muszę dojechać do Ciebie, jest to uczciwie uwzględnione.",
+    "pricingBody": "Ceny podaję po kontakcie. Dzięki temu zawsze poznajesz aktualną stawkę, a nie liczbę zapomnianą na starej stronie.",
     "chooseHelp": "Nie wiesz, który wybrać? Napisz, co boli albo jak wyglądał Twój tydzień, a ja coś zaproponuję, kiedy się odezwiesz.",
     "cardCta": "Przeczytaj o tym masażu",
     "imageAlt": "Małe buteleczki z ciemnego szkła z olejkiem do masażu na lnianej tkaninie, obok miseczka z suszonymi ziołami."
@@ -246,7 +251,7 @@
       "short": "Całe ciało opracowane po kolei - plecy, kark, barki, ramiona, nogi, stopy i dłonie.",
       "lede": "Masaż całego ciała znaczy dokładnie tyle: w trakcie sesji terapeuta opracowuje całe ciało, a nie jedną okolicę. Plecy, kark, barki, ramiona, nogi, stopy i dłonie.",
       "body": [
-        "To masaż, który większość osób rezerwuje jako pierwszy, i ten, który najlepiej pasuje do wakacji. Rozłożony na 60 lub 90 minut przestaje być szybkim rozluźnieniem, a staje się prawdziwym resetem - jest czas na miejsca, które naprawdę tego potrzebują, zamiast przelatywania przez wszystko.",
+        "To masaż, który większość osób rezerwuje jako pierwszy, i ten, który najlepiej pasuje do wakacji. Rozłożony na pełne 90 minut przestaje być szybkim rozluźnieniem, a staje się prawdziwym resetem - jest czas na miejsca, które naprawdę tego potrzebują, zamiast przelatywania przez wszystko.",
         "Pracuję na olejku, z siłą nacisku, którą wspólnie ustalamy, i pytam po drodze, jak się czujesz. Zostajesz w bieliźnie i jesteś przykryty ręcznikiem poza miejscem, nad którym akurat pracuję."
       ],
       "goodFor": [
@@ -297,13 +302,30 @@
       ],
       "imageAlt": "Rolka taśmy kinesiotaping, butelka olejku i drewniane narzędzie do masażu na złożonym białym ręczniku."
     },
+    "frozen-shoulder-treatment": {
+      "name": "Zabieg na zamrożony bark",
+      "short": "Delikatna, stopniowa praca ze sztywnym lub bolesnym barkiem, górną częścią pleców i karkiem, w komfortowym zakresie ruchu.",
+      "lede": "Zabieg na zamrożony bark to delikatna, stopniowa praca nad mięśniami barku, górnej części pleców i karku, nastawiona na komfort, a nie na siłę.",
+      "body": [
+        "Nacisk ustalamy przed rozpoczęciem, a przez całą sesję pozostaję w komfortowym zakresie ruchu - nic nie jest dociskane ani forsowane. Zamrożony bark powinien najpierw zdiagnozować lekarz, a ta sesja tego nie zastępuje: nie leczy go, nie przywraca ruchomości ani nie skraca rekonwalescencji. To delikatna, ręczna praca nad mięśniami wokół sztywnego lub bolesnego barku.",
+        "Jeśli powiedziano Ci, że masz zamrożony bark, albo tak podejrzewasz, powiedz mi o tym przy rezerwacji, żebym wiedział, czego się spodziewać i czego unikać."
+      ],
+      "goodFor": [
+        "Sztywny, bolesny bark, który jest już pod opieką lekarza",
+        "Napięcie, które rozprzestrzeniło się z barku na górną część pleców i kark",
+        "Delikatną, ostrożną pracę zamiast głębokiego nacisku",
+        "Uzupełnienie już prowadzonej fizjoterapii",
+        "Po prostu chęć, żeby ten obszar był opracowany ze szczególną ostrożnością"
+      ],
+      "imageAlt": "Zbliżenie: obie dłonie delikatnie pracują nad barkiem i górną częścią pleców klientki."
+    },
     "antistress-back-massage": {
       "name": "Antystresowy masaż pleców",
       "short": "Same plecy, od odcinka lędźwiowego po kark. Najprzyjemniejsza pozycja na tej liście.",
       "lede": "Dla większości osób plecy to najlepsze miejsce do masowania, a ten masaż nie robi nic innego. Prowadzi od odcinka lędźwiowego w górę aż po kark.",
       "body": [
         "Uspokaja i zdejmuje napięcie całego tygodnia. Ludzie wstają ze stołu z miną, jakby byli na wakacjach od trzech dni, a nie od jednego popołudnia. Pasuje w każdym wieku.",
-        "To oczywisty prezent dla kogoś, kto pracuje przy biurku albo siedzi godzinami przed ekranem. Jeśli masz tylko 45 minut i chcesz z nich najbardziej odczuwalny efekt, wybierz ten."
+        "To oczywisty prezent dla kogoś, kto pracuje przy biurku albo siedzi godzinami przed ekranem. Jeśli masz tylko pół godziny i chcesz z niego najbardziej odczuwalny efekt, wybierz ten."
       ],
       "goodFor": [
         "Napięcie trzymające się w barkach i górnej części pleców",
@@ -373,39 +395,36 @@
   },
   "location": {
     "title": "Gdzie odbywa się masaż",
-    "lede": "Dwie opcje: przyjdź do mnie, do centrum Mastichari, albo ja przyjeżdżam do Ciebie z leżanką, olejkami i czystą pościelą, więc nigdzie nie musisz jechać.",
-    "areasTitle": "Miejsca, do których dojeżdżam",
+    "lede": "Mój gabinet znajduje się w centrum Mastichari, tuż obok Ghitonia. Klienci przyjeżdżają z Tigaki, Marmari i jeszcze dalej, z całej wyspy.",
+    "areasTitle": "Skąd przyjeżdżają klienci",
     "areas": [
       {
         "name": "Mastichari",
-        "body": "Moja rodzinna wieś na północnym wybrzeżu Kos, tam też jest moje własne miejsce. Hotele, apartamenty i pokoje w całej wsi i wzdłuż drogi nadmorskiej."
+        "body": "Moja rodzinna wieś na północnym wybrzeżu Kos, tam też jest gabinet. Jeśli mieszkasz we wsi albo wzdłuż drogi nadmorskiej, to krótki spacer albo krótki dojazd."
       },
       {
         "name": "Tigaki",
-        "body": "Około 20 minut na wschód wzdłuż wybrzeża. Hotele, kompleksy apartamentów i wille."
+        "body": "Około 20 minut na zachód wzdłuż wybrzeża samochodem. Wielu gości z hoteli i apartamentów Tigaki przyjeżdża na sesję."
       },
       {
         "name": "Marmari",
-        "body": "Pomiędzy nimi, na tym samym północnym wybrzeżu. Hotele i apartamenty."
+        "body": "Pomiędzy nimi, na tym samym północnym wybrzeżu, około 10-15 minut samochodem."
       }
     ],
     "elsewhereTitle": "Mieszkasz gdzie indziej na Kos?",
-    "elsewhereBody": "Zapytaj. Często się udaje, wszystko zależy od pory dnia i od tego, jak zajęta jest reszta dnia. Napisz, gdzie mieszkasz, a szczerze powiem, czy dam radę dojechać.",
+    "elsewhereBody": "Nadal jesteś mile widziany. Napisz, gdzie mieszkasz, a szczerze powiem, czy to wygodny dojazd na wizytę.",
     "whereTitle": "Moje miejsce w Mastichari",
-    "whereBody": "Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok Ghitonia, rodzinnego sklepu z pamiątkami: obok, ale to inne drzwi. Centrum jest bez ruchu samochodowego, więc zaparkuj na skraju i przejdź ostatni odcinek pieszo; pinezka Google Maps poniżej zaprowadzi Cię dokładnie tutaj. Mile widziane są zarówno osoby wpadające bez zapowiedzi, jak i te umówione, ale wiadomość z wyprzedzeniem oznacza, że nie będziesz czekać, jeśli akurat jestem na wyjeździe.",
+    "whereBody": "Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok Ghitonia, rodzinnego sklepu z pamiątkami: obok, ale to inne drzwi. Centrum jest bez ruchu samochodowego, więc zaparkuj na skraju i przejdź ostatni odcinek pieszo; pinezka Google Maps poniżej zaprowadzi Cię dokładnie tutaj. Mile widziane są zarówno osoby wpadające bez zapowiedzi, jak i te umówione, ale wiadomość z wyprzedzeniem oznacza, że nie będziesz czekać, jeśli akurat jestem z innym klientem.",
     "mapTitle": "Dokładne miejsce",
     "studioAddressLine": "Piesza strefa centrum Mastichari, obok Ghitonia",
     "mapBody": "Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok Ghitonia. Skorzystaj z mapy, żeby trafić na miejsce, albo żeby zostawić opinię po masażu.",
     "mapCta": "Zobacz w Mapach Google",
     "directionsCta": "Wyznacz trasę",
-    "hotelsTitle": "Hotele i apartamenty",
-    "hotelsBodyGeneric": "Od lat współpracuję z hotelami i kompleksami apartamentów w Mastichari, Tigaki i Marmari, a wiele rezerwacji przychodzi przez recepcję. Jeśli mieszkasz w hotelu, możesz zapytać w recepcji - albo napisać do mnie bezpośrednio, co zwykle idzie szybciej.",
-    "hotelsBodyNamed": "Z tymi obiektami pracowałem przez lata i wiele rezerwacji nadal przychodzi przez ich recepcje:",
-    "practicalTitle": "Jeśli przyjeżdżam do Ciebie, czego potrzebuję w pokoju",
-    "practicalBody": "Bardzo niewiele: około dwóch metrów wolnej podłogi, gniazdko nawet nie jest konieczne. Ustawiam leżankę i zabieram ją z powrotem. W pokoju hotelowym, na balkonie czy na tarasie sprawdza się tak samo dobrze. U mnie nie trzeba niczego przygotowywać: wszystko jest już gotowe.",
+    "practicalTitle": "Gdy przyjedziesz",
+    "practicalBody": "Wszystko jest już gotowe: leżanka, olejki i czysta pościel czekają, zanim jeszcze dotrzesz. Nie musisz niczego przynosić ani przygotowywać - po prostu zapukaj, albo napisz wcześniej, jeśli wolisz nie czekać.",
     "hoursTitle": "Godziny",
-    "hoursBody": "Codziennie od 9:00 do 22:00, tak samo w moim miejscu, jak i przy wizycie u Ciebie. Wizyty wieczorne cieszą się popularnością w wysokim sezonie, więc im wcześniej zapytasz, tym większy wybór.",
-    "imageAlt": "Stół do masażu rozstawiony na zacienionym balkonie, za balustradą widać morze."
+    "hoursBody": "Codziennie od 9:00 do 22:00. Wizyty wieczorne cieszą się popularnością w wysokim sezonie, więc im wcześniej zapytasz, tym większy wybór.",
+    "imageAlt": "Gabinet masażu w Mastichari: leżanka zaścielona czystą pościelą, gotowa na sesję."
   },
   "contact": {
     "title": "Umów masaż",
@@ -414,15 +433,13 @@
     "phoneBody": "Codziennie, 9:00 - 22:00.",
     "emailBody": "Do wszystkiego, co nie jest pilne.",
     "formTitle": "Albo wyślij zgłoszenie rezerwacji",
-    "formIntro": "Napisz, czy wolisz przyjść do mnie, czy żebym przyjechał do Ciebie, kiedy Ci pasuje i jakiego masażu szukasz. Nic nie jest potwierdzone, dopóki nie odpowiem.",
+    "formIntro": "Napisz, kiedy Ci pasuje i jakiego masażu szukasz. Nic nie jest potwierdzone, dopóki nie odpowiem.",
     "form": {
       "name": "Twoje imię",
       "email": "E-mail",
       "emailHint": "Żebym mógł Ci odpowiedzieć.",
       "phone": "Telefon lub numer WhatsApp",
       "phoneHint": "Opcjonalnie, ale odpowiedź przychodzi wtedy dużo szybciej.",
-      "where": "Gdzie chciał(a)byś masaż",
-      "whereHint": "Albo \"w gabinecie masażu w Mastichari\", albo tam, gdzie mieszkasz - na przykład \"Princess of Kos, Mastichari\" lub \"apartament w Tigaki\".",
       "service": "Jaki masaż",
       "serviceAny": "Jeszcze nie wiem - poproszę o propozycję",
       "when": "Kiedy chciałbyś",
@@ -440,7 +457,6 @@
       "name": "Podaj imię, którego mam użyć w odpowiedzi.",
       "email": "Podaj adres e-mail, na który mogę odpowiedzieć, na przykład imie@example.com.",
       "emailInvalid": "To nie wygląda na pełny adres e-mail. Sprawdź go, proszę.",
-      "where": "Napisz, proszę, gdzie chciał(a)byś masaż, żebym wiedział, czy mogę tam dojechać.",
       "message": "Wiadomość powinna mieć mniej niż 2000 znaków.",
       "consent": "Zaznacz pole, żebym mógł Ci odpowiedzieć.",
       "rateLimit": "To dużo zgłoszeń w krótkim czasie. Odczekaj kilka minut i spróbuj ponownie - albo po prostu napisz na WhatsAppie, to zawsze działa.",
@@ -452,12 +468,12 @@
     "faqTitle": "Częste pytania",
     "faq": [
       {
-        "q": "Ja przyjeżdżam do Ciebie, czy Ty przyjeżdżasz do mnie?",
-        "a": "Oba sposoby działają. Moje własne miejsce znajduje się w pieszej strefie centrum Mastichari, tuż obok sklepu z pamiątkami Ghitonia, i tam wszystko jest już gotowe. Albo przyjeżdżam do Ciebie: przywożę profesjonalną leżankę, olejki i czystą pościel, ustawiam w kilka minut i potem wszystko zabieram. Potrzebuję tylko około dwóch metrów wolnej podłogi."
+        "q": "Dokąd mam przyjść na masaż?",
+        "a": "Do mojego własnego miejsca, w pieszej strefie centrum Mastichari, tuż obok sklepu z pamiątkami Ghitonia. Tam wszystko jest już gotowe."
       },
       {
         "q": "Czy mogę po prostu wpaść bez umówienia?",
-        "a": "Tak, możesz zapukać do mnie w Mastichari w godzinach otwarcia. Często jednak jestem na wyjeździe, więc krótka wiadomość na WhatsApp z wyprzedzeniem oznacza, że nie trafisz na zamknięte drzwi."
+        "a": "Tak, możesz zapukać do mnie w Mastichari w godzinach otwarcia. Często jednak jestem już z innym klientem, więc krótka wiadomość na WhatsApp z wyprzedzeniem oznacza, że nie trafisz na zamknięte drzwi."
       },
       {
         "q": "Ile to kosztuje?",
@@ -485,15 +501,15 @@
       },
       {
         "q": "W jakich językach mówisz?",
-        "a": "Po grecku, angielsku i włosku. Ta strona jest dostępna w większej liczbie języków, żebyś mógł przeczytać o masażach we własnym, ale rozmowa w dniu wizyty odbędzie się w jednym z tych trzech."
+        "a": "Po grecku, angielsku, włosku, francusku, niemiecku i rosyjsku. Ta strona jest dostępna jeszcze w kilku językach, żebyś mógł przeczytać o masażach we własnym, ale rozmowa w dniu wizyty odbędzie się w jednym z tych sześciu."
       },
       {
         "q": "Czy płaci się zadatek?",
         "a": "Nie. Nic nie płaci się online i nie ma zadatku. Płacisz po masażu."
       },
       {
-        "q": "Jakie obszary obsługujesz?",
-        "a": "Moje własne miejsce jest w centrum Mastichari. Jeśli chodzi o przyjazd do Ciebie: Mastichari, Tigaki i Marmari oraz okoliczne hotele i apartamenty. Gdzie indziej na Kos - zapytaj, często się udaje, w zależności od pory dnia."
+        "q": "Z jakich obszarów przyjeżdżają Twoi klienci?",
+        "a": "Moje własne miejsce jest w centrum Mastichari. Klienci przyjeżdżają z Tigaki, Marmari i innych miejsc na Kos: napisz do mnie, a szczerze powiem, czy to wygodny dojazd."
       }
     ],
     "success": {
@@ -545,7 +561,7 @@
       {
         "h": "Co zbiera formularz rezerwacji",
         "p": [
-          "Jeśli wyślesz formularz rezerwacji, otrzymam: Twoje imię, adres e-mail, numer telefonu, jeśli go podałeś, informację, gdzie chcesz, żeby odbył się masaż, o jaki masaż pytasz, kiedy chciałbyś go mieć, wszystko, co wpiszesz w polu wiadomości, oraz fakt zaznaczenia pola zgody.",
+          "Jeśli wyślesz formularz rezerwacji, otrzymam: Twoje imię, adres e-mail, numer telefonu, jeśli go podałeś, o jaki masaż pytasz, kiedy chciałbyś go mieć, wszystko, co wpiszesz w polu wiadomości, oraz fakt zaznaczenia pola zgody.",
           "Służy to jednej rzeczy: żeby Ci odpowiedzieć i ustalić termin. Nie jest wykorzystywane do marketingu, nikomu nieudostępniane i niesprzedawane."
         ]
       },
@@ -673,14 +689,13 @@
         "h": "Odwoływanie i zmiany",
         "p": [
           "Na wakacjach plany się zmieniają i nie ma opłaty za odwołanie. Jeśli nie możesz przyjść, powiedz mi o tym tak wcześnie, jak to rozsądnie możliwe, żeby ten termin mógł trafić do kogoś innego.",
-          "Jeśli to ja muszę odwołać - choroba, problem z dojazdem, coś poza moją kontrolą - powiem Ci o tym, gdy tylko będę wiedział, i w miarę możliwości zaproponuję inny termin."
+          "Jeśli to ja muszę odwołać - choroba lub coś innego poza moją kontrolą - powiem Ci o tym, gdy tylko będę wiedział, i w miarę możliwości zaproponuję inny termin."
         ]
       },
       {
         "h": "Gdzie odbywa się masaż",
         "p": [
-          "Albo w moim własnym miejscu w pieszej strefie centrum Mastichari, albo w Twoim pokoju hotelowym, apartamencie lub willi w Mastichari, Tigaki lub Marmari. Jeśli dojeżdżam do Ciebie, przywożę leżankę do masażu, olejki i czystą pościel. Miejsce ustalamy wspólnie przed potwierdzeniem wizyty.",
-          "Jeśli masaż odbywa się w Twoim miejscu zakwaterowania, to Ty odpowiadasz za upewnienie się, że wolno mi tam świadczyć usługę. Niektóre hotele ograniczają dostęp zewnętrznym masażystom; w razie wątpliwości zapytaj w recepcji przed rezerwacją."
+          "W moim własnym miejscu w pieszej strefie centrum Mastichari, obok Ghitonia. To jedyne miejsce, w którym świadczona jest usługa; nie ma wizyt domowych."
         ]
       },
       {

@@ -25,7 +25,7 @@
     "minutes": "min",
     "priceLabel": "Prix",
     "priceOnRequest": "Sur demande",
-    "priceNote": "Les prix sont communiqués lors du contact, afin que vous connaissiez toujours le tarif actuel, et que le temps de déplacement éventuel soit pris en compte honnêtement.",
+    "priceNote": "Les prix sont communiqués lors du contact, afin que vous connaissiez toujours le tarif actuel.",
     "goodFor": "Pour qui c'est fait",
     "howItWorks": "Comment se déroule la séance",
     "readMore": "Lire la suite",
@@ -43,7 +43,7 @@
     "hoursLabel": "Horaires",
     "phoneLabel": "Téléphone et WhatsApp",
     "emailLabel": "E-mail",
-    "areaLabel": "Zone couverte",
+    "areaLabel": "D'où viennent les clients",
     "findMe": "Où me trouver",
     "footerServices": "Massages",
     "footerLinks": "Pages",
@@ -69,20 +69,20 @@
   },
   "meta": {
     "home": {
-      "title": "Massage à Mastichari, Kos - chez moi ou à votre hôtel | K. Fessaras",
-      "description": "Massage professionnel à Mastichari, Tigaki et Marmari, Kos. Thérapeute certifié depuis 2011. Venez chez moi à Mastichari, ou je me déplace dans votre chambre. WhatsApp +30 6977784790."
+      "title": "Massage à Mastichari, Kos - espace de soin près de Ghitonia",
+      "description": "Massage professionnel dans mon espace à Mastichari, Kos, juste à côté de Ghitonia. Thérapeute certifié depuis 2011. Les clients viennent de Tigaki, Marmari et de tout Kos."
     },
     "about": {
       "title": "À propos de Konstantinos Fessaras - masseur certifié à Kos",
-      "description": "Masseur à Mastichari, Kos depuis 2011. Certifié par la World Massage Federation, formé aux massages thérapeutique, sportif, crânien indien, thaïlandais aux huiles et à l'aromathérapie."
+      "description": "Masseur à Mastichari, Kos depuis 2011. Certifié World Massage Federation, formé aux massages thérapeutique, sportif, crânien indien et thaïlandais aux huiles."
     },
     "services": {
       "title": "Soins de massage à Mastichari, Kos - corps entier, sportif, relaxant",
-      "description": "Massage corps entier, relaxant, thérapeutique et sportif, dos anti-stress, crânien indien, pieds et aromathérapie à Mastichari, Tigaki et Marmari, Kos. Prix sur demande."
+      "description": "Massage corps entier, relaxant, thérapeutique et sportif, épaule gelée, dos anti-stress, crânien indien, pieds et aromathérapie à Mastichari, Kos. Prix sur demande."
     },
     "location": {
-      "title": "Massage à Mastichari, Tigaki et Marmari - chez moi ou chez vous | Kos",
-      "description": "Venez dans mon espace de massage au centre de Mastichari, ou je viens avec la table à votre hôtel, appartement ou villa à Mastichari, Tigaki et Marmari, à Kos. Tous les jours de 9h00 à 22h00."
+      "title": "Espace de massage à Mastichari, Kos - à côté de Ghitonia",
+      "description": "Mon espace de massage se trouve au centre de Mastichari, juste à côté de Ghitonia. Les clients viennent de Tigaki, Marmari et de tout Kos. Tous les jours de 9h00 à 22h00."
     },
     "contact": {
       "title": "Réserver un massage à Kos - téléphone, WhatsApp ou formulaire",
@@ -110,53 +110,57 @@
     },
     "service": {
       "full-body-massage": {
-        "title": "Massage corps entier à Mastichari, Kos - chez moi ou à votre hôtel",
-        "description": "Massage corps entier de 45, 60 ou 90 minutes, chez moi ou à votre hôtel à Mastichari, Tigaki ou Marmari. Thérapeute certifié. Prix sur demande."
+        "title": "Massage corps entier à Mastichari, Kos - dans mon espace",
+        "description": "Massage corps entier de 30 à 90 minutes, dans mon espace à Mastichari, Kos, à côté de Ghitonia. Thérapeute certifié."
       },
       "relaxing-massage": {
-        "title": "Massage relaxant à Mastichari, Kos - chez moi ou à votre hôtel",
-        "description": "Massage relaxant classique chez moi ou à votre hôtel à Mastichari, Tigaki ou Marmari, Kos. Le bon choix pour un premier massage. Prix sur demande."
+        "title": "Massage relaxant à Mastichari, Kos - dans mon espace",
+        "description": "Massage relaxant classique dans mon espace à Mastichari, Kos. Le bon choix pour un premier massage."
       },
       "therapeutic-sports-massage": {
         "title": "Massage sportif et thérapeutique à Kos - dos, nuque et blessures",
-        "description": "Massage thérapeutique et sportif en profondeur à Kos pour le mal de dos, la sciatique, les anciennes blessures et la mobilité réduite. Chez moi ou à votre hôtel."
+        "description": "Massage thérapeutique et sportif en profondeur dans mon espace à Mastichari, Kos, pour le mal de dos, la sciatique, les anciennes blessures et la mobilité réduite."
+      },
+      "frozen-shoulder-treatment": {
+        "title": "Traitement de l'épaule gelée à Mastichari, Kos",
+        "description": "Travail doux et progressif sur une épaule raide ou douloureuse, dans mon espace à Mastichari, Kos. Non curatif : consultez d'abord un médecin."
       },
       "antistress-back-massage": {
-        "title": "Massage du dos à Mastichari, Kos - anti-stress, de la nuque au bas du dos",
-        "description": "Massage du dos anti-stress, du bas de la colonne jusqu'à la nuque, chez moi ou à votre hôtel à Kos. Les meilleures 45 minutes pour un dos fatigué."
+        "title": "Massage du dos à Mastichari - anti-stress, de la nuque au bas du dos",
+        "description": "Massage du dos anti-stress, du bas de la colonne jusqu'à la nuque, dans mon espace à Mastichari, Kos. La meilleure séance pour un dos fatigué."
       },
       "indian-head-massage": {
         "title": "Massage crânien indien à Kos - nuque, épaules et cuir chevelu, assis",
-        "description": "Massage crânien indien à Kos : nuque, épaules, cuir chevelu et visage, assis et habillé. Chez moi ou à votre hôtel à Mastichari."
+        "description": "Massage crânien indien dans mon espace à Mastichari, Kos : nuque, épaules, cuir chevelu et visage, assis et habillé."
       },
       "foot-massage": {
         "title": "Massage des pieds et réflexologie à Mastichari, Kos",
-        "description": "Massage des pieds et réflexologie chez moi ou à votre hôtel à Kos, pour des pieds qui ont marché toute la journée. Prix sur demande."
+        "description": "Massage des pieds et réflexologie dans mon espace à Mastichari, Kos, pour des pieds qui ont marché toute la journée. Prix sur demande."
       },
       "aromatherapy": {
-        "title": "Massage à l'aromathérapie à Mastichari, Kos - huiles essentielles naturelles",
-        "description": "Massage à l'aromathérapie avec des huiles essentielles naturelles, chez moi ou à votre hôtel à Kos. Certifié en massage corporel avancé aux huiles."
+        "title": "Massage à l'aromathérapie à Mastichari - huiles essentielles",
+        "description": "Massage à l'aromathérapie avec des huiles essentielles naturelles, dans mon espace à Mastichari, Kos. Certifié en massage corporel avancé aux huiles."
       }
     }
   },
   "home": {
     "heroKicker": "Mastichari, Tigaki et Marmari - Kos",
-    "heroTitle": "Massage à *Kos*,",
-    "heroTitleAccent": "où que vous soyez.",
-    "heroLede": "Je suis Konstantinos, masseur certifié à Kos depuis 2011. Venez chez moi à Mastichari, ou j'apporte la table à votre hôtel ou votre villa à Tigaki et Marmari.",
+    "heroTitle": "Chaque corps cherche son propre massage,",
+    "heroTitleAccent": "il le trouve à *Mastichari*.",
+    "heroLede": "Je suis Konstantinos, masseur certifié à Kos depuis 2011. Venez dans mon espace au centre de Mastichari, tout près de Ghitonia.",
     "heroPrimary": "Réserver sur WhatsApp",
     "heroSecondary": "Voir les massages",
     "heroCallPrefix": "ou appelez",
-    "heroBadge": "Grec, anglais et italien parlés",
+    "heroBadge": "Grec, anglais, italien, français, allemand et russe parlés",
     "heroStatValue": "15+",
     "heroStatLabel": "ans d'expérience",
-    "introTitle": "Un thérapeute, deux façons de réserver",
-    "introBody": "Il n'y a ni chaîne de spa ni forfait à souscrire. Soit vous venez chez moi, au centre piétonnier de Mastichari, soit j'arrive là où vous séjournez avec une table de massage professionnelle, des huiles et du linge propre. Quel que soit votre choix, nous convenons ensemble de ce qui doit être travaillé avant de commencer. La plupart des gens réservent pour une nuque raide, un dos qui n'en peut plus, ou simplement parce qu'ils sont en vacances et veulent une heure rien qu'à eux.",
+    "introTitle": "Un thérapeute, un espace tranquille",
+    "introBody": "Il n'y a ni chaîne de spa ni forfait à souscrire. Vous venez dans mon espace au centre piétonnier de Mastichari, tout près de Ghitonia, où la table, les huiles et le linge propre sont déjà prêts. Avant de commencer, nous convenons ensemble de ce qui doit être travaillé. La plupart des gens réservent pour une nuque raide, un dos qui n'en peut plus, ou simplement parce qu'ils sont en vacances et veulent une heure rien qu'à eux.",
     "pointsTitle": "Concrètement, voici ce que cela donne",
     "points": [
       {
-        "title": "Chez vous ou chez moi",
-        "body": "Le plus souvent, je viens à vous - chambre d'hôtel, appartement, villa ou balcon, à Mastichari, Tigaki et Marmari. Ou venez chez moi, au centre de Mastichari, tout près de la boutique de souvenirs Ghitonia."
+        "title": "Mon espace à Mastichari",
+        "body": "L'espace se trouve au centre piétonnier de Mastichari, tout près de la boutique de souvenirs Ghitonia. Les clients viennent de Tigaki, Marmari et de plus loin encore, de toute l'île de Kos."
       },
       {
         "title": "On en parle d'abord",
@@ -172,13 +176,13 @@
       }
     ],
     "servicesTitle": "Les massages",
-    "servicesIntro": "Sept soins. Si vous ne savez pas lequel choisir, dites-moi ce qui vous gêne et je vous en proposerai un.",
+    "servicesIntro": "Huit soins. Si vous ne savez pas lequel choisir, dites-moi ce qui vous gêne et je vous en proposerai un.",
     "servicesCta": "Voir tous les massages",
     "howTitle": "La réservation",
     "howSteps": [
       {
         "title": "Envoyez un message",
-        "body": "WhatsApp est le plus rapide, un appel fonctionne aussi, et le formulaire de ce site également. Dites-moi si vous préférez venir chez moi ou que je vienne chez vous, et à quel moment cela vous arrange."
+        "body": "WhatsApp est le plus rapide, un appel fonctionne aussi, et le formulaire de ce site également. Dites-moi ce qui vous arrange et je confirme un horaire dans l'espace."
       },
       {
         "title": "On convient d'un horaire",
@@ -186,14 +190,14 @@
       },
       {
         "title": "Le massage",
-        "body": "Chez moi, tout est déjà prêt. Si je viens chez vous, l'installation prend quelques minutes. Dans les deux cas, vous gardez vos sous-vêtements et restez couvert d'une serviette pendant toute la séance, sauf la zone travaillée."
+        "body": "Dans l'espace, tout est déjà prêt. Vous gardez vos sous-vêtements et restez couvert d'une serviette pendant toute la séance, sauf la zone travaillée."
       }
     ],
     "areaTitle": "Où se déroule le massage",
-    "areaBody": "Chez moi, au centre de Mastichari, ou là où vous séjournez à Mastichari, Tigaki et Marmari, ainsi que dans les hôtels et appartements alentour. Si vous logez ailleurs à Kos, demandez - cela fonctionne souvent, tout dépend de l'heure de la journée.",
+    "areaBody": "Dans mon espace au centre de Mastichari, tout près de Ghitonia. Les clients viennent de Tigaki, Marmari et d'ailleurs à Kos pour venir jusqu'ici : si vous logez plus loin, demandez et je vous dirai honnêtement si le trajet est raisonnable.",
     "areaCta": "Voir la zone en détail",
     "ctaTitle": "Offrez-vous cette heure",
-    "ctaBody": "Dites-moi si vous venez chez moi ou souhaitez que je vienne chez vous, et un horaire approximatif. Je vous dirai ce qui est disponible aujourd'hui.",
+    "ctaBody": "Dites-moi un horaire approximatif qui vous arrange. Je vous dirai ce qui est disponible aujourd'hui.",
     "reviewsCta": "Lire ce que disent les clients",
     "heroRoomAlt": "Une table de massage préparée avec du linge propre dans une pièce calme et lumineuse, avec une serviette pliée et une petite bouteille d'huile à côté.",
     "heroImageAlt": "Konstantinos Fessaras travaille le dos d'une cliente sur la table de massage, dans une pièce blanche et lumineuse.",
@@ -205,11 +209,11 @@
     "lede": "Konstantinos Fessaras - masseur, Mastichari, Kos.",
     "bio": [
       "Je travaille professionnellement dans le massage depuis 2011. Je me suis formé au massage relaxant, thérapeutique et sportif, puis au massage crânien indien, à l'aromathérapie et au massage thaïlandais aux huiles, et j'ai suivi des séminaires distincts sur la sciatique, les douleurs du haut et du bas du dos.",
-      "Je travaille seul. Pas de réception, pas de file d'attente, pas de vente forcée : il y a moi, une table de massage professionnelle, et l'heure que vous avez réservée. Je travaille désormais dans les deux sens - dans mon propre espace au centre de Mastichari, et là où vous séjournez, parce qu'après un bon massage, la dernière chose que l'on souhaite, c'est se rhabiller et prendre la voiture.",
-      "L'essentiel de mon activité concerne des visiteurs séjournant à Mastichari, Tigaki et Marmari, et je travaille depuis des années avec des hôtels et des résidences dans cette partie de l'île. Mon propre espace se trouve au centre piétonnier de Mastichari, tout près de la boutique de souvenirs familiale Ghitonia - si je ne suis pas sur place, la famille peut vous indiquer où je suis, ou vous pouvez simplement m'appeler."
+      "Je travaille seul. Pas de réception, pas de file d'attente, pas de vente forcée : il y a moi, une table de massage professionnelle, et l'heure que vous avez réservée, dans mon propre espace au centre de Mastichari.",
+      "L'essentiel de mon activité concerne des visiteurs séjournant à Mastichari, Tigaki et Marmari, mais pas mal de clients viennent aussi de plus loin, de toute l'île. Mon propre espace se trouve au centre piétonnier de Mastichari, tout près de la boutique de souvenirs familiale Ghitonia - si je ne suis pas sur place, la famille peut vous indiquer où je suis, ou vous pouvez simplement m'appeler."
     ],
     "languagesTitle": "Langues",
-    "languagesBody": "Je parle grec, anglais et italien. Ce site est proposé dans davantage de langues afin que vous puissiez lire les descriptions des massages dans la vôtre, mais la conversation le jour J se fera en grec, en anglais ou en italien.",
+    "languagesBody": "Je parle grec, anglais, italien, français, allemand et russe. Ce site est proposé dans quelques langues supplémentaires afin que vous puissiez lire les descriptions des massages dans la vôtre, mais la conversation le jour J se fera dans l'une de ces six langues.",
     "credentialsTitle": "Formations et certificats",
     "credentialsIntro": "Les documents ci-dessous sont mes propres certificats numérisés. Lorsqu'un certificat comporte un numéro et une date, ils sont reproduits ici tels qu'ils figurent sur le document.",
     "credentialNames": {
@@ -229,13 +233,14 @@
     "sessionAlt1": "Konstantinos utilise son avant-bras le long du dos d'une cliente pendant une séance.",
     "sessionAlt2": "Konstantinos verse de l'huile de massage dans sa main avant de commencer sur le dos de la cliente.",
     "ctaTitle": "Réserver une séance",
-    "ctaBody": "Dites-moi ce qui vous gêne, et si vous préférez venir chez moi ou que je vienne chez vous. Je vous proposerai un massage et un horaire."
+    "ctaBody": "Dites-moi ce qui vous gêne. Je vous proposerai un massage et un horaire."
   },
   "services": {
     "title": "Massages",
-    "lede": "Sept soins, tous réalisés sur une table professionnelle - chez moi à Mastichari ou là où vous séjournez. Les séances durent généralement 45 minutes, avec des formules de 60 et 90 minutes disponibles pour le massage corps entier.",
+    "lede": "Huit soins, tous réalisés sur une table professionnelle dans mon espace à Mastichari.",
+    "mixNote": "Chaque corps est différent, donc le massage aussi. C'est généralement un mélange de relaxant, suédois, thérapeutique, sportif, deep tissue massage et massage thaïlandais. Cela dure de 30 à 90 minutes.",
     "pricingTitle": "À propos des prix",
-    "pricingBody": "Les prix sont communiqués lors du contact. Vous connaissez ainsi toujours le tarif actuel plutôt qu'un chiffre resté sur une ancienne page web, et si je me déplace jusqu'à vous, cela est pris en compte honnêtement.",
+    "pricingBody": "Les prix sont communiqués lors du contact. Vous connaissez ainsi toujours le tarif actuel plutôt qu'un chiffre resté sur une ancienne page web.",
     "chooseHelp": "Vous ne savez pas lequel choisir ? Dites-moi ce qui vous gêne, ou comment s'est passée votre semaine, et je vous en proposerai un par message.",
     "cardCta": "En savoir plus sur ce massage",
     "imageAlt": "Petits flacons en verre foncé d'huile de massage sur un linge de lin, à côté d'un plat d'herbes séchées."
@@ -246,7 +251,7 @@
       "short": "Tout le corps travaillé dans l'ordre - dos, nuque, épaules, bras, jambes, pieds et mains.",
       "lede": "Un massage corps entier, c'est exactement cela : le thérapeute travaille l'ensemble du corps au cours de la séance plutôt qu'une seule zone. Dos, nuque, épaules, bras, jambes, pieds et mains.",
       "body": [
-        "C'est le massage que la plupart des gens réservent en premier, et celui qui convient le mieux à des vacances. Sur 60 ou 90 minutes, il cesse d'être un simple assouplissement rapide pour devenir une véritable remise à zéro - il y a le temps de s'attarder sur les zones qui en ont réellement besoin plutôt que de tout survoler.",
+        "C'est le massage que la plupart des gens réservent en premier, et celui qui convient le mieux à des vacances. Sur les 90 minutes complètes, il cesse d'être un simple assouplissement rapide pour devenir une véritable remise à zéro - il y a le temps de s'attarder sur les zones qui en ont réellement besoin plutôt que de tout survoler.",
         "Je travaille à l'huile, à une pression que nous décidons ensemble, et je vérifie avec vous au fil de la séance. Vous gardez vos sous-vêtements et restez couvert d'une serviette, sauf la zone travaillée."
       ],
       "goodFor": [
@@ -297,13 +302,30 @@
       ],
       "imageAlt": "Des mains travaillant le muscle d'un mollet recouvert d'une serviette sur une table de massage."
     },
+    "frozen-shoulder-treatment": {
+      "name": "Traitement de l'épaule gelée",
+      "short": "Travail doux et progressif sur une épaule raide ou douloureuse, le haut du dos et la nuque, dans une amplitude de mouvement confortable.",
+      "lede": "Le traitement de l'épaule gelée est un travail doux et progressif sur les muscles de l'épaule, du haut du dos et de la nuque, visant le confort plutôt que la force.",
+      "body": [
+        "Nous convenons de la pression avant de commencer, et je reste dans une amplitude de mouvement confortable tout au long de la séance - rien n'est poussé ni forcé. L'épaule gelée doit d'abord être diagnostiquée par un médecin, et cette séance ne remplace pas cela : elle ne la guérit pas, ne restaure pas la mobilité et ne raccourcit pas la convalescence. C'est un travail manuel doux sur les muscles autour d'une épaule raide ou douloureuse.",
+        "Si l'on vous a dit que vous avez une épaule gelée, ou si vous le pensez, dites-le-moi lors de la réservation afin que je sache à quoi m'attendre et ce qu'il faut éviter."
+      ],
+      "goodFor": [
+        "Une épaule raide et douloureuse déjà suivie par un médecin",
+        "Une tension qui s'est étendue de l'épaule vers le haut du dos et la nuque",
+        "Un travail doux et prudent plutôt qu'une pression profonde",
+        "Un complément à une kinésithérapie déjà en cours",
+        "Simplement le souhait que cette zone soit travaillée avec une attention particulière"
+      ],
+      "imageAlt": "Gros plan : les deux mains travaillent en douceur l'épaule et le haut du dos d'une cliente."
+    },
     "antistress-back-massage": {
       "name": "Massage du dos anti-stress",
       "short": "Le dos seul, travaillé du bas de la colonne jusqu'à la nuque. La chose la plus simplement agréable de la liste.",
       "lede": "Pour la plupart des gens, le dos est la meilleure partie du corps à faire masser, et c'est le massage qui ne fait que cela. Il va du bas de la colonne jusqu'à la nuque.",
       "body": [
         "Il apaise et enlève la tension accumulée pendant la semaine. Les gens se relèvent de la table comme s'ils étaient en vacances depuis trois jours plutôt que depuis un après-midi. Il convient à tous les âges.",
-        "C'est le cadeau évident pour quiconque travaille assis à un bureau ou passe des heures devant un écran. Si vous n'avez que 45 minutes et voulez le résultat le plus perceptible, réservez celui-ci."
+        "C'est le cadeau évident pour quiconque travaille assis à un bureau ou passe des heures devant un écran. Si vous n'avez qu'une demi-heure et voulez le résultat le plus perceptible, réservez celui-ci."
       ],
       "goodFor": [
         "Tension logée dans les épaules et le haut du dos",
@@ -373,39 +395,36 @@
   },
   "location": {
     "title": "Où se déroule le massage",
-    "lede": "Deux options : venir chez moi au centre de Mastichari, ou je viens chez vous avec la table, les huiles et du linge propre, et il n'y a nulle part où se rendre ensuite.",
-    "areasTitle": "Zones où je me déplace",
+    "lede": "Mon espace se trouve au centre de Mastichari, juste à côté de Ghitonia. Les clients viennent de Tigaki, Marmari et de plus loin, de toute l'île.",
+    "areasTitle": "D'où viennent les clients",
     "areas": [
       {
         "name": "Mastichari",
-        "body": "Mon village natal, sur la côte nord de Kos, où se trouve mon propre espace. Hôtels, appartements et chambres dans tout le village et le long de la route côtière."
+        "body": "Mon village natal, sur la côte nord de Kos, où se trouve l'espace. Si vous séjournez dans le village ou le long de la route côtière, c'est une courte marche ou un court trajet en voiture."
       },
       {
         "name": "Tigaki",
-        "body": "À environ 20 minutes vers l'est le long de la côte. Hôtels, résidences d'appartements et villas."
+        "body": "À environ 20 minutes vers l'ouest le long de la côte en voiture. Beaucoup de clients séjournant dans les hôtels et appartements de Tigaki viennent pour une séance."
       },
       {
         "name": "Marmari",
-        "body": "Entre les deux, sur le même tronçon de la côte nord. Hôtels et appartements."
+        "body": "Entre les deux, sur le même tronçon de la côte nord, à environ 10-15 minutes en voiture."
       }
     ],
-    "elsewhereTitle": "Ailleurs à Kos ?",
-    "elsewhereBody": "Demandez. Cela fonctionne souvent, tout dépend de l'heure de la journée et de la manière dont le reste de la journée est réservé. Envoyez-moi un message avec votre lieu de séjour et je vous dirai honnêtement si je peux m'y rendre.",
+    "elsewhereTitle": "Vous séjournez ailleurs à Kos ?",
+    "elsewhereBody": "Vous êtes quand même le bienvenu. Envoyez-moi un message avec votre lieu de séjour et je vous dirai honnêtement si le trajet est raisonnable pour un rendez-vous.",
     "whereTitle": "Mon espace à Mastichari",
-    "whereBody": "Mon propre espace se trouve au centre piétonnier de Mastichari, juste à côté de Ghitonia, la boutique de souvenirs familiale. Le centre est piéton, donc garez-vous en bordure et faites le dernier bout à pied ; l'épingle Google Maps ci-dessous vous y mène. Les visites sans rendez-vous et les rendez-vous réservés sont tous deux bienvenus, mais envoyer d'abord un message vous évite d'attendre si je suis en déplacement pour un rendez-vous.",
+    "whereBody": "Mon propre espace se trouve au centre piétonnier de Mastichari, juste à côté de Ghitonia, la boutique de souvenirs familiale. Le centre est piéton, donc garez-vous en bordure et faites le dernier bout à pied ; l'épingle Google Maps ci-dessous vous y mène. Les visites sans rendez-vous et les rendez-vous réservés sont tous deux bienvenus, mais envoyer d'abord un message vous évite d'attendre si je suis déjà avec un autre client.",
     "mapTitle": "L'emplacement exact",
     "studioAddressLine": "Centre piétonnier de Mastichari, à côté de Ghitonia",
     "mapBody": "Mon espace se trouve au centre piétonnier de Mastichari, juste à côté de Ghitonia. Utilisez la carte pour trouver votre chemin, ou pour laisser un avis après votre massage.",
     "mapCta": "Voir sur Google Maps",
     "directionsCta": "Obtenir l'itinéraire",
-    "hotelsTitle": "Hôtels et appartements",
-    "hotelsBodyGeneric": "Je travaille depuis des années avec des hôtels et résidences d'appartements à Mastichari, Tigaki et Marmari, et de nombreuses réservations passent par la réception. Si vous séjournez dans un hôtel, vous pouvez demander à la réception - ou m'écrire directement, ce qui est généralement plus rapide.",
-    "hotelsBodyNamed": "Je travaille avec ces établissements depuis des années, et de nombreuses réservations passent encore par leur réception :",
-    "practicalTitle": "Si je viens chez vous, ce dont j'ai besoin dans la pièce",
-    "practicalBody": "Très peu de choses : environ deux mètres de sol dégagé, et une prise électrique n'est même pas nécessaire. J'installe la table et je la remporte ensuite. Une chambre d'hôtel, un balcon ou une terrasse conviennent tout aussi bien. Chez moi, il n'y a rien à préparer - tout est déjà installé.",
+    "practicalTitle": "À votre arrivée",
+    "practicalBody": "Tout est déjà installé : la table, les huiles et le linge propre vous attendent avant même votre arrivée. Rien à apporter, rien à préparer - il suffit de frapper, ou d'envoyer un message à l'avance si vous préférez ne pas attendre.",
     "hoursTitle": "Horaires",
-    "hoursBody": "Tous les jours, de 9h00 à 22h00, aussi bien chez moi que pour un déplacement chez vous. Les rendez-vous en soirée sont très demandés en haute saison, donc plus vous demandez tôt, plus vous avez de choix.",
-    "imageAlt": "Une table de massage installée sur un balcon ombragé, avec la mer visible au-delà de la balustrade."
+    "hoursBody": "Tous les jours, de 9h00 à 22h00. Les rendez-vous en soirée sont très demandés en haute saison, donc plus vous demandez tôt, plus vous avez de choix.",
+    "imageAlt": "L'espace de massage à Mastichari : une table préparée avec du linge propre, prête pour une séance."
   },
   "contact": {
     "title": "Réserver un massage",
@@ -414,15 +433,13 @@
     "phoneBody": "Tous les jours, de 9h00 à 22h00.",
     "emailBody": "Pour tout ce qui n'est pas urgent.",
     "formTitle": "Ou envoyez une demande de réservation",
-    "formIntro": "Dites-moi si vous préférez venir chez moi ou que je vienne chez vous, à quel moment cela vous arrange, et quel type de massage vous souhaitez. Rien n'est confirmé avant ma réponse.",
+    "formIntro": "Dites-moi à quel moment cela vous arrange, et quel type de massage vous souhaitez. Rien n'est confirmé avant ma réponse.",
     "form": {
       "name": "Votre nom",
       "email": "E-mail",
       "emailHint": "Pour que je puisse vous répondre.",
       "phone": "Numéro de téléphone ou WhatsApp",
       "phoneHint": "Facultatif, mais cela accélère beaucoup la réponse.",
-      "where": "Où souhaitez-vous le massage",
-      "whereHint": "Soit « dans l'espace de massage à Mastichari », soit votre lieu de séjour - par exemple « Princess of Kos, Mastichari » ou « un appartement à Tigaki ».",
       "service": "Quel massage",
       "serviceAny": "Pas encore sûr - proposez-m'en un",
       "when": "Quand vous le souhaitez",
@@ -440,7 +457,6 @@
       "name": "Merci d'indiquer le nom à utiliser pour vous répondre.",
       "email": "Merci d'indiquer une adresse e-mail à laquelle je peux répondre, par exemple nom@exemple.com.",
       "emailInvalid": "Cela ne ressemble pas à une adresse e-mail complète. Merci de la vérifier.",
-      "where": "Merci d'indiquer où vous souhaitez le massage, afin que je sache si je peux m'y rendre.",
       "message": "Merci de limiter le message à 2000 caractères.",
       "consent": "Merci de cocher la case pour m'autoriser à vous répondre.",
       "rateLimit": "Cela fait beaucoup de demandes en peu de temps. Merci de patienter quelques minutes et de réessayer - ou envoyez simplement un message WhatsApp, qui fonctionne toujours.",
@@ -452,12 +468,12 @@
     "faqTitle": "Questions fréquentes",
     "faq": [
       {
-        "q": "Est-ce que je viens chez vous, ou venez-vous chez moi ?",
-        "a": "Les deux fonctionnent. Mon propre espace se trouve au centre piétonnier de Mastichari, tout près de la boutique de souvenirs Ghitonia, et tout y est déjà installé. Ou je viens chez vous : j'apporte une table de massage professionnelle, des huiles et du linge propre, j'installe en quelques minutes, et je remporte tout ensuite. Il me faut simplement environ deux mètres de sol dégagé."
+        "q": "Où dois-je venir pour le massage ?",
+        "a": "Dans mon propre espace, au centre piétonnier de Mastichari, tout près de la boutique de souvenirs Ghitonia. Tout y est déjà installé et prêt."
       },
       {
         "q": "Puis-je simplement passer sans rendez-vous ?",
-        "a": "Oui, vous pouvez frapper chez moi à Mastichari pendant les horaires d'ouverture. Mais je suis souvent en déplacement pour un rendez-vous, donc un rapide message WhatsApp au préalable vous évite de vous retrouver devant une porte fermée."
+        "a": "Oui, vous pouvez frapper chez moi à Mastichari pendant les horaires d'ouverture. Mais je suis souvent déjà avec un autre client, donc un rapide message WhatsApp au préalable vous évite de vous retrouver devant une porte fermée."
       },
       {
         "q": "Combien ça coûte ?",
@@ -485,15 +501,15 @@
       },
       {
         "q": "Quelles langues parlez-vous ?",
-        "a": "Grec, anglais et italien. Ce site est disponible dans davantage de langues afin que vous puissiez lire les descriptions des massages dans la vôtre, mais la conversation le jour J se fera dans l'une de ces trois langues."
+        "a": "Grec, anglais, italien, français, allemand et russe. Ce site est disponible dans quelques langues supplémentaires afin que vous puissiez lire les descriptions des massages dans la vôtre, mais la conversation le jour J se fera dans l'une de ces six langues."
       },
       {
         "q": "Dois-je verser un acompte ?",
         "a": "Non. Rien n'est payé en ligne et il n'y a pas d'acompte. Vous payez après le massage."
       },
       {
-        "q": "Quelles zones couvrez-vous ?",
-        "a": "Mon propre espace se trouve au centre de Mastichari. Pour un déplacement chez vous : Mastichari, Tigaki et Marmari, ainsi que les hôtels et appartements alentour. Ailleurs à Kos, demandez - cela fonctionne souvent selon l'heure de la journée."
+        "q": "De quelles zones viennent vos clients ?",
+        "a": "Mon propre espace se trouve au centre de Mastichari. Des clients viennent de Tigaki, Marmari et d'ailleurs à Kos : écrivez-moi et je vous dirai honnêtement si le trajet est raisonnable."
       }
     ],
     "success": {
@@ -545,7 +561,7 @@
       {
         "h": "Ce que collecte le formulaire de réservation",
         "p": [
-          "Si vous envoyez le formulaire de réservation, je reçois : votre nom, votre adresse e-mail, votre numéro de téléphone si vous en avez indiqué un, le lieu où vous souhaitez le massage, le massage demandé, quand vous le souhaitez, tout ce que vous avez écrit dans le champ message, et le fait que vous ayez coché la case de consentement.",
+          "Si vous envoyez le formulaire de réservation, je reçois : votre nom, votre adresse e-mail, votre numéro de téléphone si vous en avez indiqué un, le massage demandé, quand vous le souhaitez, tout ce que vous avez écrit dans le champ message, et le fait que vous ayez coché la case de consentement.",
           "Ces informations ne servent qu'à une seule chose : vous répondre et organiser le rendez-vous. Elles ne sont pas utilisées à des fins commerciales, ne sont partagées avec personne, et ne sont pas vendues."
         ]
       },
@@ -673,14 +689,13 @@
         "h": "Annulation et modification",
         "p": [
           "Les plans changent en vacances, et il n'y a aucun frais d'annulation. Si vous ne pouvez pas venir au rendez-vous, prévenez-moi dès que raisonnablement possible afin que le créneau puisse profiter à quelqu'un d'autre.",
-          "Si je dois annuler - maladie, problème de déplacement, quelque chose hors de mon contrôle - je vous préviendrai dès que je le saurai et, si possible, je proposerai un autre horaire."
+          "Si je dois annuler - maladie ou autre chose hors de mon contrôle - je vous préviendrai dès que je le saurai et, si possible, je proposerai un autre horaire."
         ]
       },
       {
         "h": "Où se déroule le massage",
         "p": [
-          "Soit dans mon propre espace au centre piétonnier de Mastichari, soit dans votre chambre d'hôtel, appartement ou villa à Mastichari, Tigaki ou Marmari. Lorsque je me déplace chez vous, j'apporte la table de massage, les huiles et du linge propre. Le lieu est convenu avec vous avant la confirmation du rendez-vous.",
-          "Lorsque le massage a lieu dans votre hébergement, il vous appartient de vous assurer que je suis autorisé à y fournir le service. Certains hôtels limitent l'accès aux thérapeutes extérieurs ; en cas de doute, renseignez-vous à la réception avant de réserver."
+          "Dans mon propre espace au centre piétonnier de Mastichari, à côté de Ghitonia. C'est le seul endroit où le service est fourni ; il n'y a pas de déplacement à domicile."
         ]
       },
       {
