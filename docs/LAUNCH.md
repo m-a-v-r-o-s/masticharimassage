@@ -3,14 +3,14 @@
 Automated checks first, then the things a machine cannot do.
 
 `npm run build` runs `i18n-check` and fails on anything that would ship broken.
-`npm run audit` walks all 145 built pages. Both are currently green.
+`npm run audit` walks all 181 built pages. Both are currently green.
 
 ---
 
 ## Done and verified
 
 **Content and structure**
-- [x] 145 pages: 9 locales x 16 pages, plus sitemap, robots and root shim
+- [x] 181 pages: 10 locales x 18 pages, plus sitemap, robots and root shim
 - [x] Real locale routing (`/en/`, `/el/`, …), not same-URL dual-render
 - [x] `/` negotiates locale from cookie, then `Accept-Language`, then English (302, `Vary`)
 - [x] Full hreflang cluster + `x-default` on every page, live locales only
@@ -22,7 +22,7 @@ Automated checks first, then the things a machine cannot do.
 **SEO**
 - [x] Hand-written title + description per page per locale — 144 pairs, all within SERP limits
 - [x] JSON-LD: `HealthAndBeautyBusiness` + `Person` + `WebSite` + `WebPage` + `BreadcrumbList`, `Service` on service pages, `FAQPage` on contact
-- [x] `knowsLanguage: el, en, it` on the Person only — never derived from the nine locales
+- [x] `knowsLanguage: el, en, it, fr, de, ru` on the Person only — never derived from the ten locales
 - [x] No `Offer` node and no price anywhere while prices are on request (build fails if one appears)
 - [x] No `aggregateRating` — 41 self-hosted comments are not a valid rating source
 - [x] Credentials in structured data with their real dates and protocol numbers, read off the scans
@@ -56,7 +56,7 @@ Automated checks first, then the things a machine cannot do.
 **Content integrity**
 - [x] 41 real testimonials, owner replies excluded, duplicates collapsed, surnames removed
 - [x] No photograph of any client anywhere (the four `fessaras-banner*` files were discarded)
-- [x] Privacy policy, terms and cookie banner are three real documents, in all nine languages
+- [x] Privacy policy, terms and cookie banner are three real documents, in all ten languages
 - [x] Terms carry a "wellness, not medical treatment" clause and an explicit conduct clause
 
 ---
