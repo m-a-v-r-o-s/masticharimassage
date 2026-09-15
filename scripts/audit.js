@@ -22,7 +22,10 @@ function walk(dir, out = []) {
 }
 
 for (const dir of ["_src", "_brand"]) {
-  if (fs.existsSync(path.join(SITE, "assets/img", dir))) {
+  const full = path.join(SITE, "assets/img", dir);
+  // recursive-copy creates the (empty) parent directory even when its filter
+  // excludes every file inside, so check for actual content, not existence.
+  if (fs.existsSync(full) && fs.readdirSync(full).length) {
     problems.push(`assets/img/${dir}: image masters published in the build output`);
   }
 }
