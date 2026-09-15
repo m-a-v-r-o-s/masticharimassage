@@ -9,7 +9,10 @@
     "knowsLanguage": [
       "el",
       "en",
-      "it"
+      "it",
+      "fr",
+      "de",
+      "ru"
     ]
   },
   "contact": {
@@ -56,7 +59,7 @@
     "cid": "4852723212156978115",
     "lat": 36.8496693,
     "lng": 27.075741,
-    "_note": "Resolved from the client-supplied maps.app.goo.gl short link on 2026-08-28; every value here was read off that redirect, none inferred. This is the business's own Google Business Profile ('Mastichari Massage'). Coordinates are the village-centre point Google already publishes on the public listing - NOT a home address, and nothing finer is published. The service is mobile (he travels to the guest), so this pin is a findability/reviews signal, not a 'come here' address. No ChIJ-form place ID is stored: it cannot be derived from the featureId without a Places API lookup, and Google returns HTTP 200 for a wrong one, so a guessed value would fail silently. Add it only from an API response or the Place ID Finder.",
+    "_note": "Resolved from the client-supplied maps.app.goo.gl short link on 2026-08-28; every value here was read off that redirect, none inferred. This is the business's own Google Business Profile ('Mastichari Massage'). Coordinates are the village-centre point Google already publishes on the public listing - NOT a home address, and nothing finer is published. This pin is the studio, the only place the service is given since 2026-09-14. No ChIJ-form place ID is stored: it cannot be derived from the featureId without a Places API lookup, and Google returns HTTP 200 for a wrong one, so a guessed value would fail silently. Add it only from an API response or the Place ID Finder.",
     "_embedNote": "embedUrl added 2026-08-28 for the studio-map section on the home and location pages. Resolved by following https://maps.google.com/maps?cid=<cid>&output=embed (no API key, no billing) to its actual redirect target, which is Google's own maps/embed endpoint keyed to this exact business listing via cid - not a generic coordinate marker. Loading it is the only third-party request this site makes; see server/security.js frame-src and the Cookies section of the privacy policy, which now discloses it."
   },
   "areaServed": [
@@ -69,32 +72,6 @@
     "name": "Ghitonia",
     "type": "Family souvenir shop in the Mastichari pedestrian village centre",
     "publish": true
-  },
-  "hotelPartners": {
-    "publish": false,
-    "_note": "Recovered from 2015-2018 captures of the old site. NOT re-verified. Naming a hotel that no longer works with him is both a factual error and a courtesy problem. Set publish=true only after the client confirms the list is current (docs/CLIENT-QUESTIONS.md item 3).",
-    "list": [
-      {
-        "name": "Princess of Kos",
-        "place": "Mastichari"
-      },
-      {
-        "name": "Eurovillage Achilleas",
-        "place": "Mastichari"
-      },
-      {
-        "name": "Roseland Hotel",
-        "place": "Marmari"
-      },
-      {
-        "name": "Meni More",
-        "place": "Tigaki"
-      },
-      {
-        "name": "Marianna Apartments",
-        "place": "Tigaki"
-      }
-    ]
   },
   "credentials": {
     "certifier": "World Massage Federation (W.M.F.)",
@@ -188,14 +165,13 @@
   "_droppedSocial": "Google+ (plus.google.com) was on the old site and no longer exists - dropped, not migrated.",
   "prices": {
     "published": false,
-    "_note": "ALL prices ship as on-request per the client. The 2015 figures (29/39/59 EUR) are stale and must never be reused. JSON-LD omits every Offer node while published=false."
+    "_note": "The client confirmed on 2026-09-14 that prices will never be published - this is permanent, not pending. The 2015 figures (29/39/59 EUR) are stale and must never be reused. JSON-LD omits every Offer node while published=false."
   },
   "services": [
     {
       "slug": "full-body-massage",
       "durations": [
-        45,
-        60,
+        30,
         90
       ],
       "featured": true,
@@ -204,7 +180,8 @@
     {
       "slug": "relaxing-massage",
       "durations": [
-        45
+        30,
+        90
       ],
       "featured": true,
       "order": 2
@@ -212,61 +189,70 @@
     {
       "slug": "therapeutic-sports-massage",
       "durations": [
-        45
+        30,
+        90
       ],
       "featured": true,
       "order": 3
     },
     {
-      "slug": "antistress-back-massage",
+      "slug": "frozen-shoulder-treatment",
       "durations": [
-        45
+        30,
+        90
       ],
       "featured": false,
       "order": 4
     },
     {
-      "slug": "indian-head-massage",
+      "slug": "antistress-back-massage",
       "durations": [
-        45
+        30,
+        90
       ],
       "featured": false,
       "order": 5
     },
     {
-      "slug": "foot-massage",
+      "slug": "indian-head-massage",
       "durations": [
-        45
+        30,
+        90
       ],
       "featured": false,
       "order": 6
     },
     {
-      "slug": "aromatherapy",
+      "slug": "foot-massage",
       "durations": [
-        45
+        30,
+        90
       ],
       "featured": false,
       "order": 7
+    },
+    {
+      "slug": "aromatherapy",
+      "durations": [
+        30,
+        90
+      ],
+      "featured": false,
+      "order": 8
     }
   ],
   "_omittedServices": "Face Massage and Cellulite Massage appeared only as options in the old (non-functional) reservation widget, with no page copy. Omitted from v1 pending the client's decision - docs/CLIENT-QUESTIONS.md item 4.",
   "venues": {
-    "mobile": {
-      "publish": true,
-      "primary": true,
-      "_note": "The original and still primary service: he travels to the guest's hotel, apartment or villa. Years of testimonials describe this, so it leads the hero and the meta copy."
-    },
     "studio": {
       "publish": true,
-      "primary": false,
+      "primary": true,
       "landmark": "Ghitonia",
       "landmarkRelation": "adjacent",
       "walkIns": true,
       "appointments": true,
       "sameHours": true,
       "streetAddress": null,
-      "_note": "Added 2026-08-28 on the client's instruction: he now also treats at his own place in Mastichari, which is what the Google Business Profile pin marks. It is NEXT TO the family's Ghitonia souvenir shop, not the same premises - do not conflate them. No street address supplied, and Google's public listing does not expose one in server HTML, so every language locates it by landmark plus the Maps link. Both walk-ins and appointments are accepted; hours are identical to the mobile service. If the client later supplies a street number, set streetAddress and add it to the PostalAddress in jsonld.njk."
+      "_note": "Only venue since 2026-09-14: the client confirmed he no longer travels to hotels, apartments or villas and now treats exclusively at his own place in Mastichari, which is what the Google Business Profile pin marks. It is NEXT TO the family's Ghitonia souvenir shop, not the same premises - do not conflate them. No street address supplied, and Google's public listing does not expose one in server HTML, so every language locates it by landmark plus the Maps link. Both walk-ins and appointments are accepted. If the client later supplies a street number, set streetAddress and add it to the PostalAddress in jsonld.njk."
     }
   }
 }

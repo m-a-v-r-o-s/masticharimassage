@@ -140,6 +140,19 @@
     ],
     "cropped": false
   },
+  "service-frozen-shoulder-treatment": {
+    "w": 957,
+    "h": 613,
+    "nativeW": 957,
+    "nativeH": 613,
+    "widths": [
+      400,
+      600,
+      900,
+      957
+    ],
+    "cropped": false
+  },
   "service-full-body-massage": {
     "w": 1200,
     "h": 800,
