@@ -48,6 +48,13 @@ for (const code of BUILT) {
 }
 const copyFor = (code) => COPY[code] || COPY[DEFAULT_LOCALE];
 
+// Railway's own X-Forwarded-For guidance is inconsistent about which end of the
+// list is trustworthy, but Railway confirms clients cannot set X-Real-Ip
+// themselves, so that is what rate limiting keys on. req.ip (trustProxy: true,
+// left-most X-Forwarded-For) is only a fallback for local dev, where there is
+// no edge proxy to set the header at all.
+const clientIp = (req) => req.headers["x-real-ip"] || req.ip;
+
 // Localized 404 pages, read once at boot rather than on every miss.
 const NOT_FOUND = {};
 for (const code of BUILT) {
@@ -243,7 +250,7 @@ app.post(
       rateLimit: {
         max: 5,
         timeWindow: "10 minutes",
-        keyGenerator: (req) => hashIp(req.ip, IP_SALT),
+        keyGenerator: (req) => hashIp(clientIp(req), IP_SALT),
         // statusCode must be on the object: without it the plugin surfaces this
         // as a generic 500 rather than a 429.
         errorResponseBuilder: () => ({ statusCode: 429, ok: false, error: "rate-limited" }),
@@ -251,7 +258,7 @@ app.post(
     },
   },
   async (req, reply) => {
-    const ipHash = hashIp(req.ip, IP_SALT);
+    const ipHash = hashIp(clientIp(req), IP_SALT);
     const raw = parseBody(req);
     const locale = BUILT.includes(clean(raw.locale, 5)) ? clean(raw.locale, 5) : DEFAULT_LOCALE;
     const c = copyFor(locale);
@@ -388,7 +395,7 @@ await app.register(fastifyStatic, {
 
 app.setNotFoundHandler(
   {
-    config: { rateLimit: { max: 60, timeWindow: "1 minute", keyGenerator: (req) => hashIp(req.ip, IP_SALT) } },
+    config: { rateLimit: { max: 60, timeWindow: "1 minute", keyGenerator: (req) => hashIp(clientIp(req), IP_SALT) } },
   },
   async (req, reply) => {
     // Serve the 404 page of whichever locale the URL is already in, so a visitor
