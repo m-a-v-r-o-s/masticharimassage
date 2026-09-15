@@ -48,6 +48,13 @@ for (const code of BUILT) {
 }
 const copyFor = (code) => COPY[code] || COPY[DEFAULT_LOCALE];
 
+// Localized 404 pages, read once at boot rather than on every miss.
+const NOT_FOUND = {};
+for (const code of BUILT) {
+  const f = path.join(SITE, code, "404.html");
+  if (fs.existsSync(f)) NOT_FOUND[code] = fs.readFileSync(f, "utf8");
+}
+
 const app = Fastify({
   trustProxy: true,
   bodyLimit: 16 * 1024, // 16KB. Nothing here accepts an upload.
@@ -388,9 +395,8 @@ app.setNotFoundHandler(
     // who mistypes a Greek URL does not suddenly get an English page.
     const first = req.url.split("/").filter(Boolean)[0];
     const locale = BUILT.includes(first) ? first : negotiate(req);
-    const file = path.join(SITE, locale, "404.html");
     reply.code(404).type("text/html; charset=utf-8");
-    if (fs.existsSync(file)) return reply.send(fs.readFileSync(file, "utf8"));
+    if (NOT_FOUND[locale]) return reply.send(NOT_FOUND[locale]);
     return reply.send("<!doctype html><title>Not found</title><h1>Not found</h1>");
   }
 );

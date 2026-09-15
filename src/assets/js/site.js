@@ -24,7 +24,7 @@
     if (header) doc.documentElement.style.setProperty("--header-h", header.getBoundingClientRect().height + "px");
   };
   setHeaderHeight();
-  window.addEventListener("resize", setHeaderHeight);
+  if (header) new ResizeObserver(setHeaderHeight).observe(header);
   if (toggle && nav) {
     toggle.addEventListener("click", function () {
       var open = toggle.getAttribute("aria-expanded") === "true";
