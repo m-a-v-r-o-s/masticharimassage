@@ -63,6 +63,9 @@ await app.register(rateLimit, { global: false });
 
 app.addHook("onRequest", async (req, reply) => {
   for (const [k, v] of Object.entries(SECURITY_HEADERS)) reply.header(k, v);
+  // Link-preview tools (opengraph.io, CMS/chat previews) hotlink the share image in an <img>
+  // from their own origin; same-origin CORP makes the browser block it there.
+  if (req.url.startsWith("/assets/img/og/")) reply.header("cross-origin-resource-policy", "cross-origin");
   reply.header("content-security-policy", CSP);
   if (PROD) reply.header("strict-transport-security", "max-age=63072000; includeSubDomains; preload");
 });
