@@ -47,7 +47,7 @@
 <script src="{{ "/assets/js/head.js" | assetv }}"></script>
 {% include "partials/jsonld.njk" %}
 </head>
-<body{% if pageKey == "thankyou" %} data-nosticky{% endif %}>
+<body>
 <a class="skip-link" href="#main">{{ c.nav.skip }}</a>
 {% if isDraftLocale %}<p class="draft-banner">{{ c.ui.draftNotice or "This translation has not been reviewed by a native speaker yet." }}</p>{% endif %}
 {% include "partials/header.njk" %}

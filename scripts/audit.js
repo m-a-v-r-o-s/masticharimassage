@@ -1,7 +1,7 @@
 /**
  * Static audit of the built site. This is not a substitute for axe, a keyboard
  * pass or a screen reader - it is the part that a machine can check on every one
- * of 181 pages, so the manual passes can concentrate on what needs judgement.
+ * of 171 pages, so the manual passes can concentrate on what needs judgement.
  *
  * Run: npm run audit  (after npm run build)
  */

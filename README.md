@@ -1,7 +1,7 @@
 # Mastichari Massage
 
 Website for Konstantinos Fessaras, a massage therapist working at his studio in
-Mastichari, Kos, next to Ghitonia. Ten languages, 181 static pages, one small server
+Mastichari, Kos, next to Ghitonia. Ten languages, 171 static pages, one small server
 in front of them.
 
 Built from scratch. The business facts, the service descriptions, the 41 client
@@ -13,7 +13,7 @@ testimonials and the certificates were all verified against archival captures of
 ```bash
 npm install
 npm run assets     # fonts, image ladder, favicons and the OG card
-npm run build      # i18n gate, then 181 pages into _site/
+npm run build      # i18n gate, then 171 pages into _site/
 npm run serve      # Fastify on :8080
 ```
 
@@ -32,19 +32,18 @@ content/               all copy, no markup
 src/
   _data/               Eleventy data layer over content/
   _includes/           base layout and partials
-  pages/               ten page templates, paginated across locales
+  pages/               nine page templates, paginated across locales
   assets/              css, js, fonts, images
     img/_src/          image masters - derivatives are generated, not committed by hand
 
 server/
-  index.js             static serving, headers, locale negotiation, redirects, booking
-  security.js          CSP, sanitisation, signed form tokens, salted IP hashing
+  index.js             static serving, headers, locale negotiation, redirects, 404 rate limit
+  security.js          security headers, CSP, salted IP hashing
   redirects.js         301/410 map for legacy inbound URLs
-  mailer.js            booking enquiry -> Resend -> the client's inbox
 
 scripts/
   i18n-check.js        build gate: key parity, empty strings, alt text, stale prices
-  audit.js             post-build sweep of all 181 pages
+  audit.js             post-build sweep of all 171 pages
   process-images.js    crops, strips EXIF, builds the AVIF/WebP/JPEG ladder
   build-fonts.js       self-hosts Inter + Source Serif 4, split by unicode-range
   build-icons.js       favicons, web manifest, Open Graph card

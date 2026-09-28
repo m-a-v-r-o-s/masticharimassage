@@ -88,10 +88,6 @@
       "title": "Massage boeken op Kos - telefoon of WhatsApp",
       "description": "Boek een massage in Mastichari, Tigaki of Marmari op Kos. WhatsApp of bel +30 6977784790, of stuur een e-mail. Meestal dezelfde dag antwoord."
     },
-    "thankyou": {
-      "title": "Bedankt - uw aanvraag is verstuurd",
-      "description": "Uw boekingsaanvraag is verstuurd naar Konstantinos Fessaras, Mastichari Massage, Kos."
-    },
     "privacy": {
       "title": "Privacyverklaring | Mastichari Massage, Kos",
       "description": "Welke gegevens deze site verzamelt, waarom, hoe lang ze bewaard worden en welke rechten u hebt onder de AVG."
@@ -182,7 +178,7 @@
     "howSteps": [
       {
         "title": "Stuur een bericht",
-        "body": "WhatsApp is het snelst, een telefoontje werkt ook, het formulier op deze site eveneens. Laat me weten wat u uitkomt en ik bevestig een tijd in de ruimte."
+        "body": "WhatsApp is het snelst, een telefoontje werkt ook. Laat me weten wat u uitkomt en ik bevestig een tijd in de ruimte."
       },
       {
         "title": "We spreken een tijd af",
@@ -430,39 +426,6 @@
     "directTitle": "Direct",
     "phoneBody": "Elke dag, 9:30 - 21:30, van april tot oktober.",
     "emailBody": "Voor alles wat niet dringend is.",
-    "formTitle": "Of stuur een boekingsaanvraag",
-    "formIntro": "Laat me weten wanneer het u uitkomt en welke massage u wilt. Niets is bevestigd totdat ik reageer.",
-    "form": {
-      "name": "Uw naam",
-      "email": "E-mail",
-      "emailHint": "Zodat ik u kan antwoorden.",
-      "phone": "Telefoon- of WhatsApp-nummer",
-      "phoneHint": "Optioneel, maar het maakt antwoorden veel sneller.",
-      "service": "Welke massage",
-      "serviceAny": "Weet ik nog niet - stel maar iets voor",
-      "when": "Wanneer u het zou willen",
-      "whenHint": "Een datum en een globaal tijdstip van de dag is genoeg.",
-      "message": "Wat ik moet weten",
-      "messageHint": "Pijn, blessures, recente operaties, zwangerschap, of alles wat ik beter kan vermijden.",
-      "consentLabel": "Ik ga ermee akkoord dat mijn gegevens gebruikt worden om deze boekingsaanvraag te beantwoorden.",
-      "consentHint": "Uw gegevens worden per e-mail naar Konstantinos gestuurd en worden niet op deze website bewaard, niet gedeeld en niet voor marketing gebruikt. Zie de privacyverklaring.",
-      "submit": "Boekingsaanvraag versturen",
-      "submitting": "Versturen...",
-      "required": "verplicht",
-      "optional": "optioneel"
-    },
-    "errors": {
-      "name": "Vul de naam in die ik moet gebruiken als ik antwoord.",
-      "email": "Vul een e-mailadres in waarop ik kan antwoorden, bijvoorbeeld naam@example.com.",
-      "emailInvalid": "Dit lijkt geen volledig e-mailadres. Controleer het even.",
-      "message": "Houd het bericht onder de 2000 tekens.",
-      "consent": "Vink het vakje aan zodat ik u mag antwoorden.",
-      "rateLimit": "Dat zijn veel aanvragen in korte tijd. Wacht een paar minuten en probeer het opnieuw - of stuur gewoon een WhatsApp-bericht, dat werkt altijd.",
-      "server": "Er ging iets mis aan onze kant en het bericht is niet verstuurd. Probeer het opnieuw, of stuur een WhatsApp-bericht naar +30 6977784790.",
-      "generic": "De aanvraag kon niet verstuurd worden. Controleer de hierboven gemarkeerde velden.",
-      "summaryTitle": "De aanvraag is niet verstuurd",
-      "blocked": "Deze inzending leek de server geautomatiseerd en is niet verstuurd. Herlaad de pagina en probeer het nog eens - of stuur gewoon een WhatsApp-bericht naar +30 6977784790, dat werkt altijd."
-    },
     "faqTitle": "Vragen die mensen stellen",
     "faq": [
       {
@@ -509,25 +472,7 @@
         "q": "Uit welke gebieden komen uw gasten?",
         "a": "Mijn eigen plek is in het centrum van Mastichari. Gasten komen uit Tigaki, Marmari en van elders op Kos: schrijf me en ik zeg eerlijk of het een prettige rit is."
       }
-    ],
-    "success": {
-      "title": "Bedankt - uw aanvraag is verstuurd",
-      "body": "Hij is aangekomen. Ik lees ze zelf en antwoord meestal dezelfde dag, tijdens werktijden. Er is niets geboekt tot ik de tijd met u bevestig.",
-      "link": "Lees hoe het verder gaat"
-    }
-  },
-  "thankyou": {
-    "title": "Bedankt - uw aanvraag is verstuurd",
-    "lede": "Uw boekingsaanvraag is aangekomen. Ik lees ze zelf en antwoord meestal dezelfde dag, tijdens werktijden.",
-    "bodyTitle": "Hoe het verder gaat",
-    "body": [
-      "Ik antwoord op het e-mailadres dat u hebt opgegeven, of op uw telefoonnummer als u er een hebt achtergelaten.",
-      "Er is niets geboekt tot ik de tijd met u bevestig, en intussen hoeft u niets te betalen.",
-      "Hebt u de volgende ochtend nog niets gehoord, dan is er iets misgegaan met de e-mail - stuur dan een WhatsApp-bericht, dat komt altijd aan."
-    ],
-    "cta": "Terug naar de homepage",
-    "urgentTitle": "Haast?",
-    "urgentBody": "Zitten uw data krap, stuur me dan een WhatsApp-bericht in plaats van op de e-mail te wachten."
+    ]
   },
   "notfound": {
     "title": "Die pagina staat hier niet",
@@ -537,7 +482,7 @@
   },
   "cookie": {
     "title": "Cookies",
-    "body": "Deze site gebruikt geen analytics en geen tracking. Eén cookie wordt altijd geplaatst, omdat het boekingsformulier daarmee beveiligd wordt. U kiest zelf of de site ook de door u gekozen taal mag onthouden.",
+    "body": "Deze site gebruikt geen analytics en geen tracking. Hij onthoudt alleen uw antwoord op deze melding en, als u dat accepteert, de taal die u hebt gekozen.",
     "accept": "Alles accepteren",
     "decline": "Alleen noodzakelijk",
     "more": "Cookiebeleid",
@@ -546,7 +491,7 @@
   },
   "privacy": {
     "title": "Privacyverklaring",
-    "updated": "Laatst bijgewerkt: 28 augustus 2026",
+    "updated": "Laatst bijgewerkt: 28 september 2026",
     "lede": "Deze site verzamelt zo weinig mogelijk. Er is geen analytics, geen advertentie en geen tracking van welke aard dan ook. Wat hier volgt is het volledige verhaal van wat er wel gebeurt.",
     "sections": [
       {
@@ -557,45 +502,45 @@
         ]
       },
       {
-        "h": "Wat het boekingsformulier verzamelt",
+        "h": "Wat ik ontvang als u contact opneemt",
         "p": [
-          "Als u het boekingsformulier verstuurt, ontvang ik: uw naam, uw e-mailadres, uw telefoonnummer als u dat hebt opgegeven, naar welke massage u vroeg, wanneer u die zou willen, alles wat u in het berichtveld hebt geschreven, en het feit dat u het toestemmingsvakje hebt aangevinkt.",
+          "Op deze site staat geen boekingsformulier: afspraken worden gemaakt via WhatsApp, telefoon of e-mail. Als u contact met mij opneemt, ontvang ik wat u mij stuurt: meestal uw naam, uw telefoonnummer of e-mailadres, welke massage u interesseert, wanneer u die zou willen en wat u verder nog wilt vertellen.",
           "Dat wordt voor één ding gebruikt: u antwoorden en de afspraak regelen. Het wordt niet voor marketing gebruikt, met niemand gedeeld en niet verkocht."
         ]
       },
       {
         "h": "Gezondheidsgegevens",
         "p": [
-          "Het formulier vraagt u pijn, blessures, recente operaties of zwangerschap te vermelden, omdat ik dat moet weten voordat ik met u werk. Onder de AVG zijn dat gezondheidsgegevens, die zwaarder beschermd zijn.",
-          "Schrijf alleen wat ik nodig heb om veilig te werken - niet uw medische voorgeschiedenis. Ik verwerk deze gegevens op grond van uw uitdrukkelijke toestemming, die u met het vakje geeft, en alleen om de massage veilig te kunnen geven. Ze worden samen met de rest van de aanvraag gewist."
+          "Voor een massage moet ik weten of u pijn, blessures, een recente operatie of een zwangerschap hebt, daarom vraag ik ernaar. Volgens de AVG zijn dat gezondheidsgegevens, die sterker beschermd zijn.",
+          "Vertel me alleen wat ik nodig heb om veilig te werken, niet uw medische geschiedenis. Ik verwerk dit op basis van uw uitdrukkelijke toestemming, die u geeft door het mij te vertellen, en alleen om de massage veilig te kunnen geven. Het wordt samen met de rest van ons gesprek verwijderd."
         ]
       },
       {
         "h": "Rechtsgrond",
         "p": [
-          "Uw boekingsaanvraag beantwoorden en de afspraak regelen: maatregelen op uw verzoek voorafgaand aan een overeenkomst, artikel 6, lid 1, onder b) AVG, samen met uw toestemming, artikel 6, lid 1, onder a).",
+          "Uw bericht beantwoorden en de afspraak regelen: maatregelen op uw verzoek voorafgaand aan een overeenkomst, artikel 6, lid 1, onder b) AVG.",
           "Gezondheidsgegevens die u zelf kiest te geven: uw uitdrukkelijke toestemming, artikel 9, lid 2, onder a).",
-          "Voorkomen dat het boekingsformulier misbruikt wordt door spam en geautomatiseerde inzendingen: gerechtvaardigd belang, artikel 6, lid 1, onder f)."
+          "Deze site veilig houden en beschermen tegen geautomatiseerd misbruik: gerechtvaardigd belang, artikel 6, lid 1, onder f)."
         ]
       },
       {
         "h": "Waar ze heen gaan en hoe lang ze blijven",
         "p": [
-          "Het formulier slaat niets op in een database op deze website. De gegevens worden als e-mail naar mijn eigen mailbox gestuurd, en daar blijven ze.",
-          "Ik verwijder boekingsaanvragen uit mijn mailbox zodra het seizoen waarop ze betrekking hebben voorbij is, en uiterlijk twaalf maanden na uw laatste bericht aan mij. Vraagt u mij die van u eerder te wissen, dan doe ik dat en bevestig ik het."
+          "Deze site verzamelt en bewaart niets van wat u mij stuurt. Uw berichten blijven waar u ze naartoe stuurde: in WhatsApp, op mijn telefoon of in mijn mailbox.",
+          "Ik verwijder gesprekken over boekingen zodra het seizoen waarop ze betrekking hebben voorbij is, en uiterlijk twaalf maanden na uw laatste bericht aan mij. Vraagt u mij het uwe eerder te wissen, dan doe ik dat en bevestig ik het."
         ]
       },
       {
         "h": "Wie er verder bij betrokken zijn",
         "p": [
-          "De website wordt gehost door Railway, in een Europese regio. De boekingsmail wordt bezorgd door Resend, in een Europese regio. Mijn mailbox is een Microsoft Outlook/Hotmail-account, dus Microsoft verwerkt de e-mail als mijn aanbieder - dat kan een doorgifte buiten de EER onder Microsofts eigen waarborgen inhouden.",
+          "De website wordt gehost door Railway, in een Europese regio. WhatsApp-berichten worden verwerkt door WhatsApp (Meta), en mijn mailbox is een Microsoft Outlook/Hotmail-account, dus Microsoft verwerkt e-mail als mijn provider. In beide gevallen kan dat doorgifte buiten de EER betekenen, onder de eigen waarborgen van die bedrijven.",
           "Geen van deze bedrijven krijgt uw gegevens voor eigen doeleinden. Er staan op deze site helemaal geen advertentie-, analyse- of profileringsdiensten."
         ]
       },
       {
         "h": "Serverlogs en bescherming tegen misbruik",
         "p": [
-          "De server legt de opgevraagde pagina's vast en, alleen voor het boekingsformulier, een eenrichtings-hash met salt van het IP-adres van de afzender. De hash wordt gebruikt voor de verzendlimiet die voorkomt dat het formulier wordt overspoeld, en om beveiligingsrelevante gebeurtenissen vast te leggen, zoals herhaald mislukte inzendingen.",
+          "De server registreert welke pagina's worden opgevraagd. Om te voorkomen dat de site wordt overspoeld met geautomatiseerde verzoeken, worden herhaalde verzoeken naar niet-bestaande pagina's geteld aan de hand van een eenrichtings-hash met salt van het IP-adres, die slechts één minuut in het geheugen wordt bewaard.",
           "Het IP-adres zelf wordt niet in de logs geschreven, de hash kan niet worden teruggerekend naar een adres, en deze gegevens worden na 30 dagen verwijderd."
         ]
       },
@@ -603,7 +548,7 @@
         "h": "Cookies",
         "p": [
           "Deze site plaatst geen analytics- of advertentiecookies, en er staat hier niets van welk advertentienetwerk dan ook.",
-          "Twee cookies zijn strikt noodzakelijk en worden altijd geplaatst: één beschermt het boekingsformulier tegen cross-site request forgery, de andere onthoudt of u \"Alles accepteren\" of \"Alleen noodzakelijk\" hebt gekozen in de cookiemelding. Een derde cookie, die de door u gekozen taal onthoudt zodat u bij uw volgende bezoek niet terug naar het Engels gaat, wordt alleen geplaatst als u die accepteert. U wordt dit bij uw eerste bezoek gevraagd en u kunt uw antwoord op elk moment wijzigen via \"Cookie-instellingen\" in de footer. De volledige lijst, met de bewaartermijn van elk, staat in het cookiebeleid.",
+          "Eén cookie is strikt noodzakelijk: zodra u de cookiemelding hebt beantwoord, onthoudt die of u \"Alles accepteren\" of \"Alleen noodzakelijk\" hebt gekozen. Een tweede cookie, die de door u gekozen taal onthoudt zodat u bij uw volgende bezoek niet terug naar het Engels gaat, wordt alleen geplaatst als u die accepteert. U wordt dit bij uw eerste bezoek gevraagd en u kunt uw antwoord op elk moment wijzigen via \"Cookie-instellingen\" in de footer. De volledige lijst, met de bewaartermijn van elk, staat in het cookiebeleid.",
           "U kunt ze ook op elk moment in uw browser verwijderen. De site blijft werken - hij vergeet dan alleen uw taal en vraagt opnieuw.",
           "De homepage en de pagina \"Waar de massage plaatsvindt\" bevatten ook een live Google Maps-kaart, zodat u precies kunt zien waar de ruimte is. Die kaart wordt rechtstreeks door Google geladen, niet door deze site, dus zodra dat deel van de pagina laadt, kan Google zijn eigen cookies plaatsen en uw IP-adres zien volgens zijn eigen privacybeleid - dat heeft deze site niet in de hand. Wilt u dat liever niet, dan openen de links \"Bekijk op Google Maps\" en \"Route uitstippelen\" Google Maps in plaats daarvan in een nieuw tabblad, en laden ze niets totdat u erop klikt."
         ]
@@ -633,7 +578,7 @@
       {
         "h": "Kinderen",
         "p": [
-          "Deze site is niet op kinderen gericht en het boekingsformulier hoort door een volwassene te worden ingevuld. Een massage voor een minderjarige wordt geregeld met een ouder of voogd, die aanwezig moet zijn."
+          "Deze site is niet op kinderen gericht, en een afspraak hoort door een volwassene gemaakt te worden. Massage voor een minderjarige wordt geregeld met een ouder of voogd, die aanwezig moet zijn."
         ]
       },
       {
@@ -645,7 +590,7 @@
       {
         "h": "Wijzigingen",
         "p": [
-          "Verandert deze verklaring, dan verandert de datum bovenaan mee. De versie waarmee u akkoord ging toen u een boekingsaanvraag verstuurde, is de versie die op die aanvraag van toepassing is."
+          "Als dit beleid verandert, verandert de datum bovenaan mee. Voor een boeking geldt de versie die van kracht was toen u contact met mij opnam."
         ]
       }
     ]
@@ -672,7 +617,7 @@
       {
         "h": "Boeken en bevestigen",
         "p": [
-          "Een boeking bestaat pas als ik u de tijd heb bevestigd. Een aanvraag via het formulier, WhatsApp, e-mail of telefoon is een aanvraag, geen bevestigde afspraak.",
+          "Een boeking bestaat pas als ik u de tijd heb bevestigd. Een aanvraag via WhatsApp, e-mail of telefoon is een aanvraag, geen bevestigde afspraak.",
           "Er wordt geen aanbetaling gevraagd en er wordt via deze website niets betaald. Deze site verwerkt geen enkele betaling."
         ]
       },
@@ -740,22 +685,21 @@
   },
   "cookies": {
     "title": "Cookiebeleid",
-    "updated": "Laatst bijgewerkt: 29 augustus 2026",
+    "updated": "Laatst bijgewerkt: 28 september 2026",
     "lede": "Dit is de volledige lijst van cookies die deze site kan plaatsen, waarom, en hoe lang elke cookie geldt. U kiest zelf welke daarvan geplaatst worden, en u kunt op elk moment van gedachten veranderen.",
     "sections": [
       {
         "h": "Uw keuze",
         "p": [
-          "Bij uw eerste bezoek vraagt een kleine melding u om alle cookies te accepteren of alleen de noodzakelijke. Alleen noodzakelijk betekent dat de site alleen de ene cookie plaatst waarzonder ze niet kan werken; bij Alles accepteren onthoudt ze ook de door u gekozen taal.",
+          "Bij uw eerste bezoek vraagt een kleine melding of u alle cookies accepteert of alleen de noodzakelijke. Alleen noodzakelijk betekent dat de site maar één cookie bewaart, namelijk die met uw antwoord; bij Alles accepteren onthoudt hij ook de taal die u hebt gekozen.",
           "U kunt op elk moment van gedachten veranderen - open \"Cookie-instellingen\" in de footer van elke pagina, in elke taal, om de melding opnieuw te zien en een ander antwoord te kiezen."
         ]
       },
       {
-        "h": "Cookies die altijd worden geplaatst",
+        "h": "Strikt noodzakelijke cookie",
         "p": [
-          "csrf - een eenmalig token dat voorkomt dat het boekingsformulier namens u vanaf een andere site wordt verzonden. Wordt verwijderd zodra u uw browser sluit en is niet aan uw identiteit gekoppeld.",
-          "cookieConsent - onthoudt of u \"Alles accepteren\" of \"Alleen noodzakelijk\" hebt gekozen, zodat de melding niet op elke pagina terugkomt. Geldt twaalf maanden.",
-          "Beide zijn strikt noodzakelijk voor de werking van de site en van de cookiemelding zelf, dus de AVG en het Griekse recht vereisen hiervoor geen toestemming van u."
+          "cookieConsent - onthoudt of u \"Alles accepteren\" of \"Alleen noodzakelijk\" hebt gekozen, zodat de melding niet op elke pagina terugkomt. Wordt geplaatst zodra u de melding beantwoordt, en hetzelfde antwoord wordt ook in de lokale opslag van uw browser bewaard. Geldt twaalf maanden.",
+          "Deze cookie is strikt noodzakelijk voor de werking van de cookiemelding zelf, dus de AVG en het Griekse recht vereisen hiervoor geen toestemming van u. De server zelf plaatst geen cookies."
         ]
       },
       {

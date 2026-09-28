@@ -88,10 +88,6 @@
       "title": "Réserver un massage à Kos - téléphone ou WhatsApp",
       "description": "Réservez un massage à Mastichari, Tigaki ou Marmari, à Kos. WhatsApp ou appelez le +30 6977784790, ou envoyez un e-mail. Réponse généralement le jour même."
     },
-    "thankyou": {
-      "title": "Merci - votre demande de réservation a été envoyée",
-      "description": "Votre demande de réservation a été envoyée à Konstantinos Fessaras, Mastichari Massage, Kos."
-    },
     "privacy": {
       "title": "Politique de confidentialité | Mastichari Massage, Kos",
       "description": "Quelles données ce site collecte, pourquoi, combien de temps elles sont conservées, et vos droits au titre du RGPD."
@@ -182,7 +178,7 @@
     "howSteps": [
       {
         "title": "Envoyez un message",
-        "body": "WhatsApp est le plus rapide, un appel fonctionne aussi, et le formulaire de ce site également. Dites-moi ce qui vous arrange et je confirme un horaire dans l'espace."
+        "body": "WhatsApp est le plus rapide, un appel fonctionne aussi. Dites-moi ce qui vous arrange et je confirme un horaire dans l'espace."
       },
       {
         "title": "On convient d'un horaire",
@@ -430,39 +426,6 @@
     "directTitle": "Contact direct",
     "phoneBody": "Tous les jours, de 9h30 à 21h30, d’avril à octobre.",
     "emailBody": "Pour tout ce qui n'est pas urgent.",
-    "formTitle": "Ou envoyez une demande de réservation",
-    "formIntro": "Dites-moi à quel moment cela vous arrange, et quel type de massage vous souhaitez. Rien n'est confirmé avant ma réponse.",
-    "form": {
-      "name": "Votre nom",
-      "email": "E-mail",
-      "emailHint": "Pour que je puisse vous répondre.",
-      "phone": "Numéro de téléphone ou WhatsApp",
-      "phoneHint": "Facultatif, mais cela accélère beaucoup la réponse.",
-      "service": "Quel massage",
-      "serviceAny": "Pas encore sûr - proposez-m'en un",
-      "when": "Quand vous le souhaitez",
-      "whenHint": "Une date et un moment approximatif de la journée suffisent.",
-      "message": "Quelque chose que je devrais savoir",
-      "messageHint": "Douleurs, blessures, opération récente, grossesse, ou tout ce que vous préféreriez que j'évite.",
-      "consentLabel": "J'accepte que mes coordonnées soient utilisées pour répondre à cette demande de réservation.",
-      "consentHint": "Vos coordonnées sont envoyées par e-mail à Konstantinos et ne sont ni conservées sur ce site, ni partagées, ni utilisées à des fins commerciales. Voir la politique de confidentialité.",
-      "submit": "Envoyer la demande de réservation",
-      "submitting": "Envoi en cours...",
-      "required": "obligatoire",
-      "optional": "facultatif"
-    },
-    "errors": {
-      "name": "Merci d'indiquer le nom à utiliser pour vous répondre.",
-      "email": "Merci d'indiquer une adresse e-mail à laquelle je peux répondre, par exemple nom@exemple.com.",
-      "emailInvalid": "Cela ne ressemble pas à une adresse e-mail complète. Merci de la vérifier.",
-      "message": "Merci de limiter le message à 2000 caractères.",
-      "consent": "Merci de cocher la case pour m'autoriser à vous répondre.",
-      "rateLimit": "Cela fait beaucoup de demandes en peu de temps. Merci de patienter quelques minutes et de réessayer - ou envoyez simplement un message WhatsApp, qui fonctionne toujours.",
-      "server": "Une erreur s'est produite de notre côté et le message n'a pas été envoyé. Merci de réessayer, ou envoyez un message WhatsApp au +30 6977784790.",
-      "generic": "La demande n'a pas pu être envoyée. Merci de vérifier les champs signalés ci-dessus.",
-      "summaryTitle": "La demande n'a pas été envoyée",
-      "blocked": "Cet envoi a semblé automatisé au serveur, il n'a donc pas été transmis. Merci de recharger la page et de réessayer - ou envoyez simplement un message WhatsApp au +30 6977784790, qui fonctionne toujours."
-    },
     "faqTitle": "Questions fréquentes",
     "faq": [
       {
@@ -509,25 +472,7 @@
         "q": "De quelles zones viennent vos clients ?",
         "a": "Mon propre espace se trouve au centre de Mastichari. Des clients viennent de Tigaki, Marmari et d'ailleurs à Kos : écrivez-moi et je vous dirai honnêtement si le trajet est raisonnable."
       }
-    ],
-    "success": {
-      "title": "Merci - votre demande a été envoyée",
-      "body": "Elle est bien arrivée. Je les lis moi-même et je réponds généralement le jour même, pendant les heures de travail. Rien n'est réservé avant que je ne confirme l'horaire avec vous.",
-      "link": "Lire la suite"
-    }
-  },
-  "thankyou": {
-    "title": "Merci - votre demande a été envoyée",
-    "lede": "Votre demande de réservation est bien arrivée. Je les lis moi-même et je réponds généralement le jour même, pendant les heures de travail.",
-    "bodyTitle": "Et maintenant ?",
-    "body": [
-      "Je vous répondrai à l'adresse e-mail que vous avez indiquée, ou à votre numéro de téléphone si vous en avez laissé un.",
-      "Rien n'est réservé avant que je ne confirme l'horaire avec vous, et il n'y a rien à payer entre-temps.",
-      "Si vous n'avez pas de nouvelles le lendemain matin, un problème est survenu avec l'e-mail - envoyez plutôt un message WhatsApp, qui arrive toujours."
-    ],
-    "cta": "Retour à la page d'accueil",
-    "urgentTitle": "Pressé ?",
-    "urgentBody": "Si vos dates sont serrées, écrivez-moi sur WhatsApp plutôt que d'attendre l'e-mail."
+    ]
   },
   "notfound": {
     "title": "Cette page n'existe pas ici",
@@ -537,7 +482,7 @@
   },
   "cookie": {
     "title": "Cookies",
-    "body": "Ce site n'utilise ni analytique ni suivi. Un cookie est toujours déposé car il protège le formulaire de réservation. Vous choisissez si le site peut aussi se souvenir de la langue que vous avez choisie.",
+    "body": "Ce site n'utilise ni analytique ni suivi. Il retient seulement votre réponse à cet avis et, si vous l'acceptez, la langue que vous avez choisie.",
     "accept": "Tout accepter",
     "decline": "Nécessaires uniquement",
     "more": "Politique de cookies",
@@ -546,7 +491,7 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 28 août 2026",
+    "updated": "Dernière mise à jour : 28 septembre 2026",
     "lede": "Ce site collecte le moins de données possible. Il n'y a ni analytique, ni publicité, ni aucun suivi. Voici le compte-rendu complet de ce qui se passe réellement.",
     "sections": [
       {
@@ -557,45 +502,45 @@
         ]
       },
       {
-        "h": "Ce que collecte le formulaire de réservation",
+        "h": "Ce que je reçois quand vous me contactez",
         "p": [
-          "Si vous envoyez le formulaire de réservation, je reçois : votre nom, votre adresse e-mail, votre numéro de téléphone si vous en avez indiqué un, le massage demandé, quand vous le souhaitez, tout ce que vous avez écrit dans le champ message, et le fait que vous ayez coché la case de consentement.",
+          "Ce site n'a pas de formulaire de réservation : les rendez-vous se prennent par WhatsApp, par téléphone ou par e-mail. Quand vous me contactez, je reçois ce que vous m'envoyez : en général votre nom, votre numéro de téléphone ou votre adresse e-mail, le massage qui vous intéresse, le moment souhaité et tout ce que vous choisissez d'ajouter.",
           "Ces informations ne servent qu'à une seule chose : vous répondre et organiser le rendez-vous. Elles ne sont pas utilisées à des fins commerciales, ne sont partagées avec personne, et ne sont pas vendues."
         ]
       },
       {
         "h": "Informations de santé",
         "p": [
-          "Le formulaire vous invite à mentionner douleurs, blessures, opération récente ou grossesse, car j'ai besoin de le savoir avant de travailler sur vous. Au titre du RGPD, il s'agit de données de santé, qui bénéficient d'une protection renforcée.",
-          "Merci de n'écrire que ce dont j'ai besoin pour travailler en toute sécurité - pas votre historique médical complet. Je traite ces informations sur la base de votre consentement explicite, donné en cochant la case, et uniquement afin de réaliser le massage en toute sécurité. Elles sont supprimées avec le reste de la demande."
+          "Avant un massage, je dois savoir si vous avez des douleurs, des blessures, une opération récente ou une grossesse, c'est pourquoi je vous poserai la question. Au sens du RGPD, ce sont des données de santé, qui bénéficient d'une protection renforcée.",
+          "Ne me dites que ce dont j'ai besoin pour travailler en sécurité, pas votre dossier médical. Je traite ces informations sur la base de votre consentement explicite, que vous donnez en choisissant de me les communiquer, et uniquement pour réaliser le massage en toute sécurité. Elles sont supprimées avec le reste de notre échange."
         ]
       },
       {
         "h": "Base légale",
         "p": [
-          "Répondre à votre demande de réservation et organiser le rendez-vous : mesures prises à votre demande avant la conclusion d'un contrat, RGPD article 6(1)(b), ainsi que votre consentement, article 6(1)(a).",
+          "Répondre à votre message et organiser le rendez-vous : mesures prises à votre demande avant la conclusion d'un contrat, RGPD article 6(1)(b).",
           "Toute information de santé que vous choisissez de communiquer : votre consentement explicite, article 9(2)(a).",
-          "Protéger le formulaire de réservation contre les abus, le spam et les envois automatisés : intérêt légitime, article 6(1)(f)."
+          "Assurer la sécurité de ce site et le protéger contre les abus automatisés : intérêt légitime, article 6(1)(f)."
         ]
       },
       {
         "h": "Où vont les données et combien de temps elles sont conservées",
         "p": [
-          "Le formulaire n'enregistre rien dans une base de données sur ce site. Les informations sont envoyées par e-mail à ma propre boîte de réception, et c'est là qu'elles restent.",
-          "Je supprime les demandes de réservation de ma boîte de réception une fois la saison concernée terminée, et au plus tard douze mois après votre dernier message. Si vous me demandez de supprimer les vôtres plus tôt, je le ferai et vous le confirmerai."
+          "Ce site ne collecte et ne conserve rien de ce que vous m'envoyez. Vos messages restent là où vous les avez envoyés : dans WhatsApp, sur mon téléphone ou dans ma boîte de réception.",
+          "Je supprime les échanges liés aux réservations une fois la saison concernée terminée, et au plus tard douze mois après votre dernier message. Si vous me demandez de supprimer les vôtres plus tôt, je le ferai et vous le confirmerai."
         ]
       },
       {
         "h": "Qui d'autre est impliqué",
         "p": [
-          "Le site est hébergé par Railway, dans une région européenne. L'e-mail de réservation est envoyé par Resend, dans une région européenne. Ma boîte de réception est un compte Microsoft Outlook/Hotmail, donc Microsoft traite l'e-mail en tant que mon fournisseur - cela peut impliquer un transfert hors de l'EEE dans le cadre des garanties propres à Microsoft.",
+          "Le site est hébergé par Railway, dans une région européenne. Les messages WhatsApp sont traités par WhatsApp (Meta), et ma boîte de réception est un compte Microsoft Outlook/Hotmail : Microsoft traite donc les e-mails en tant que mon fournisseur. Dans les deux cas, cela peut impliquer un transfert hors de l'EEE selon les garanties propres à chaque entreprise.",
           "Aucune de ces entreprises ne reçoit vos données pour ses propres finalités. Ce site n'utilise aucun service de publicité, d'analytique ou de profilage."
         ]
       },
       {
         "h": "Journaux serveur et protection contre les abus",
         "p": [
-          "Le serveur enregistre les pages demandées et, pour le seul formulaire de réservation, une empreinte à sens unique et salée de l'adresse IP de l'expéditeur. Cette empreinte sert à appliquer la limite de fréquence qui empêche le formulaire d'être saturé, et à enregistrer les événements liés à la sécurité tels que des envois échoués répétés.",
+          "Le serveur enregistre les pages demandées. Pour éviter que le site soit submergé de requêtes automatisées, les requêtes répétées vers des pages inexistantes sont comptées à l'aide d'une empreinte salée et irréversible de l'adresse IP, conservée en mémoire pendant une minute seulement.",
           "L'adresse IP en clair n'est pas inscrite dans les journaux, l'empreinte ne peut pas être inversée pour retrouver une adresse, et ces enregistrements sont supprimés après 30 jours."
         ]
       },
@@ -603,7 +548,7 @@
         "h": "Cookies",
         "p": [
           "Ce site ne dépose aucun cookie analytique ou publicitaire, et rien ici ne provient d'un réseau publicitaire.",
-          "Deux cookies sont strictement nécessaires et toujours déposés : l'un protège le formulaire de réservation contre la falsification de requête intersites, l'autre mémorise si vous avez choisi « Tout accepter » ou « Nécessaires uniquement » dans l'avis relatif aux cookies. Un troisième cookie, qui mémorise la langue choisie afin que vous ne soyez pas renvoyé vers l'anglais lors de votre prochaine visite, n'est déposé que si vous l'acceptez. La question vous est posée dès votre première visite et vous pouvez changer de réponse à tout moment depuis « Paramètres des cookies » dans le pied de page. La liste complète, avec la durée de chacun, figure dans la politique de cookies.",
+          "Un cookie est strictement nécessaire : dès que vous répondez à l'avis relatif aux cookies, il mémorise si vous avez choisi « Tout accepter » ou « Nécessaires uniquement ». Un second cookie, qui mémorise la langue choisie afin que vous ne soyez pas renvoyé vers l'anglais lors de votre prochaine visite, n'est déposé que si vous l'acceptez. La question vous est posée dès votre première visite et vous pouvez changer de réponse à tout moment depuis « Paramètres des cookies » dans le pied de page. La liste complète, avec la durée de chacun, figure dans la politique de cookies.",
           "Vous pouvez aussi les supprimer à tout moment dans votre navigateur. Le site continuera de fonctionner - il oubliera simplement votre langue et vous posera à nouveau la question.",
           "Les pages d'accueil et Localisation intègrent également une carte Google Maps en direct afin que vous puissiez voir exactement où se trouve l'espace de soin. Cette carte est chargée directement depuis Google, et non depuis ce site ; une fois cette partie de la page chargée, Google peut donc définir ses propres cookies et voir votre adresse IP selon sa propre politique de confidentialité - ce site ne contrôle pas cela. Si vous préférez ne pas la charger, les liens « Voir sur Google Maps » et « Obtenir l'itinéraire » ouvrent Google Maps dans un nouvel onglet et ne chargent rien tant que vous ne cliquez pas dessus."
         ]
@@ -633,7 +578,7 @@
       {
         "h": "Enfants",
         "p": [
-          "Ce site ne s'adresse pas aux enfants et le formulaire de réservation doit être rempli par un adulte. Un massage pour un mineur est organisé avec un parent ou un tuteur, qui doit être présent."
+          "Ce site ne s'adresse pas aux enfants, et la réservation doit être faite par un adulte. Un massage pour un mineur s'organise avec un parent ou un tuteur, qui doit être présent."
         ]
       },
       {
@@ -645,7 +590,7 @@
       {
         "h": "Modifications",
         "p": [
-          "Si cette politique change, la date en haut de page change avec elle. La version que vous avez acceptée au moment d'envoyer une demande de réservation est celle qui s'applique à cette demande."
+          "Si cette politique change, la date en haut de page change aussi. Pour chaque réservation, c'est la version en vigueur au moment où vous m'avez contacté qui s'applique."
         ]
       }
     ]
@@ -672,7 +617,7 @@
       {
         "h": "Réservation et confirmation",
         "p": [
-          "Une réservation n'existe qu'une fois que je vous ai confirmé l'horaire. Une demande envoyée via le formulaire, par WhatsApp, par e-mail ou par téléphone est une demande, pas un rendez-vous confirmé.",
+          "Une réservation n'existe qu'une fois que je vous ai confirmé l'horaire. Une demande envoyée par WhatsApp, par e-mail ou par téléphone est une demande, pas un rendez-vous confirmé.",
           "Aucun acompte n'est demandé et aucun paiement ne se fait via ce site. Ce site ne traite aucun paiement d'aucune sorte."
         ]
       },
@@ -740,22 +685,21 @@
   },
   "cookies": {
     "title": "Politique de cookies",
-    "updated": "Dernière mise à jour : 29 août 2026",
+    "updated": "Dernière mise à jour : 28 septembre 2026",
     "lede": "Voici la liste complète des cookies que ce site peut déposer, pourquoi, et combien de temps chacun dure. Vous choisissez lesquels sont déposés, et vous pouvez changer d'avis à tout moment.",
     "sections": [
       {
         "h": "Votre choix",
         "p": [
-          "Lors de votre première visite, un petit avis vous demande d'accepter tous les cookies ou seulement les nécessaires. Nécessaires uniquement signifie que le site ne dépose que le seul cookie sans lequel il ne peut pas fonctionner ; Tout accepter lui permet aussi de mémoriser la langue que vous avez choisie.",
+          "Lors de votre première visite, un petit avis vous demande d'accepter tous les cookies ou seulement les cookies nécessaires. « Nécessaires uniquement » signifie que le site ne conserve qu'un seul cookie, celui qui enregistre cette réponse ; « Tout accepter » lui permet aussi de retenir la langue choisie.",
           "Vous pouvez changer d'avis à tout moment - ouvrez « Paramètres des cookies » dans le pied de page de n'importe quelle page, dans n'importe quelle langue, pour revoir l'avis et choisir une autre réponse."
         ]
       },
       {
-        "h": "Cookies toujours déposés",
+        "h": "Cookie strictement nécessaire",
         "p": [
-          "csrf - un jeton à usage unique qui empêche que le formulaire de réservation soit soumis en votre nom depuis un autre site. Il est supprimé à la fermeture de votre navigateur et n'est pas lié à votre identité.",
-          "cookieConsent - mémorise si vous avez choisi « Tout accepter » ou « Nécessaires uniquement », afin que l'avis ne réapparaisse pas sur chaque page. Dure douze mois.",
-          "Les deux sont strictement nécessaires au fonctionnement du site et de l'avis relatif aux cookies lui-même ; le RGPD et le droit grec n'exigent donc pas votre consentement pour ceux-ci."
+          "cookieConsent - mémorise si vous avez choisi « Tout accepter » ou « Nécessaires uniquement », afin que l'avis ne réapparaisse pas sur chaque page. Il est déposé lorsque vous répondez à l'avis, et la même réponse est aussi conservée dans le stockage local de votre navigateur. Dure douze mois.",
+          "Il est strictement nécessaire au fonctionnement de l'avis relatif aux cookies lui-même ; le RGPD et le droit grec n'exigent donc pas votre consentement pour celui-ci. Le serveur lui-même ne dépose aucun cookie."
         ]
       },
       {

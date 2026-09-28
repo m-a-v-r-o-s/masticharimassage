@@ -13,7 +13,6 @@ const base = [
   { key: "privacy",  path: "privacy",    indexable: true,  priority: "0.2", changefreq: "yearly"  },
   { key: "terms",    path: "terms",      indexable: true,  priority: "0.2", changefreq: "yearly"  },
   { key: "cookies",  path: "cookies",    indexable: true,  priority: "0.2", changefreq: "yearly"  },
-  { key: "thankyou", path: "thank-you",  indexable: false },
   { key: "notfound", path: "404",        indexable: false },
 ];
 

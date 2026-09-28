@@ -88,10 +88,6 @@
       "title": "Book a massage on Kos - phone or WhatsApp",
       "description": "Book a massage in Mastichari, Tigaki or Marmari on Kos. WhatsApp or call +30 6977784790, or send an email. Reply usually the same day."
     },
-    "thankyou": {
-      "title": "Thank you - your booking request has been sent",
-      "description": "Your booking request has been sent to Konstantinos Fessaras, Mastichari Massage, Kos."
-    },
     "privacy": {
       "title": "Privacy policy | Mastichari Massage, Kos",
       "description": "What data this site collects, why, how long it is kept, and your rights under the GDPR."
@@ -182,7 +178,7 @@
     "howSteps": [
       {
         "title": "Send a message",
-        "body": "WhatsApp is fastest, a call works, the form on this site is fine too. Tell me what suits you and I'll confirm a time at the studio."
+        "body": "WhatsApp is fastest, a call works too. Tell me what suits you and I'll confirm a time at the studio."
       },
       {
         "title": "We agree a time",
@@ -430,39 +426,6 @@
     "directTitle": "Direct",
     "phoneBody": "Every day, 9:30 - 21:30, April to October.",
     "emailBody": "For anything that is not urgent.",
-    "formTitle": "Or send a booking request",
-    "formIntro": "Tell me when suits you and what kind of massage you are after. Nothing is confirmed until I reply.",
-    "form": {
-      "name": "Your name",
-      "email": "Email",
-      "emailHint": "So I can reply to you.",
-      "phone": "Phone or WhatsApp number",
-      "phoneHint": "Optional, but it makes replying much faster.",
-      "service": "Which massage",
-      "serviceAny": "Not sure yet - suggest one",
-      "when": "When you would like it",
-      "whenHint": "A date and a rough time of day is enough.",
-      "message": "Anything I should know",
-      "messageHint": "Pain, injuries, recent surgery, pregnancy, or anything you would rather I avoided.",
-      "consentLabel": "I agree that my details may be used to answer this booking request.",
-      "consentHint": "Your details are emailed to Konstantinos and are not stored on this website, shared or used for marketing. See the privacy policy.",
-      "submit": "Send booking request",
-      "submitting": "Sending...",
-      "required": "required",
-      "optional": "optional"
-    },
-    "errors": {
-      "name": "Please enter the name I should use when I reply.",
-      "email": "Please enter an email address I can reply to, for example name@example.com.",
-      "emailInvalid": "That does not look like a complete email address. Please check it.",
-      "message": "Please keep the message under 2000 characters.",
-      "consent": "Please tick the box so I am allowed to reply to you.",
-      "rateLimit": "That is a lot of requests in a short time. Please wait a few minutes and try again - or simply send a WhatsApp message, which always works.",
-      "server": "Something went wrong at our end and the message was not sent. Please try again, or send a WhatsApp message to +30 6977784790.",
-      "generic": "The request could not be sent. Please check the fields marked above.",
-      "summaryTitle": "The request was not sent",
-      "blocked": "That submission looked automated to the server, so it was not sent. Please reload the page and try once more - or just send a WhatsApp message to +30 6977784790, which always works."
-    },
     "faqTitle": "Questions people ask",
     "faq": [
       {
@@ -509,25 +472,7 @@
         "q": "Which areas do your clients come from?",
         "a": "My own place is in the centre of Mastichari. Guests come from Tigaki, Marmari and elsewhere on Kos too - message me and I will tell you honestly whether it is a comfortable drive."
       }
-    ],
-    "success": {
-      "title": "Thank you - your request has been sent",
-      "body": "It has arrived. I read these myself and usually reply the same day, during working hours. Nothing is booked until I confirm the time with you.",
-      "link": "Read what happens next"
-    }
-  },
-  "thankyou": {
-    "title": "Thank you - your request has been sent",
-    "lede": "Your booking request has arrived. I read them myself and usually reply the same day, during working hours.",
-    "bodyTitle": "What happens next",
-    "body": [
-      "I will reply to the email address you gave, or to your phone number if you left one.",
-      "Nothing is booked until I confirm the time with you, and there is nothing to pay in the meantime.",
-      "If you have not heard back by the following morning, something has gone wrong with the email - send a WhatsApp message instead, that always gets through."
-    ],
-    "cta": "Back to the home page",
-    "urgentTitle": "In a hurry?",
-    "urgentBody": "If your dates are tight, message me on WhatsApp rather than waiting for the email."
+    ]
   },
   "notfound": {
     "title": "That page is not here",
@@ -537,7 +482,7 @@
   },
   "cookie": {
     "title": "Cookies",
-    "body": "This site uses no analytics and no tracking. One cookie is always set because it keeps the booking form secure. You choose whether the site may also remember the language you picked.",
+    "body": "This site uses no analytics and no tracking. It only remembers your answer to this notice and, if you accept, the language you picked.",
     "accept": "Accept all",
     "decline": "Necessary only",
     "more": "Cookie policy",
@@ -546,7 +491,7 @@
   },
   "privacy": {
     "title": "Privacy policy",
-    "updated": "Last updated: 28 August 2026",
+    "updated": "Last updated: 28 September 2026",
     "lede": "This site collects as little as it can. There is no analytics, no advertising and no tracking of any kind. What follows is the full account of what does happen.",
     "sections": [
       {
@@ -557,45 +502,45 @@
         ]
       },
       {
-        "h": "What the booking form collects",
+        "h": "What I receive when you get in touch",
         "p": [
-          "If you send the booking form, I receive: your name, your email address, your phone number if you gave one, which massage you asked about, when you would like it, anything you wrote in the message field, and the fact that you ticked the consent box.",
+          "There is no booking form on this site: bookings are arranged by WhatsApp, phone or email. When you contact me, I receive what you send: usually your name, your phone number or email address, which massage you are interested in, when you would like it, and anything else you choose to write.",
           "This is used for one thing only: to answer you and arrange the appointment. It is not used for marketing, is not shared with anyone, and is not sold."
         ]
       },
       {
         "h": "Health information",
         "p": [
-          "The form asks you to mention pain, injuries, recent surgery or pregnancy, because I need to know before working on you. Under the GDPR that is health data, which gets stronger protection.",
-          "Please write only as much as I need in order to work safely - not your medical history. I process it on the basis of your explicit consent, given by ticking the box, and only in order to give the massage safely. It is deleted with the rest of the enquiry."
+          "Before a massage I need to know about pain, injuries, recent surgery or pregnancy, so I will ask you about them. Under the GDPR that is health data, which gets stronger protection.",
+          "Please tell me only as much as I need in order to work safely, not your medical history. I process it on the basis of your explicit consent, given by choosing to tell me, and only in order to give the massage safely. It is deleted with the rest of our conversation."
         ]
       },
       {
         "h": "Legal basis",
         "p": [
-          "Answering your booking request and arranging the appointment: steps taken at your request before entering into a contract, GDPR Article 6(1)(b), together with your consent, Article 6(1)(a).",
+          "Answering your message and arranging the appointment: steps taken at your request before entering into a contract, GDPR Article 6(1)(b).",
           "Any health details you choose to give: your explicit consent, Article 9(2)(a).",
-          "Keeping the booking form from being abused by spam and automated submissions: legitimate interests, Article 6(1)(f)."
+          "Keeping this website secure and protecting it from automated abuse: legitimate interests, Article 6(1)(f)."
         ]
       },
       {
         "h": "Where it goes and how long it is kept",
         "p": [
-          "The form does not save anything in a database on this website. The details are sent as an email to my own mailbox and that is where they stay.",
-          "I delete booking enquiries from my mailbox once the season they relate to is over, and at the latest twelve months after your last message to me. If you ask me to delete yours sooner, I will do it and confirm."
+          "This website does not collect or store anything you send me. Your messages stay where you sent them: in WhatsApp, on my phone or in my mailbox.",
+          "I delete booking conversations once the season they relate to is over, and at the latest twelve months after your last message to me. If you ask me to delete yours sooner, I will do it and confirm."
         ]
       },
       {
         "h": "Who else is involved",
         "p": [
-          "The website is hosted by Railway, in a European region. The booking email is delivered by Resend, in a European region. My mailbox is a Microsoft Outlook/Hotmail account, so Microsoft processes the email as my provider - that may involve transfer outside the EEA under Microsoft's own safeguards.",
+          "The website is hosted by Railway, in a European region. WhatsApp messages are handled by WhatsApp (Meta), and my mailbox is a Microsoft Outlook/Hotmail account, so Microsoft processes email as my provider. Both may involve transfer outside the EEA under their own safeguards.",
           "None of these companies is given your data for their own purposes. There are no advertising, analytics or profiling services on this site at all."
         ]
       },
       {
         "h": "Server logs and abuse protection",
         "p": [
-          "The server records the pages that are requested and, for the booking form only, a one-way salted hash of the sender's IP address. The hash is used to apply the rate limit that stops the form being flooded, and to record security-relevant events such as repeated failed submissions.",
+          "The server records the pages that are requested. To stop the site being flooded by automated requests, repeated requests for pages that do not exist are counted against a one-way salted hash of the IP address, which is kept in memory for one minute only.",
           "The plain IP address is not written to the logs, the hash cannot be reversed back into an address, and these records are deleted after 30 days."
         ]
       },
@@ -603,7 +548,7 @@
         "h": "Cookies",
         "p": [
           "This site sets no analytics or advertising cookies, and there is nothing here from any advertising network.",
-          "Two cookies are strictly necessary and are always set: one protects the booking form against cross-site request forgery, the other remembers whether you chose \"Accept all\" or \"Necessary only\" in the cookie notice. A third cookie, which remembers the language you chose so you are not sent back to English on the next visit, is set only if you accept it. You are asked on your first visit and can change your answer at any time from \"Cookie settings\" in the footer. The full list, with how long each one lasts, is in the cookie policy.",
+          "One cookie is strictly necessary: once you answer the cookie notice, it remembers whether you chose \"Accept all\" or \"Necessary only\". A second cookie, which remembers the language you chose so you are not sent back to English on the next visit, is set only if you accept it. You are asked on your first visit and can change your answer at any time from \"Cookie settings\" in the footer. The full list, with how long each one lasts, is in the cookie policy.",
           "You can also delete any of them in your browser at any time. The site will keep working - it will simply forget your language and ask again.",
           "The home and Location pages also embed a live Google Map so you can see exactly where the studio is. That map is loaded directly from Google, not from this site, so once that part of the page loads, Google may set its own cookies and see your IP address under its own privacy policy - this site does not control that. If you would rather not load it, the \"View on Google Maps\" and \"Get directions\" links open Google Maps in a new tab instead, and load nothing unless you click them."
         ]
@@ -633,7 +578,7 @@
       {
         "h": "Children",
         "p": [
-          "This site is not aimed at children and the booking form should be filled in by an adult. Massage for a minor is arranged with a parent or guardian, who must be present."
+          "This site is not aimed at children, and bookings should be made by an adult. Massage for a minor is arranged with a parent or guardian, who must be present."
         ]
       },
       {
@@ -645,7 +590,7 @@
       {
         "h": "Changes",
         "p": [
-          "If this policy changes, the date at the top changes with it. The version you agreed to when you sent a booking request is the one that applies to that request."
+          "If this policy changes, the date at the top changes with it. The version in force when you contacted me is the one that applies to that booking."
         ]
       }
     ]
@@ -672,7 +617,7 @@
       {
         "h": "Booking and confirmation",
         "p": [
-          "A booking exists only once I have confirmed the time to you. A request sent through the form, by WhatsApp, by email or by phone is a request, not a confirmed appointment.",
+          "A booking exists only once I have confirmed the time to you. A request sent by WhatsApp, by email or by phone is a request, not a confirmed appointment.",
           "No deposit is taken and nothing is paid through this website. This site processes no payments of any kind."
         ]
       },
@@ -740,22 +685,21 @@
   },
   "cookies": {
     "title": "Cookie policy",
-    "updated": "Last updated: 29 August 2026",
+    "updated": "Last updated: 28 September 2026",
     "lede": "This is the full list of cookies this site can set, why, and how long each one lasts. You choose which of them are set, and you can change your mind at any time.",
     "sections": [
       {
         "h": "Your choice",
         "p": [
-          "When you first visit, a small notice asks you to accept all cookies or necessary only. Necessary only means the site sets just the one cookie it cannot work without; accepting all also lets it remember the language you picked.",
+          "When you first visit, a small notice asks you to accept all cookies or necessary only. Necessary only means the site keeps just one cookie, the one that records that answer; accepting all also lets it remember the language you picked.",
           "You can change your mind at any time - open \"Cookie settings\" in the footer of any page, on any language, to see the notice again and pick a different answer."
         ]
       },
       {
-        "h": "Cookies that are always set",
+        "h": "Strictly necessary cookie",
         "p": [
-          "csrf - a one-time token that protects the booking form from being submitted by another website on your behalf. It is deleted when you close your browser and is not linked to who you are.",
-          "cookieConsent - remembers whether you chose \"Accept all\" or \"Necessary only\", so the notice does not reappear on every page. Lasts twelve months.",
-          "Both are strictly necessary to run the site and the cookie notice itself, so the GDPR and Greek law do not require your consent for them."
+          "cookieConsent - remembers whether you chose \"Accept all\" or \"Necessary only\", so the notice does not reappear on every page. It is set when you answer the notice, and the same answer is also kept in your browser's local storage. Lasts twelve months.",
+          "It is strictly necessary for the cookie notice itself to work, so the GDPR and Greek law do not require your consent for it. The server itself sets no cookies."
         ]
       },
       {

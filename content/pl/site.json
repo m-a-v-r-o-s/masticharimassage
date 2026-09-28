@@ -88,10 +88,6 @@
       "title": "Umów masaż na Kos - telefon lub WhatsApp",
       "description": "Umów masaż w Mastichari, Tigaki lub Marmari na Kos. WhatsApp lub telefon +30 6977784790, albo e-mail. Odpowiedź zwykle tego samego dnia."
     },
-    "thankyou": {
-      "title": "Dziękuję - Twoje zgłoszenie zostało wysłane",
-      "description": "Twoje zgłoszenie rezerwacji zostało wysłane do Konstantinosa Fessarasa, Mastichari Massage, Kos."
-    },
     "privacy": {
       "title": "Polityka prywatności | Mastichari Massage, Kos",
       "description": "Jakie dane zbiera ta strona, po co, jak długo są przechowywane i jakie masz prawa na podstawie RODO."
@@ -182,7 +178,7 @@
     "howSteps": [
       {
         "title": "Napisz wiadomość",
-        "body": "WhatsApp jest najszybszy, telefon też się sprawdza, formularz na stronie również. Napisz, kiedy Ci pasuje, a ja potwierdzę godzinę w gabinecie."
+        "body": "WhatsApp jest najszybszy, telefon też się sprawdza. Napisz, kiedy Ci pasuje, a ja potwierdzę godzinę w gabinecie."
       },
       {
         "title": "Ustalamy godzinę",
@@ -430,39 +426,6 @@
     "directTitle": "Bezpośrednio",
     "phoneBody": "Codziennie, 9:30 - 21:30, od kwietnia do października.",
     "emailBody": "Do wszystkiego, co nie jest pilne.",
-    "formTitle": "Albo wyślij zgłoszenie rezerwacji",
-    "formIntro": "Napisz, kiedy Ci pasuje i jakiego masażu szukasz. Nic nie jest potwierdzone, dopóki nie odpowiem.",
-    "form": {
-      "name": "Twoje imię",
-      "email": "E-mail",
-      "emailHint": "Żebym mógł Ci odpowiedzieć.",
-      "phone": "Telefon lub numer WhatsApp",
-      "phoneHint": "Opcjonalnie, ale odpowiedź przychodzi wtedy dużo szybciej.",
-      "service": "Jaki masaż",
-      "serviceAny": "Jeszcze nie wiem - poproszę o propozycję",
-      "when": "Kiedy chciałbyś",
-      "whenHint": "Wystarczy data i orientacyjna pora dnia.",
-      "message": "Co powinienem wiedzieć",
-      "messageHint": "Bóle, urazy, niedawne operacje, ciąża albo cokolwiek, czego wolałbyś, żebym unikał.",
-      "consentLabel": "Zgadzam się, aby moje dane zostały użyte do odpowiedzi na to zgłoszenie rezerwacji.",
-      "consentHint": "Twoje dane są wysyłane e-mailem do Konstantinosa i nie są przechowywane na tej stronie, nikomu nieudostępniane ani niewykorzystywane do marketingu. Zobacz politykę prywatności.",
-      "submit": "Wyślij zgłoszenie",
-      "submitting": "Wysyłanie...",
-      "required": "wymagane",
-      "optional": "opcjonalne"
-    },
-    "errors": {
-      "name": "Podaj imię, którego mam użyć w odpowiedzi.",
-      "email": "Podaj adres e-mail, na który mogę odpowiedzieć, na przykład imie@example.com.",
-      "emailInvalid": "To nie wygląda na pełny adres e-mail. Sprawdź go, proszę.",
-      "message": "Wiadomość powinna mieć mniej niż 2000 znaków.",
-      "consent": "Zaznacz pole, żebym mógł Ci odpowiedzieć.",
-      "rateLimit": "To dużo zgłoszeń w krótkim czasie. Odczekaj kilka minut i spróbuj ponownie - albo po prostu napisz na WhatsAppie, to zawsze działa.",
-      "server": "Coś poszło nie tak po naszej stronie i wiadomość nie została wysłana. Spróbuj ponownie albo napisz na WhatsAppa pod +30 6977784790.",
-      "generic": "Nie udało się wysłać zgłoszenia. Sprawdź pola zaznaczone powyżej.",
-      "summaryTitle": "Zgłoszenie nie zostało wysłane",
-      "blocked": "Serwer uznał to zgłoszenie za automatyczne i nie zostało ono wysłane. Odśwież stronę i spróbuj jeszcze raz - albo po prostu napisz na WhatsAppa pod +30 6977784790, to zawsze działa."
-    },
     "faqTitle": "Częste pytania",
     "faq": [
       {
@@ -509,25 +472,7 @@
         "q": "Z jakich obszarów przyjeżdżają Twoi klienci?",
         "a": "Moje własne miejsce jest w centrum Mastichari. Klienci przyjeżdżają z Tigaki, Marmari i innych miejsc na Kos: napisz do mnie, a szczerze powiem, czy to wygodny dojazd."
       }
-    ],
-    "success": {
-      "title": "Dziękuję - Twoje zgłoszenie zostało wysłane",
-      "body": "Dotarło. Czytam je osobiście i zwykle odpowiadam tego samego dnia, w godzinach pracy. Nic nie jest zarezerwowane, dopóki nie potwierdzę Ci godziny.",
-      "link": "Zobacz, co dalej"
-    }
-  },
-  "thankyou": {
-    "title": "Dziękuję - Twoje zgłoszenie zostało wysłane",
-    "lede": "Twoje zgłoszenie rezerwacji dotarło. Czytam je osobiście i zwykle odpowiadam tego samego dnia, w godzinach pracy.",
-    "bodyTitle": "Co dalej",
-    "body": [
-      "Odpowiem na podany przez Ciebie adres e-mail albo na numer telefonu, jeśli go zostawiłeś.",
-      "Nic nie jest zarezerwowane, dopóki nie potwierdzę Ci godziny, i w międzyczasie nie ma nic do zapłaty.",
-      "Jeśli do następnego ranka nie dostaniesz odpowiedzi, coś poszło nie tak z e-mailem - napisz wtedy na WhatsAppie, tam zawsze dochodzi."
-    ],
-    "cta": "Wróć na stronę główną",
-    "urgentTitle": "Spieszy Ci się?",
-    "urgentBody": "Jeśli terminy są napięte, napisz do mnie na WhatsAppie, zamiast czekać na e-mail."
+    ]
   },
   "notfound": {
     "title": "Tej strony tu nie ma",
@@ -537,7 +482,7 @@
   },
   "cookie": {
     "title": "Pliki cookie",
-    "body": "Ta strona nie używa analityki ani żadnego śledzenia. Jeden plik cookie jest ustawiany zawsze, ponieważ zabezpiecza formularz rezerwacji. Ty decydujesz, czy strona może też zapamiętać wybrany przez Ciebie język.",
+    "body": "Ta strona nie używa analityki ani żadnego śledzenia. Zapamiętuje tylko Twoją odpowiedź na tę informację oraz, jeśli się zgodzisz, wybrany przez Ciebie język.",
     "accept": "Akceptuj wszystkie",
     "decline": "Tylko niezbędne",
     "more": "Polityka plików cookie",
@@ -546,7 +491,7 @@
   },
   "privacy": {
     "title": "Polityka prywatności",
-    "updated": "Ostatnia aktualizacja: 28 sierpnia 2026",
+    "updated": "Ostatnia aktualizacja: 28 września 2026",
     "lede": "Ta strona zbiera możliwie jak najmniej. Nie ma tu analityki, reklam ani żadnego śledzenia. Poniżej pełny opis tego, co faktycznie się dzieje.",
     "sections": [
       {
@@ -557,45 +502,45 @@
         ]
       },
       {
-        "h": "Co zbiera formularz rezerwacji",
+        "h": "Co otrzymuję, gdy się ze mną kontaktujesz",
         "p": [
-          "Jeśli wyślesz formularz rezerwacji, otrzymam: Twoje imię, adres e-mail, numer telefonu, jeśli go podałeś, o jaki masaż pytasz, kiedy chciałbyś go mieć, wszystko, co wpiszesz w polu wiadomości, oraz fakt zaznaczenia pola zgody.",
+          "Na tej stronie nie ma formularza rezerwacji: wizyty umawia się przez WhatsAppa, telefonicznie lub e-mailem. Gdy się ze mną kontaktujesz, otrzymuję to, co mi przesyłasz: zwykle Twoje imię, numer telefonu lub adres e-mail, masaż, który Cię interesuje, preferowany termin oraz wszystko inne, co zechcesz napisać.",
           "Służy to jednej rzeczy: żeby Ci odpowiedzieć i ustalić termin. Nie jest wykorzystywane do marketingu, nikomu nieudostępniane i niesprzedawane."
         ]
       },
       {
         "h": "Informacje o zdrowiu",
         "p": [
-          "Formularz prosi o wskazanie bólu, urazów, niedawnych operacji lub ciąży, bo muszę o tym wiedzieć, zanim zacznę pracę. Zgodnie z RODO są to dane o zdrowiu, objęte silniejszą ochroną.",
-          "Napisz tylko tyle, ile potrzebuję, żeby bezpiecznie pracować - nie całą historię medyczną. Przetwarzam te dane na podstawie Twojej wyraźnej zgody, udzielonej przez zaznaczenie pola, i wyłącznie po to, by bezpiecznie wykonać masaż. Są usuwane razem z resztą zgłoszenia."
+          "Przed masażem muszę wiedzieć o bólu, urazach, niedawnej operacji lub ciąży, dlatego o to zapytam. Zgodnie z RODO są to dane o zdrowiu, które podlegają silniejszej ochronie.",
+          "Przekaż mi tylko tyle, ile potrzebuję, żeby pracować bezpiecznie, a nie całą historię choroby. Przetwarzam te dane na podstawie Twojej wyraźnej zgody, której udzielasz, decydując się mi je przekazać, i wyłącznie po to, by bezpiecznie wykonać masaż. Są usuwane razem z resztą naszej rozmowy."
         ]
       },
       {
         "h": "Podstawa prawna",
         "p": [
-          "Odpowiedź na Twoje zgłoszenie i ustalenie terminu: działania podejmowane na Twoje żądanie przed zawarciem umowy, art. 6 ust. 1 lit. b RODO, wraz z Twoją zgodą, art. 6 ust. 1 lit. a.",
+          "Odpowiedź na Twoją wiadomość i ustalenie terminu: działania podejmowane na Twoje żądanie przed zawarciem umowy, art. 6 ust. 1 lit. b RODO.",
           "Wszelkie dane o zdrowiu, które zdecydujesz się podać: Twoja wyraźna zgoda, art. 9 ust. 2 lit. a.",
-          "Ochrona formularza rezerwacji przed spamem i automatycznymi wysyłkami: prawnie uzasadniony interes, art. 6 ust. 1 lit. f."
+          "Zapewnienie bezpieczeństwa strony i ochrona przed zautomatyzowanymi nadużyciami: prawnie uzasadniony interes, art. 6 ust. 1 lit. f."
         ]
       },
       {
         "h": "Dokąd trafiają i jak długo są przechowywane",
         "p": [
-          "Formularz nie zapisuje niczego w bazie danych na tej stronie. Dane są wysyłane e-mailem do mojej własnej skrzynki i tam pozostają.",
-          "Usuwam zgłoszenia ze skrzynki, gdy tylko skończy się sezon, którego dotyczą, a najpóźniej dwanaście miesięcy po Twojej ostatniej wiadomości. Jeśli poprosisz o wcześniejsze usunięcie swojego zgłoszenia, zrobię to i potwierdzę."
+          "Ta strona nie zbiera ani nie przechowuje niczego, co mi wysyłasz. Twoje wiadomości zostają tam, dokąd je wysłano: w WhatsAppie, w moim telefonie lub w mojej skrzynce e-mail.",
+          "Usuwam rozmowy dotyczące rezerwacji, gdy tylko skończy się sezon, którego dotyczą, a najpóźniej dwanaście miesięcy po Twojej ostatniej wiadomości. Jeśli poprosisz o wcześniejsze usunięcie swojej rozmowy, zrobię to i potwierdzę."
         ]
       },
       {
         "h": "Kto jeszcze jest zaangażowany",
         "p": [
-          "Strona jest hostowana przez Railway, w regionie europejskim. E-mail z rezerwacją dostarcza Resend, w regionie europejskim. Moja skrzynka to konto Microsoft Outlook/Hotmail, więc Microsoft przetwarza wiadomość jako mój dostawca - może to oznaczać przekazanie poza EOG na podstawie własnych zabezpieczeń Microsoftu.",
+          "Strona jest hostowana przez Railway w regionie europejskim. Wiadomości w WhatsAppie obsługuje WhatsApp (Meta), a moja skrzynka to konto Microsoft Outlook/Hotmail, więc Microsoft przetwarza pocztę jako mój dostawca. W obu przypadkach może to oznaczać przekazanie danych poza EOG na podstawie własnych zabezpieczeń tych firm.",
           "Żadna z tych firm nie otrzymuje Twoich danych do własnych celów. Na tej stronie nie ma w ogóle usług reklamowych, analitycznych ani profilujących."
         ]
       },
       {
         "h": "Logi serwera i ochrona przed nadużyciami",
         "p": [
-          "Serwer zapisuje żądane strony oraz - wyłącznie dla formularza rezerwacji - jednokierunkowy skrót adresu IP nadawcy z solą. Skrót służy do limitu wysyłek, który zapobiega zalewaniu formularza, oraz do zapisywania zdarzeń istotnych dla bezpieczeństwa, takich jak powtarzające się nieudane wysyłki.",
+          "Serwer zapisuje, jakie strony są wywoływane. Aby strona nie została zalana automatycznymi żądaniami, powtarzające się żądania nieistniejących stron są liczone na podstawie jednokierunkowego, solonego skrótu adresu IP, przechowywanego w pamięci tylko przez minutę.",
           "Sam adres IP nie trafia do logów, skrótu nie da się odwrócić z powrotem na adres, a te zapisy są usuwane po 30 dniach."
         ]
       },
@@ -603,7 +548,7 @@
         "h": "Pliki cookie",
         "p": [
           "Ta strona nie ustawia plików cookie analitycznych ani reklamowych i nie ma tu niczego z żadnej sieci reklamowej.",
-          "Dwa pliki cookie są bezwzględnie niezbędne i są ustawiane zawsze: jeden chroni formularz rezerwacji przed atakiem typu cross-site request forgery, drugi zapamiętuje, czy wybrałeś \"Akceptuj wszystkie\" czy \"Tylko niezbędne\" w informacji o cookie. Trzeci plik cookie, który zapamiętuje wybrany przez Ciebie język, żeby przy kolejnej wizycie nie wracać do angielskiego, jest ustawiany tylko wtedy, gdy go zaakceptujesz. Pytanie o to pojawia się przy pierwszej wizycie, a odpowiedź możesz zmienić w dowolnym momencie w \"Ustawieniach cookie\" w stopce. Pełna lista, wraz z czasem przechowywania każdego z nich, znajduje się w polityce plików cookie.",
+          "Jeden plik cookie jest bezwzględnie niezbędny: gdy odpowiesz na informację o cookie, zapamiętuje, czy wybrałeś \"Akceptuj wszystkie\" czy \"Tylko niezbędne\". Drugi plik cookie, który zapamiętuje wybrany przez Ciebie język, żeby przy kolejnej wizycie nie wracać do angielskiego, jest ustawiany tylko wtedy, gdy go zaakceptujesz. Pytanie o to pojawia się przy pierwszej wizycie, a odpowiedź możesz zmienić w dowolnym momencie w \"Ustawieniach cookie\" w stopce. Pełna lista, wraz z czasem przechowywania każdego z nich, znajduje się w polityce plików cookie.",
           "Możesz je też w każdej chwili usunąć w przeglądarce. Strona nadal będzie działać - po prostu zapomni Twój język i zapyta ponownie.",
           "Strona główna i strona \"Gdzie odbywa się masaż\" zawierają też osadzoną, aktywną mapę Google, dzięki której widać dokładnie, gdzie znajduje się to miejsce. Ta mapa jest ładowana bezpośrednio z serwerów Google, a nie z tej strony, więc gdy tylko ten fragment strony się załaduje, Google może ustawić własne pliki cookie i zobaczyć Twój adres IP zgodnie z własną polityką prywatności - ta strona nie ma na to wpływu. Jeśli wolisz jej nie ładować, linki \"Zobacz w Mapach Google\" i \"Wyznacz trasę\" otwierają zamiast tego Mapy Google w nowej karcie i niczego nie ładują, dopóki w nie nie klikniesz."
         ]
@@ -633,7 +578,7 @@
       {
         "h": "Dzieci",
         "p": [
-          "Ta strona nie jest skierowana do dzieci, a formularz rezerwacji powinna wypełniać osoba dorosła. Masaż osoby niepełnoletniej ustala się z rodzicem lub opiekunem, który musi być obecny."
+          "Ta strona nie jest skierowana do dzieci, a wizytę powinna umawiać osoba dorosła. Masaż dla osoby niepełnoletniej ustala się z rodzicem lub opiekunem, który musi być obecny."
         ]
       },
       {
@@ -645,7 +590,7 @@
       {
         "h": "Zmiany",
         "p": [
-          "Jeśli ta polityka się zmieni, zmieni się razem z nią data u góry. Do Twojego zgłoszenia stosuje się wersja, na którą zgodziłeś się przy jego wysyłaniu."
+          "Jeśli ta polityka się zmieni, zmieni się też data na górze. Do każdej rezerwacji stosuje się wersję obowiązującą w chwili, gdy nawiązano ze mną kontakt."
         ]
       }
     ]
@@ -672,7 +617,7 @@
       {
         "h": "Rezerwacja i potwierdzenie",
         "p": [
-          "Rezerwacja istnieje dopiero wtedy, gdy potwierdzę Ci godzinę. Zgłoszenie wysłane przez formularz, WhatsAppa, e-mailem lub telefonicznie jest zgłoszeniem, a nie potwierdzoną wizytą.",
+          "Rezerwacja istnieje dopiero wtedy, gdy potwierdzę Ci godzinę. Zgłoszenie wysłane przez WhatsAppa, e-mailem lub telefonicznie jest zgłoszeniem, a nie potwierdzoną wizytą.",
           "Nie pobieram zadatku i nic nie jest opłacane przez tę stronę. Ta strona nie obsługuje żadnych płatności."
         ]
       },
@@ -740,22 +685,21 @@
   },
   "cookies": {
     "title": "Polityka plików cookie",
-    "updated": "Ostatnia aktualizacja: 29 sierpnia 2026",
+    "updated": "Ostatnia aktualizacja: 28 września 2026",
     "lede": "To pełna lista plików cookie, które może ustawić ta strona, po co, i jak długo obowiązuje każdy z nich. Ty decydujesz, które z nich są ustawiane, i możesz zmienić zdanie w dowolnym momencie.",
     "sections": [
       {
         "h": "Twój wybór",
         "p": [
-          "Przy pierwszej wizycie mała informacja pyta, czy zaakceptować wszystkie pliki cookie, czy tylko niezbędne. Tylko niezbędne oznacza, że strona ustawia jedynie ten jeden plik cookie, bez którego nie może działać; Akceptuj wszystkie pozwala jej też zapamiętać wybrany przez Ciebie język.",
+          "Przy pierwszej wizycie niewielka informacja prosi o zaakceptowanie wszystkich plików cookie albo tylko niezbędnych. Tylko niezbędne oznacza, że strona przechowuje jeden plik cookie, ten, który zapisuje tę odpowiedź; akceptacja wszystkich pozwala jej też zapamiętać wybrany język.",
           "Możesz zmienić zdanie w dowolnym momencie - otwórz \"Ustawienia cookie\" w stopce dowolnej strony, w dowolnym języku, aby ponownie zobaczyć informację i wybrać inną odpowiedź."
         ]
       },
       {
-        "h": "Pliki cookie ustawiane zawsze",
+        "h": "Bezwzględnie niezbędny plik cookie",
         "p": [
-          "csrf - jednorazowy token, który chroni formularz rezerwacji przed wysłaniem w Twoim imieniu z innej strony. Znika po zamknięciu przeglądarki i nie jest powiązany z Twoją tożsamością.",
-          "cookieConsent - zapamiętuje, czy wybrałeś \"Akceptuj wszystkie\" czy \"Tylko niezbędne\", żeby informacja nie pojawiała się ponownie na każdej stronie. Obowiązuje dwanaście miesięcy.",
-          "Oba są bezwzględnie niezbędne do działania strony i samej informacji o cookie, dlatego RODO i prawo greckie nie wymagają na nie Twojej zgody."
+          "cookieConsent - zapamiętuje, czy wybrałeś \"Akceptuj wszystkie\" czy \"Tylko niezbędne\", żeby informacja nie pojawiała się ponownie na każdej stronie. Jest ustawiany, gdy odpowiesz na informację, a ta sama odpowiedź jest też zapisywana w pamięci lokalnej (local storage) przeglądarki. Obowiązuje dwanaście miesięcy.",
+          "Jest bezwzględnie niezbędny do działania samej informacji o cookie, dlatego RODO i prawo greckie nie wymagają na niego Twojej zgody. Sam serwer nie ustawia żadnych plików cookie."
         ]
       },
       {

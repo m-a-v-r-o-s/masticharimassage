@@ -88,10 +88,6 @@
       "title": "Massage auf Kos buchen - Telefon oder WhatsApp",
       "description": "Massage in Mastichari, Tigaki oder Marmari buchen. WhatsApp oder Anruf: +30 6977784790, oder eine E-Mail. Antwort meist am selben Tag."
     },
-    "thankyou": {
-      "title": "Danke - Ihre Anfrage wurde gesendet",
-      "description": "Ihre Buchungsanfrage wurde an Konstantinos Fessaras, Mastichari Massage, Kos gesendet."
-    },
     "privacy": {
       "title": "Datenschutzerklärung | Mastichari Massage, Kos",
       "description": "Welche Daten diese Website erhebt, warum, wie lange sie gespeichert werden und welche Rechte Sie nach der DSGVO haben."
@@ -182,7 +178,7 @@
     "howSteps": [
       {
         "title": "Schreiben Sie mir",
-        "body": "WhatsApp geht am schnellsten, ein Anruf funktioniert auch, das Formular auf dieser Seite ebenso. Sagen Sie mir, was Ihnen passt, und ich bestätige einen Termin im Raum."
+        "body": "WhatsApp geht am schnellsten, ein Anruf funktioniert auch. Sagen Sie mir, was Ihnen passt, und ich bestätige einen Termin im Raum."
       },
       {
         "title": "Wir vereinbaren einen Termin",
@@ -430,39 +426,6 @@
     "directTitle": "Direkt",
     "phoneBody": "Täglich, 9:30 - 21:30 Uhr, von April bis Oktober.",
     "emailBody": "Für alles, was nicht eilt.",
-    "formTitle": "Oder senden Sie eine Buchungsanfrage",
-    "formIntro": "Sagen Sie mir, wann es Ihnen passt und welche Art von Massage Sie sich wünschen. Nichts ist bestätigt, bis ich geantwortet habe.",
-    "form": {
-      "name": "Ihr Name",
-      "email": "E-Mail",
-      "emailHint": "Damit ich Ihnen antworten kann.",
-      "phone": "Telefon- oder WhatsApp-Nummer",
-      "phoneHint": "Freiwillig, macht die Antwort aber deutlich schneller.",
-      "service": "Welche Massage",
-      "serviceAny": "Noch nicht sicher - bitte um Vorschlag",
-      "when": "Wann Sie sie gerne hätten",
-      "whenHint": "Ein Datum und eine ungefähre Tageszeit genügen.",
-      "message": "Was ich wissen sollte",
-      "messageHint": "Schmerzen, Verletzungen, kürzliche Operationen, Schwangerschaft oder alles, was ich lieber aussparen soll.",
-      "consentLabel": "Ich bin damit einverstanden, dass meine Angaben zur Beantwortung dieser Buchungsanfrage genutzt werden.",
-      "consentHint": "Ihre Angaben werden per E-Mail an Konstantinos gesendet und nicht auf dieser Website gespeichert, nicht weitergegeben und nicht für Werbung genutzt. Siehe Datenschutzerklärung.",
-      "submit": "Buchungsanfrage senden",
-      "submitting": "Wird gesendet...",
-      "required": "erforderlich",
-      "optional": "freiwillig"
-    },
-    "errors": {
-      "name": "Bitte geben Sie den Namen an, mit dem ich Sie ansprechen soll.",
-      "email": "Bitte geben Sie eine E-Mail-Adresse an, an die ich antworten kann, zum Beispiel name@example.com.",
-      "emailInvalid": "Das sieht nicht nach einer vollständigen E-Mail-Adresse aus. Bitte prüfen Sie sie.",
-      "message": "Bitte halten Sie die Nachricht unter 2000 Zeichen.",
-      "consent": "Bitte setzen Sie das Häkchen, damit ich Ihnen antworten darf.",
-      "rateLimit": "Das sind viele Anfragen in kurzer Zeit. Bitte warten Sie ein paar Minuten und versuchen Sie es erneut - oder schreiben Sie einfach eine WhatsApp-Nachricht, das funktioniert immer.",
-      "server": "Bei uns ist etwas schiefgegangen und die Nachricht wurde nicht gesendet. Bitte versuchen Sie es erneut oder schreiben Sie eine WhatsApp-Nachricht an +30 6977784790.",
-      "generic": "Die Anfrage konnte nicht gesendet werden. Bitte prüfen Sie die oben markierten Felder.",
-      "summaryTitle": "Die Anfrage wurde nicht gesendet",
-      "blocked": "Diese Übermittlung wirkte auf den Server automatisiert und wurde nicht gesendet. Bitte laden Sie die Seite neu und versuchen Sie es noch einmal - oder schreiben Sie einfach eine WhatsApp-Nachricht an +30 6977784790, das funktioniert immer."
-    },
     "faqTitle": "Fragen, die oft gestellt werden",
     "faq": [
       {
@@ -509,25 +472,7 @@
         "q": "Aus welchen Gebieten kommen Ihre Gäste?",
         "a": "Meine eigenen Räume sind im Zentrum von Mastichari. Gäste kommen aus Tigaki, Marmari und anderswo auf Kos: Schreiben Sie mir, und ich sage Ihnen ehrlich, ob es eine angenehme Fahrt ist."
       }
-    ],
-    "success": {
-      "title": "Danke - Ihre Anfrage wurde gesendet",
-      "body": "Sie ist angekommen. Ich lese sie selbst und antworte meist noch am selben Tag, während der Arbeitszeit. Nichts ist gebucht, bevor ich Ihnen die Uhrzeit bestätigt habe.",
-      "link": "Lesen, wie es weitergeht"
-    }
-  },
-  "thankyou": {
-    "title": "Danke - Ihre Anfrage wurde gesendet",
-    "lede": "Ihre Buchungsanfrage ist angekommen. Ich lese sie selbst und antworte meist noch am selben Tag, während der Arbeitszeit.",
-    "bodyTitle": "Wie es weitergeht",
-    "body": [
-      "Ich antworte an die E-Mail-Adresse, die Sie angegeben haben, oder an Ihre Telefonnummer, falls Sie eine hinterlassen haben.",
-      "Nichts ist gebucht, bevor ich Ihnen die Uhrzeit bestätigt habe, und in der Zwischenzeit ist nichts zu bezahlen.",
-      "Wenn Sie bis zum nächsten Morgen nichts gehört haben, ist mit der E-Mail etwas schiefgegangen - schreiben Sie dann eine WhatsApp-Nachricht, die kommt immer an."
-    ],
-    "cta": "Zurück zur Startseite",
-    "urgentTitle": "Eilt es?",
-    "urgentBody": "Wenn Ihre Termine knapp sind, schreiben Sie mir lieber über WhatsApp, statt auf die E-Mail zu warten."
+    ]
   },
   "notfound": {
     "title": "Diese Seite gibt es hier nicht",
@@ -537,7 +482,7 @@
   },
   "cookie": {
     "title": "Cookies",
-    "body": "Diese Website nutzt keine Analyse und kein Tracking. Ein Cookie wird immer gesetzt, weil es das Buchungsformular absichert. Sie entscheiden, ob die Website sich zusätzlich die von Ihnen gewählte Sprache merken darf.",
+    "body": "Diese Website nutzt keine Analyse und kein Tracking. Sie merkt sich nur Ihre Antwort auf diesen Hinweis und, wenn Sie zustimmen, die von Ihnen gewählte Sprache.",
     "accept": "Alle akzeptieren",
     "decline": "Nur notwendige",
     "more": "Cookie-Richtlinie",
@@ -546,7 +491,7 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 28. August 2026",
+    "updated": "Zuletzt aktualisiert: 28. September 2026",
     "lede": "Diese Website erhebt so wenig wie möglich. Es gibt keine Analyse, keine Werbung und kein Tracking irgendeiner Art. Was folgt, ist die vollständige Darstellung dessen, was tatsächlich passiert.",
     "sections": [
       {
@@ -557,45 +502,45 @@
         ]
       },
       {
-        "h": "Was das Buchungsformular erhebt",
+        "h": "Was ich erhalte, wenn Sie sich melden",
         "p": [
-          "Wenn Sie das Buchungsformular senden, erhalte ich: Ihren Namen, Ihre E-Mail-Adresse, Ihre Telefonnummer, falls Sie eine angegeben haben, nach welcher Massage Sie gefragt haben, wann Sie sie gerne hätten, alles, was Sie in das Nachrichtenfeld geschrieben haben, und die Tatsache, dass Sie das Einwilligungshäkchen gesetzt haben.",
+          "Auf dieser Website gibt es kein Buchungsformular: Termine werden per WhatsApp, Telefon oder E-Mail vereinbart. Wenn Sie sich bei mir melden, erhalte ich, was Sie mir schicken: in der Regel Ihren Namen, Ihre Telefonnummer oder E-Mail-Adresse, welche Massage Sie interessiert, wann Sie sie gerne hätten, und alles, was Sie sonst noch schreiben möchten.",
           "Das wird für genau eine Sache verwendet: Ihnen zu antworten und den Termin zu vereinbaren. Es wird nicht für Werbung genutzt, an niemanden weitergegeben und nicht verkauft."
         ]
       },
       {
         "h": "Gesundheitsangaben",
         "p": [
-          "Das Formular bittet Sie, Schmerzen, Verletzungen, kürzliche Operationen oder eine Schwangerschaft zu nennen, weil ich das wissen muss, bevor ich an Ihnen arbeite. Nach der DSGVO sind das Gesundheitsdaten, die stärker geschützt sind.",
-          "Schreiben Sie bitte nur so viel, wie ich brauche, um sicher zu arbeiten - nicht Ihre Krankengeschichte. Ich verarbeite diese Angaben auf Grundlage Ihrer ausdrücklichen Einwilligung, die Sie mit dem Häkchen erteilen, und ausschließlich, um die Massage sicher durchzuführen. Sie werden zusammen mit der übrigen Anfrage gelöscht."
+          "Vor einer Massage muss ich von Schmerzen, Verletzungen, kürzlichen Operationen oder einer Schwangerschaft wissen, deshalb frage ich danach. Nach der DSGVO sind das Gesundheitsdaten, die stärker geschützt sind.",
+          "Sagen Sie mir bitte nur so viel, wie ich brauche, um sicher zu arbeiten, nicht Ihre Krankengeschichte. Ich verarbeite diese Angaben auf Grundlage Ihrer ausdrücklichen Einwilligung, die Sie erteilen, indem Sie sie mir mitteilen, und ausschließlich, um die Massage sicher durchzuführen. Sie werden zusammen mit dem übrigen Nachrichtenverlauf gelöscht."
         ]
       },
       {
         "h": "Rechtsgrundlage",
         "p": [
-          "Beantwortung Ihrer Buchungsanfrage und Vereinbarung des Termins: Maßnahmen auf Ihre Anfrage hin vor Vertragsschluss, Art. 6 Abs. 1 lit. b DSGVO, zusammen mit Ihrer Einwilligung, Art. 6 Abs. 1 lit. a.",
+          "Beantwortung Ihrer Nachricht und Vereinbarung des Termins: Maßnahmen auf Ihre Anfrage hin vor Vertragsschluss, Art. 6 Abs. 1 lit. b DSGVO.",
           "Gesundheitsangaben, die Sie freiwillig machen: Ihre ausdrückliche Einwilligung, Art. 9 Abs. 2 lit. a.",
-          "Schutz des Buchungsformulars vor Spam und automatisierten Einsendungen: berechtigtes Interesse, Art. 6 Abs. 1 lit. f."
+          "Sicherheit dieser Website und Schutz vor automatisiertem Missbrauch: berechtigtes Interesse, Art. 6 Abs. 1 lit. f."
         ]
       },
       {
         "h": "Wohin sie gehen und wie lange sie bleiben",
         "p": [
-          "Das Formular speichert nichts in einer Datenbank auf dieser Website. Die Angaben werden als E-Mail an mein eigenes Postfach gesendet, und dort bleiben sie.",
-          "Ich lösche Buchungsanfragen aus meinem Postfach, sobald die Saison, auf die sie sich beziehen, vorbei ist, spätestens aber zwölf Monate nach Ihrer letzten Nachricht an mich. Wenn Sie mich bitten, Ihre früher zu löschen, tue ich das und bestätige es Ihnen."
+          "Diese Website erhebt und speichert nichts von dem, was Sie mir schicken. Ihre Nachrichten bleiben dort, wohin Sie sie geschickt haben: in WhatsApp, auf meinem Telefon oder in meinem Postfach.",
+          "Ich lösche Nachrichten zu Buchungen, sobald die Saison, auf die sie sich beziehen, vorbei ist, spätestens aber zwölf Monate nach Ihrer letzten Nachricht an mich. Wenn Sie mich bitten, Ihre früher zu löschen, tue ich das und bestätige es Ihnen."
         ]
       },
       {
         "h": "Wer sonst beteiligt ist",
         "p": [
-          "Die Website wird von Railway in einer europäischen Region gehostet. Die Buchungs-E-Mail wird von Resend in einer europäischen Region zugestellt. Mein Postfach ist ein Microsoft-Outlook/Hotmail-Konto, Microsoft verarbeitet die E-Mail also als mein Anbieter - das kann eine Übermittlung außerhalb des EWR nach Microsofts eigenen Garantien bedeuten.",
+          "Die Website wird von Railway in einer europäischen Region gehostet. WhatsApp-Nachrichten werden von WhatsApp (Meta) verarbeitet, und mein Postfach ist ein Microsoft-Outlook/Hotmail-Konto, Microsoft verarbeitet E-Mails also als mein Anbieter. Beides kann eine Übermittlung außerhalb des EWR nach den eigenen Garantien dieser Anbieter bedeuten.",
           "Keines dieser Unternehmen erhält Ihre Daten für eigene Zwecke. Auf dieser Website gibt es überhaupt keine Werbe-, Analyse- oder Profilbildungsdienste."
         ]
       },
       {
         "h": "Server-Logs und Missbrauchsschutz",
         "p": [
-          "Der Server protokolliert die aufgerufenen Seiten und, nur für das Buchungsformular, einen einseitigen, gesalzenen Hash der IP-Adresse des Absenders. Der Hash dient dazu, die Sendebegrenzung anzuwenden, die ein Fluten des Formulars verhindert, und sicherheitsrelevante Ereignisse wie wiederholt fehlgeschlagene Übermittlungen festzuhalten.",
+          "Der Server protokolliert die aufgerufenen Seiten. Damit die Website nicht mit automatisierten Anfragen geflutet wird, werden wiederholte Aufrufe nicht existierender Seiten anhand eines einseitigen, gesalzenen Hashs der IP-Adresse gezählt, der nur eine Minute lang im Arbeitsspeicher gehalten wird.",
           "Die Klartext-IP-Adresse wird nicht in die Logs geschrieben, der Hash lässt sich nicht in eine Adresse zurückrechnen, und diese Aufzeichnungen werden nach 30 Tagen gelöscht."
         ]
       },
@@ -603,7 +548,7 @@
         "h": "Cookies",
         "p": [
           "Diese Website setzt keine Analyse- oder Werbe-Cookies, und es gibt hier nichts aus irgendeinem Werbenetzwerk.",
-          "Zwei Cookies sind unbedingt notwendig und werden immer gesetzt: eines schützt das Buchungsformular gegen Cross-Site-Request-Forgery, das andere merkt sich, ob Sie im Cookie-Hinweis \"Alle akzeptieren\" oder \"Nur notwendige\" gewählt haben. Ein drittes Cookie, das sich die von Ihnen gewählte Sprache merkt, damit Sie beim nächsten Besuch nicht wieder auf Englisch landen, wird nur gesetzt, wenn Sie es akzeptieren. Sie werden bei Ihrem ersten Besuch gefragt und können Ihre Antwort jederzeit über \"Cookie-Einstellungen\" im Footer ändern. Die vollständige Liste mit der jeweiligen Laufzeit steht in der Cookie-Richtlinie.",
+          "Ein Cookie ist unbedingt notwendig: Sobald Sie den Cookie-Hinweis beantwortet haben, merkt es sich, ob Sie \"Alle akzeptieren\" oder \"Nur notwendige\" gewählt haben. Ein zweites Cookie, das sich die von Ihnen gewählte Sprache merkt, damit Sie beim nächsten Besuch nicht wieder auf Englisch landen, wird nur gesetzt, wenn Sie es akzeptieren. Sie werden bei Ihrem ersten Besuch gefragt und können Ihre Antwort jederzeit über \"Cookie-Einstellungen\" im Footer ändern. Die vollständige Liste mit der jeweiligen Laufzeit steht in der Cookie-Richtlinie.",
           "Sie können sie auch jederzeit im Browser löschen. Die Seite funktioniert weiter - sie vergisst dann lediglich Ihre Sprache und fragt erneut.",
           "Die Startseite und die Seite \"Wo die Massage stattfindet\" binden außerdem eine Live-Google-Karte ein, damit Sie genau sehen, wo sich der Raum befindet. Diese Karte wird direkt von Google geladen, nicht von dieser Website, sodass Google, sobald dieser Teil der Seite lädt, eigene Cookies setzen und Ihre IP-Adresse gemäß seiner eigenen Datenschutzerklärung sehen kann - das liegt außerhalb der Kontrolle dieser Website. Wenn Sie sie lieber nicht laden möchten, öffnen die Links \"Bei Google Maps ansehen\" und \"Route berechnen\" Google Maps stattdessen in einem neuen Tab und laden nichts, bevor Sie darauf klicken."
         ]
@@ -633,7 +578,7 @@
       {
         "h": "Kinder",
         "p": [
-          "Diese Website richtet sich nicht an Kinder, und das Buchungsformular sollte von einer erwachsenen Person ausgefüllt werden. Eine Massage für eine minderjährige Person wird mit einem Elternteil oder Erziehungsberechtigten vereinbart, der oder die anwesend sein muss."
+          "Diese Website richtet sich nicht an Kinder, und Termine sollten von einer erwachsenen Person vereinbart werden. Eine Massage für eine minderjährige Person wird mit einem Elternteil oder Erziehungsberechtigten vereinbart, der oder die anwesend sein muss."
         ]
       },
       {
@@ -645,7 +590,7 @@
       {
         "h": "Änderungen",
         "p": [
-          "Wenn sich diese Erklärung ändert, ändert sich das Datum oben mit. Es gilt jeweils die Fassung, der Sie beim Senden einer Buchungsanfrage zugestimmt haben."
+          "Wenn sich diese Erklärung ändert, ändert sich das Datum oben mit. Für eine Buchung gilt jeweils die Fassung, die galt, als Sie mich kontaktiert haben."
         ]
       }
     ]
@@ -672,7 +617,7 @@
       {
         "h": "Buchung und Bestätigung",
         "p": [
-          "Eine Buchung besteht erst, wenn ich Ihnen die Uhrzeit bestätigt habe. Eine über das Formular, WhatsApp, E-Mail oder Telefon gesendete Anfrage ist eine Anfrage, kein bestätigter Termin.",
+          "Eine Buchung besteht erst, wenn ich Ihnen die Uhrzeit bestätigt habe. Eine über WhatsApp, E-Mail oder Telefon gesendete Anfrage ist eine Anfrage, kein bestätigter Termin.",
           "Es wird keine Anzahlung erhoben, und über diese Website wird nichts bezahlt. Diese Website verarbeitet keinerlei Zahlungen."
         ]
       },
@@ -740,22 +685,21 @@
   },
   "cookies": {
     "title": "Cookie-Richtlinie",
-    "updated": "Zuletzt aktualisiert: 29. August 2026",
+    "updated": "Zuletzt aktualisiert: 28. September 2026",
     "lede": "Dies ist die vollständige Liste der Cookies, die diese Website setzen kann, warum, und wie lange jedes davon gilt. Sie entscheiden, welche davon gesetzt werden, und können es sich jederzeit anders überlegen.",
     "sections": [
       {
         "h": "Ihre Wahl",
         "p": [
-          "Bei Ihrem ersten Besuch fragt Sie ein kleiner Hinweis, ob Sie alle Cookies akzeptieren oder nur die notwendigen. Nur notwendige bedeutet, dass die Website nur das eine Cookie setzt, ohne das sie nicht funktioniert; bei Alle akzeptieren merkt sie sich zusätzlich die von Ihnen gewählte Sprache.",
+          "Bei Ihrem ersten Besuch fragt Sie ein kleiner Hinweis, ob Sie alle Cookies akzeptieren oder nur die notwendigen. Nur notwendige bedeutet, dass die Website ein einziges Cookie speichert, nämlich Ihre Antwort; bei Alle akzeptieren merkt sie sich zusätzlich die von Ihnen gewählte Sprache.",
           "Sie können Ihre Wahl jederzeit ändern - öffnen Sie \"Cookie-Einstellungen\" im Footer jeder Seite, in jeder Sprache, um den Hinweis erneut zu sehen und eine andere Antwort zu geben."
         ]
       },
       {
-        "h": "Cookies, die immer gesetzt werden",
+        "h": "Unbedingt notwendiges Cookie",
         "p": [
-          "csrf - ein einmaliges Token, das das Buchungsformular davor schützt, in Ihrem Namen von einer anderen Website aus abgeschickt zu werden. Es wird gelöscht, wenn Sie Ihren Browser schließen, und ist nicht mit Ihrer Identität verknüpft.",
-          "cookieConsent - merkt sich, ob Sie \"Alle akzeptieren\" oder \"Nur notwendige\" gewählt haben, damit der Hinweis nicht auf jeder Seite erneut erscheint. Gilt zwölf Monate.",
-          "Beide sind für den Betrieb der Website und des Cookie-Hinweises selbst unbedingt notwendig, daher verlangen die DSGVO und das griechische Recht dafür keine Einwilligung."
+          "cookieConsent - merkt sich, ob Sie \"Alle akzeptieren\" oder \"Nur notwendige\" gewählt haben, damit der Hinweis nicht auf jeder Seite erneut erscheint. Es wird gesetzt, wenn Sie den Hinweis beantworten, und dieselbe Antwort wird zusätzlich im lokalen Speicher (Local Storage) Ihres Browsers abgelegt. Gilt zwölf Monate.",
+          "Es ist für den Cookie-Hinweis selbst unbedingt notwendig, daher verlangen die DSGVO und das griechische Recht dafür keine Einwilligung. Der Server selbst setzt keine Cookies."
         ]
       },
       {

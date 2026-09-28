@@ -3,14 +3,14 @@
 Automated checks first, then the things a machine cannot do.
 
 `npm run build` runs `i18n-check` and fails on anything that would ship broken.
-`npm run audit` walks all 181 built pages. Both are currently green.
+`npm run audit` walks all 171 built pages. Both are currently green.
 
 ---
 
 ## Done and verified
 
 **Content and structure**
-- [x] 181 pages: 10 locales x 18 pages, plus sitemap, robots and root shim
+- [x] 171 pages: 10 locales x 17 pages, plus the root shim (sitemap and robots on top)
 - [x] Real locale routing (`/en/`, `/el/`, …), not same-URL dual-render
 - [x] `/` negotiates locale from cookie, then `Accept-Language`, then English (302, `Vary`)
 - [x] Full hreflang cluster + `x-default` on every page, live locales only
@@ -30,10 +30,10 @@ Automated checks first, then the things a machine cannot do.
 **Accessibility**
 - [x] Skip link, `<main>` landmark, one `<h1>` per page
 - [x] Every image has alt text; the build gate fails if any is empty or missing
-- [x] Every form control has a matching `<label for>`
+- [x] No form controls anywhere; `npm run audit` still fails on an unlabelled control if one is ever added
 - [x] Testimonials carry `lang` on the quote itself (WCAG 3.1.2), with the translation labelled as one
 - [x] Focus visible at 3px on every interactive element; all targets >= 48px
-- [x] Contrast checked: ink 13.0:1, muted 6.8:1, sea 6.3:1, terracotta 4.7:1, error 7.1:1 on the shell
+- [x] Contrast checked: ink 13.0:1, muted 6.8:1, sea 6.3:1, terracotta 4.7:1 on the shell
 - [x] Motion is one fade-up, off under `prefers-reduced-motion`, and content is visible with JS disabled
 
 **Performance**
@@ -51,7 +51,7 @@ Automated checks first, then the things a machine cannot do.
 - [x] Header height uses `ResizeObserver` instead of an unthrottled `resize` listener
 - [x] Google Maps iframe (home, location) is `loading="lazy"`: it only loads once a
       visitor scrolls near it, not on every page load
-- [x] Booking rate limiter keys on `X-Real-Ip` instead of `req.ip` — Railway's own
+- [x] The 404 rate limiter keys on `X-Real-Ip` instead of `req.ip`. Railway's own
       guidance on which end of `X-Forwarded-For` to trust is inconsistent, but Railway
       confirms clients cannot set `X-Real-Ip` themselves
 
@@ -73,16 +73,16 @@ machine's numbers.
 
 Not done: a CDN in front of Railway (`docs/PERFORMANCE-PLAN.md` step 8). Deferred, not
 declined — it needs a Cloudflare account and DNS access to set up. When it happens,
-cache `/assets/*` at the edge only (safe on its own); do not cache HTML at the edge
-without first scoping the `ft`/`csrf` cookies to only the pages that need them, since
-Cloudflare does not honour `Vary: accept-language, cookie` and every HTML response here
-sets both cookies today.
+cache `/assets/*` at the edge first (safe on its own). Since the booking form was removed
+the server sets no cookies, so HTML pages can be edge-cached too. The one exception is `/`:
+it redirects per `Accept-Language` and the `lang` cookie, and Cloudflare does not honour
+`Vary: accept-language, cookie`, so `/` must bypass the edge cache.
 
 **Security**
 - [x] CSP with no `unsafe-inline` anywhere — no template carries an inline style or script, and the audit enforces it
 - [x] HSTS (production only), `nosniff`, `frame-ancestors 'none'`, Referrer-Policy, Permissions-Policy, COOP/CORP
-- [x] Booking form: honeypot, signed time-trap cookie, CSRF double-submit, Origin + Sec-Fetch-Site checks, 5/10min per IP, 2/hour per email
-- [x] Control characters and CRLF stripped from every field before the email is built (header injection is the live risk here)
+- [x] No booking form and no POST endpoint. Booking is WhatsApp and phone only (client's decision); the form, `/api/booking`, the Resend mailer and the `ft`/`csrf` cookies were removed on 2026-09-28
+- [x] CSP `form-action 'none'` and `connect-src 'none'`: nothing on the site submits or fetches anything
 - [x] 16KB body limit, no upload endpoint, no CORS, directory listing off, dotfiles denied
 - [x] Salted one-way IP hash in the logs; the plain address is never written
 - [x] Third-party PII removed: the WMF scan is cropped to drop the validating lawyer's name, bar number, tax number, address and phone; the old webmaster's contact details are not carried over
@@ -104,31 +104,20 @@ sets both cookies today.
 - [ ] Point the domain at the Railway service, confirm TLS is live **before** the first
       request with HSTS on — a 2-year `max-age` on a domain without a valid certificate
       locks visitors out and cannot be undone from the server side
-- [ ] `SITE_ORIGIN` must match the final domain exactly (it feeds canonicals, hreflang, OG and the CSRF origin check)
+- [ ] `SITE_ORIGIN` must match the final domain exactly (it feeds canonicals, hreflang and OG)
 
 ### Environment variables
 
 | Variable | Notes |
 |---|---|
-| `NODE_ENV` | `production` — this is what switches HSTS and `Secure` cookies on |
+| `NODE_ENV` | `production`: this is what switches HSTS on |
 | `SITE_ORIGIN` | `https://www.mastichari-massage.gr` |
 | `PORT` | Railway sets this |
-| `FORM_SECRET` | long random string; without it each restart invalidates every open form |
-| `IP_SALT` | long random string; rotating it resets the rate-limit buckets |
-| `RESEND_API_KEY` | Resend, EU region |
-| `BOOKING_TO` | `kosfess@hotmail.com` |
-| `BOOKING_FROM` | an address on a domain you control, with SPF/DKIM/DMARC set up |
+| `IP_SALT` | long random string; rotating it resets the 404 rate-limit buckets |
 
-### Email deliverability — the most likely silent failure
-
-The booking form is worthless if the mail does not arrive, and Hotmail is strict.
-
-- [ ] SPF, DKIM and DMARC configured for the sending domain in Resend
-- [ ] `BOOKING_FROM` is on a domain you control — **never** the enquirer's address
-- [ ] Send a real booking through the live form and confirm it lands in the
-      `kosfess@hotmail.com` **inbox**, not the junk folder
-- [ ] Confirm Reply-To is the enquirer, so hitting reply reaches them
-- [ ] Have Konstantinos mark the first message "not junk" if it lands there
+`FORM_SECRET`, `RESEND_API_KEY`, `BOOKING_TO` and `BOOKING_FROM` are no longer read by
+anything. If they are still set in Railway they can be deleted there, along with the
+Resend API key and its sending-domain DNS records, if those were only for the form.
 
 ---
 
@@ -137,15 +126,14 @@ The booking form is worthless if the mail does not arrive, and Hotmail is strict
 - [ ] Lighthouse on mobile throttling — home, one service page, contact. LCP/CLS/INP green.
 - [ ] axe on home, a service page and contact, in English and Greek
 - [ ] Keyboard-only pass: tab through the nav, the language switcher, the FAQ
-      accordions and the whole booking form. Focus must stay visible throughout.
+      accordions and the cookie notice. Focus must stay visible throughout.
 - [ ] Screen reader over the testimonial wall — that is where the mixed-language
       markup either works or does not
 - [ ] Real viewports at 320px, 375px and 768px. Check German and Greek especially:
       "Anti-Stress-Rückenmassage" and "Θεραπευτικό και αθλητικό μασάζ" are the
       longest strings on the site.
 - [ ] Paste a link into WhatsApp, Telegram and iMessage and confirm the OG card renders
-- [ ] Booking form end to end: happy path, honeypot, rate limit, validation errors,
-      and a CRLF attempt in the name field. Then the same with JavaScript disabled.
+- [ ] On a real phone: the WhatsApp and call buttons open the right app with the right number
 - [ ] Old URLs: `/mastichari/about-us/` → `/en/about/`, `/mastichari/feed/` → 410
 
 ---
