@@ -23,6 +23,45 @@
     ],
     "cropped": false
   },
+  "certificate-deep-tissue": {
+    "w": 1045,
+    "h": 680,
+    "nativeW": 1045,
+    "nativeH": 680,
+    "widths": [
+      400,
+      600,
+      900,
+      1045
+    ],
+    "cropped": false
+  },
+  "certificate-indian-head-2017": {
+    "w": 1025,
+    "h": 780,
+    "nativeW": 1025,
+    "nativeH": 780,
+    "widths": [
+      400,
+      600,
+      900,
+      1025
+    ],
+    "cropped": false
+  },
+  "certificate-relax-shiatsu": {
+    "w": 1155,
+    "h": 815,
+    "nativeW": 1155,
+    "nativeH": 815,
+    "widths": [
+      400,
+      600,
+      900,
+      1155
+    ],
+    "cropped": false
+  },
   "certificate-thai-oil-massage": {
     "w": 1200,
     "h": 900,
@@ -45,6 +84,18 @@
       400,
       600,
       886
+    ],
+    "cropped": false
+  },
+  "certificate-wmf-program": {
+    "w": 770,
+    "h": 810,
+    "nativeW": 770,
+    "nativeH": 810,
+    "widths": [
+      400,
+      600,
+      770
     ],
     "cropped": false
   },

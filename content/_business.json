@@ -88,6 +88,17 @@
         "verified": true
       },
       {
+        "key": "wmf-program",
+        "certifier": "World Massage Federation (W.M.F.)",
+        "award": "Relaxing, therapeutic and sports massage program, grade 9.3",
+        "date": "2013-11-13",
+        "identifier": "190",
+        "identifierLabel": "Protocol No.",
+        "image": "certificate-wmf-program",
+        "verified": true,
+        "_source": "Client-supplied photo, 2026-09-28: the WMF detailed attestation of the GR135 program (English translation). The validating lawyer's block at the foot was cropped off the MASTER before commit."
+      },
+      {
         "key": "aromatherapy",
         "certifier": "Massage Therapists - Professional Massage & Wellness Services, Athens",
         "award": "Advanced Body Oil Massage (Aromatherapy)",
@@ -119,15 +130,37 @@
         "_source": "Read off the certified English translation that formed the right-hand panel of combo_diploma.jpg. That panel is NOT published - it also carries the validating lawyer full personal data. The fact is kept; the scan is not."
       },
       {
-        "key": "shiatsu",
-        "certifier": null,
-        "award": "Relax / Shiatsu Massage",
-        "date": null,
+        "key": "deep-tissue",
+        "certifier": "Inner Therapies, Athens",
+        "award": "Deep Tissue Massage (20 hours)",
+        "date": "2017-01-25",
         "identifier": null,
         "identifierLabel": null,
-        "image": null,
-        "verified": false,
-        "_note": "Listed on the old site, no scan recovered. Rendered without a date and excluded from JSON-LD until the client supplies the certificate."
+        "image": "certificate-deep-tissue",
+        "verified": true,
+        "_source": "Client-supplied photo, 2026-09-28. The trainer's stamp carries his tax number and address; it was blurred on the MASTER before commit, same rule as the WMF lawyer panel."
+      },
+      {
+        "key": "indian-head-2017",
+        "certifier": "Inner Therapies, Athens",
+        "award": "Indian Head Massage (16 hours)",
+        "date": "2017-01-25",
+        "identifier": null,
+        "identifierLabel": null,
+        "image": "certificate-indian-head-2017",
+        "verified": true,
+        "_source": "Client-supplied photo, 2026-09-28. Trainer's stamp blurred on the master, as for deep-tissue."
+      },
+      {
+        "key": "shiatsu",
+        "certifier": "Beauty & Style Seminar Center, Kallithea",
+        "award": "Relax-Shiatsu seminar (6 to 17 March 2017)",
+        "date": "2017-03-17",
+        "identifier": null,
+        "identifierLabel": null,
+        "image": "certificate-relax-shiatsu",
+        "verified": true,
+        "_source": "Client-supplied photo, 2026-09-28. Was unverified until this scan arrived."
       }
     ],
     "seminars": [
