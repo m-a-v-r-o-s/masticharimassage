@@ -91,6 +91,13 @@ app.addHook("onRequest", async (req, reply) => {
 
 /* -------------------------------------------------------------- redirects */
 
+// Apex to www, so Google sees one copy of every page. Only the exact apex host:
+// localhost and *.up.railway.app (health checks) must keep answering directly.
+app.addHook("onRequest", async (req, reply) => {
+  const host = String(req.headers.host || "").toLowerCase().replace(/:\d+$/, "");
+  if (host === "mastichari-massage.gr") return reply.redirect(`https://www.mastichari-massage.gr${req.url}`, 301);
+});
+
 app.addHook("onRequest", async (req, reply) => {
   const url = new URL(req.url, ORIGIN);
   const hit = resolveRedirect(url);
