@@ -116,8 +116,9 @@ app.get("/", async (req, reply) => {
   return reply.redirect(`/${negotiate(req)}/`, 302);
 });
 
-// /en -> /en/ so the relative asset paths resolve.
-app.get("/:locale", async (req, reply, done) => {
+// /en -> /en/ so the relative asset paths resolve. Two letters only, so root
+// files such as /robots.txt and /sitemap.xml fall through to the static handler.
+app.get("/:locale([a-zA-Z]{2})", async (req, reply, done) => {
   const code = String(req.params.locale || "").toLowerCase();
   if (BUILT.includes(code)) return reply.redirect(`/${code}/`, 301);
   return reply.callNotFound();
