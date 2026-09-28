@@ -17,6 +17,9 @@ eleventyExcludeFromCollections: true
       {%- for p in c.about.bio %}
       <p>{{ p }}</p>
       {%- endfor %}
+      <div class="btn-row">
+        <a class="btn btn--ghost" href="#testimonials">{{ icon.star() }} {{ c.ui.seeReviews }}</a>
+      </div>
     </div>
     <div>
       {{ p.pic(images, "portrait-konstantinos", c.about.portraitAlt, "(min-width: 52em) 34vw, 100vw", "portrait") }}
@@ -51,30 +54,44 @@ eleventyExcludeFromCollections: true
     <div class="creds reveal">
       {%- for d in business.credentials.diplomas %}
       <div class="cred">
-        <h3>{{ c.about.credentialNames[d.key] }}</h3>
-        {%- if d.certifier %}<p class="u-muted">{{ d.certifier }}</p>{% endif %}
-        <dl>
-          {%- if d.date %}
-          <dt>{{ c.ui.issued }}</dt><dd>{{ d.date | formatDate(L.lang) }}</dd>
-          {%- endif %}
-          {%- if d.identifier %}
-          <dt>{% if d.identifierLabel == "Protocol No." %}{{ c.ui.protocolNo }}{% else %}{{ c.ui.certNo }}{% endif %}</dt><dd>{{ d.identifier }}</dd>
-          {%- endif %}
-        </dl>
-        {%- if not d.verified %}<p class="quote__t-note">{{ c.ui.notVerifiedYet }}</p>{% endif %}
+        <div>
+          <h3>{{ c.about.credentialNames[d.key] }}</h3>
+          {%- if d.certifier %}<p class="u-muted">{{ d.certifier }}</p>{% endif %}
+          <dl>
+            {%- if d.date %}
+            <dt>{{ c.ui.issued }}</dt><dd>{{ d.date | formatDate(L.lang) }}</dd>
+            {%- endif %}
+            {%- if d.identifier %}
+            <dt>{% if d.identifierLabel == "Protocol No." %}{{ c.ui.protocolNo }}{% else %}{{ c.ui.certNo }}{% endif %}</dt><dd>{{ d.identifier }}</dd>
+            {%- endif %}
+          </dl>
+          {%- if not d.verified %}<p class="quote__t-note">{{ c.ui.notVerifiedYet }}</p>{% endif %}
+        </div>
         {%- if d.image %}
-        <figure>
+        {#- image2 (a supporting document for the same credential) is tucked behind
+            the certificate, so every card keeps the same frame size. -#}
+        <figure{% if d.image2 %} class="cred__stack"{% endif %}>
+          {%- if d.image2 %}
+          {#- Stacked, the two scans are too small to read, so each opens full size. -#}
+          <a data-lightbox href="/assets/img/r/{{ d.image }}-{{ images[d.image].w }}.jpg" target="_blank" rel="noopener">
+            {{ p.pic(images, d.image, c.about.credentialNames[d.key] + " - " + d.certifier, "(min-width: 46em) 40vw, 100vw") }}
+          </a>
+          <a data-lightbox href="/assets/img/r/{{ d.image2 }}-{{ images[d.image2].w }}.jpg" target="_blank" rel="noopener">
+            {{ p.pic(images, d.image2, c.about.credentialNames[d.key] + " - " + c.ui.attestation, "(min-width: 46em) 30vw, 70vw") }}
+          </a>
+          {%- else %}
           {{ p.pic(images, d.image, c.about.credentialNames[d.key] + " - " + d.certifier, "(min-width: 46em) 40vw, 100vw") }}
-        </figure>
-        {%- endif %}
-        {%- if d.image2 %}
-        <figure>
-          {{ p.pic(images, d.image2, c.about.credentialNames[d.key] + " - " + d.certifier, "(min-width: 46em) 40vw, 100vw") }}
+          {%- endif %}
         </figure>
         {%- endif %}
       </div>
       {%- endfor %}
     </div>
+
+    {#- One shared viewer for the [data-lightbox] scans above; site.js fills it. -#}
+    <dialog class="lightbox" data-lightbox-dialog>
+      <button type="button" class="lightbox__close" aria-label="{{ c.nav.close }}">{{ icon.close() }}</button>
+    </dialog>
 
     <div class="section-head reveal u-mt-3">
       <h2>{{ c.about.seminarsTitle }}</h2>
@@ -93,7 +110,7 @@ eleventyExcludeFromCollections: true
       <h2>{{ c.ui.testimonialsTitle }}</h2>
     </div>
     <div class="reveal">
-      {{ q.wall(testimonials.items | reverse, c, L, locale, 3) }}
+      {{ q.wall(testimonials.items | reverse, c, L, locale) }}
     </div>
     <div class="btn-row u-mt-2">
       <a class="btn btn--ghost" href="{{ business.map.placeUrl }}" rel="noopener" target="_blank">{{ icon.star() }} {{ c.ui.reviewsGoogle }}</a>

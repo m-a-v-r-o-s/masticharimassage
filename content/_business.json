@@ -86,7 +86,7 @@
         "identifierLabel": "Protocol No.",
         "image": "certificate-wmf-advanced-massage",
         "image2": "certificate-wmf-program",
-        "_image2": "The WMF detailed attestation of this same GR135 program (English translation, protocol 190, grade 9.3), client-supplied 2026-09-28. The validating lawyer block at the foot was cropped off the MASTER before commit.",
+        "_image2": "The WMF detailed attestation of this same GR135 program (English translation, protocol 190, grade 9.3), client-supplied 2026-09-28. The validating lawyer block at the foot is shown unredacted at the site owner's explicit request, 2026-09-28.",
         "verified": true
       },
       {
@@ -118,7 +118,7 @@
         "identifierLabel": null,
         "image": "certificate-deep-tissue",
         "verified": true,
-        "_source": "Client-supplied photo, 2026-09-28. The trainer's stamp carries his tax number and address; it was blurred on the MASTER before commit, same rule as the WMF lawyer panel."
+        "_source": "Client-supplied photo, 2026-09-28. The trainer's stamp (tax number, addresses, phone) is shown unredacted at the site owner's explicit request, 2026-09-28."
       },
       {
         "key": "indian-head-2017",
@@ -129,7 +129,7 @@
         "identifierLabel": null,
         "image": "certificate-indian-head-2017",
         "verified": true,
-        "_source": "Client-supplied photo, 2026-09-28. Trainer's stamp blurred on the master, as for deep-tissue."
+        "_source": "Client-supplied photo, 2026-09-28. Trainer's stamp shown unredacted, as for deep-tissue."
       },
       {
         "key": "shiatsu",

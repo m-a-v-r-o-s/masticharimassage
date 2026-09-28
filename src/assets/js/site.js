@@ -215,17 +215,23 @@
     })(quoteToggles[qi]);
   }
 
-  /* ---------- testimonial "show more" ---------- */
-  var quoteMoreBtns = doc.querySelectorAll("[data-quote-more]");
-  for (var qmi = 0; qmi < quoteMoreBtns.length; qmi++) {
-    (function (btn) {
-      var wall = btn.closest("[data-quote-wall]");
-      if (!wall) return;
-      btn.addEventListener("click", function () {
-        var extras = wall.querySelectorAll("[data-quote-extra]");
-        for (var i = 0; i < extras.length; i++) extras[i].hidden = false;
-        btn.hidden = true;
+  /* ---------- certificate lightbox ---------- */
+  // The links still work without JS (they open the scan itself); this keeps the
+  // visitor on the page instead.
+  var lightbox = doc.querySelector("[data-lightbox-dialog]");
+  if (lightbox && lightbox.showModal) {
+    var lbImg = lightbox.appendChild(doc.createElement("img"));
+    var lbLinks = doc.querySelectorAll("[data-lightbox]");
+    for (var li = 0; li < lbLinks.length; li++) {
+      lbLinks[li].addEventListener("click", function (e) {
+        e.preventDefault();
+        lbImg.src = this.getAttribute("href");
+        lbImg.alt = this.querySelector("img").alt;
+        lightbox.showModal();
       });
-    })(quoteMoreBtns[qmi]);
+    }
+    lightbox.querySelector(".lightbox__close").addEventListener("click", function () { lightbox.close(); });
+    // A click on the backdrop lands on the dialog itself, not on its children.
+    lightbox.addEventListener("click", function (e) { if (e.target === lightbox) lightbox.close(); });
   }
 })();
