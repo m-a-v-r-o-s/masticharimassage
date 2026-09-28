@@ -67,6 +67,11 @@ eleventyExcludeFromCollections: true
           {{ p.pic(images, d.image, c.about.credentialNames[d.key] + " - " + d.certifier, "(min-width: 46em) 40vw, 100vw") }}
         </figure>
         {%- endif %}
+        {%- if d.image2 %}
+        <figure>
+          {{ p.pic(images, d.image2, c.about.credentialNames[d.key] + " - " + d.certifier, "(min-width: 46em) 40vw, 100vw") }}
+        </figure>
+        {%- endif %}
       </div>
       {%- endfor %}
     </div>

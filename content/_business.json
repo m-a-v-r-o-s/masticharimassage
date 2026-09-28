@@ -85,18 +85,9 @@
         "identifier": "GR135",
         "identifierLabel": "Protocol No.",
         "image": "certificate-wmf-advanced-massage",
+        "image2": "certificate-wmf-program",
+        "_image2": "The WMF detailed attestation of this same GR135 program (English translation, protocol 190, grade 9.3), client-supplied 2026-09-28. The validating lawyer block at the foot was cropped off the MASTER before commit.",
         "verified": true
-      },
-      {
-        "key": "wmf-program",
-        "certifier": "World Massage Federation (W.M.F.)",
-        "award": "Relaxing, therapeutic and sports massage program, grade 9.3",
-        "date": "2013-11-13",
-        "identifier": "190",
-        "identifierLabel": "Protocol No.",
-        "image": "certificate-wmf-program",
-        "verified": true,
-        "_source": "Client-supplied photo, 2026-09-28: the WMF detailed attestation of the GR135 program (English translation). The validating lawyer's block at the foot was cropped off the MASTER before commit."
       },
       {
         "key": "aromatherapy",

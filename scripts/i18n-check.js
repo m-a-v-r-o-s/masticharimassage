@@ -147,7 +147,7 @@ const expectedImages = [
   "village-lane",
   "oils-still-life",
   "portrait-konstantinos",
-  ...business.credentials.diplomas.filter((d) => d.image).map((d) => d.image),
+  ...business.credentials.diplomas.flatMap((d) => [d.image, d.image2]).filter(Boolean),
   ...slugs.map((s) => `service-${s}`),
 ];
 const missingImages = expectedImages.filter((k) => !manifest[k]);
