@@ -304,7 +304,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
    the column happens to run out. Terracotta on --shell-warm is 4.31:1 - short
    of AA for body text, comfortably past the 3:1 that large text needs, and this
    is --step-4. It must not be reused at a smaller size. */
-.hero__title { max-width: 22ch; margin-bottom: 0.35em; text-wrap: balance; }
+.hero__title { max-width: 22ch; margin-bottom: 0.35em; text-wrap: balance; hyphens: manual; }
 .hero__title-accent { display: block; font-style: italic; color: var(--terracotta); }
 /* Only the place name is set larger, and only on the upright line - it is the
    one distinction that line has. The accent line is left alone: it already
