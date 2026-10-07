@@ -24,7 +24,7 @@ Automated checks first, then the things a machine cannot do.
 - [x] JSON-LD: `HealthAndBeautyBusiness` + `Person` + `WebSite` + `WebPage` + `BreadcrumbList`, `Service` on service pages, `FAQPage` on contact
 - [x] `knowsLanguage: el, en, it, fr, de, ru` on the Person only — never derived from the ten locales
 - [x] No `Offer` node and no price anywhere while prices are on request (build fails if one appears)
-- [x] No `aggregateRating` — 41 self-hosted comments are not a valid rating source
+- [x] No `aggregateRating` — 42 self-hosted comments are not a valid rating source
 - [x] Credentials in structured data with their real dates and protocol numbers, read off the scans
 
 **Accessibility**
@@ -89,7 +89,7 @@ it redirects per `Accept-Language` and the `lang` cookie, and Cloudflare does no
 - [x] GPS EXIF stripped from every image, verified by the processing script itself
 
 **Content integrity**
-- [x] 41 real testimonials, owner replies excluded, duplicates collapsed, surnames removed
+- [x] 42 real testimonials, owner replies excluded, duplicates collapsed, surnames removed
 - [x] No photograph of any client anywhere (the four `fessaras-banner*` files were discarded)
 - [x] Privacy policy, terms and cookie banner are three real documents, in all ten languages
 - [x] Terms carry a "wellness, not medical treatment" clause and an explicit conduct clause

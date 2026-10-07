@@ -1,7 +1,7 @@
 {
-  "_policy": "41 unique real client comments recovered from the 2015-2018 captures of the old WordPress site (About Me page + Services page). Konstantinos' own 16 reply comments are excluded - they were counted in the old site's 'COMMENTS (51)' badge and are not testimonials. The four separate Jason & Wilma comments (one couple, four sessions) are collapsed into one entry. Attribution is minimised to first name (+ city/country only where the commenter volunteered it): surnames, a commenter's business URL and professional title have been dropped. Quotes are verbatim apart from obvious character-level typos; any entry that has been shortened carries abridged:true and a reason. No testimonial here is invented, and none has been translated INTO a language it was not written in without being marked as a translation.",
+  "_policy": "41 unique real client comments recovered from the 2015-2018 captures of the old WordPress site (About Me page + Services page), plus one Google review (margarita, source google, date approximate: a year ago at capture, surname dropped). Konstantinos' own 16 reply comments are excluded - they were counted in the old site's 'COMMENTS (51)' badge and are not testimonials. The four separate Jason & Wilma comments (one couple, four sessions) are collapsed into one entry. Attribution is minimised to first name (+ city/country only where the commenter volunteered it): surnames, a commenter's business URL and professional title have been dropped. Quotes are verbatim apart from obvious character-level typos; any entry that has been shortened carries abridged:true and a reason. No testimonial here is invented, and none has been translated INTO a language it was not written in without being marked as a translation.",
   "_langSpread": {
-    "en": 18,
+    "en": 19,
     "de": 13,
     "fr": 4,
     "ru": 2,
@@ -651,6 +651,21 @@
         "el": "Πρώτης τάξεως και άκρως επαγγελματικό μασάζ. Τα σημεία με έντονο πόνο δουλεύτηκαν στοχευμένα: με ευαισθησία, αλλά με την πίεση που χρειαζόταν. Ευχαριστώ πολύ για το εξαιρετικό μασάζ, ανυπομονώ για την επόμενη συνεδρία.",
         "it": "Massaggio di prim'ordine e altamente professionale. Le zone di dolore acuto trattate in modo mirato: con delicatezza, ma con la pressione necessaria. Grazie mille per l'ottimo massaggio, aspetto già il prossimo trattamento.",
         "ru": "Первоклассный и в высшей степени профессиональный массаж. Острые болевые зоны проработаны точно: деликатно, но с нужным давлением. Большое спасибо за отличный сеанс, жду следующего."
+      }
+    },
+    {
+      "id": "margarita",
+      "name": "Margarita",
+      "place": null,
+      "date": "2025-10-01",
+      "source": "google",
+      "lang": "en",
+      "text": "In one word, excellent. I have had massages all over the world and this one is worth seeking out. Kos was a historical healing center and Konstantinos has the gifts of his ancestors in his hands.",
+      "t": {
+        "el": "Με μία λέξη, εξαιρετικό. Έχω κάνει μασάζ σε όλο τον κόσμο και αυτό αξίζει να το αναζητήσει κανείς. Η Κως ήταν ιστορικό κέντρο θεραπείας και ο Κωνσταντίνος έχει στα χέρια του τα χαρίσματα των προγόνων του.",
+        "de": "In einem Wort: ausgezeichnet. Ich habe auf der ganzen Welt Massagen bekommen, und diese ist es wert, gesucht zu werden. Kos war ein historisches Heilzentrum, und Konstantinos hat die Gaben seiner Vorfahren in seinen Händen.",
+        "it": "In una parola, eccellente. Ho fatto massaggi in tutto il mondo e questo vale la pena di cercarlo. Kos era un antico centro di guarigione e Konstantinos ha nelle mani i doni dei suoi antenati.",
+        "ru": "Одним словом, превосходно. Мне делали массаж по всему миру, и этот стоит того, чтобы его искать. Кос был историческим центром исцеления, и у Константиноса в руках дар его предков."
       }
     }
   ],

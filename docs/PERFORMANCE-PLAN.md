@@ -21,7 +21,7 @@ reason, so nobody builds infrastructure the site does not have.
 | add CDN | **Decision** | Railway serves directly. Step 8 |
 | Cache API responses | Done / N/A | Static assets already have cache headers (fonts/img immutable 1y, CSS/JS 1d, HTML 5min). The only API is `POST /api/booking`, which must never be cached |
 | Loading skeletons | Done / N/A | Pages are static HTML, nothing fetches content. The one async action, the booking submit, already shows a spinner (`setBusy` in `site.js`) |
-| Paginate large lists | Done | About page renders 3 of 41 testimonials with "show more" (`wall` macro). All 41 stay in the HTML on purpose, for crawlers |
+| Paginate large lists | Done | About page renders 3 of 42 testimonials with "show more" (`wall` macro). All 41 stay in the HTML on purpose, for crawlers |
 | Split code into chunks | N/A | One 14KB script and two tiny ones. No bundle big enough to split |
 | Load balancer | N/A | One studio's traffic. Replicas would also break things: the per-email limiter is an in-memory `Map`, and `FORM_SECRET`/`IP_SALT` fall back to per-process random values |
 | Index the database | N/A | No database |

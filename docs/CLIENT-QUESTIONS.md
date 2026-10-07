@@ -73,7 +73,7 @@ sentence in the FAQ will save you a lot of WhatsApp messages.
 
 ## 5. Testimonial attribution
 
-**Current state.** 41 real comments, shown as first name plus city or country only.
+**Current state.** 42 real comments, shown as first name plus city or country only.
 Surnames removed. One commenter's professional title and business URL removed. Four
 separate Jason & Wilma comments collapsed into one entry. Three comments that
 described a hotel-room visit (Salabi, Stefanie, Elena & Michael) have had that
@@ -111,7 +111,7 @@ comments on this website cannot be used by Google as ratings.
 
 **Why it matters more than the website.** For "massage Kos" searches, a Google
 Business Profile with real reviews outranks almost anything a website can do on its
-own. The 41 comments on this site are good social proof for a visitor who is already
+own. The 42 comments on this site are good social proof for a visitor who is already
 reading it, but they are not reviews Google can use — which is why the structured
 data deliberately carries no `aggregateRating`.
 

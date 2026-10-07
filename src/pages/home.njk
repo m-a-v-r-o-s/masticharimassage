@@ -136,7 +136,7 @@ eleventyExcludeFromCollections: true
       <h2>{{ c.ui.testimonialsTitle }}</h2>
     </div>
     <div class="reveal">
-      {{ q.wall(testimonials.items | pickIds(["sylvie-philippe", "peter-2017", "heiko"]), c, L, locale) }}
+      {{ q.wall(testimonials.items | pickIds(["sylvie-philippe", "margarita", "heiko"]), c, L, locale) }}
     </div>
     <div class="btn-row u-mt-2">
       <a class="btn btn--ghost" href="{{ business.map.placeUrl }}" rel="noopener" target="_blank">{{ icon.star() }} {{ c.ui.reviewsGoogle }}</a>
