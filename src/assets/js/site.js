@@ -74,6 +74,7 @@
   }
 
   /* ---------- the one motion effect ---------- */
+  /* threshold 0: a ratio threshold can never be met by an element taller than the viewport (the review wall on phones) */
   var reveals = doc.querySelectorAll(".reveal");
   if (!reveals.length) { /* nothing to do */ }
   else if (reduce || !("IntersectionObserver" in window)) {
@@ -86,7 +87,7 @@
           io.unobserve(entry.target);
         }
       });
-    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.05 });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0 });
     for (var j = 0; j < reveals.length; j++) io.observe(reveals[j]);
   }
 
