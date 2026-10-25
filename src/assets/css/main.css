@@ -759,3 +759,11 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 @media (prefers-reduced-motion: reduce) {
   .lightbox[open] { animation: none; }
 }
+
+/* ---------- cross-document page transitions (Chrome 126+, Safari 18.2+; others just navigate) ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+  .site-header { view-transition-name: site-header; }
+  .sticky-cta { view-transition-name: sticky-cta; }
+  ::view-transition-group(root) { animation-duration: 0.3s; }
+}
