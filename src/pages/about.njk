@@ -91,7 +91,10 @@ eleventyExcludeFromCollections: true
     {#- One shared viewer for the [data-lightbox] scans above; site.js fills it. -#}
     <dialog class="lightbox" data-lightbox-dialog>
       <button type="button" class="lightbox__close" aria-label="{{ c.nav.close }}">{{ icon.close() }}</button>
+      <button type="button" class="lightbox__step lightbox__step--prev" data-step="-1" aria-label="{{ c.nav.prev }}" hidden>{{ icon.prev() }}</button>
+      <button type="button" class="lightbox__step lightbox__step--next" data-step="1" aria-label="{{ c.nav.next }}" hidden>{{ icon.next() }}</button>
     </dialog>
+    <script type="module" src="{{ "/assets/js/lightbox.js" | assetv }}"></script>
 
     <div class="section-head reveal u-mt-3">
       <h2>{{ c.about.seminarsTitle }}</h2>
