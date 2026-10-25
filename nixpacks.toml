@@ -1,0 +1,4 @@
+# NODE_ENV=production is set on Railway for the runtime, and npm ci would then skip
+# devDependencies, which the asset and Eleventy build need.
+[phases.install]
+cmds = ["npm ci --include=dev"]

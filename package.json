@@ -14,7 +14,7 @@
     "dev": "eleventy && node server/index.js",
     "images": "node scripts/process-images.js",
     "check": "node scripts/i18n-check.js",
-    "start": "node server/index.js",
+    "start": "NODE_ENV=production node server/index.js",
     "icons": "node scripts/build-icons.js",
     "fonts": "node scripts/build-fonts.js",
     "assets": "npm run fonts && npm run images && npm run icons",
