@@ -144,15 +144,15 @@ await app.register(fastifyStatic, {
   lastModified: true,
   preCompressed: true,
   setHeaders(res, filePath) {
-    if (COMPRESSIBLE.test(filePath)) res.setHeader("vary", "accept-encoding");
+    if (COMPRESSIBLE.test(filePath)) res.header("vary", "accept-encoding");
     if (!PROD) {
-      res.setHeader("cache-control", "no-cache");
+      res.header("cache-control", "no-cache");
     } else if (/[\\/]assets[\\/](fonts|img)[\\/]/.test(filePath)) {
-      res.setHeader("cache-control", "public, max-age=31536000, immutable");
+      res.header("cache-control", "public, max-age=31536000, immutable");
     } else if (/[\\/]assets[\\/]/.test(filePath)) {
-      res.setHeader("cache-control", "public, max-age=86400, must-revalidate");
+      res.header("cache-control", "public, max-age=86400, must-revalidate");
     } else if (filePath.endsWith(".html")) {
-      res.setHeader("cache-control", "public, max-age=300, must-revalidate");
+      res.header("cache-control", "public, max-age=300, must-revalidate");
     }
   },
 });
